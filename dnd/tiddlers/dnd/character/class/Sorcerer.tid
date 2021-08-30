@@ -1,0 +1,47 @@
+class: Sorcerer
+created: 20190405081613749
+icon: sorcerer.gif
+label: Origin
+list: Sorcerer [[Base Sorcerer]]
+modified: 20210823144034075
+subclass: Base Sorcerer
+tags: PHB Class
+title: Sorcerer
+
+As a sorcerer, you gain the following class features.
+
+!!! Hit Points
+"""
+''Hit Dice:'' 1d6 per sorcerer level
+''Hit Points at 1st Level:'' 6 + your Constitution modifier
+''Hit Points at Higher Levels:'' 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st
+"""
+
+!!! Proficiencies
+"""
+''Armor:'' None
+''Weapons:'' Daggers, darts, slings, quarterstaffs, light crossbows
+''Tools:'' None
+''Saving Throws:'' Constitution, Charisma
+''Skills:'' Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion
+"""
+
+!!! Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+
+"""
+(a) a light crossbow and 20 bolts or (b) any simple weapon
+(a) a component pouch or (b) an arcane focus
+(a) a dungeoneer’s pack or (b) an explorer’s pack
+Two daggers
+"""
+
+!!! Subclasses
+
+<<list-box "[tag[Sorcerer]tag[Subclass]sort[]]">>
+
+!!! Advancement Table
+
+{{||SorcererAdvancementTemplate}}
+{{||ClassAbilityTemplate}}

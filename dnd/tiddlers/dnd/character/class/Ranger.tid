@@ -1,0 +1,48 @@
+class: Ranger
+created: 20190405081643933
+icon: ranger.gif
+label: Archetype
+list: Ranger [[Base Ranger]]
+modified: 20210823142345000
+subclass: Base Ranger
+tags: PHB Class
+title: Ranger
+
+As a ranger, you gain the following class features.
+
+!!! Hit Points
+
+"""
+''Hit Dice:'' 1d10 per ranger level
+''Hit Points at 1st Level:'' 10 + your Constitution modifier
+''Hit Points at Higher Levels:'' 1d10 (or 6) + your Constitution modifier per ranger level after 1st
+"""
+
+!!! Proficiencies
+
+"""
+''Armor:'' Light armor, medium armor, shields
+''Weapons:'' Simple weapons, martial weapons
+''Tools:'' None
+''Saving Throws:'' Strength, Dexterity
+''Skills:'' Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival
+"""
+
+!!! Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+
+"""
+(a) scale mail or (b) leather armor
+(a) two shortswords or (b) two simple melee weapons
+(a) a dungeoneer’s pack or (b) an explorer’s pack
+A longbow and a quiver of 20 arrows
+"""
+
+!!! Subclasses
+
+<<list-box "[tag[Ranger]tag[Subclass]sort[]]">>
+
+!!! Advancement Table
+{{||RangerAdvancementTemplate}}
+{{||ClassAbilityTemplate}}

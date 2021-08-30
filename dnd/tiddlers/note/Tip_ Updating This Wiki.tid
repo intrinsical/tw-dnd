@@ -1,0 +1,10 @@
+created: 20210827093211270
+modified: 20210827103943351
+tags: Note
+title: Tip: Updating This Wiki
+
+<div class="shadow-box" style="background-color: #a00000; color: #ffffff; padding: 1em;">''Warning:'' Do not attempt to use the browser ''File''/''Save'' menu option to save changes (it does not work).</div>
+
+~TiddlyWiki has been designed to operate on a wide range of devices, from phones to desktop computers. Each device require a different solution for saving changes. 
+
+Please look at [[https://tiddlywiki.com/#Saving]] to determine the most appropriate solution for the device you are using.
