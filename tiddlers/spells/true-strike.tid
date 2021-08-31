@@ -1,0 +1,25 @@
+type: 
+title: True Strike
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809230342598
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 30>>
+glyph_effect: <<advantage>> to next attack roll against target
+glyph_duration: <<round 1>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 round
+created: 20190627083627534
+concentration: Yes
+components: S
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn&#8217;t ended.

@@ -1,0 +1,31 @@
+type: 
+title: Wind Wall
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809230729289
+material: (a tiny fan and a feather of exotic origin)
+level: 3
+glyph_target: <<wall 50x15x1>>
+glyph_range: <<range 120>>
+glyph_effect: <<save Str $(dc)$>> <fail> <<bludgeoning 3d8>></fail> <pass> <<halved</pass>. Impassable to small flying <<mob>>. Projectiles automatic miss. 
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190627115310831
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+A wall of strong wind rises from the ground at a point you choose within range.
+You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.
+
+When the wall appears, each creature within its area must make a Strength saving throw. A creature takes 3d8 bludgeoning damage on a failed save, or half as much damage on a successful one.
+
+The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can’t pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in gaseous form can’t pass through it.

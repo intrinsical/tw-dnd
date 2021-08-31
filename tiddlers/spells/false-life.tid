@@ -1,0 +1,26 @@
+type: 
+title: False Life
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: Self
+modified: 20210809170700690
+material: (a small amount of alcohol or distilled spirits)
+level: 1
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: <<temp-hp 1d4+4>>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: Healing
+duration: 1 Hour
+created: 20190519094700331
+concentration: No
+components: V, S, M
+classes: [[Sorcerer]] [[Wizard]] [[Death Domain]] [[Grave Domain]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.
+
+Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.

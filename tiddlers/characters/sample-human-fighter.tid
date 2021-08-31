@@ -1,0 +1,107 @@
+title: Sample Human Fighter
+tags: Character
+modified: 20210812081416520
+level: 1
+icon: fighter.gif
+created: 20210812075248021
+
+|max top|k
+|!Source |https://dnd.wizards.com/charactersheets |
+|!Race |[[Human]] |
+|!Class |[[Fighter]] 1 |
+|!Faction |<<org "Order of the Gauntlet">> |
+|!Background |''Soldier.'' You were a professional soldier. You traveled to foreign lands, led troops into danger, fought wars under the banners of different commanders. Yet, you craved something more out of life, and resigned your commission. Now you are out on your own, living by your wits, taking orders from no one. |
+|!Background Feature |''Military Rank.'' You were a low-ranked officer in a military organization. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. |
+|!Personality Trait |You can stare down a hell hound without flinching. |
+|!Ideal |When people follow orders blindly, they embrace a kind of tyranny. |
+|!Bond |You fight for those who cannot fight for themselves. |
+|!Flaw |You’d rather eat your armor than admit when you’re wrong. |
+| !Proficiencies |<|
+|!Armor		 |All, Shields |
+|!Weapons	 |Simple Weapons, Martial Weapons |
+|!Tools		 |Gaming Dice, Vehicles (Land) |
+|!Languages	 |Common, Orc |
+|!Skills		 |Athletics, History, Intimidation, Perception |
+
+<div style="display: flex;">
+<<ability Strength 16 +3 "''+5''">>
+<<ability Dexterity 9 -1 -1>>
+<<ability Constitution 15 +2 "''+4''">>
+<<ability Intelligence 13 +1 +1>>
+<<ability Wisdom 11 0 0>>
+<<ability Charisma 14 +2 +2>>
+</div>
+
+<div style="display: flex;">
+<<stat Armor 18 Class>>
+<<stat Hit 12 Points>>
+</div>
+<div style="display: flex;">
+<<stat Proficiency +2 Bonus>>
+<<stat Initiative -1>>
+</div>
+<div style="display: flex;">
+<<stat Walking "30 ft" Speed>>
+</div>
+
+<div style="display: flex;">
+<<stat Passive 14 Perception>>
+<<stat Passive 17 Investigation>>
+<<stat Passive 14 Insight>>
+</div>
+
+<div style="display: flex;">
+
+| !Strength |<|<|
+|!Athletics (Str)			 | <<skill 1>>	 | +5 |
+| !Dexterity |<|<|
+|!Acrobatics (Dex)		 | <<skill 0>>	 | -1 |
+|!Sleight of Hand (Dex)	 | <<skill 0>>	 | -1 |
+|!Stealth (Dex)			 | <<skill 0>>	 | -1 |
+| !Intelligence |<|<|
+|!Arcana (Int)			 | <<skill 0>>	 | +1 |
+|!History (int)			 | <<skill 1>>	 | +3 |
+|!Investigation (Int)		 | <<skill 0>>	 | +1 |
+|!Nature (Int)			 | <<skill 0>>	 | +1 |
+|!Religion (Int)			 | <<skill 0>>	 | +1 |
+
+&nbsp;&nbsp;&nbsp;
+
+| !Wisdom |<|<|
+|!Animal Handling (Wis)	 | <<skill 0>>	 | 0 |
+|!Insight (Wis)			 | <<skill 0>>	 | 0 |
+|!Medicine (Wis)		 | <<skill 0>>	 | 0 |
+|!Perception (Wis)		 | <<skill 1>>	 | +2 |
+|!Survival (Wis)			 | <<skill 0>>	 | 0 |
+| !Charisma |<|<|
+|!Deception (Cha)		 | <<skill 0>>	 | +2 |
+|!Intimidation (Cha)		 | <<skill 1>>	 | +4 |
+|!Performance (Cha)	 | <<skill 0>>	 | +2 |
+|!Persuasion (Cha)		 | <<skill 0>>	 | +2 |
+</div>
+
+| !<<skill 0>> | Not proficient | !<<skill 1>> | Proficient | !<<skill 2>> | Expertise |
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +5>>|<<slashing 1d8+3>> |<<reach 5>> |
+| !<<melee Pike +5>>|<<slashing 1d10+3>> |<<reach 10>> |
+| !<<ranged Javelin +5>>|<<slashing 1d6+3>> |<<reach 5>><br/><<range 30/120>> |
+| !<<action>> Bonus Actions |<|<|
+| !Second Wind|<<heal 1d10+1>> |<|
+| !<<reaction>> Reactions |<|<|
+| !Protection|Impose disadvantage on an attack against a target within 5 feet of you. |<|
+
+!! Equipment
+
+"""
+Longsword
+Pike
+Javelin (5)
+Chain mail
+Shield
+[[Dungeoneer's Pack]]
+Potion of Healing
+Money (30 gp, 5 sp)
+"""
+

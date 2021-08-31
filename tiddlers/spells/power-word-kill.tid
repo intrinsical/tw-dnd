@@ -1,0 +1,25 @@
+type: 
+title: Power Word Kill
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809222254766
+level: 9
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: Dies immediately if <<hp "&le;100">>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721140620044
+concentration: No
+components: V
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you chose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.

@@ -1,0 +1,40 @@
+xp: 3900
+wis: 12
+title: Hezrou
+tags: Monster Fiend Demon
+str: 19
+speed: 30 ft.
+source: MM
+size: Large
+senses: darkvision 120 ft., passive Perception 11
+saving_throw: Str +7, Con +8, Wis +4
+mtype: fiend (demon)
+modified: 20210222184147424
+languages: Abyssal, telepathy 120 ft.
+int: 5
+hp: 136
+hitdice: 13d10+65
+dex: 17
+damage_resistance: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: poison
+created: 20210222172922387
+cr: 8
+condition_immunity: poisoned
+con: 20
+cha: 13
+armor: natural armor
+alignment: chaotic evil
+ac: 16
+
+"""
+''Magic Resistance.'' The hezrou has advantage on saving throws against spells and other magical effects.
+''Stench.'' Any creature that starts its turn within <<range 10>> of the hezrou must succeed on a <<save Con 14>> or be [[Poisoned]] until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou’s stench for <<time 24h>>.
+"""
+<<divider>>
+''Multiattack.'' The hezrou makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>> |<<reach 5>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+

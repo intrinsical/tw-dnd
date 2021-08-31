@@ -1,0 +1,33 @@
+xp: 200
+wis: 12
+title: Giant Hyena
+tags: Beast Monster
+str: 16
+speed: 50 ft
+source: MM
+skills: Perception +3
+size: Large
+senses: passive Perception 13
+mtype: beast
+modified: 20210810083532464
+languages: &mdash;
+int: 2
+hp: 45
+hitdice: 6d10+12
+dex: 14
+created: 20190701120638816
+cr: 1
+con: 14
+cha: 7
+alignment: unaligned
+ac: 12
+
+"""
+''Rampage.'' When the hyena reduces a creature to <<hp 0>> with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 2d6+3>> |<<reach 5>> |
+

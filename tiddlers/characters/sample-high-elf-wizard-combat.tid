@@ -1,0 +1,12 @@
+title: Sample High Elf Wizard Combat
+tags: [[Sample High Elf Wizard]]
+order: 3
+modified: 20210815071249620
+created: 20210815070738054
+caption: Combat
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +5>>|<<piercing 1d6+3>> |<<reach 5>> |
+| !<<casted "Fire Bolt" +5>>|<<fire 1d10>> |<<range 120>> |
+

@@ -1,0 +1,41 @@
+xp: 1800
+wis: 12
+title: Werebear
+tags: Monster Humanoid
+str: 19
+speed: 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)
+source: MM
+skills: Perception +7
+size: Medium
+senses: passive Perception 17
+saving_throw: 
+mtype: humanoid (human, shapechanger)
+modified: 20210806022421029
+languages: Common (can’t speak in bear form)
+int: 11
+hp: 135
+hitdice: 18d8+54
+dex: 10
+damage_immunity: bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered
+created: 20210806020717262
+cr: 5
+con: 17
+cha: 12
+armor: in humanoid form, 11 (natural armor) in bear and hybrid form
+alignment: neutral good
+ac: 10
+
+"""
+''Shapechanger.'' The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Keen Smell.'' The werebear has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack.'' In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>><br/>''Bear or Hybrid Form Only''|<<piercing 2d10+4>> |<<reach 5>> |
+|~|If the target is a humanoid, it must succeed on a <<save Con 14>> or be cursed with werebear [[Lycanthropy]]. |<|
+| !<<melee Claw +7>><br/>''Bear or Hybrid Form Only''|<<slashing 2d8+4>> |<<reach 5>> |
+| !<<melee Greataxe +7>><br/>''Humanoid or Hybrid Form Only''|<<slashing 1d12+4>> |<<reach 5>> |
+

@@ -1,0 +1,29 @@
+xp: 450
+wis: 15
+title: Pegasus
+tags: Monster Celestial
+str: 18
+speed: 60 ft, fly 90 ft
+source: MM
+skills: Perception +6
+size: Large
+senses: passive Perception 16
+saving_throw: Dex +4, Wis +4, Cha +3
+mtype: celestial
+modified: 20210210170109431
+languages: understands Celestial, Common, Elvish and Sylvan but can't speak
+int: 10
+hp: 59
+hitdice: 7d10+21
+dex: 15
+created: 20191110055948666
+cr: 2
+con: 16
+cha: 13
+alignment: chaotic good
+ac: 12
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +6>>|<<bludgeoning 2d6+4>> |<<reach 5>> |
+

@@ -1,0 +1,12 @@
+title: Lich Lair Action
+tags: Lich [[Lair Action]]
+modified: 20210819140544115
+created: 20210403133230935
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the lich can take a lair action to cause one of the following magical effects; the lich can’t use the same effect two rounds in a row:
+
+* ''Regain Spell Slot.'' The lich <<roll 1d8>> and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.
+* ''Negative Energy Tether.'' The lich targets <<per 1>> it can see within <<range 30>>. A crackling cord of negative energy tethers the lich to the target. ''Whenever the lich takes damage'', the target must make a <<save Con 18>>. On a failed save, the lich takes <<halved>> (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich’s lair.
+* ''Summon Spirits.'' The lich calls forth the spirits of creatures that died in its lair. These apparitions materialize and attack <<per 1>> that the lich can see within <<range 60>>. The target must succeed on a <<save Con 18>>, taking <<necrotic 15d6>> on a failed save, or <<halved>> on a success. The apparitions then disappear.
+

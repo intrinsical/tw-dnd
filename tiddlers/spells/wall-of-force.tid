@@ -1,0 +1,24 @@
+type: 
+title: Wall of Force
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809230520892
+material: (a pinch of powder made by crushing a clear gemstone)
+level: 5
+effect: 
+duration: 10 minutes
+created: 20190627092759349
+concentration: Yes
+components: V, S, M
+classes: [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+An invisible wall of force springs into existence at a point you choose within range.
+The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be continguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (your choice which side).
+
+Nothing can physically pass through the wall. It is immune to all damage and can’t be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however.  The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.

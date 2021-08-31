@@ -1,0 +1,34 @@
+xp: 10
+wis: 7
+title: Giant Fire Beetle
+tags: Beast Monster
+str: 8
+speed: 30 ft.
+source: MM
+skills: 
+size: Small
+senses: blindsight 30 ft., passive Perception 8
+mtype: beast
+modified: 20210810082619859
+languages: &mdash;
+int: 1
+hp: 4
+hitdice: 1d6+1
+dex: 10
+created: 20210810082425211
+cr: 0
+con: 12
+cha: 3
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Illumination.'' The beetle sheds <<bright 10>> and an additional <<dim 10>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +1>>|<<slashing 1d6-1>> |<<reach 5>> |
+

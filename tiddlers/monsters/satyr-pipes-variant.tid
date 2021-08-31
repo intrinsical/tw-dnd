@@ -1,0 +1,17 @@
+title: Satyr Pipes, Variant
+tags: [[Satyr, Monster]] Variant
+modified: 20210809051237078
+created: 20210808064913497
+
+A satyr might carry panpipes that it can play to create magical effects. Usually, only one satyr in a group carries such pipes. If a satyr has pipes, it gains the following additional action option.
+
+"""
+''Panpipes.'' The satyr plays its pipes and chooses one of the following magical effects: a charming melody, a frightening strain, or a gentle lullaby. Any creature within <<range 60>> of the satyr that can hear the pipes must succeed on a <<save Wis 13>> or be affected as described below. Other satyrs and creatures that can’t be charmed are unaffected.
+
+An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to these panpipes for the next <<time 24h>>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;''Charming Melody.'' The creature is [[Charmed]] by the satyr for <<time 1m>>. If the satyr or any of its companions harms the creature, the effect on it ends immediately.
+&nbsp;&nbsp;&nbsp;&nbsp;''Frightening Strain.'' The creature is [[Frightened]] for <<time 1m>>.
+&nbsp;&nbsp;&nbsp;&nbsp;''Gentle Lullaby.'' The creature falls asleep and is [[Unconscious]] for <<time 1m>>. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.
+"""
+

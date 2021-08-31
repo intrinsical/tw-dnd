@@ -1,0 +1,11 @@
+title: Paladin Fighting Style
+tags: Ability Paladin
+modified: 20210821030125349
+level: 2
+created: 20190723012804278
+caption: Fighting Style
+
+At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+<$list filter="[tag[Fighting Style]tag[Paladin]sort[]]"><p>{{||Link}}''.'' <$transclude tiddler=<<currentTiddler>>/></p></$list>
+

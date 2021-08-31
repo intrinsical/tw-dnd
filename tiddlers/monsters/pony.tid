@@ -1,0 +1,29 @@
+xp: 25
+wis: 11
+title: Pony
+tags: Beast Monster
+str: 15
+speed: 40 ft.
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 10
+mtype: beast
+modified: 20210810164825795
+languages: &mdash;
+int: 2
+hp: 11
+hitdice: 2d8+2
+dex: 10
+created: 20210810164711360
+cr: 1/8
+con: 13
+cha: 7
+armor: 
+alignment: unaligned
+ac: 10
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +4>>|<<bludgeoning 2d4+2>> |<<reach 5>> |
+

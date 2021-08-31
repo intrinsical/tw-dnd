@@ -1,0 +1,36 @@
+xp: 50
+wis: 8
+title: Grimlock
+tags: Monster Humanoid
+str: 16
+speed: 30 dt.
+source: MM
+skills: Athletics +5, Perception +3, Stealth +3
+size: Medium
+senses: blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13
+mtype: humanoid (grimlock)
+modified: 20210329062215542
+languages: Undercommon
+int: 9
+hp: 11
+hitdice: 2d8+2
+dex: 12
+created: 20210329061923535
+cr: 1/4
+condition_immunity: blinded
+con: 12
+cha: 6
+alignment: neutral evil
+ac: 11
+
+"""
+''Blind Senses.'' The grimlock can’t use its blindsight while deafened and unable to smell.
+''Keen Hearing and Smell.'' The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Stone Camouflage.'' The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Spiked Bone Club" +5>>|<<bludgeoning 1d4+3>>+<<piercing 1d4>> |<<reach 5>> |
+

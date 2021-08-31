@@ -1,0 +1,35 @@
+xp: 10
+wis: 7
+title: Quipper
+tags: Beast Monster
+str: 2
+speed: 0 ft., swim 40 ft.
+source: MM
+skills: 
+size: Tiny
+senses: darkvision 60 ft., passive Perception 8
+mtype: beast
+modified: 20210810165018126
+languages: &mdash;
+int: 1
+hp: 1
+hitdice: 1d4-1
+dex: 16
+created: 20210810164844557
+cr: 0
+con: 9
+cha: 2
+armor: 
+alignment: unaligned
+ac: 13
+
+"""
+''Blood Frenzy.'' The quipper has advantage on melee attack rolls against any creature that doesn’t have all its hit points.
+''Water Breathing.'' The quipper can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1>> |<<reach 5>> |
+

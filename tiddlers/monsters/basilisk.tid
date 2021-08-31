@@ -1,0 +1,36 @@
+xp: 700
+wis: 8
+title: Basilisk
+tags: Monster Monstrosity
+str: 16
+speed: 20 ft.
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 9
+mtype: monstrosity
+modified: 20210222121602908
+languages: &mdash;
+int: 2
+hp: 52
+hitdice: 8d8+16
+dex: 8
+created: 20210214031041847
+cr: 3
+con: 15
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 15
+
+"""
+''Petrifying Gaze.'' If a creature starts its turn within <<range 30>> of the basilisk and the two of them can see each other, the basilisk can force the creature to make a <<save Con 12>> if the basilisk isn’t [[Incapacitated]]. On a failed save, the creature magically begins to turn to stone and is [[Restrained]]. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.
+
+A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.
+
+If the basilisk sees its reflection within <<range 30>> of it in bright light, it mistakes itself for a rival and targets itself with its gaze.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 2d6+3>> + <<poison 2d6>> |<<reach 5>> |

@@ -1,0 +1,11 @@
+title: Rope of Entanglement
+tags: [[Magic Item]] Rare DMG
+modified: 20210814074043279
+created: 20210205073300977
+
+This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a <<save Dex 15>> or become [[Restrained]].
+
+You can release the creature by using a bonus action to speak a second command word. A target [[Restrained]] by the rope can use an action to make a <<skillcheck "Str or Dex" 15>> (target’s choice). On a success, the creature is no longer [[Restrained]] by the rope.
+
+The rope has <<ac 20>> and <<hp 20>>. It regains <<heal 1>> every <<time 5m>> as long as it has at least <<hp 1>>. If the rope drops to <<hp 0>>, it is destroyed.
+

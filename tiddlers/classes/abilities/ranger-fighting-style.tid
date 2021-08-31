@@ -1,0 +1,13 @@
+title: Ranger Fighting Style
+tags: Ability Ranger
+modified: 20210821113338741
+level: 2
+created: 20190429075519829
+caption: Fighting Style
+
+At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. 
+
+You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+<$list filter="[tag[Fighting Style]tag[Ranger]sort[]]"><p>{{||Link}}''.'' <$transclude tiddler=<<currentTiddler>>/></p></$list>
+

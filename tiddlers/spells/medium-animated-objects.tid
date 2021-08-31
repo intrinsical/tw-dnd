@@ -1,0 +1,23 @@
+title: Medium Animated Objects
+tags: [[Animate Objects Table]]
+modified: 20210819144913832
+created: 20190812094158891
+caption: Medium
+
+<div style="display: flex;">
+<<stat Medium 5 Objects>>
+<<stat Armor 13 Class>>
+<<stat Hit 40 Points>>
+</div>
+<div style="display: flex;">
+<<ability-value Strength 10>>
+<<ability-value Dexterity 12>>
+<<ability-value Constitution 10>>
+<<ability-value Intelligence 3>>
+<<ability-value Wisdom 3>>
+<<ability-value Charisma 1>>
+</div>
+
+| !<<action>> Actions |<|<|
+| !<<melee Slam +5>>|<<bludgeoning 2d6+1>> |<<reach 5>> |
+

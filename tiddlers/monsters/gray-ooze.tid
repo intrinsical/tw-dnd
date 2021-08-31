@@ -1,0 +1,40 @@
+xp: 100
+wis: 6
+title: Gray Ooze
+tags: Monster Ooze
+str: 12
+speed: 10 ft., climb 10 ft.
+source: MM
+skills: Stealth +2
+size: Medium
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 8
+mtype: ooze
+modified: 20210807104630068
+languages: &mdash;
+int: 1
+hp: 22
+hitdice: 3d8+9
+dex: 6
+damage_resistance: acid, cold, fire
+created: 20210807104331001
+cr: 1/2
+condition_immunity: blinded, charmed, deafened, exhaustion, frightened, prone
+con: 16
+cha: 2
+alignment: unaligned
+ac: 8
+
+"""
+''Amorphous.'' The ooze can move through a space as narrow as 1 inch wide without squeezing.
+''Corrode Metal.'' Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.
+
+The ooze can eat through 2-inch-thick, nonmagical metal in 1 round.
+''False Appearance.'' While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pseudopod +3>>|<<bludgeoning 1d6+1>> + <<acid 2d6>> |<<reach 5>> |
+|~|If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its <<ac 10>> |<|
+

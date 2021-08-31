@@ -1,0 +1,60 @@
+xp: 450
+wis: 13
+title: Bard, Monster
+tags: Volo Humanoid Monster Homebrew
+str: 11
+speed: 30 ft
+source: Volo
+skills: Acrobatics +4, Perception +5, Performance +6
+size: Medium
+senses: passive Perception 15
+saving_throw: Dex +4, Wis +3
+mtype: Humanoid (any race)
+modified: 20210827153452932
+languages: any two languages
+int: 10
+hp: 44
+hitdice: 8d8+8
+dex: 14
+created: 20190904043906818
+cr: 2
+con: 12
+cha: 14
+caption: Bard
+armor: chain shirt
+alignment: any alignment
+ac: 15
+
+"""
+''Spellcasting.'' The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:
+
+//Cantrips (at will):// [[Friends]], [[Mage Hand]], [[Vicious Mockery]]
+//1st level (4 slots):// [[Charm Person]], [[Healing Word]], [[Heroism]], [[Sleep]], [[Thunderwave]]
+//2nd level (3 slots):// [[Invisibility]], [[Shatter]]
+"""
+
+|max|k
+|!Cantrips |<|<|
+|!<<action>> [[Friends]] <<concentration>> |<<time 1m>> (<<per 1>>) |Non-hostile |
+|!<<action>> [[Mage Hand]] |<<time 1m>> <<range 30>> | |
+|!<<action>> [[Vicious Mockery]] |<<range 60>> (<<per 1>>) |<<save Wis 12>> <<psychic 1d4>> + Next attack disadvantaged |
+|!1st Level (4 slots) |<|<|
+|!<<action>> [[Charm Person]] |<<time 1h>> <<range 30>> (<<per 1>>) |<<save Wis 14>> vs [[Charmed]] |
+|!<<ba>> [[Healing Word]] |<<range 60>> (<<per 1>>) |<<heal +1d4+2>> |
+|!<<action>> [[Heroism]] <<concentration>> |<<time 1m>> (<<per 1>>) |<<temp-hp +2>> |
+|!<<action>> [[Sleep]] |<<time 1m>> |<<roll 5d8>> |
+|! <<action>> [[Thunderwave]] |Self (<<cube 15>>) |<<save Con 12>> <<thunder 2d8>> + Pushed 10' |
+|!2nd Level (3 slots) |<|<|
+|!<<action>> [[Invisibility]] <<concentration>> |<<time 1h>> (<<per 1>>) |Invisible till attack/cast spell |
+|!<<action>> [[Shatter]] |<<range 60>> (<<sphere 10>>) |<<save Con 12>> <<thunder 3d8>> |
+"""
+''Song of Rest.'' The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well. 
+''Taunt (2/Day}.'' The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
+"""
+[img[divider.png]]
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged Shortbow +4>>|<<piercing 1d6+2>> |<<range 80/320>> |
+

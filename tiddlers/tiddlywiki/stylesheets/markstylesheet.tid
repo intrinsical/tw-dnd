@@ -1,0 +1,253 @@
+type: text/vnd.tiddlywiki
+title: MarkStylesheet
+tags: $:/tags/Stylesheet Stylesheet
+modified: 20210317010032646
+created: 20210125025543167
+caption: Mark Stylesheet
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+.mark {
+  display: inline-block;
+}
+
+.mark .label {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 0px 2px 0px 4px;
+  font-weight: bold;
+}
+
+.mark .data {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 0px 4px 0px 3px;
+  font-weight: bold;
+}
+
+.mark .red {
+  background: #b16b6b;
+  color: white;
+}
+
+.mark .brown {
+  background: #b18e6b;
+  color: white;
+}
+
+.mark .blue {
+  background: #6b9cb1;
+  color: white;
+}
+
+.mark .green {
+  background: #6bb18c;
+  color: white;
+}
+
+.mark .yellow {
+  background: #d7d782;
+  color: white;
+}
+
+.mark .grey {
+  background: #999999;
+  color: white;
+}
+
+.mark  .black {
+  background: #000000;
+  color: white;
+}
+
+.mark .tag {
+  background: <<color "tag-background">>;
+  color: <<color "tag-foreground">>;
+}
+
+.mark .positive {
+  background: <<color "mark-positive-background">>;
+  color: <<color "mark-positive-text">>;
+}
+
+.mark .negative {
+  background: <<color "mark-negative-background">>;
+  color: <<color "mark-negative-text">>;
+}
+
+.mark .value {
+  background: <<color "mark-value-background">>;
+  color: <<color "mark-value-text">>;
+}
+
+.mark .save {
+  background: <<color "mark-save-background">>;
+  color: <<color "mark-save-text">>;
+}
+
+.mark .skill {
+  background: <<color "mark-skill-background">>;
+  color: <<color "mark-skill-text">>;
+}
+
+.mark .pass {
+  background: <<color "mark-pass-background">>;
+  color: <<color "mark-pass-text">>;
+}
+
+.mark .fail {
+  background: <<color "mark-fail-background">>;
+  color: <<color "mark-fail-text">>;
+}
+
+.mark .entity {
+  background: <<color "mark-entity-background">>;
+  color: <<color "mark-entity-text">>;
+}
+
+.mark .clean {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 0px 1px 0px 1px;
+}
+
+span.entity-tag {
+  background: <<color "mark-entity-background">>;
+  color: <<color "mark-entity-text">>;
+}
+
+pass {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 15px;
+  text-transform: none;
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+  padding: 0px 6px 0px 0px;
+  margin: 0px 0px;
+  background-color: <<color mark-value-background>>;
+  color: <<color mark-value-text>>;
+}
+
+pass:before {
+  content: "\e94e";
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+  padding: 0px 4px 0px 6px; 
+  font-weight: bold;
+  background-color: <<color mark-pass-background>>;
+  color: <<color mark-pass-text>>;
+}
+
+fail {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 15px;
+  text-transform: none;
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+  padding: 0px 6px 0px 0px;
+  background-color: <<color mark-value-background>>;
+  color: <<color mark-value-text>>;
+}
+
+fail:before {
+  content: "\e94d";
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+  padding: 0px 4px 0px 6px; 
+  font-weight: bold;
+  background-color: <<color mark-pass-background>>;
+  background-color: <<color mark-fail-background>>;
+  color: <<color mark-fail-text>>;
+}
+
+action {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 15px;
+  text-transform: none;
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+  padding: 0px 6px 0px 0px;
+  margin: 0px 0px;
+  background-color: <<color mark-value-background>>;
+  color: <<color mark-value-text>>;
+}
+
+action:before {
+  content: "\e935";
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+  padding: 0px 4px 0px 6px; 
+  font-weight: bold;
+  background-color: <<color mark-entity-background>>;
+  color: <<color mark-entity-text>>;
+}
+
+ba {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 15px;
+  text-transform: none;
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+  padding: 0px 6px 0px 0px;
+  margin: 0px 0px;
+  background-color: <<color mark-value-background>>;
+  color: <<color mark-value-text>>;
+}
+
+ba:before {
+  content: "\e950";
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+  padding: 0px 4px 0px 6px; 
+  font-weight: bold;
+  background-color: <<color mark-entity-background>>;
+  color: <<color mark-entity-text>>;
+}
+
+reaction {
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 15px;
+  text-transform: none;
+  border-top-right-radius: 4px; 
+  border-bottom-right-radius: 4px; 
+  padding: 0px 6px 0px 0px;
+  margin: 0px 0px;
+  background-color: <<color mark-value-background>>;
+  color: <<color mark-value-text>>;
+}
+
+reaction:before {
+  content: "\e936";
+  border-top-left-radius: 4px; 
+  border-bottom-left-radius: 4px; 
+  padding: 0px 4px 0px 6px; 
+  font-weight: bold;
+  background-color: <<color mark-entity-background>>;
+  color: <<color mark-entity-text>>;
+}
+
+

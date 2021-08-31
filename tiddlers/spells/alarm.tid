@@ -1,0 +1,30 @@
+type: 
+title: Alarm
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: Yes
+range: 30 feet
+modified: 20210809163351847
+material: (a tiny bell and a piece of fine silver wire)
+level: 1
+glyph_target: <<cube 20>>
+glyph_range: <<range 30>>
+glyph_effect: Caster is alerted when <<per>> enters door/window/area
+glyph_duration: <<time 8h>>
+glyph_casting_time: <<time 1m>>
+effect: 
+duration: 8 hours
+created: 20190103192007177
+concentration: No
+components: V, S, M
+classes: [[Ranger]] [[Wizard]]
+casting_time: 1 Minute
+at_higher_level: 
+
+You set an alarm against unwanted intrusion. 
+Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is mental or audible. 
+
+A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. 
+An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.

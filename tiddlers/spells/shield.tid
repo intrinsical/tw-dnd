@@ -1,0 +1,27 @@
+type: 
+title: Shield
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Self
+modified: 20210809223340881
+level: 1
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: <<ac +5>> till start of next turn.
+glyph_duration: <<round 1>>
+glyph_casting_time: <<reaction>>
+effect: ''[R]'' <<ac +5>>
+duration: 1 round
+created: 20190721075643673
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: Special
+at_higher_level: 
+
+Reaction trigger: You are hit by an attack or targeted by the magic missile spell
+
+An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.

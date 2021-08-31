@@ -1,0 +1,25 @@
+type: 
+title: Locate Creature
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Self
+modified: 20210809173443467
+material: (a bit of fur from a bloodhound)
+level: 4
+effect: 
+duration: 1 hour
+created: 20190612153712983
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Paladin]] [[Ranger]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.
+
+The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close – within 30 feet – at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn’t locate the creature.
+
+This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.

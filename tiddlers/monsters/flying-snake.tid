@@ -1,0 +1,34 @@
+xp: 25
+wis: 12
+title: Flying Snake
+tags: Monster Beast
+str: 4
+speed: 30 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: 
+size: Tiny
+senses: blindsight 10 ft., passive Perception 11
+mtype: beast
+modified: 20210810073746009
+languages: &mdash;
+int: 2
+hp: 5
+hitdice: 2d4
+dex: 18
+created: 20210810073559849
+cr: 1/8
+con: 11
+cha: 5
+armor: 
+alignment: unaligned
+ac: 14
+
+"""
+''Flyby.'' The snake doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1>> + <<poison 3d4>> |<<reach 5>> |
+

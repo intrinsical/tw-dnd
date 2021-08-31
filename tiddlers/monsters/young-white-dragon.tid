@@ -1,0 +1,40 @@
+xp: 2300
+wis: 11
+title: Young White Dragon
+tags: Monster Dragon MM White
+str: 18
+speed: 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Perception +6, Stealth +3
+size: Large
+senses: blindsight 30 ft, darkvision 120 ft, passive Perception 16
+saving_throw: Dex +3, Con +7, Wis +3, Cha +4
+mtype: dragon
+modified: 20210827051809951
+languages: Common, Draconic
+int: 6
+hp: 133
+hitdice: 14d10+56
+dex: 10
+damage_immunity: cold
+created: 20210827051537011
+cr: 6
+condition_immunity: 
+con: 18
+cha: 12
+armor: natural armor
+alignment: chaotic evil
+ac: 17
+
+"""
+''Ice Walk.'' The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, [[Difficult Terrain]] composed of ice or snow doesn’t cost it extra moment.
+"""
+<<divider>>
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>> + <<cold 1d8>> |<<reach 10>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Cold Breath|''Recharge 5–6.''<br/>The dragon exhales an icy blast in a <<cone 30>>. Each creature in that area must make a <<save Con 15>> <fail><<cold 10d8>></fail> <pass><<halved>></pass>. |<|
+

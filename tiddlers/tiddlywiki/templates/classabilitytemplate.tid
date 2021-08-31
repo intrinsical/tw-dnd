@@ -1,0 +1,31 @@
+title: ClassAbilityTemplate
+tags: Template
+modified: 20210820052726896
+created: 20210817130639559
+
+\define abilities(level)
+!!! Level $level$
+<div style="padding-left:1em;"><$list filter="[list[]] +[tagging[]tag[Ability]level[$level$]sort[]]" emptyMessage="//No new abilities at this level.//"><$macrocall $name=fold tiddler=<<currentTiddler>>/></$list></div>
+\end
+
+<<abilities 1>>
+<<abilities 2>>
+<<abilities 3>>
+<<abilities 4>>
+<<abilities 5>>
+<<abilities 6>>
+<<abilities 7>>
+<<abilities 8>>
+<<abilities 9>>
+<<abilities 10>>
+<<abilities 11>>
+<<abilities 12>>
+<<abilities 13>>
+<<abilities 14>>
+<<abilities 15>>
+<<abilities 16>>
+<<abilities 17>>
+<<abilities 18>>
+<<abilities 19>>
+<<abilities 20>>
+

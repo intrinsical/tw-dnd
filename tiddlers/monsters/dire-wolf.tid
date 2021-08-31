@@ -1,0 +1,38 @@
+xp: 200
+wis: 12
+type: 
+title: Dire Wolf
+tags: Beast Monster
+str: 17
+speed: 50 ft
+source: MM
+skills: Perception +3, Stealth +4
+size: Large
+senses: passive Perception 13
+mtype: beast
+modified: 20210810053916139
+languages: &mdash;
+int: 3
+hp: 37
+hitdice: 5d10+10
+dex: 15
+creature: Beast
+created: 20190606183608586
+cr: 1
+con: 15
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+"""
+''Keen Hearing and Smell.'' The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pack Tactics.'' The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +5>>|<<piercing 2d6+3>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Str 13>> or be knocked [[Prone]]. |<|
+

@@ -1,0 +1,27 @@
+title: Fold Macro
+tags: Macro $:/tags/Macro
+modified: 20210817141304152
+created: 20210403070804717
+
+\define fold(tiddler)
+<$set name="controller" value="$:/state/$(currentTiddler)$/section/$tiddler$"><div style="width: 100%">
+<$reveal type="nomatch" state=<<controller>> text="open">
+  <$button class="tc-btn-invisible" set=<<controller>> setTo="open">
+    <span class="fold">&#707; <$transclude tiddler="$tiddler$" field="caption"><$view tiddler="$tiddler$" field="title" /></$transclude></span>
+  </$button>
+</$reveal><$reveal type="match" state=<<controller>> text="open">
+  <$button class="tc-btn-invisible" set=<<controller>> setTo="close">
+    <span class="unfold">&#709; <$transclude tiddler="$tiddler$" field="caption"><$view tiddler="$tiddler$" field="title" /></$transclude></span>
+  </$button></$reveal><span style="float: right;">[[[ Open ]|$tiddler$]]</span></div>
+
+<$reveal type="match" state=<<controller>> text="open"><div style="padding-left: 1em;"><$transclude tiddler="$tiddler$" mode="block"/></div></$reveal>
+</$set>
+\end
+
+---
+
+&lt;&lt;''fold'' //tiddler//&gt;&gt;
+
+<<fold "Kobold">><<fold "Kenku, Monster">><<fold "Spell Scroll Mishap">>
+
+

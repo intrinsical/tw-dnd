@@ -1,0 +1,25 @@
+type: 
+title: Magic Weapon
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809173944946
+level: 2
+glyph_target: <<loot 1>>
+glyph_range: <<touch>>
+glyph_effect: Weapon becomes magical, +1 to attack rolls & damage
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<ba>>
+effect: 
+duration: 1 hour
+created: 20190627082602886
+concentration: Yes
+components: V, S
+classes: [[Paladin]] [[Wizard]]
+casting_time: 1 Bonus Action
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2.
+
+You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.

@@ -1,0 +1,11 @@
+title: Magic Item
+tags: Item Category Reward
+order: 6
+modified: 20210825061815115
+icon: loot.gif
+created: 20210810023158383
+
+Magic items are gleaned from the hoards of conquered monsters or discovered in long &mdash; lost vaults. Such items grant capabilities a character could rarely have otherwise, or they complement their owner’s capabilities in wondrous ways.
+
+<<htabs "[tag[Magic Item]tag[Category]nsort[order]]">>
+

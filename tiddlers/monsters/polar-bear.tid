@@ -1,0 +1,37 @@
+xp: 450
+wis: 13
+title: Polar Bear
+tags: Beast Monster
+str: 20
+speed: 40 ft, swim 30 ft
+source: MM
+skills: Perception +3
+size: Large
+senses: passive Perception 13
+mtype: beast
+modified: 20210810164626656
+languages: &mdash;
+int: 2
+hp: 42
+hitdice: 5d10+15
+dex: 10
+created: 20190831075302947
+cr: 2
+con: 16
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The bear has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<fold "Cave Bear, Variant">>
+<<divider>>
+''Multiattack.'' The bear makes two attacks: one with its bite and one with its claws.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 1d8+5>> |<<reach 5>> |
+| !<<melee Claws +7>>|<<slashing 2d6+5>> |<<reach 5>> |
+

@@ -1,0 +1,9 @@
+title: Eversmoking Bottle
+tags: Uncommon DMG [[Magic Item]]
+modified: 20210813113213785
+created: 20190725160604257
+
+Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a <<sphere 60>> from the bottle. The cloud’s area is [[Heavily Obscured]]. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.
+
+The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after <<time 10m>>. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after <<time 1m>>, and a strong wind (21 or more miles per hour) can do so after 1 round.
+

@@ -1,0 +1,34 @@
+xp: 25
+wis: 11
+title: Cultist
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+skills: Deception +2, Religion +2
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809021654224
+languages: any one language (usually Common)
+int: 10
+hp: 9
+hitdice: 2d8
+dex: 12
+created: 20191110052232585
+cr: 1/8
+con: 10
+cha: 10
+armor: leather armor
+alignment: any non-good alignment
+ac: 12
+
+"""
+''Dark Devotion.'' The cultist has advantage on saving throws against being [[Charmed]] or [[Frightened]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +3>>|<<slashing 1d6+1>> |<<reach 5>> |
+

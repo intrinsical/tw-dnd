@@ -1,0 +1,37 @@
+xp: 1100
+wis: 10
+title: Ettin
+tags: Monster Giant
+str: 21
+speed: 40 ft.
+source: MM
+skills: Perception +4
+size: Large
+senses: darkvision 60 ft., passive Perception 14
+mtype: giant
+modified: 20210224050905599
+languages: Giant, Orc
+int: 6
+hp: 85
+hitdice: 10d10+30
+dex: 8
+created: 20210224050335252
+cr: 4
+con: 17
+cha: 8
+armor: natural armor
+alignment: chaotic evil
+ac: 12
+
+"""
+''Two Heads.'' The ettin has advantage on Wisdom (Perception) checks and on saving throws against being [[Blinded]], [[Charmed]], [[Deafened]], [[Frightened]], [[Stunned]], and knocked [[Unconscious]].
+''Wakeful.'' When one of the ettin’s heads is asleep, its other head is awake.
+"""
+<<divider>>
+''Multiattack.'' The ettin makes two attacks: one with its battleaxe and one with its morningstar.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Battleaxe +7>>|<<slashing 2d8+5>> |<<reach 5>> |
+| !<<melee Morningstar +7>>|<<piercing 2d8+5>> |<<reach 5>> |
+

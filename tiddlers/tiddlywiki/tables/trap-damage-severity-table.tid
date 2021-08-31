@@ -1,0 +1,12 @@
+title: Trap Damage Severity Table
+tags: Table XGE
+modified: 20210812064045382
+created: 20190712075600516
+
+| !Character Level | !Trap Danger Level |<|<|
+|~| !Setback | !Dangerous | !Deadly |
+| !1st-4th |<<damage 1d10>> |<<damage 2d10>> |<<damage 4d10>> |
+| !5th-10th |<<damage 2d10>> |<<damage 4d10>> |<<damage 10d10>> |
+| !11th-16th |<<damage 4d10>> |<<damage 10d10>> |<<damage 18d10>> |
+| !17th-20th |<<damage 10d10>> |<<damage 18d10>> |<<damage 24d10>> |
+

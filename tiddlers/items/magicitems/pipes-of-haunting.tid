@@ -1,0 +1,7 @@
+title: Pipes of Haunting
+tags: [[Magic Item]] Uncommon DMG
+modified: 20210814024650294
+created: 20210205053036335
+
+You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a <<save Wis 15>> or become [[Frightened]] of you for <<time 1m>>. If you wish, all creatures in the area that aren’t hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for <<time 24h>>. The pipes regain <<roll 1d3>> expended charges daily at dawn.
+

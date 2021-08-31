@@ -1,0 +1,35 @@
+xp: 200
+wis: 14
+title: Giant Eagle
+tags: Monster Beast
+str: 16
+speed: 10 ft., fly 80 ft.
+source: MM
+skills: Perception +4
+size: Large
+senses: passive Perception 14
+mtype: beast
+modified: 20210810082204651
+languages: Giant Eagle, understands Common and Auran but can’t speak them
+int: 8
+hp: 26
+hitdice: 4d10+4
+dex: 17
+created: 20210810081924714
+cr: 1
+con: 13
+cha: 10
+alignment: neutral good
+ac: 13
+
+"""
+''Keen Sight.'' The eagle has advantage on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+''Multiattack.'' The eagle makes two attacks: one with its beak and one with its talons.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +5>>|<<piercing 1d6+3>> |<<reach 5>> |
+| !<<melee Talons +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+

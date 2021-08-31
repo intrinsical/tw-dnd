@@ -1,0 +1,6 @@
+title: IconLinkTemplate
+tags: Template
+modified: 20200222043526569
+created: 20190722013846138
+
+<div align="center"><$link to={{!!title}}><$list filter="[all[current]has[icon]]"><$image source={{!!icon}} width=100 /><br/></$list><$list filter="[all[current]has[caption]]"><$view field=caption /></$list><$list filter="[all[current]!has[caption]]"><$view field=title /></$list></$link><$list filter="[all[current]has[level]]"><br/>//level <$view field=level />//</$list></div>

@@ -1,0 +1,33 @@
+xp: 25
+wis: 11
+title: Tribal Warrior
+tags: Humanoid Monster
+str: 13
+speed: 30 ft
+source: MM
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809050707205
+languages: any one language
+int: 8
+hp: 11
+hitdice: 2d8+2
+dex: 11
+created: 20210809050442040
+cr: 1/8
+con: 12
+cha: 8
+armor: hide armor
+alignment: any alignment
+ac: 12
+
+"""
+''Pack Tactics.'' The warrior has advantage on an attack roll against a creature if at least one of the warrior’s allies is within 5 feet of the creature and the ally isn’t [[Incapacitated]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Spear +3>>|<<piercing 1d6+1>><br/><<piercing 1d8+1>> (''Two-handed'') |<<reach 5>><br/><<range 20/60>> |
+

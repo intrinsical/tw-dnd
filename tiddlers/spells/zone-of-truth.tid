@@ -1,0 +1,29 @@
+type: 
+title: Zone of Truth
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 ft (15 ft sphere)
+modified: 20210809230820434
+material: 
+level: 2
+glyph_target: <<sphere 15>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Cha $(dc)$>> <fail> Cannot tell a lie</fail>
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 10 Minutes
+created: 20190721083706505
+concentration: No
+components: V, S
+classes: [[Bard]] [[Cleric]] [[Paladin]]
+casting_time: 1 Action
+at_higher_level: 
+
+You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.
+
+An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.
+

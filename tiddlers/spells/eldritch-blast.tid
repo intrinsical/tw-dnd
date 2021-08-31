@@ -1,0 +1,25 @@
+type: 
+title: Eldritch Blast
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809170325019
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 120>>
+glyph_effect: <<ranged spell-attack $(to-hit)$>>, <<force 1d10>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721063202579
+concentration: No
+components: V, S
+classes: [[Warlock]]
+casting_time: 1 Action
+at_higher_level: The spell creates more than one beam when you reach higher levels:
+
+A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.&nbsp;

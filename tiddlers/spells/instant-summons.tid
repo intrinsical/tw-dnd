@@ -1,0 +1,28 @@
+type: 
+title: Instant Summons
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: Yes
+range: Touch
+modified: 20210809172824482
+material: (a sapphire worth 1,000 gp)
+level: 6
+effect: 
+duration: Until Dispelled
+created: 20210809172815223
+concentration: No
+components: V, S, M
+classes: [[Wizard]]
+casting_time: 1 Minute
+at_higher_level: 
+
+You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire. 
+
+At any time thereafter, you can use your action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.
+
+If another creature is holding or carrying the item, crushing the sapphire doesn’t transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment. 
+
+[[Dispel Magic]] or a similar effect successfully applied to the sapphire ends this spell’s effect.
+

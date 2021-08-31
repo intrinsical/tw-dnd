@@ -1,0 +1,39 @@
+xp: 2,300
+wis: 15
+title: Invisible Stalker
+tags: Monster Elemental
+str: 16
+speed: 50 ft., fly 50 ft. (hover)
+source: MM
+skills: Perception +8, Stealth +10
+size: Medium
+senses: darkvision 60 ft., passive Perception 18
+mtype: elemental
+modified: 20210213095313994
+languages: Auran, understands Common but doesn’t speak it
+int: 10
+hp: 104
+hitdice: 16d8+32
+dex: 19
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: poison
+created: 20210213095011059
+cr: 6
+condition_immunity: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+con: 14
+cha: 11
+armor: 
+alignment: neutral
+ac: 14
+
+"""
+''Invisibility.'' The stalker is [[Invisible]].
+''Faultless Tracker.'' The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
+"""
+[img[divider.png]]
+''Multiattack.'' The stalker makes two slam attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +6>>|<<bludgeoning 2d6+3>> |<<reach 5>> |
+

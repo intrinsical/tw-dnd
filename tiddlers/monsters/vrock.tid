@@ -1,0 +1,41 @@
+xp: 2300
+wis: 13
+title: Vrock
+tags: Monster Fiend Demon
+str: 17
+speed: 40 ft., fly 60 ft.
+source: MM
+size: Large
+senses: darkvision 120 ft., passive Perception 11
+saving_throw: Dex +5, Wis +4, Cha +2
+mtype: fiend (demon)
+modified: 20210222184507637
+languages: Abyssal, telepathy 120 ft.
+int: 8
+hp: 104
+hitdice: 11d10+44
+dex: 15
+damage_resistance: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: poison
+created: 20210222175550161
+cr: 6
+condition_immunity: poisoned
+con: 18
+cha: 8
+armor: natural armor
+alignment: chaotic evil
+ac: 15
+
+"""
+''Magic Resistance.'' The vrock has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The vrock makes two attacks: one with its beak and one with its talons.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +6>>|<<piercing 2d6+3>> |<<reach 5>> |
+| !<<melee Talons +6>>|<<slashing 2d10+3>> |<<reach 5>> |
+| !Spores|''Recharge on 6''<br/>A <<sphere 15>> cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a <<save Con 14>> or become [[Poisoned]]. While [[Poisoned]] in this way, a target takes <<poison 1d10>> damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it. |<|
+| !Stunning Screech|''1/Day''<br/>The vrock emits a horrific screech. Each creature within <<range 20>> of it that can hear it and that isn’t a demon must succeed on a <<save Con 14>> or be [[Stunned]] until the end of the vrock’s next turn. |<|
+

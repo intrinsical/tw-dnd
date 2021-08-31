@@ -1,0 +1,25 @@
+type: 
+title: Silence
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: Yes
+range: 120 feet
+modified: 20210809223419334
+level: 2
+glyph_target: <<sphere 20>>
+glyph_range: <<range 120>>
+glyph_effect: No sound, [[Deafened]], damage immunity to <<thunder>>, no verbal component spells.
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: up to 10 minutes
+created: 20190103192256389
+concentration: Yes
+components: V, S
+classes: [[Bard]] [[Cleric]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.

@@ -1,0 +1,27 @@
+type: 
+title: Fireball
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 150 feet (<<sphere "20'">>)
+modified: 20210809170940066
+material: (a tiny ball of bat guano and sulfur)
+level: 3
+glyph_target: <<sphere 20>>
+glyph_range: <<range 150>>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<fire 8d6>></fail> <pass> <<halved>></pass>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>>150']'' <<sphere 20>><<fire 8d6>>, <<save Dex DC>> <<halved>>
+duration: Instantaneous
+created: 20190612180635727
+concentration: No
+components: V, S, M
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+
+A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame.
+Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners.&nbsp;It ignites flammable objects in the area that aren’t being worn or carried.&nbsp;

@@ -1,0 +1,26 @@
+type: 
+title: Hold Person
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809172449945
+material: (a small, straight piece of iron)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Wis $(dc)$>> <fail> [[Paralyzed]] for spell's duration</fail> <pass> Spell ends</pass>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190530085541721
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
+
+Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be [[Paralyzed]] for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.

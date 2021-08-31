@@ -1,0 +1,41 @@
+xp: 700
+wis: 13
+title: Wight
+tags: Monster Undead
+str: 15
+speed: 30 ft.
+source: MM
+skills: Perception +3, Stealth +4
+size: Medium
+senses: darkvision 60 ft., passive Perception 13
+mtype: undead
+modified: 20210808143651942
+languages: the languages it knew in life
+int: 10
+hp: 45
+hitdice: 6d8+18
+dex: 14
+damage_resistance: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: poison
+created: 20210808143234054
+cr: 3
+condition_immunity: exhaustion, poisoned
+con: 16
+cha: 15
+armor: studded leather
+alignment: neutral evil
+ac: 14
+
+"""
+''Sunlight Sensitivity.'' While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+''Multiattack.'' The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Life Drain" +4>>|<<necrotic 1d6+2>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 13>> or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.<br/>&nbsp;<br/>A humanoid slain by this attack rises <<time 24h>> later as a <<mob Zombie>> the wight’s control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time. |<|
+| !<<melee Longsword +4>>|<<slashing 1d10+2>><br/><<slashing 1d10+2>> (''Two-handed'') |<<reach 5>> |
+| !<<ranged Longbow +4>>|<<piercing 1d8+2>> |<<range 150/600>> |
+

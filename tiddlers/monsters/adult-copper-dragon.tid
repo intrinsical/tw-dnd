@@ -1,0 +1,47 @@
+xp: 11500
+wis: 15
+title: Adult Copper Dragon
+tags: Monster Dragon MM Copper
+str: 23
+speed: 40 ft., climb 40 ft., fly 80 ft.
+source: MM
+skills: Deception +8, Perception +12, Stealth +6
+size: Huge
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 22
+saving_throw: Dex +6, Con +10, Wis +7, Cha +8
+mtype: dragon
+modified: 20210827071929377
+languages: Common, Draconic
+int: 18
+hp: 184
+hitdice: 16d12+80
+dex: 12
+damage_immunity: acid
+created: 20210827071529295
+cr: 14
+condition_immunity: 
+con: 21
+cha: 17
+armor: natural armor
+alignment: chaotic good
+ac: 18
+
+"""
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Copper Dragon Lair Action">><<fold "Copper Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +11>>|<<piercing 2d10+6>> |<<reach 10>> |
+| !<<melee Claw +11>>|<<slashing 2d6+6>> |<<reach 5>> |
+| !<<melee Tail +11>>|<<bludgeoning 2d8+6>> |<<reach 15>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 16>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Acid Breath.'' The dragon exhales acid in an <<line "60' long, 5' wide">>. Each creature in that line must make a <<save Dex 18>> <fail><<acid 12d8>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Slowing Breath.'' The dragon exhales gas in a <<cone 60>>. Each creature in that area must succeed on a <<save Con 18>>. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for <<time 1m>>. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 10>> of the dragon must succeed on a <<save Dex 19>> or take <<bludgeoning 2d6+6>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

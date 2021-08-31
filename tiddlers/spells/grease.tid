@@ -1,0 +1,28 @@
+type: 
+title: Grease
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809171614944
+material: (a bit of pork rind or butter)
+level: 1
+glyph_target: <<square 10>>
+glyph_range: <<range 60>>
+glyph_effect: <<difficult>>, <<save Dex $(dc)$>> <fail> [[Prone]]</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190612174532862
+concentration: No
+components: V, S, M
+classes: [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.
+
+When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.

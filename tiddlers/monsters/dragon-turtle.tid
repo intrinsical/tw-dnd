@@ -1,0 +1,40 @@
+xp: 18000
+wis: 12
+title: Dragon Turtle
+tags: Monster Dragon
+str: 25
+speed: 20 ft., swim 40 ft.
+source: MM
+size: Gargantuan
+senses: darkvision 120 ft., passive Perception 11
+saving_throw: Dex +6, Con +11, Wis +7
+mtype: dragon
+modified: 20210223071145041
+languages: Aquan, Draconic
+int: 10
+hp: 341
+hitdice: 22d20+110
+dex: 10
+damage_resistance: fire
+created: 20210223070630361
+cr: 17
+con: 20
+cha: 12
+armor: natural armor
+alignment: neutral
+ac: 20
+
+"""
+''Amphibious.'' The dragon turtle can breathe air and water.
+"""
+<<divider>>
+''Multiattack.'' The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +13>>|<<piercing 3d12+7>> |<<reach 15>> |
+| !<<melee Claw +13>>|<<slashing 2d8+7>> |<<reach 10>> |
+| !<<melee Tail +13>>|<<bludgeoning 3d12+7>> |<<reach 15>> |
+|~|If the target is a creature, it must succeed on a <<save Str 20>> or be pushed up to 10 feet away from the dragon turtle and knocked [[Prone]]. |<|
+| !Steam Breath|''Recharge on 5–6''<br/>The dragon turtle exhales scalding steam in a <<cone 60>>. Each creature in that area must make a <<save Con 18>>, taking <<fire 15d6>> on a failed save, or <<Halved>> on a successful one. Being underwater doesn’t grant resistance against this damage. |<|
+

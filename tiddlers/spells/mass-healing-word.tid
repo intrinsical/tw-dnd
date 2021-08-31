@@ -1,0 +1,25 @@
+type: 
+title: Mass Healing Word
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809220227336
+level: 3
+glyph_target: <<per 6>>
+glyph_range: <<range 60>>
+glyph_effect: <<heal 1d4+modifier>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<ba>>
+effect: 
+duration: Instantaneous
+created: 20190721094500550
+concentration: No
+components: V
+classes: [[Cleric]]
+casting_time: 1 Bonus Action
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.
+
+As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.

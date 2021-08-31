@@ -1,0 +1,12 @@
+title: Green Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Green
+modified: 20210827020251946
+created: 20210827015911075
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:
+
+* ''Grasping roots and vines'' erupt in a <<circle 20>> on a point on the ground that the dragon can see within 120 feet of it. That area becomes [[Difficult Terrain]], and each creature there must succeed on a <<save Str 15>> <fail>[[Restrained]]</fail>. A creature can be freed if it or another creature takes an action to make a <<skillcheck Str 15>> check and succeeds. The roots and vines wilt away when the dragon uses this lair action again or when the dragon dies.
+* ''A wall of tangled brush bristling with thorns'' springs into existence on a solid surface within 120 feet of the dragon. The wall is up to <<wall "60' long, 10' high, 5' thick">>, and it blocks line of sight. When the wall appears, each creature in its area must make a <<save Dex 15>> saving throw. A creature that fails the save takes <<piercing 4d8>> and is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, a creature in the wall's space must make a <<save Dex 15>>  saving throw once each round it's in contact with the wall, taking <<piercing 4d8>> on a failed save, or half as much damage on a successful one. Each 10-foot section of wall has <<ac 5>> <<heal 15>>, vulnerability to <<fire fire>>, resistance to <<bludgeoning bludgeoning>> and <<piercing piercing>>, and immunity to <<psychic psychic>>. The wall sinks back into the ground when the dragon uses this lair action again or when the dragon dies.
+* ''Magical fog'' billows around one creature the dragon can see within 120 feet of it. The creature must succeed on a <<save Wis 15>> or be [[Charmed]] by the dragon until initiative count 20 on the next round.
+

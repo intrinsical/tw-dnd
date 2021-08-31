@@ -1,0 +1,41 @@
+xp: 5000
+wis: 16
+title: Cloud Giant
+tags: Monster Giant
+str: 27
+speed: 40 ft.
+source: MM
+skills: Insight +7, Perception +7
+size: Huge
+senses: passive Perception 17
+saving_throw: Con +10, Wis +7, Cha +7
+mtype: giant
+modified: 20210328103947806
+languages: Common, Giant
+int: 12
+hp: 200
+hitdice: 16d12+96
+dex: 10
+created: 20210328020923812
+cr: 9
+con: 22
+cha: 16
+armor: natural armor
+alignment: neutral good (50%) or neutral evil (50%)
+ac: 14
+
+"""
+''Keen Smell.'' The giant has advantage on Wisdom (Perception) checks that rely on smell.
+''Innate Spellcasting.'' The giant’s innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Magic]], [[Fog Cloud]], [[Light]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3/day each:'' [[Feather Fall]], [[Fly]], [[Misty Step]], [[Telekinesis]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Control Weather]], [[Gaseous Form]]
+"""
+<<divider>>
+''Multiattack.'' The giant makes two morningstar attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Morningstar +12>>|<<piercing 3d8+8>> |<<reach 10>> |
+| !<<ranged Rock +12>>|<<bludgeoning 4d10+8>> |<<range 60/240>> |
+

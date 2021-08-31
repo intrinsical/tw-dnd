@@ -1,0 +1,27 @@
+type: 
+title: Detect Evil and Good
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Self
+modified: 20210809165833620
+level: 1
+glyph_target: <<sphere 30>>
+glyph_range: <<self>>
+glyph_effect: Detect [[Aberration]], [[Celestial]], [[Elemental]], [[Fey]], [[Fiend]], [[Undead]]. Consecrated or desecrated ground.
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: ''[<<concentration>><<time 10m>>]'' //<<sphere 30>> abberation | celestial | elemental | fey | fiend | undead | consecrated | descerated//
+duration: 10 minutes
+created: 20190627161924432
+concentration: Yes
+components: V, S
+classes: [[Cleric]] [[Paladin]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated. 
+
+The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.

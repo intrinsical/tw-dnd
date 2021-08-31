@@ -1,0 +1,9 @@
+title: Crystal Ball of Mind Reading
+tags: [[Crystal Ball]] [[Magic Item]] Legendary Attunement DMG
+modified: 20210813074448113
+created: 20210205080137902
+
+This crystal ball is about 6 inches in diameter. While touching it, you can cast the [[Scrying]] spell (<<save "Spell DC" 17>>) with it.
+
+You can use an action to cast the [[Detect Thoughts]] spell (<<save "Spell DC" 17>>) while you are scrying with the crystal ball, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this [[Detect Thoughts]] to maintain it during its duration, but it ends if [[Scrying]] ends.
+

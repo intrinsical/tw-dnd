@@ -1,0 +1,38 @@
+xp: 700
+wis: 11
+title: Gold Dragon Wyrmling
+tags: Monster Dragon MM Gold
+str: 19
+speed: 30 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: Perception +4, Stealth +4
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +4, Con +5, Wis +2, Cha +5
+mtype: dragon
+modified: 20210827081956884
+languages: Draconic
+int: 14
+hp: 60
+hitdice: 8d8+24
+dex: 14
+damage_immunity: fire
+created: 20210827081652927
+cr: 3
+condition_immunity: 
+con: 17
+cha: 16
+armor: natural armor
+alignment: lawful good
+ac: 17
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d10+4>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.'' The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in a <<cone 15>>. Each creature in that area must make a <<save Dex 13>> <fail><<fire 4d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Weakening Breath.'' The dragon exhales gas in a <<cone 15>>. Each creature in that area must succeed on a <<save Str 13>> or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+

@@ -1,0 +1,15 @@
+title: Hunter
+tags: Ranger Subclass PHB
+subclass: Hunter
+modified: 20210821131806775
+list: Ranger Hunter
+label: Hunter
+icon: ranger.gif
+created: 20190429092626626
+class: Ranger
+
+Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter’s path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
+
+{{||RangerAdvancementTemplate}}
+{{||ClassAbilityTemplate}}
+

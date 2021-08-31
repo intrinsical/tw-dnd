@@ -1,0 +1,18 @@
+title: Apparatus of the Crab Levers
+tags: [[Apparatus of the Crab]]
+modified: 20210814190534669
+created: 20210813054002352
+
+|max top|k
+| !Lever | !Up | !Down |
+| !1 |Legs and tail extend, allowing the apparatus to walk and swim. |Legs and tail retract, reducing the apparatus’s speed to 0 and making it unable to benefit from bonuses to speed. |
+| !2 |Forward window shutter opens. |Forward window shutter closes. |
+| !3 |Side window shutters open (two per side). |Side window shutters close (two per side). |
+| !4 |Two claws extend from the front sides of the apparatus. |The claws retract. |
+| !5 |Each extended claw makes the following melee weapon attack: <br/><<melee Claw +8>>, <<reach 5>>, one target. <br/>''Hit:'' <<bludgeoning 2d6>>. |Each extended claw makes the following melee weapon attack: <br/><<melee Claw +8>>, <<reach 5>>, one target. <br/>''Hit:'' The target is [[Grappled]] (<<skillcheck Escape 15>>). |
+| !6 |The apparatus walks or swims forward. |The apparatus walks or swims backward. |
+| !7 |The apparatus turns 90 degrees left. |The apparatus turns 90 degrees right. |
+| !8 |Eyelike fixtures emit <<bright 30>> and an additional <<dim 30>>. |The light turns off. |
+| !9 |The apparatus sinks as much as 20 feet in liquid. |The apparatus rises up to 20 feet in liquid. |
+| !10 |The rear hatch unseals and opens. |The rear hatch closes and seals. |
+

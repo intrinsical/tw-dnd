@@ -1,0 +1,37 @@
+title: Trap
+tags: [[Dungeon Master]] [[DM Tool]]
+order: 4
+modified: 20210812025054279
+created: 20190712075306139
+caption: Traps
+
+!! Purpose of a Trap
+
+|^!Alarm |An alarm trap is designed to alert an area’s occupants of intruders. It might cause a bell or a gong to sound. This type of trap rarely involves a saving throw, because the alarm can’t be avoided when the trap goes off. |
+|^!Delay |Some traps are designed to slow down enemies, giving a dungeon’s inhabitants time to mount a defense or flee. The hidden pit is a classic example of this kind of trap. A 10-foot-deep pit usually deals little damage and is easy to escape, but it serves its purpose by impeding intruders. Other examples of delaying traps include collapsing walls, a portcullis that drops from the ceiling, and a locking mechanism that shuts and bars a door. If a delaying trap has moving parts that directly threaten characters when they operate, the characters are usually required to make Dexterity saving throws to avoid harm. |
+|^!Restrain |A restraining trap tries to keep its victims in place, leaving them unable to move. Such traps are often employed in conjunction with regular guard patrols, so that victims are periodically extricated and taken away to be dealt with. But in an ancient dungeon, the guards might be long gone.<br/> Restraining traps usually require a successful Strength saving throw to be avoided, but some don’t allow saving throws. In addition to dealing damage, a restraining trap also renders a creature unable to move. Making a subsequent successful Strength check (using the trap’s saving throw DC) or dealing damage against the trap can break it and free the captive. Examples include a bear trap, a cage that drops from a ceiling, and a device that flings a net. |
+|^!Slay |Some traps are designed to eliminate intruders, plain and simple. Their effects include poisoned needles that spring out when a lock is tampered with, blasts of fire that fill a room, poison gas, and other lethal measures. Saving throws — usually Dexterity or Constitution — allow creatures to avoid or mitigate the trap’s effects. |
+
+!! Elements of a Trap
+
+|^!Level and Threat |^A trap’s level is actually a range of levels, equivalent to one of the tiers of play (levels 1–4, 5–10, 11–16, and 17–20), indicating the appropriate time to use the trap in your campaign. Additionally, each trap poses either a moderate, dangerous, or deadly threat, based on its particular details. |
+|^!Detection |Most traps allow either a Wisdom (Perception) or Intelligence (Investigation) check to detect their triggers or other elements that can tip off their presence. If you stop to ask players for this information, they might suspect a hidden danger. |
+|^!Trigger |^A simple trap activates when an event occurs that triggers it. This entry in a trap’s description gives the location of the trigger and the activity that causes the trap to activate. |
+|^!Effect |A trap’s effect occurs after it activates. The trap might fire a dart, unleash a cloud of poison gas, cause a hidden enclosure to open, and so on. This entry specifies what the trap targets, its attack bonus or saving throw DC, and what happens on a hit or a failed saving throw. |
+|^!Countermeasures |Traps can be detected or defeated in a variety of ways by using ability checks or magic. This entry in a trap’s description gives the means for counteracting the trap. It also specifies what happens, if anything, on a failed attempt to disable it. |
+
+!!! Complex Traps
+
+|^!Initiative |A complex trap takes turns as a creature does, because it functions over a period of time. This part of a trap’s description tells whether the trap is slow (acts on initiative count 10), fast (acts on initiative count 20), or very fast (acts on initiative count 20 and also initiative count 10). A trap always acts after creatures that have the same initiative count. |
+|^!Active Elements |On a trap’s turn, it produces specific effects that are detailed in this part of its description. The trap might have multiple active elements, a table you roll on to determine its effect at random, or options for you to choose from. |
+|^!Dynamic Elements |A dynamic element is a threat that arises or evolves while the trap functions. Usually, changes involving dramatic elements take effect at the end of each of the trap’s turns or in response to the characters’ actions. |
+|^!Constant Elements |A complex trap poses a threat even when it is not taking its turn. The constant elements describe how these parts of the trap function. Most make an attack or force a saving throw against any creature that ends its turn within a certain area. |
+
+<<fold "Trap Save DCs and Attack Bonuses Table">>
+
+<<fold "Trap Damage Severity Table">>
+
+!! Example Traps
+
+<<vtabs "[tag[Trap]sort[]]">>
+

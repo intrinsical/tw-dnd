@@ -1,0 +1,30 @@
+type: 
+title: Sanctuary
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809223025603
+material: (a small silver mirror)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<range 30>>
+glyph_effect: Attempting to harm must <<save Wis $(dc)$>> <fail> must choose another target</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<ba>>
+effect: ''[<<ba>>30'<<time 1m>><<per 1>>]'' //must change target of attack | spell unless <<save Wis {{!!dc}}>>//
+duration: 1 minute
+dc: DC
+created: 20190612151837099
+concentration: No
+components: V, S, M
+classes: [[Cleric]]
+casting_time: 1 Bonus Action
+at_higher_level: 
+
+You ward a creature within range against attack.
+Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
+
+If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.

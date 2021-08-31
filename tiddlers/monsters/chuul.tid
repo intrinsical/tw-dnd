@@ -1,0 +1,40 @@
+xp: 1100
+wis: 11
+title: Chuul
+tags: Monster Aberration
+str: 19
+speed: 30 ft., swim 30 ft.
+source: MM
+skills: Perception +4
+size: Large
+senses: darkvision 60 ft., passive Perception 14
+mtype: aberration
+modified: 20210222122204619
+languages: understands Deep Speech but can’t speak
+int: 5
+hp: 93
+hitdice: 11d10+33
+dex: 10
+damage_immunity: poison
+created: 20210222121733679
+cr: 4
+condition_immunity: poisoned
+con: 16
+cha: 5
+armor: natural armor
+alignment: chaotic evil
+ac: 16
+
+"""
+''Amphibious.'' The chuul can breathe air and water.
+''Sense Magic.'' The chuul senses magic within 120 feet of it at will. This trait otherwise works like the [[Detect Magic]] spell but isn’t itself magical.
+"""
+<<divider>>
+''Multiattack.'' The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pincer +6>>|<<bludgeoning 2d6+4>> |<<reach 10>> |
+|~|The target is [[Grappled]], <<skillcheck Escape 14>>. if it is a Large or smaller creature and the chuul doesn’t have two other creatures grappled. |<|
+| !Tentacles|One creature [[Grappled]] by the chuul must succeed on a <<save Con 13>> or be [[Poisoned]] for <<time 1m>>. Until this poison ends, the target is [[Paralyzed]]. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+

@@ -1,0 +1,35 @@
+xp: 100
+wis: 13
+title: Scout, Monster
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+skills: Nature +4, Perception +5, Stealth +6, Survival +5
+size: Medium
+senses: passive Perception 15
+mtype: humanoid (any race)
+modified: 20210809031356450
+languages: any one language (usually Common)
+int: 11
+hp: 16
+hitdice: 3d8+3
+dex: 14
+created: 20210809031151174
+cr: 1/2
+con: 12
+cha: 11
+caption: Scout
+armor: leather armor
+alignment: any alignment
+ac: 13
+
+"""
+''Keen Hearing and Sight.'' The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+"""
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged Longbow +4>>|<<piercing 1d8+2>> |<<ranged 150/600>> |
+

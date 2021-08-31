@@ -1,0 +1,12 @@
+title: Ring of Animal Influence
+tags: Rare DMG [[Magic Item]] Ring
+modified: 20210814050729674
+item_type: Ring
+created: 20190916022407666
+
+This ring has 3 charges, and it regains <<roll 1d3>> expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:
+
+* [[Animal Friendship]] (<<save "Spell DC" 13>>)
+* [[Fear]] (<<save "Spell DC" 13>>), targeting only beasts that have an Intelligence of 3 or lower
+* [[Speak with Animals]]
+

@@ -1,0 +1,28 @@
+type: 
+title: Find Traps
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809170842371
+level: 2
+glyph_target: <<sphere 120>>
+glyph_range: <<self>>
+glyph_effect: Sense presences of all traps within line of sight
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721083210523
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+You sense the presence of any trap within range that is within line of sight.
+A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.
+
+This spell merely reveals that a trap is present. You don’t learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.

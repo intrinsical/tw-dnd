@@ -1,0 +1,9 @@
+title: Dwarven Thrower
+tags: [[Magic Item]] [[Very Rare]] Attunement DMG Weapon
+modified: 20210814030217588
+item_type: Weapon (warhammer)
+created: 20210205083712521
+attunement: requires attunement by a dwarf
+
+You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with <<range 20/60>>. When you hit with a ranged attack using this weapon, it deals an extra <<damage 1d8>> or, if the target is a giant, <<damage 2d8>>. Immediately after the attack, the weapon flies back to your hand.
+

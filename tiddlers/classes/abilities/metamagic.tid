@@ -1,0 +1,13 @@
+title: Metamagic
+tags: Ability Sorcerer
+modified: 20210822174356055
+level: 3
+created: 20190625041051505
+
+At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+
+You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+
+<$list filter="[tag[Metamagic]sort[]]"><p>{{||Link}}''.'' <$transclude tiddler=<<currentTiddler>> /></p></$list>
+
+

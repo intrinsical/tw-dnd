@@ -1,0 +1,40 @@
+xp: 1,800
+wis: 13
+title: Otyugh
+tags: Monster Aberration
+str: 16
+speed: 30 ft.
+source: PHB
+skills: 
+size: Large
+senses: darkvision 120 ft, passive Perception 11
+saving_throw: Con +7
+mtype: aberration
+modified: 20210213094149575
+languages: Otyugh
+int: 6
+hp: 114
+hitdice: 12d10+48
+dex: 11
+created: 20210213093425553
+cr: 5
+con: 19
+cha: 6
+armor: natural armor
+alignment: neutral
+ac: 14
+
+"""
+''Limited Telepathy.'' The otyugh can magically transmit simple messages and images to any creature within <<range 120>> of it that can understand a language. This form of telepathy doesn’t allow the receiving creature to telepathically respond.
+"""
+[img[divider.png]]
+''Multiattack.'' The otyugh makes three attacks: one with its bite and two with its tentacles.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 2d8+3>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Con 15>> against disease or become [[Poisoned]] until the disease is cured. Every <<time 24h>> that elapse, the target must repeat the saving throw, reducing its hit point maximum <<damage 1d10>> on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target’s hit point maximum lasts until the disease is cured. |<|
+| !<<melee Tentacle +6>>|<<bludgeoning 1d8+3>> + <<piercing 1d8>> |<<reach 10>> |
+|~|If the target is Medium or smaller, it is [[Grappled]], <<save Escape 13>> and [{Restrained]] until the grapple ends. The otyugh has two tentacles, each of which can grapple one target. |<|
+| !Tentacle Slam|The otyugh slams creatures [[Grappled]] by it into each other or a solid surface. Each creature must succeed on a <<save Con 14>> or take <<bludgeoning 2d6+3>> and be [[Stunned]] until the end of the otyugh’s next turn. On a successful save, the target takes <<halved>> and isn’t stunned. |<|
+

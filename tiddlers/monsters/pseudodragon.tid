@@ -1,0 +1,38 @@
+xp: 50
+wis: 12
+title: Pseudodragon
+tags: Monster Dragon
+str: 6
+speed: 15 ft., fly 60 ft.
+source: MM
+skills: Perception +3, Stealth +4
+size: Tiny
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 13
+mtype: dragon
+modified: 20210807115609121
+languages: understands Common and Draconic but can’t speak
+int: 10
+hp: 7
+hitdice: 2d4+2
+dex: 15
+created: 20210807114022061
+cr: 1/4
+con: 13
+cha: 10
+armor: natural armor
+alignment: neutral good
+ac: 13
+
+"""
+''Keen Senses.'' The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.
+''Magic Resistance.'' The pseudodragon has advantage on saving throws against spells and other magical effects.
+''Limited Telepathy.'' The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d4+2>> |<<reach 5>> |
+| !<<melee Sting +4>> |<<piercing 1d4+2>> |<<reach 5>> |
+|~|Target must succeed on a <<save Con 11>> or become [[Poisoned]] for <<time 1h>>. If the saving throw fails by 5 or more, the target falls [[Unconscious]] for the same duration, or until it takes damage or another creature uses an action to shake it awake. |<|
+

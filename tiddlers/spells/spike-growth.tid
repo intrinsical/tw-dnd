@@ -1,0 +1,28 @@
+type: 
+title: Spike Growth
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 150 feet
+modified: 20210809224057804
+material: (seven sharp thorns or seven small twigs, each sharpened to a point)
+level: 2
+glyph_target: <<circle 20>>
+glyph_range: <<range 150>>
+glyph_effect: <<difficult>>. <<piercing 2d4>> every <<range 5>>. <<perception $(dc)$>> to spot
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 10 minutes
+created: 20190627115018104
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.
+
+The transformation of the ground is camouflaged to look natural. Any creature that can’t see the area at the time the spell is case must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.

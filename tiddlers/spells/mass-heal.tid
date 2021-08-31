@@ -1,0 +1,25 @@
+type: 
+title: Mass Heal
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809220208811
+level: 9
+glyph_target: <<per all>>
+glyph_range: <<range 60>>
+glyph_effect: <<heal 700>> determined by caster. Cured of all diseases, [[Blinded]] and [[Deafened]] conditions.
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721140725028
+concentration: No
+components: V, S
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them [[Blinded]] or [[Deafened]]. This spell has no effect on undead or constructs.

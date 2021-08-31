@@ -1,0 +1,37 @@
+xp: 100
+wis: 11
+title: Magmin
+tags: Monster Elemental
+str: 7
+speed: 30 ft.
+source: MM
+size: Small
+senses: darkvision 60 ft., passive Perception 10
+mtype: elemental
+modified: 20210806025025458
+languages: Ignan
+int: 8
+hp: 9
+hitdice: 2d6+2
+dex: 15
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: fire
+created: 20210806024515114
+cr: 1/2
+con: 12
+cha: 10
+armor: natural armor
+alignment: chaotic neutral
+ac: 14
+
+"""
+''Death Burst.'' When the magmin dies, it explodes in a burst of fire and magma. Each creature within <<sphere 10>> must make a <<save Dex 11>>, taking <fail> <<fire 2d6>></fail>, or <pass> <<halved>></pass>. Flammable objects that aren’t being worn or carried in that area are ignited.
+''Ignited Illumination.'' As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds <<bright 10>> and an additional <<dim 10>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Touch +4>>|<<fire 2d6>> |<<reach 5>> |
+|~|If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes <<fire 1d6>> at the end of each of its turns. |<|
+

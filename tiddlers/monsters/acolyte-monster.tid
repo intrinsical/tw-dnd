@@ -1,0 +1,36 @@
+xp: 50
+wis: 14
+title: Acolyte, Monster
+tags: Humanoid Monster
+str: 10
+speed: 30 ft
+source: MM
+skills: Medicine +4, Religion +2
+size: Medium
+senses: passive Perception 12
+mtype: humanoid (any race)
+modified: 20210811064058309
+languages: any one language (usually Common)
+int: 10
+hp: 9
+hitdice: 2d8
+dex: 10
+created: 20190904042819034
+cr: 1/4
+con: 10
+cha: 11
+caption: Acolyte
+alignment: any alignment
+ac: 10
+
+"""
+''Spellcasting.'' The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (<<save "Spell DC" 12>>, <<casted "Spell Attack" +4>>). The acolyte has following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will) :'' [[Light]], [[Sacred Flame]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (3 slots):'' [[Bless]], [[Cure Wounds]], [[Sanctuary]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Club +2>>|<<bludgeoning 1d4>> |<<reach 5>> |
+

@@ -1,0 +1,33 @@
+xp: 1800
+wis: 11
+title: Triceratops
+tags: Monster Beast Dinosaur
+str: 22
+speed: 50 ft.
+source: MM
+size: Huge
+senses: passive Perception 10
+mtype: beast
+modified: 20210223021542005
+languages: &mdash;
+int: 2
+hp: 95
+hitdice: 10d12+30
+dex: 9
+created: 20210223020146718
+cr: 5
+con: 17
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Trampling Charge.'' If the triceratops moves at least 20 feet straight toward a creature and then hits it with a ''gore'' attack on the same turn, that target must succeed on a <<save Str 13>> or be knocked [[Prone]]. If the target is prone, the triceratops can make one ''stomp'' attack against it as a <<ba>>."""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Gore +9>>|<<piercing 4d8+6>> |<<reach 5>> |
+| !<<melee Stomp +9>>|<<bludgeoning 3d10+6>> |<<reach 5>> (''[[Prone]] creature'') |
+

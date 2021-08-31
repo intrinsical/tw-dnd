@@ -1,0 +1,44 @@
+xp: 3900
+wis: 15
+title: Spirit Naga
+tags: Monster Monstrosity
+str: 18
+speed: 40 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 12
+saving_throw: Dex +6, Con +5, Wis +5, Cha +6
+mtype: monstrosity
+modified: 20210806143646500
+languages: Abyssal, Common
+int: 16
+hp: 75
+hitdice: 10d10+20
+dex: 17
+damage_immunity: poison
+created: 20210806143204545
+cr: 8
+condition_immunity: charmed, poisoned
+con: 14
+cha: 16
+armor: natural armor
+alignment: chaotic evil
+ac: 15
+
+"""
+''Rejuvenation.'' If it dies, the naga returns to life in <<time "1d6 days">> and regains all its hit points. Only a [[Wish]] spell can prevent this trait from functioning.
+''Spellcasting.'' The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (<<save "Spell DC" 14>>, <<casted +6>>), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Mage Hand]], [[Minor Illusion]], [[Ray of Frost]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Charm Person]], [[Detect Magic]], [[Sleep]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Detect Thoughts]], [[Hold Person]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Lightning Bolt]], [[Water Breathing]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Blight]], [[Dimension Door]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (2 slots):'' [[Dominate Person]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 1d6+4>> |<<reach 10>> |
+|~|Target must make a <<save Con 13>>, taking <fail><<poison 7d8>></fail>, <pass><<halved>></pass>. |<|
+

@@ -1,0 +1,35 @@
+xp: 450
+wis: 10
+title: Swarm of Poisonous Snakes
+tags: Beast Monster
+str: 8
+speed: 30 ft, swim 30 ft
+source: MM
+size: Medium swarm of Tiny
+senses: blindsight 10 ft, passive Perception 10
+mtype: beast
+modified: 20210810174655461
+languages: &mdash;
+int: 1
+hp: 36
+hitdice: 8d8
+dex: 18
+damage_resistance: bludgeoning, piercing, slashing
+created: 20190805121949445
+cr: 2
+condition_immunity: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+con: 11
+cha: 3
+alignment: unaligned
+ac: 14
+
+"""
+''Swarm.'' The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain hit points or gain temporary hit points.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bites +6>>|<<hp>>: <<piercing 2d6>><br/><<halved>>: <<piercing 1d6>> |<<reach 0>> |
+|~|The target must make a <<save Con 10>>, taking <fail><<poison 4d6>></fail>, or <pass><<halved>></pass>. |<|
+

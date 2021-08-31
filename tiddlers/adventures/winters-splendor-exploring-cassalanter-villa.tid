@@ -1,0 +1,65 @@
+title: Winter's Splendor - Exploring Cassalanter Villa
+tags: [[Winter's Splendor]] [[Section 2.1]]
+order: 2
+modified: 20210825140643582
+created: 20210825131314848
+caption: Exploring Cassalanter Villa
+
+|top|k
+| !Room | !Information |
+|!Entrance Hall |There is nothing to see here, move along. |
+|!Library |<<investigation 18>> turns up a blank <<loot "[[Enduring Spellbook]]">> on one of the grand shelves. |
+|!Reading Room |Victoro’s journal sits on a side table. <br/><<investigation 15>> reveals a scribbled note from Victoro: //&quot;Neverember’s dragons are an answer to our prayers.&quot;// The rest of the journal is fabricated drivel. |
+|!Foyer |There is nothing to find in this room. |
+|!Family Dining Room |There is nothing to find in this room. |
+|!Kitchen |Tiefling servant <<per "Jandar Chergoba">> is here, should the characters want to question him. |
+|More information can be found in [[WDH]] page 118. |<|f
+
+!!!! The Children's Rooms
+
+* Life sized stuffed unicorn stands in one corner.
+* ''2 four-poster beds.''
+** One for each child.
+** At foot of each bed is a large ornate toy chest.
+* ''<<per Terenzio>>'s Toy Chest.'' 
+** Constructed out of a rich mahogany.
+** Stuffed animals (wolf, fox, bear and dragon)
+** Train set
+** Set of dice
+* ''<<per Elzerina>>'s Toy Chest.'' 
+** Shiny white with gold handles.
+** A set of ''pick-up sticks'' in a silk sleeve
+** A set of ''metal jacks'' in a velvet pouch
+** An empty velvet pouch that stores ''marbles'' (which are out on the floor)
+** Two complete sets of wooden ''alphabet blocks''
+** An articulating ''wooden snake''
+** An ornately carved dreidel
+** A beautiful music box in the shape of an egg. 
+*** Inside is a tiny ballerina that looks suspiciously like Elzerina. 
+*** See {{Winter's Splendor - Danse Macabre||Link}}
+** <<per Chernok>> the <<mob Imp>>
+*** Pretending poorly to be a toy nutcracker. 
+*** At first, he lays limp and glassy-eyed, but once the characters notice him, he waggles his tongue and salutes.
+* ''Circular Rug.''
+** Middle of room.
+** Scattered on the rug are ''2 hair barrettes'' and ''7 marbles''.
+** ''DM Info.'' When the second <<mob Imp>> appeared, <<per Elzerina>> panicked and kicked the items out of the way, disrupting the sigil.
+** Barrettes and marbles can be put back in the correct placement, which counts as two of the four required items needed to progress the puzzle.
+** <<history 14>> or <<arcana 14>> or <<per Chernok>> can reveal that:
+*** <<per Elzerina>> has started activating the sigil by placing marbles and hair barrettes at the right positions. 
+*** The sigil can only be closed after it has been fully opened. 
+
+!!!! <<per Chernok>> the <<mob Imp>>
+
+* ''Background.'' Serves <<per Asmodeus>>, also a soldier in <<org "Pipyap's Legion">>
+** <<per Pipyap>> (also spelled Pypyap) was the imp familiar of <<per "Halvin Graingle">>, a member of the <<org "Cult of the Dragon">>.
+** Longtime D&D fans may recognize both Pipyap and Halvin’s names. 
+* ''Physical Appearance.'' Chernok is bedecked in a soldier’s uniform, complete with a soldier’s hat, golden epaulettes, and a hole cut in the back of his tiny trousers to accommodate his tail.
+* ''Personality.'' He is a clever little trickster and eager to socialize. He is not hostile, but us mischievous. He is enjoying his vacation out of the Nine Hells and will do what he can to prolong his stay.
+* ''What He Knows.'' 
+** He happily helps the characters complete the puzzle; he wants his friends to join him on the Material Plane. 
+** <<per Asmodeus>> has forbidden him from outright revealing the solution.
+** He also tells the characters the final part of the puzzle requires them to place the puzzle pieces in the unmarked altar in the <<loc "City of the Dead">>, marked by a statue.<br/>//"Look for the girl with the wings."//
+* <<per Brimtoe>>
+** He laments the <<mob Imp>>'s behavior, but acknowledges that "shiny, radiant things" are very tempting for imps.
+

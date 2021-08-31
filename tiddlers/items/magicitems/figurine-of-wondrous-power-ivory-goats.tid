@@ -1,0 +1,13 @@
+title: Figurine of Wondrous Power, Ivory Goats
+tags: Rare [[Figurine of Wondrous Power]] DMG [[Magic Item]]
+modified: 20210813120847862
+created: 20190725035220366
+
+{{Figurine of Wondrous Power}} 
+
+''Ivory Goats.'' These ivory statuettes of goats are always created in sets of three. Each <<mob Goat>> looks unique and functions differently from the others. Their properties are as follows:
+
+* The ''Goat of Traveling'' can become a Large goat with the same statistics as a riding horse. It has 24 charges , and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until <<time 7d>> have passed , when it regains all its charges.
+* The ''Goat of Travail'' becomes a giant goat for up to <<time 3h>>. Once it has been used, it can't be used again until <<time 30d>> have passed.
+* The ''Goat of Terror'' becomes a giant goat for up to <<time 3h>>. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 Lance, and the other become s a +2 Longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a <<save Wis 15>> or be [[Frightened]] of the goat for <<time 1m>>, or until the goat reverts to figurine form. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next <<time 24h>>. Once the figurine has been used, it can't be used again until <<time 15d>> have passed.
+

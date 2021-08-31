@@ -1,0 +1,36 @@
+xp: 450
+wis: 13
+title: Centaur
+tags: Monster Monstrosity
+str: 18
+speed: 50 ft.
+source: MM
+skills: Athletics +6, Perception +3, Survival +3
+size: Large
+senses: passive Perception 13
+mtype: monstrosity
+modified: 20210222121135189
+languages: Elvish, Sylvan
+int: 9
+hp: 45
+hitdice: 6d10+12
+dex: 14
+created: 20210222120322486
+cr: 2
+con: 14
+cha: 11
+alignment: neutral good
+ac: 12
+
+"""
+''Charge.'' If the centaur moves at least 30 feet straight toward a target and then hits it with a ''pike'' attack on the same turn, the target takes an extra <<piercing 3d6>>.
+"""
+<<divider>>
+''Multiattack.'' The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pike +6>>|<<piercing 1d10+4>> |<<reach 10>> |
+| !<<melee Hooves +6>>|<<bludgeoning 2d6+4>> |<<reach 5>> |
+| !<<ranged +4>>|<<piercing 1d8+2>> |<<range 150/600>> |
+

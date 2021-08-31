@@ -1,0 +1,17 @@
+title: Bag of Tricks, Rust
+tags: Uncommon DMG [[Magic Item]] [[Bag of Tricks]]
+modified: 20210813065716922
+created: 20190629161446488
+
+{{Bag of Tricks}}
+
+| !d8 | !Creature | !CR |
+| !1 |<<mob Rat>> | {{Rat!!cr}} |
+| !2 |<<mob Owl>> | {{Owl!!cr}} |
+| !3 |<<mob Mastiff>> | {{Mastiff!!cr}} |
+| !4 |<<mob Goat>> | {{Goat!!cr}} |
+| !5 |<<mob "Giant Goat">> | {{Giant Goat!!cr}} |
+| !6 |<<mob "Giant Boar">> | {{Giant Boar!!cr}} |
+| !7 |<<mob Lion>> | {{Lion!!cr}} |
+| !8 |<<mob "Brown Bear">> | {{Brown Bear!!cr}} |
+

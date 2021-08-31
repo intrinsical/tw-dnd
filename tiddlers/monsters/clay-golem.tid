@@ -1,0 +1,42 @@
+xp: 5,000
+wis: 8
+title: Clay Golem
+tags: Monster Construct
+str: 20
+speed: 20 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 9
+mtype: construct
+modified: 20210329031217294
+languages: understands the languages of its creator but can’t speak
+int: 3 
+hp: 133
+hitdice: 14d10+56
+dex: 9
+damage_immunity: acid, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
+created: 20210329022417151
+cr: 9
+condition_immunity: charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+con: 18
+cha: 1
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+"""
+''Acid Absorption.'' Whenever the golem is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt.
+''Berserk.'' Whenever the golem starts its turn with 60 hit points or fewer, roll a <<roll 1d6>>. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.
+''Immutable Form.'' The golem is immune to any spell or effect that would alter its form.
+''Magic Resistance.'' The golem has advantage on saving throws against spells and other magical effects.
+''Magic Weapons.'' The golem’s weapon attacks are magical.
+"""
+<<divider>>
+''Multiattack.'' The golem makes two slam attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +8>>|<<bludgeoning 2d10+5>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a M<<save Con 15>> or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the [[Greater Restoration]] spell or other magic. |<|
+| !Haste|''Recharge 5–6''<br/>Until the end of its next turn, the golem magically gains a <<ac +2>>, has <<save Dex "<span class=icon-advantage/>">>, and can use its slam attack as a <<ba>>. |<|
+

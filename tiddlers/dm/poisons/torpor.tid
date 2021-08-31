@@ -1,0 +1,12 @@
+title: Torpor
+tags: Poison Ingested
+modified: 20210812033820311
+created: 20210812033719283
+
+"""
+''Price per Dose:'' 600 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 15>> or become [[Poisoned]] for <<roll 4d6>> hours. 
+** The [[Poisoned]] creature is [[Incapacitated]].
+

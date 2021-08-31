@@ -1,0 +1,33 @@
+xp: 700
+wis: 11
+title: Veteran
+tags: Humanoid Monster
+str: 16
+speed: 30 ft
+source: MM
+skills: Athletics +5, Perception +2
+size: Medium
+senses: passive Perception 12
+mtype: humanoid (any race)
+modified: 20210809050950520
+languages: any one language (usually Common)
+int: 10
+hp: 59
+hitdice: 9d8+18
+dex: 13
+created: 20210809050722065
+cr: 3
+con: 14
+cha: 10
+armor: splint
+alignment: any alignment
+ac: 17
+
+''Multiattack.'' The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +5>>|<<slashing 1d8+3>><br/><<slashing 1d10+3>> |<<reach 5>> |
+| !<<melee Shortsword +5>>|<<piercing 1d6+3>> |<<reach 5>> |
+| !<<ranged "Heavy Crossbow" +3>>|<<piercing 1d10+1>> |<<range 100/400>> |
+

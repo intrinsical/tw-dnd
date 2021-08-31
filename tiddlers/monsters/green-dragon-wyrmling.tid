@@ -1,0 +1,38 @@
+xp: 450
+wis: 11
+title: Green Dragon Wyrmling
+tags: Monster Dragon MM Green
+str: 15
+speed: 30 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: Perception +4, Stealth +3
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +3, Con +3, Wis +2, Cha +3
+mtype: dragon
+modified: 20210827021637153
+languages: Draconic
+int: 14
+hp: 38
+hitdice: 7d8+7
+dex: 12
+damage_immunity: poison
+created: 20210827021327220
+cr: 2
+condition_immunity: poisoned
+con: 13
+cha: 13
+armor: natural armor
+alignment: lawful evil
+ac: 17
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>>+<<poison 1d6>> |<<reach 5>> |
+| !Poison Breath|''Recharge 5–6.''<br/>The dragon exhales poisonous gas in a <<cone 15>>. Each creature in that area must make a <<save Con 11>> <fail><<poison 6d6>></fail> <pass><<halved>></pass>. |<|
+

@@ -1,0 +1,11 @@
+title: Fighter Fighting Style
+tags: Ability Fighter
+modified: 20210820093715424
+level: 1
+created: 20190408062748171
+caption: Fighting Style
+
+You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+<$list filter="[tag[Fighting Style]tag[Fighter]sort[]]"><p>{{||Link}}''.'' <$transclude tiddler=<<currentTiddler>>/></p></$list>
+

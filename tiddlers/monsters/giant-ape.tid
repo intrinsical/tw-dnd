@@ -1,0 +1,31 @@
+xp: 2900
+wis: 12
+title: Giant Ape
+tags: Beast Monster
+str: 23
+speed: 40 ft, climb 40 ft
+source: MM
+skills: Athletics +9, Perception +4
+size: Huge
+senses: passive Perception 14
+mtype: beast
+modified: 20210810074038975
+languages: &mdash;
+int: 7
+hp: 157
+hitdice: 15d12+60
+dex: 14
+created: 20190813021020935
+cr: 7
+con: 18
+cha: 7
+alignment: unaligned
+ac: 12
+
+''Multiattack.'' The ape makes two fist attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Fist +9>>|<<bludgeoning 3d10+6>> |<<reach 10>> |
+| !<<ranged Rock +9>>|<<bludgeoning 7d6+6>> |<<range 50/100>> |
+

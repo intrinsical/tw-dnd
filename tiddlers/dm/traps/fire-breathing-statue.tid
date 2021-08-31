@@ -1,0 +1,18 @@
+title: Fire-Breathing Statue
+tags: Trap
+modified: 20210811144238182
+created: 20210811143720398
+
+"""
+''Magic Trap''
+"""
+This trap is activated when an intruder steps on a hidden pressure plate, releasing a magical gout of flame from a nearby statue. The statue can be of anything, including a dragon or a wizard casting a spell.
+
+|max top|k
+|!Detection #1 |<<perception 15>> to spot the pressure plate, as well as faint scorch marks on the floor and walls. |
+|!Detection #2 |Spell or other effect that sense the presence of magic, such as [[Detect Magic]], reveals an aura of evocation magic around the statue. |
+|!Trigger |20 or more pounds of weight is placed on the pressure plate. |
+|!Effect |Statue releases a <<cone 30>> of fire. Each creature <<save Dex 13>>, taking <fail><<fire 4d10>></fail>, or <pass><<halved>></pass> |
+|!Countermeasure #1 |Wedge an iron spike or other object under the pressure plate. |
+|!Countermeasure #2 |A successful [[Dispel Magic]] <<skillcheck "Dispel DC" 13>> on the statue destroys the trap. |
+

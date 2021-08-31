@@ -1,0 +1,34 @@
+xp: 100
+wis: 10
+title: Hobgoblin
+tags: Humanoid Monster
+str: 13
+speed: 30 ft
+source: MM
+size: Medium
+senses: darkvision 60 ft, passive Perception 10
+mtype: humanoid (goblinoid)
+modified: 20210330085449112
+languages: Common, Goblin
+int: 10
+hp: 11
+hitdice: 2d8+2
+dex: 12
+created: 20191107030130147
+cr: 1/2
+con: 12
+cha: 9
+armor: chain mail, shield
+alignment: lawful evil
+ac: 18
+
+"""
+''Martial Advantage.'' Once per turn, the hobgoblin can deal an extra <<damage 2d6>> to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't [[Incapacitated]].
+"""
+[img[divider.png]]
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Longsword +3>>|<<slashing 1d8+1>><br/><<slashing 1d10+1>> (''two handed'') |<<reach 5>> |
+|^ !<<ranged Longbow +3>>|<<piercing 1d8+1>> |<<range 150/600>> |
+

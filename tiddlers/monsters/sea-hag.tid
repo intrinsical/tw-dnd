@@ -1,0 +1,38 @@
+xp: 450
+wis: 12
+title: Sea Hag
+tags: Monster Fey
+str: 16
+speed: 30 ft., swim 40 ft.
+source: MM
+skills: 
+size: Medium
+senses: darkvision 60 ft., passive Perception 11
+mtype: fey
+modified: 20210330025202960
+languages: Aquan, Common, Giant
+int: 12
+hp: 52
+hitdice: 7d8+21
+dex: 13
+created: 20210330024651793
+cr: 2
+con: 16
+cha: 13
+armor: natural armor
+alignment: chaotic evil
+ac: 14
+
+"""
+''Amphibious.'' The hag can breathe air and water.
+''Horrific Appearance.'' Any humanoid that starts its turn within 30 feet of the hag and can see the hag’s true form must make a <<save Wis 30>>. On a failed save, the creature is [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, with <<disadvantage>> if the hag is within line of sight, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Horrific Appearance for the next <<time 24h>>.
+Unless the target is surprised or the revelation of the hag’s true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has <<disadvantage>> on attack rolls against the hag.
+"""
+{{Hag Shared Spellcasting}}
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+| !Death Glare|The hag targets one [[Frightened]] creature she can see within <<range 30>> of her. If the target can see the hag, it must succeed on a <<save Wis 11>> against this magic or drop to <<hp 0>>. |<|
+| !Illusory Appearance|The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a <<ba>> to end it or if she dies.<br/>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an <<action>> to visually inspect the illusion and succeed on a <<inveistigation 16>> to discern that the hag is disguised. |<|

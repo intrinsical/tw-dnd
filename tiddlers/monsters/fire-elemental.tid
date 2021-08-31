@@ -1,0 +1,39 @@
+xp: 1,800
+wis: 10
+title: Fire Elemental
+tags: Elemental Monster
+str: 10
+speed: 50 ft
+source: MM
+size: Large
+senses: darkvision 60 ft, passive Perception 10
+mtype: elemental
+modified: 20210223172127230
+languages: Ignan
+int: 6
+hp: 102
+hitdice: 12d10+36
+dex: 17
+damage_resistance: bludgeoning, piercing and slashing from nonmagical weapons
+damage_immunity: fire, poison
+created: 20191027074452142
+cr: 5
+condition_immunity: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+con: 16
+cha: 7
+alignment: neutral
+ac: 13
+
+"""
+''Fire Form.'' The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while with in 5 feet of it takes <<fire 1d10>>. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes <<fire 1d10>> and catches fire; until someone takes an action to douse the fire, the creature takes <<fire 1d10>> at the start of each of its turns.
+''Illumination.'' The elemental sheds <<bright>> in a <<range 30>> radius and <<dim>> in another <<range 30>>.
+''Water Susceptibility.'' For every 5 feet the elemental moves in water, or for every gallon of water splashed on it, it takes <<cold 1>>.
+"""
+<<divider>>
+''Multiattack.'' The elemental makes two touch attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Touch +6>>|<<fire 2d6+3>> |<<reach 5>> |
+|~|If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes <<fire 1d10>> at the start of each of its turns. |<|
+

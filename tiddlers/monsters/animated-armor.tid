@@ -1,0 +1,38 @@
+xp: 200
+wis: 3
+title: Animated Armor
+tags: Monster Construct
+str: 14
+speed: 25 ft.
+source: MM
+size: Medium
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 6
+saving_throw: 
+mtype: construct
+modified: 20210213153620932
+languages: &mdash;
+int: 1
+hp: 33
+hitdice: 6d8+6
+dex: 11
+damage_immunity: poison, psychic
+created: 20210213153326747
+cr: 1
+condition_immunity: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+con: 13
+cha: 1
+armor: natural armor
+alignment: unaligned
+ac: 18
+
+"""
+''Antimagic Susceptibility.'' The armor is incapacitated while in the area of an antimagic field. If targeted by [[Dispel Magic]], the armor must succeed on a <<save Con>> vs the caster’s spell save DC or fall unconscious for <<time 1m>>.
+''False Appearance.'' While the armor remains motionless, it is indistinguishable from a normal suit of armor.
+"""
+[img[divider.png]]
+Multiattack. The armor makes two melee attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +4>>|<<bludgeoning 1d6+2>> |<<reach 5>> |
+

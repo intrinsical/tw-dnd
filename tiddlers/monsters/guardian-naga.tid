@@ -1,0 +1,47 @@
+xp: 5900
+wis: 19
+title: Guardian Naga
+tags: Monster Monstrosity
+str: 19
+speed: 40 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 14
+saving_throw: Dex +8, Con +7, Int +7, Wis +8, Cha +8
+mtype: monstrosity
+modified: 20210806125736799
+languages: Celestial, Common
+int: 16
+hp: 127
+hitdice: 15d10+45
+dex: 18
+damage_immunity: poison
+created: 20210806124742525
+cr: 10
+condition_immunity: charmed, poisoned
+con: 16
+cha: 18
+armor: natural armor
+alignment: lawful good
+ac: 18
+
+"""
+''Rejuvenation.'' If it dies, the naga returns to life in <<time "1d6 days">> and regains all its hit points. Only a [[Wish]] spell can prevent this trait from functioning.
+''Spellcasting.'' The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (<<save "Spell DC" 16>>, <<casted +8>>), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Mending]], [[Sacred Flame]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Command]], [[Cure Wounds]], [[Shield of Faith]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Calm Emotions]], [[Hold Person]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Bestow Curse]], [[Clairvoyance]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Banishment]], [[Freedom of Movement]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (2 slots):'' [[Flame Strike]], [[Geas]]
+&nbsp;&nbsp;&nbsp;&nbsp;''6th level (1 slot):'' [[True Seeing]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +8>>|<<piercing 1d8+4>> |<<reach 10>> |
+|~|Target must make a <<save Con 15>>, taking <fail><<poison 10d8>></fail>, <pass><<halved>></pass>. |<|
+| !<<ranged "Spit Poison" +8>>|&mdash; |<<range 15/30>> |
+|~|The target must make a <<save Con 15>>, taking <fail><<poison 10d8>></fail>, <pass><<halved>></pass>. |<|
+

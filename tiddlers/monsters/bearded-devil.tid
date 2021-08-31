@@ -1,0 +1,43 @@
+xp: 700
+wis: 11
+title: Bearded Devil
+tags: Fiend Monster Devil
+str: 16
+speed: 30 ft.
+source: MM
+size: Medium
+senses: darkvision 120 ft, passive Perception 10
+saving_throw: Str +5, Con +4, Wis +2
+mtype: fiend (devil)
+modified: 20210222191537696
+languages: Infernal, telepathy 120 ft
+int: 9
+hp: 52
+hitdice: 8d8+16
+dex: 15
+damage_resistance: cold; bludgeoning, piercing and slashing from nonmagical weapons that aren't silvered
+damage_immunity: fire, poison
+created: 20200128140943590
+cr: 3
+condition_immunity: poisoned
+con: 15
+cha: 11
+armor: natural armor
+alignment: lawful evil
+ac: 13
+
+"""
+''Devil's Sight.'' Magical darkness doesn't impede the devil's darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+''Steadfast.'' The devil can't be [[Frightened]] while it can see an allied creature within 30 feet of it.
+"""
+<<divider>>
+''Multiattack.'' The devil makes two attacks: one with its beard and one with its glaive.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beard +5>>|<<piercing 1d8+2>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 12>> or be [[Poisoned]] for <<time 1m>>. While [[Poisoned]] in this way, the target can't regain <<hp>>. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !<<melee Glaive +5>>|<<slashing 1d10+3>> |<<reach 10>> |
+|~|If the target is a creature other than an undead or a construct, it must succeed on a <<save Con 12>> or lose <<damage 1d10>> at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by <<damage 1d10>>. Any creature can take an action to stanch the wound with a successful <<medicine 12>>. The wound also closes if the target receives magical healing. |<|
+

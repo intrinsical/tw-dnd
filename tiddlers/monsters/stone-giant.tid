@@ -1,0 +1,40 @@
+xp: 2,900
+wis: 12
+title: Stone Giant
+tags: Giant Monster
+str: 23
+speed: 40 ft
+source: MM
+skills: Athletics +12, Perception +4
+size: Huge
+senses: darkvision 60 ft., passive Perception 14
+saving_throw: Dex +5, Con +8, Wis +4
+mtype: giant
+modified: 20210328103919571
+languages: Giant
+int: 10
+hp: 126
+hitdice: 11d12+55
+dex: 15
+created: 20210328062013443
+cr: 7
+con: 20
+cha: 9
+armor: natural armor
+alignment: neutral
+ac: 17
+
+"""
+''Stone Camouflage.'' The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+"""
+<<divider>>
+''Multiattack.'' The giant makes two greatclub attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatclub +9>>|<<bludgeoning 3d8+6>> |<<reach 15>> |
+| !<<ranged Rock +9>>|<<bludgeoning 4d10+6>> |<<range 60/240>> |
+|~|If the target is a creature, it must succeed on a <<save Str 17>> or be knocked [[Prone]]. |<|
+| !<<reaction>> Reactions |<|<|
+|!Rock Catching |If a rock or similar object is hurled at the giant, the giant can, with a successful <<save Dex 10>>, catch the missile and take no bludgeoning damage from it. |<|
+

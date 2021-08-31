@@ -1,0 +1,38 @@
+xp: 450
+wis: 3
+title: Rug of Smothering
+tags: Monster Construct
+str: 17
+speed: 10 ft.
+source: MM
+size: Large
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 6
+mtype: construct
+modified: 20210213172743343
+languages: &mdash;
+int: 1
+hp: 33
+hitdice: 6d10
+dex: 14
+damage_immunity: poison, psychic
+created: 20210213172345833
+cr: 2
+condition_immunity: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
+con: 10
+cha: 1
+alignment: unaligned
+ac: 12
+
+"""
+''Antimagic Susceptibility.'' The rug is [[Incapacitated]] while in the area of an antimagic field. If targeted by [[Dispel Magic]], the rug must succeed on a <<save Con>> against the caster’s spell save DC or fall unconscious for <<time 1m>>.
+''Damage Transfer.'' While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature [[Grappled]] by the rug takes the other half.
+''False Appearance.'' While the rug remains motionless, it is indistinguishable from a normal rug.
+"""
+[img[divider.png]]
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Smother +5>>| &mdash; |<<reach 5>> |
+|~|''On Hit:'' The creature is [[Grappled]], <<save Escape 13>>. Until this grapple ends, the target is [[Restrained]], [[Blinded]], and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes <<bludgeoning 2d6+3>>. |<|
+
+

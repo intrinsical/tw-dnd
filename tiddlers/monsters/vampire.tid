@@ -1,0 +1,63 @@
+xp: 10000
+wis: 15
+title: Vampire
+tags: Monster Undead
+str: 18
+speed: 30 ft.
+source: MM
+skills: Perception +7, Stealth +9
+size: Medium
+senses: darkvision 120 ft., passive Perception 17
+saving_throw: Dex +9, Wis +7, Cha +9
+mtype: undead (shapechanger)
+modified: 20210808142416702
+languages: the languages it knew in life
+int: 17
+hp: 144
+hitdice: 17d8+68
+dex: 18
+damage_resistance: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210808140513688
+cr: 13
+con: 18
+cha: 18
+armor: natural armor
+alignment: lawful evil
+ac: 16
+
+"""
+''Shapechanger.'' If the vampire isn’t in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.
+
+While in bat form, the vampire can’t speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.
+
+While in mist form, the vampire can’t take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature’s space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can’t pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.
+''Legendary Resistance (3/Day).'' If the vampire fails a saving throw, it can choose to succeed instead.
+''Misty Escape.'' When it drops to <<hp 0>> outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn’t in sunlight or running water. If it can’t transform, it is destroyed.
+
+While it has <<hp 0>> in mist form, it can’t revert to its vampire form, and it must reach its resting place within <<time 2h>> or be destroyed. Once in its resting place, it reverts to its vampire form. It is then [[Paralyzed]] until it regains at least <<hp 1>>. After spending <<time 1h>> in its resting place with <<hp 0>>, it regains <<heal 1>>.
+''Regeneration.'' The vampire regains <<heal 20>> at the start of its turn if it has at least <<hp 1>> and isn’t in sunlight or running water. If the vampire takes <<radiant radiant>> or damage from holy water, this trait doesn’t function at the start of the vampire’s next turn.
+''Spider Climb.'' The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+''Vampire Weaknesses.'' The vampire has the following flaws:
+&nbsp;&nbsp;&nbsp;&nbsp;//Forbiddance.// The vampire can’t enter a residence without an invitation from one of the occupants.
+&nbsp;&nbsp;&nbsp;&nbsp;//Harmed by Running Water.// The vampire takes <<acid 20>> if it ends its turn in running water.
+&nbsp;&nbsp;&nbsp;&nbsp;//Stake to the Heart.// If a piercing weapon made of wood is driven into the vampire’s heart while the vampire is [[Incapacitated]] in its resting place, the vampire is [[Paralyzed]] until the stake is removed.
+''Sunlight Hypersensitivity.'' The vampire takes <<radiant 20>> when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+"""
+<<fold "Vampire Warriors, Variant">>
+<<fold "Vampire Spellcasters, Variant">>
+<<divider>>
+''Multiattack (Vampire Form Only).'' The vampire makes two attacks, only one of which can be a bite attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Unarmed Strike" +9>>|<<bludgeoning 1d8+4>> |<<reach 5>> |
+|~|''Vampire Form Only.''<br/>Instead of dealing damage, the vampire can grapple the target (<<skillcheck Escape 18>>). |<|
+| !<<melee Bite +9>>|<<piercing 1d6+4>> + <<necrotic 3d6>> |<<reach 5>><br/><<per>> [[Grappled]] by the vampire, [[Incapacitated]] or [[Restrained]] |
+|~|The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire’s control. |<|
+| !Charm|The vampire targets one humanoid it can see within <<range 30>> of it. If the target can see the vampire, the target must succeed on a <<save Wis 17>> against this magic or be charmed by the vampire. The [[Charmed]] target regards the vampire as a trusted friend to be heeded and protected. Although the target isn’t under the vampire’s control, it takes the vampire’s requests or actions in the most favorable way it can, and it is a willing target for the vampire’s bite attack.<br/>&nbsp;<br/>Each time the vampire or the vampire’s companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts <<time 24h>> or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect. |<|
+| !Children of the Night|''1/Day.''<br/>The vampire magically calls <<roll 2d4>> swarms of bats or rats, provided that the sun isn’t up. While outdoors, the vampire can call <<roll 3d6>> wolves instead. The called creatures arrive in <<roll "1d4 rounds">>, acting as allies of the vampire and obeying its spoken commands. The beasts remain for <<time 1h>>, until the vampire dies, or until the vampire dismisses them as a bonus action. |<|
+| !<<action>> Legendary Actions (3/round) |<|<|
+| !Move|The vampire moves up to its speed without provoking opportunity attacks. |<|
+| !Unarmed Strike|The vampire makes one unarmed strike. |<|
+| !Bite|''Costs 2 Actions.''<br/>The vampire makes one bite attack. |<|
+

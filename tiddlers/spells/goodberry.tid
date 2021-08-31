@@ -1,0 +1,27 @@
+type: 
+title: Goodberry
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809171732074
+material: (a sprig of mistletoe)
+level: 1
+glyph_target: hand
+glyph_range: <<touch>>
+glyph_effect: Create 10 berries. <action> eat 1 berry and <<heal 1>></action>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190613015520355
+concentration: No
+components: V, S, M
+classes: [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.
+The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.

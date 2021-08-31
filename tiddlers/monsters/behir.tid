@@ -1,0 +1,36 @@
+xp: 7,200
+wis: 14
+title: Behir
+tags: Monster Monstrosity
+str: 23
+speed: 50 ft., climb 40 ft.
+source: MM
+skills: Perception +6, Stealth +7
+size: Huge
+senses: darkvision 90 ft., passive Perception 16
+mtype: monstrosity
+modified: 20210222121554738
+languages: Draonic
+int: 7
+hp: 168
+hitdice: 16d12+64
+dex: 16
+damage_immunity: lightning
+created: 20210214031627469
+cr: 11
+con: 18
+cha: 12
+armor: natural armor
+alignment: neutral evil
+ac: 17
+
+''Multiattack.'' The behir makes two attacks: one with its bite and one to constrict.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +10>>|<<piercing 3d10+6>> |<<reach 10>> |
+| !<<melee Constrict +10>>|<<bludgeoning 2d10+6>> + <<slashing 2d10+6>> |<<reach 5>> |
+|~|The target is [[Grappled]], <<save Escape 16>> if the behir isn’t already constricting a creature, and the target is restrained until this grapple ends. |<|
+| !Lightning Breath|''Recharge on 5–6''<br/>The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a <<save Dex 16>>, taking <<lightning 12d10>> on a failed save, or <<halved>> on a successful one. |<|
+| !Swallow|The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the behir, and it takes <<acid 6d6>> damage at the start of each of the behir’s turns. A behir can have only one creature swallowed at a time.<br/>&nbsp;<br/>If the behir takes <<damage "&ge;30">>  on a single turn from the swallowed creature, the behir must succeed on a <<save Con 14>> at the end of that turn or regurgitate the creature, which falls [[Prone]] in a space within <<range 10>> of the behir. If the behir dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse by using 15 feet of movement, exiting [[Prone]]. |<|
+

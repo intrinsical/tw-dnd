@@ -1,0 +1,35 @@
+xp: 25
+wis: 10
+title: Mule
+tags: Beast Monster
+str: 14
+speed: 40 ft
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 10
+mtype: beast
+modified: 20210810162707789
+languages: &mdash;
+int: 2
+hp: 11
+hitdice: 2d8+2
+dex: 10
+created: 20210810162535029
+cr: 1/8
+con: 13
+cha: 5
+armor: 
+alignment: unaligned
+ac: 12
+
+"""
+''Beast of Burden.'' The mule is considered to be a Large animal for the purpose of determining its carrying capacity.
+''Sure-Footed.'' The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it [[Prone]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +2>>|<<bludgeoning 1d4+2>> |<<reach 5>> |
+

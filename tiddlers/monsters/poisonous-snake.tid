@@ -1,0 +1,30 @@
+xp: 25
+wis: 10
+title: Poisonous Snake
+tags: Monster Beast
+str: 2
+speed: 30 ft., swim 30 ft.
+source: MM
+skills: 
+size: Tiny
+senses: blindsight 10 ft., passive Perception 10
+mtype: beast
+modified: 20210810164247969
+languages: &mdash;
+int: 1
+hp: 2
+hitdice: 1d4
+dex: 16
+created: 20210810164008536
+cr: 1/8
+con: 11
+cha: 3
+armor: 
+alignment: unaligned
+ac: 13
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d>> |<<reach 5>> |
+|~|The target must make a <<save Con 10>>, taking <fail><<poison 2d4>></fail>, or <pass><<halved>></pass>. |<|
+

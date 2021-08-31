@@ -1,0 +1,47 @@
+xp: 15000
+wis: 13
+title: Adult Silver Dragon
+tags: Monster Dragon MM Silver
+str: 27
+speed: 40 ft., fly 80 ft.
+source: MM
+skills: Arcana +8, History +8, Perception +11, Stealth +5
+size: Huge
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 21
+saving_throw: Dex +5, Con +12, Wis +6, Cha +10
+mtype: dragon
+modified: 20210827091714818
+languages: Common, Draconic
+int: 16
+hp: 243
+hitdice: 18d12+126
+dex: 10
+damage_immunity: cold
+created: 20210827091337578
+cr: 16
+condition_immunity: 
+con: 25
+cha: 21
+armor: natural armor
+alignment: lawful good
+ac: 19
+
+"""
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Silver Dragon Lair Action">><<fold "Silver Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +13>>|<<piercing 2d10+8>> |<<reach 10>> |
+| !<<melee Claw +13>>|<<slashing 2d6+8>> |<<reach 5>> |
+| !<<melee Tail +13>>|<<bludgeoning 2d8+8>> |<<reach 15>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 18>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Cold Breath.'' The dragon exhales an icy blast in a <<cone 60>>. Each creature in that area must make a <<save Con 20>> <fail><<cold 13d8>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Paralyzing Breath.'' The dragon exhales paralyzing gas in a <<cone 60>>. Each creature in that area must succeed on a <<save Con 20>> <fail>[[Paralyzed]] for <<time 1m>></fail>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 10>> of the dragon must succeed on a <<save Dex 21>> or take <<bludgeoning 2d6+8>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

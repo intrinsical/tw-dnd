@@ -1,0 +1,12 @@
+title: Oathbow
+tags: [[Magic Item]] [[Very Rare]] Attunement DMG Weapon
+modified: 20210814030100681
+item_type: Weapon (longbow)
+created: 20210205085021592
+
+When you nock an arrow on this bow, it whispers in Elvish, “Swift defeat to my enemies.” When you use this weapon to make a ranged attack, you can, as a command phrase, say, “Swift death to you who have wronged me.” The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.
+
+When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than [[Total Cover]], and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra <<piercing 3d6>>.
+
+While your sworn enemy lives, you have disadvantage on attack rolls with all other weapons.
+

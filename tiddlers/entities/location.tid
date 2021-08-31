@@ -1,0 +1,9 @@
+title: Location
+tags: Entity
+modified: 20210825130308411
+icon: loc.gif
+created: 20210810010359735
+caption: Locations
+
+<<list-icons "[tag[Location]sort[]]" "0 locations found.">>
+

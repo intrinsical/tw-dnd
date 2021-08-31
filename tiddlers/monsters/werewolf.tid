@@ -1,0 +1,41 @@
+xp: 700
+wis: 11
+title: Werewolf
+tags: Monster Humanoid
+str: 15
+speed: 30 ft. (40 ft. in wolf form)
+source: MM
+skills: Perception +4, Stealth +3
+size: Medium
+senses: passive Perception 14
+saving_throw: 
+mtype: humanoid (human, shapechanger)
+modified: 20210806024258825
+languages: Common (can’t speak in wolf form)
+int: 10
+hp: 58
+hitdice: 9d8+18
+dex: 13
+damage_immunity: bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered
+created: 20210806023823940
+cr: 3
+con: 14
+cha: 10
+armor: in humanoid form, 12 (natural armor) in wolf or hybrid form
+alignment: neutral
+ac: 11
+
+"""
+''Shapechanger.'' The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Keen Hearing and Smell.'' The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+"""
+<<divider>>
+''Multiattack (Humanoid or Hybrid Form Only).'' The werewolf makes two attacks: two with its spear (humanoid form) or one with its bite and one with its claws (hybrid form).
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>><br/>''Wolf or Hybrid Form Only''|<<piercing 1d8+2>> |<<reach 5>> |
+|~|If the target is a humanoid, it must succeed on a <<save Con 12>> or be cursed with werewolf [[Lycanthropy]]. |<|
+| !<<melee Claws +5>><br/>''Wolf or Hybrid Form Only''|<<slashing 2d4+2>> |<<reach 5>> |
+| !<<ranged Spear +4>><br/>''Humanoid or Hybrid Form Only''|<<piercing 1d6+2>><br/><<piercing 1d8+2>> (''Two-handed'') |<<reach 5>><br/><<range 20/60>> |
+

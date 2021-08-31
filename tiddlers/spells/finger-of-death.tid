@@ -1,0 +1,22 @@
+type: 
+title: Finger of Death
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809170916514
+level: 7
+effect: 
+duration: Instantaneous
+created: 20190108195648481
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You send negative energy coursing through a creature that you can see within range, causing it searing pain.  The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
+
+A humanoid killed by this spell rises at the start of your next turn as a [[Zombie]] that is permanently under your command, following your verbal orders to the best of its ability.

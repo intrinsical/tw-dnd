@@ -1,0 +1,14 @@
+title: Diseased Giant Rats, Variant
+tags: [[Giant Rat]] Variant
+modified: 20210810090913314
+created: 20210810090721134
+caption: Variant: Diseased Giant Rats
+
+Some giant rats carry vile diseases that they spread with their bites. A diseased giant rat has a challenge rating of 1/8 (25 XP) and the following action instead of its normal bite attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d4+2>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Con 10>> or contract a disease. Until the disease is cured, the target can’t regain hit points except by magical means, and the target’s hit point maximum decreases by <<damage 1d6>> every <<time 24h>>. If the target’s hit point maximum drops to 0 as a result of this disease, the target dies. |<|
+
+

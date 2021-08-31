@@ -1,0 +1,42 @@
+xp: 10000
+wis: 16
+title: Rakshasa
+tags: Monster Fiend
+str: 14
+speed: 40 ft.
+source: MM
+skills: Deception +10, Insight +8
+size: Medium
+senses: darkvision 60 ft., passive Perception 13
+mtype: fiend
+modified: 20210807125408311
+languages: Common, Infernal
+int: 13
+hp: 110
+hitdice: 13d8+52
+dex: 17
+damage_vulnerability: piercing from magic weapons wielded by good creatures
+damage_immunity: bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210807124628367
+cr: 13
+con: 18
+cha: 20
+armor: natural armor
+alignment: lawful evil
+ac: 16
+
+"""
+''Limited Magic Immunity.'' The rakshasa can’t be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.
+''Innate Spellcasting.'' The rakshasa’s innate spellcasting ability is Charisma (<<save "Spell DC" 18>>, <<casted +10>>). The rakshasa can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Thoughts]], [[Disguise Self]], [[Mage Hand]], [[Minor Illusion]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3/day each:'' [[Charm Person]], [[Detect Magic]], [[Invisibility]], [[Major Image]], [[Suggestion]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Dominate Person]], [[Fly]], [[Plane Shift]], [[True Seeing]]
+"""
+<<divider>>
+''Multiattack.'' The rakshasa makes two claw attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +7>>|<<slashing 2d6+2>> |<<reach 5>> |
+|~|The target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target’s thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a [[Remove Curse]] spell or similar magic. |<|
+

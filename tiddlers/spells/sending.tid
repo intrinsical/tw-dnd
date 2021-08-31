@@ -1,0 +1,28 @@
+type: 
+title: Sending
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: Unlimited
+modified: 20210809223204284
+material: (a short piece of fine copper wire)
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<range &#8734;>>
+glyph_effect: Send 25-word message
+glyph_duration: <<round 1>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 round
+created: 20190612152614363
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, regonizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
+
+You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn’t arrive.

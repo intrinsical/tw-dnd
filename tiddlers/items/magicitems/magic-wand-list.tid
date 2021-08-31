@@ -1,0 +1,9 @@
+title: Magic Wand List
+tags: Category [[Magic Item]]
+order: 6
+modified: 20210825060810810
+created: 20210815054208407
+caption: Magic Wands
+
+<<list-box "[tag[Magic Item]tag[Wand]sort[]]" "No magical wands found.">>
+

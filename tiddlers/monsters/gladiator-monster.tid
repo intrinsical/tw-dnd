@@ -1,0 +1,42 @@
+xp: 1800
+wis: 12
+title: Gladiator, Monster
+tags: Humanoid Monster
+str: 18
+speed: 30 ft
+source: MM
+skills: Athletics +10, Intimidation +5
+size: Medium
+senses: passive Perception 11
+saving_throw: Str +7, Dex +5, Con +6
+mtype: humanoid (any race)
+modified: 20210809030854382
+languages: any one language (usually Common)
+int: 10
+hp: 112
+hitdice: 15d8+45
+dex: 15
+created: 20210809023450987
+cr: 5
+con: 16
+cha: 15
+caption: Gladiator
+armor: studded leather, shield
+alignment: any alignment
+ac: 16
+
+"""
+''Brave.'' The gladiator has advantage on saving throws against being [[Frightened]].
+''Brute.'' A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).
+"""
+<<divider>>
+''Multiattack.'' The gladiator makes three melee attacks or two ranged attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Spear +7>>|<<piercing 2d6+4>><br/><<piercing 2d8+4>> (''Two-handed'') |<<reach 5>><br/><<range 20/60>> |
+| !<<melee "Shield Bash" +7>>|<<bludgeoning 2d4+4>> |<<reach 5>> |
+|~|If the target is a Medium or smaller creature, it must succeed on a <<save Str 15>> or be knocked [[Prone]]. |<|
+| !<<reaction>> Reactions |<|<|
+| !Parry|The gladiator adds <<ac +3>> against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon. |<|
+

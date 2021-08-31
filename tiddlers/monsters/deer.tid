@@ -1,0 +1,28 @@
+xp: 10
+wis: 14
+title: Deer
+tags: Monster Beast
+str: 11
+speed: 50 ft.
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 12
+mtype: beast
+modified: 20210810053737949
+languages: &mdash;
+int: 2
+hp: 4
+hitdice: 1d8
+dex: 16
+created: 20210810053403275
+cr: 0
+con: 11
+cha: 5
+alignment: unaligned
+ac: 13
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +2>>|<<piercing 1d4>> |<<reach 5>> |
+

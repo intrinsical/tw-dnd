@@ -1,0 +1,29 @@
+xp: 50
+wis: 11
+title: Riding Horse
+tags: Beast Monster
+str: 16
+speed: 60 ft
+source: MM
+skills: 
+size: Large
+senses: passive Perception 10
+mtype: beast
+modified: 20210810172212785
+languages: &mdash;
+int: 2
+hp: 13
+hitdice: 2d10+2
+dex: 10
+created: 20210810172105197
+cr: 1/4
+con: 12
+cha: 7
+armor: 
+alignment: unaligned
+ac: 10
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +5>>|<<bludgeoning 2d4+3>> |<<reach 5>> |
+

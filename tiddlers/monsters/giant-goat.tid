@@ -1,0 +1,35 @@
+xp: 100
+wis: 12
+title: Giant Goat
+tags: Beast Monster
+str: 17
+speed: 40 ft.
+source: MM
+skills: 
+size: Large
+senses: passive Perception 11
+mtype: beast
+modified: 20210810083359007
+languages: &mdash;
+int: 3
+hp: 19
+hitdice: 3d10+3
+dex: 11
+created: 20210810083154025
+cr: 1/2
+con: 12
+cha: 6
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+"""
+''Charge.'' If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra <<bludgeoning 2d4>>. If the target is a creature, it must succeed on a <<save Str 13>> or be knocked prone.
+''Sure-Footed.'' The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it [[Prone]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Ram +5>>|<<bludgeoning 2d4+3>> |<<reach 5>> |
+

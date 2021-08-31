@@ -1,0 +1,20 @@
+type: 
+title: Heal
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809172213440
+level: 6
+effect: 
+duration: Instantaneous
+created: 20190721134100915
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Druid]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using aspell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.
+
+Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. The spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.&nbsp;

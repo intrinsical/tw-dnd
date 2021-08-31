@@ -1,0 +1,38 @@
+xp: 1800
+wis: 14
+title: Wraith
+tags: Monster Undead
+str: 6
+speed: 0 ft., fly 60 ft. (hover)
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 12
+mtype: undead
+modified: 20210808150033349
+languages: the languages it knew in life
+int: 12
+hp: 67
+hitdice: 9d8+27
+dex: 16
+damage_resistance: acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: necrotic, poison
+created: 20210808145642023
+cr: 5
+condition_immunity: charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+con: 16
+cha: 15
+alignment: neutral evil
+ac: 13
+
+"""
+''Incorporeal Movement.'' The wraith can move through other creatures and objects as if they were <<difficult>> terrain. It takes <<force 1d10>> if it ends its turn inside an object.
+''Sunlight Sensitivity.'' While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Life Drain" +6>>|<<necrotic 4d8+3>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 14>> or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. |<|
+| !Create Specter|The wraith targets a humanoid within <<range 10>> of it that has been dead for no longer than <<time 1m>> and died violently. The target’s spirit rises as a <<mob Specter>> in the space of its corpse or in the nearest unoccupied space. The <<mob Specter>> is under the wraith’s control. The wraith can have no more than seven specters under its control at one time. |<|
+

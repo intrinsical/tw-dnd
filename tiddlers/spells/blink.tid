@@ -1,0 +1,29 @@
+type: 
+title: Blink
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Self
+modified: 20210809164312836
+level: 3
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: <<roll 1d20>> at end of turn. ''&ge;11.'' move to Ethereal Plane.
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190721084443515
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Etheral Plane (the spell fails and the casting is wasted if you were already on that plane). 
+
+At the start of you next turn, and when the spell ends if you are on the Etheral Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that rang, you appear in the nearest unoccupied space (chosen at random if more that one space is equally near). You can dismiss this spell as an action. 
+
+While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can’t see anything more than 60 feet away.You can only affect and be affected by other reatures on the Ethereal Plane. Creature that aren’t there can’t perceive you or interact with you, unless they have the ability to do so.

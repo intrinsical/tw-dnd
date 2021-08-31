@@ -1,0 +1,21 @@
+title: Locking Pit
+tags: Trap
+modified: 20210811150201961
+created: 20210811145900711
+
+"""
+''Mechanical Trap''
+"""
+This pit trap is identical to a [[Hidden Pit]] trap, with one key exception: the trap door that covers the pit is spring-loaded. After a creature falls into the pit, the cover snaps shut to trap its victim inside.
+
+|max top|k
+|!Detection |<<perception 15>> to discern an absence of foot traffic over the section of floor that forms the pit's cover.<br/>A successful <<investigation 15>> is necessary to confirm that the trapped section of floor is actually the cover of a pit. |
+|!Trigger |Stepping on the cover. |
+|!Effect |Cover swings open like a trapdoor, causing target to spill into the pit below. Target takes falling damage based on the pit's depth. |
+|!Countermeasure #1 |Wedging an iron spike or similar item between the pit's cover and the floor in such a way that prevent the cover from opening,. |
+|!Countermeasure #2 |Cover can be magically held shut using [[Arcane Lock]] or similar spell. |
+
+* ''Opening the cover from pit.''
+** <<skillcheck Str 20>> to pry open the cover.
+** <<thievestools 15>> to disable spring mechanism, provided target can see and reach the mechanism.
+

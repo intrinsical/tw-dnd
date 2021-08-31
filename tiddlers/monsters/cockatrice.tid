@@ -1,0 +1,28 @@
+xp: 100
+wis: 13
+title: Cockatrice
+tags: Monster Monstrosity
+str: 6
+speed: 20 ft., fly 40 ft.
+source: MM
+size: Small
+senses: darkvision 60 ft., passive Perception 11
+mtype: monstrosity
+modified: 20210222123249025
+languages: &mdash;
+int: 2
+hp: 27
+hitdice: 6d6+6
+dex: 12
+created: 20210222123022548
+cr: 1/2
+con: 12
+cha: 5
+alignment: unaligned
+ac: 11
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d4+1>> |<<reach 5>> |
+|~|Target must succeed on a <,save Con 11>> against being magically [[Petrified]]. On a failed save, the creature begins to turn to stone and is [[Restrained]]. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is [[Petrified]] for <<time 24h>>. |<|
+

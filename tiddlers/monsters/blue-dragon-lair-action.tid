@@ -1,0 +1,12 @@
+title: Blue Dragon Lair Action
+tags: Dragon [[Lair Action]] Blue MM
+modified: 20210827015225535
+created: 20210827014046301
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row:
+
+* ''Part of the ceiling collapses'' above one creature that the dragon can see within 120 feet of it. The creature must succeed on a <<save Dex 15>> or take <<bludgeoning 3d6>> and be knocked [[Prone]] and buried. The buried target is [[Restrained]] and unable to breathe or stand up. A creature can take an action to make a <<skillcheck Str 10>>, ending the buried state on a success.
+* ''A cloud of sand'' swirls about in a <<sphere 20>> centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a <<save Con 15>> <fail>[[Blinded]] for <<time 1m>></fail>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+* ''Lightning arcs'', forming a 5-foot-wide line between two of the lair’s solid surfaces that the dragon can see. They must be within 120 feet of the dragon and 120 feet of each other. Each creature in that line must succeed on a <<save Dex 15>> <fail><<lightning 3d6>></fail>.
+

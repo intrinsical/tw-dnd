@@ -1,0 +1,33 @@
+xp: 450
+wis: 10
+title: White Dragon Wyrmling
+tags: Monster Dragon MM White
+str: 14
+speed: 30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +4, Wis +2, Cha +2
+mtype: dragon
+modified: 20210827052332357
+languages: Draconic
+int: 5
+hp: 32
+hitdice: 5d8+10
+dex: 10
+damage_immunity: cold
+created: 20210827052117594
+cr: 2
+condition_immunity: 
+con: 14
+cha: 11
+armor: natural armor
+alignment: chaotic evil
+ac: 16
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>>+<<cold 1d4>> |<<reach 5>> |
+| !Cold Breath|''Recharge 5–6.''<br/>The dragon exhales an icy blast of hail in a <<cone 15>>. Each creature in that area must make a <<save Con 12>> <fail><<cold 5d8>></fail> <pass><<halved>></pass>. |<|
+

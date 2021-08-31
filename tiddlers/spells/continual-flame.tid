@@ -1,0 +1,27 @@
+type: 
+title: Continual Flame
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: Touch
+modified: 20210809165220905
+material: (ruby dust worth 50 gp, which the spell consumes)
+level: 2
+glyph_target: <<loot 1>>
+glyph_range: <<touch>>
+glyph_effect: Acts as torch <<bright 20>> + <<dim 20>>
+glyph_duration: Until dispelled
+glyph_casting_time: <<action>>
+effect: 
+duration: Until dispelled
+created: 20190612152252454
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+A flame, equivalent in brightness to a torch, springs forth from an object that you touch. 
+The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched.

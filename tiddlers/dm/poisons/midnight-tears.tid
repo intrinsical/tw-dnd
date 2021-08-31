@@ -1,0 +1,14 @@
+title: Midnight Tears
+tags: Poison Ingested
+modified: 20210812032849015
+created: 20210812031034288
+
+"""
+''Price per Dose:'' 1,500 gp
+"""
+
+* A creature that ingests this poison suffers no effect until the stroke of midnight. 
+* If the poison has not been neutralized before then, the creature must succeed on a <<save Con 17>>
+** <fail><<poison 9d6>></fail>
+** <pass><<halved>></pass>
+

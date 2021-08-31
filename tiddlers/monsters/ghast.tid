@@ -1,0 +1,40 @@
+xp: 450
+wis: 10
+title: Ghast
+tags: Monster Undead
+str: 16
+speed: 30 ft.
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 10
+mtype: undead
+modified: 20210224174104041
+languages: Common
+int: 11
+hp: 36
+hitdice: 8d8
+dex: 17
+damage_resistance: necrotic
+damage_immunity: poison
+created: 20210224173750035
+cr: 2
+condition_immunity: charmed, exhaustion, poisoned
+con: 10
+cha: 8
+armor: 
+alignment: chaotic evil
+ac: 13
+
+"""
+''Stench.'' Any creature that starts its turn within <<range 5>> of the ghast must succeed on a <<save Con 10>> or be [[Poisoned]] until the start of its next turn. On a successful saving throw, the creature is immune to the ghast’s Stench for <<time 24h>>.
+''Turning Defiance.'' The ghast and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 2d8+3>> |<<reach 5>> |
+| !<<melee Claws +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+|~|If the target is a creature other than an undead, it must succeed on a <<save Con 10>> or be [[Paralyzed]] for <<time 1m>>. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+
+

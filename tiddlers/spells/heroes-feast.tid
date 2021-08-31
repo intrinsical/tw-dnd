@@ -1,0 +1,23 @@
+type: 
+title: Heroes' Feast
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809172357683
+material: (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)
+level: 6
+effect: 
+duration: Instantaneous
+created: 20190103203613893
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Druid]]
+casting_time: 10 Minutes
+at_higher_level: 
+
+You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast.
+
+A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.

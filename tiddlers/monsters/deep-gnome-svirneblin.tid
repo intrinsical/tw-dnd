@@ -1,0 +1,41 @@
+xp: 100
+wis: 10
+title: Deep Gnome (Svirneblin)
+tags: Monster Humanoid
+str: 15
+speed: 20 ft.
+source: MM
+skills: Investigation +3, Perception +2, Stealth +4
+size: Small
+senses: darkvision 120 ft., passive Perception 12
+mtype: humanoid (gnome)
+modified: 20210329021842685
+languages: Gnomish, Terran, Undercommon
+int: 12
+hp: 16
+hitdice: 3d6+6
+dex: 14
+created: 20210329021203454
+cr: 1/2
+con: 14
+cha: 9
+armor: chain shirt
+alignment: neutral good
+ac: 15
+
+"""
+''Stone Camouflage.'' The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+''Gnome Cunning.'' The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
+''Innate Spellcasting.'' The gnome’s innate spellcasting ability is Intelligence (<<save "Spell DC" 11>>). It can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Nondetection]] (self only)
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Blindness/Deafness]], [[Blur]], [[Disguise Self]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "War Pick" +4>>|<<piercing 1d8+2>> |<<reach 5>> |
+| !<<ranged "Poisoned Dart" +4>>|<<piercing 1d4+2>> |<<range 30/120>> |
+|~|Target must succeed on a <<save Con 12>> or be [[Poisoned]] for <<time 1m>>. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+
+

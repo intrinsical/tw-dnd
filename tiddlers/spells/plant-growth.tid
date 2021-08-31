@@ -1,0 +1,31 @@
+type: 
+title: Plant Growth
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 150 feet
+modified: 20210809222232913
+level: 3
+glyph_target: <<circle 100>>/<<circle "&frac12; mile">>
+glyph_range: <<range 150>>
+glyph_effect: <<action>> Moving 1 ft requires 4 ft movement speed. <<time 8h>> Plants are enriched for <<time 1y>>, yield double food when harvested.
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>/<<time 8h>>
+effect: 
+duration: Instantaneous
+created: 20190721094428350
+concentration: No
+components: V, S
+classes: [[Bard]] [[Druid]] [[Ranger]]
+casting_time: Special
+at_higher_level: 
+
+This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.
+
+If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.
+
+You can exclude one or more areas of any size within the spell’s area from being affected.
+
+If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.

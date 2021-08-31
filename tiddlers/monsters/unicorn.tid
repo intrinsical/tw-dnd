@@ -1,0 +1,47 @@
+xp: 1800
+wis: 17
+title: Unicorn
+tags: Monster Celestial
+str: 18
+speed: 50 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 13
+mtype: celestial
+modified: 20210808052815840
+languages: Celestial, Elvish, Sylvan, telepathy 60 ft.
+int: 11
+hp: 67
+hitdice: 9d10+18
+dex: 14
+damage_immunity: poison
+created: 20210808052056065
+cr: 5
+condition_immunity: charmed, paralyzed, poisoned
+con: 15
+cha: 16
+alignment: lawful good
+ac: 12
+
+"""
+''Charge.'' If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra <<piercing 2d8>>. If the target is a creature, it must succeed on a <<save Str 15>> or be knocked [[Prone]].
+''Innate Spellcasting.'' The unicorn’s innate spellcasting ability is Charisma (<<save "Spell DC" 14>>). The unicorn can innately cast the following spells, requiring no components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Evil and Good]], [[Druidcraft]], [[Pass Without Trace]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Calm Emotions]], [[Dispel Evil and Good]], [[Entangle]]
+''Magic Resistance.'' The unicorn has advantage on saving throws against spells and other magical effects.
+''Magic Weapons.'' The unicorn’s weapon attacks are magical.
+"""
+<<divider>>
+''Multiattack.'' The unicorn makes two attacks: one with its hooves and one with its horn.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +7>>|<<bludgeoning 2d6+4>> |<<reach 5>> |
+| !<<melee Horn +7>>|<<piercing 1d8+4>> |<<reach 5>> |
+| !Healing Touch|''3/Day.''<br/>The unicorn touches another creature with its horn. The target magically regains <<heal 2d8+2>>. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target. |<|
+| !Teleport|''1/Day.''<br/>The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Hooves|The unicorn makes one attack with its hooves. |<|
+| !Shimmering Shield|''Costs 2 Actions.''<br/>The unicorn creates a shimmering, magical field around itself or another creature it can see within <<range 60>>. The target gains a <<ac +2>> until the end of the unicorn’s next turn. |<|
+| !Heal Self|''Costs 3 Actions.''<br/>The unicorn magically regains <<heal 2d8+2>>. |<|
+

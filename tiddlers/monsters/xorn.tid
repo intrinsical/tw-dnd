@@ -1,0 +1,39 @@
+xp: 1800
+wis: 10
+title: Xorn
+tags: Monster Elemental
+str: 17
+speed: 20 ft., burrow 20 ft.
+source: MM
+skills: Perception +6, Stealth +3
+size: Medium
+senses: darkvision 60 ft., tremorsense 60 ft., passive Perception 16
+mtype: elemental
+modified: 20210808152358767
+languages: Terran
+int: 11
+hp: 73
+hitdice: 7d8+42
+dex: 10
+damage_resistance: piercing and slashing from nonmagical attacks that aren’t adamantine
+created: 20210808151327851
+cr: 5
+con: 22
+cha: 11
+armor: natural armor
+alignment: neutral
+ac: 19
+
+"""
+''Earth Glide.'' The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn’t disturb the material it moves through.
+''Stone Camouflage.'' The xorn has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+''Treasure Sense.'' The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it.
+"""
+<<divider>>
+''Multiattack.'' The xorn makes three claw attacks and one bite attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +6>>|<<slashing 1d6+3>> |<<reach 5>> |
+| !<<melee Bite +6>>|<<piercing 3d6+3>> |<<reach 5>> |
+

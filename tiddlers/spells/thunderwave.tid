@@ -1,0 +1,28 @@
+type: 
+title: Thunderwave
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: Self (15-foot cube)
+modified: 20210809230206397
+level: 1
+glyph_target: <<cube 15>>
+glyph_range: <<self>>
+glyph_effect: <<save Con $(dc)$>> <fail> <<thunder 2d8>>, pushed 10' away</fail> <pass> <<halved>></pass>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721075847874
+concentration: No
+components: V, S
+classes: [[Bard]] [[Druid]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+A wave of thunderous force sweeps out from you.
+Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn’t pushed.
+
+In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell’s effect, and the spell emits a thunderous boom audible out to 300 feet.

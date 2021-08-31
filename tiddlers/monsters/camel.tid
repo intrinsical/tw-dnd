@@ -1,0 +1,27 @@
+xp: 25
+wis: 8
+title: Camel
+tags: Monster Beast
+str: 16
+speed: 50 ft.
+source: MM
+size: Large
+senses: passive Perception 9
+mtype: beast
+modified: 20210810051403046
+languages: &mdash;
+int: 2
+hp: 15
+hitdice: 2d10+4
+dex: 8
+created: 20210810051228862
+cr: 1/8
+con: 14
+cha: 5
+alignment: unaligned
+ac: 9
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<bludgeoning 1d4>> |<<reach 5>> |
+

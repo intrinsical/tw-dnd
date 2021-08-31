@@ -1,0 +1,33 @@
+xp: 10
+wis: 3
+title: Shrieker
+tags: Monster Plant
+str: 1
+speed: 0 ft.
+source: MM
+size: Medium
+senses: blindsight 30 ft. (blind beyond this radius), passive Perception 6
+mtype: plant
+modified: 20210224132025820
+languages: &mdash;
+int: 1
+hp: 13
+hitdice: 3d8
+dex: 1
+created: 20210224131619987
+cr: 0
+condition_immunity: blinded, deafened, frightened
+con: 10
+cha: 1
+alignment: unaligned
+ac: 5
+
+"""
+''False Appearance.'' While the shrieker remains motionless, it is indistinguishable from an ordinary fungus.
+"""
+<<divider>>
+
+|max top|k
+| !<<reaction>> Reactions |<|<|
+| !Shriek|When bright light or a creature is within <<range 30>> of the shrieker, it emits a shriek audible within <<range 300>> of it. The shrieker continues to shriek until the disturbance moves out of range and for <<roll 1d4>> of the shrieker’s turns afterward. |<|
+

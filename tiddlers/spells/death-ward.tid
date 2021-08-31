@@ -1,0 +1,21 @@
+type: 
+title: Death Ward
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809165804185
+level: 4
+effect: 
+duration: 8 hours
+created: 20190721095719335
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Paladin]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a creature and grant it a measure of protection from death. 
+The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends.

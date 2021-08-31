@@ -1,0 +1,8 @@
+title: Potion of Invisibilty
+tags: Potion DMG [[Very Rare]] [[Magic Item]]
+modified: 20210814052822727
+item_type: Potion
+created: 20210814035812403
+
+This potion’s container looks empty but feels as though it holds liquid. When you drink it, you become [[Invisible]] for <<time 1h>>. Anything you wear or carry is [[Invisible]] with you. The effect ends early if you attack or cast a spell.
+

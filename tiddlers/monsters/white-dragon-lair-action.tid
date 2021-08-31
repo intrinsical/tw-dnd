@@ -1,0 +1,12 @@
+title: White Dragon Lair Action
+tags: Dragon [[Lair Action]] MM White
+modified: 20210827052745618
+created: 20210827052352070
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row:
+
+* ''Freezing fog'' fills a <<sphere 20>> centered on a point the dragon can see within 120 feet of it. The fog spreads around corners, and its area is [[Heavily Obscured]]. Each creature in the fog when it appears must make a <<save Con 10>> <fail><<cold 3d6>></fail> <pass><<halved>></pass>. A creature that ends its turn in the fog takes <<cold 3d6>>. A wind of at least 20 miles per hour disperses the fog. The fog otherwise lasts until the dragon uses this lair action again or until the dragon dies.
+* ''Jagged ice shards'' fall from the ceiling, striking up to three creatures underneath that the dragon can see within 120 feet of it. The dragon makes one <<ranged "Ice Shard" +7>> attack roll against each target. On a hit, the target takes <<piercing 3d6>>.
+* The dragon creates ''an opaque wall of ice'' on a solid surface it can see within 120 feet of it. The wall can be up to <<wall "30' long, 30' high, 1' thick">>. When the wall appears, each creature within its area is pushed 5 feet out of the wall’s space, appearing on whichever side of the wall it wants. Each 10-foot section of the wall has <<ac 5>> <<hp 30>>, vulnerability to <<fire fire>>, and immunity to <<acid acid>>, <<cold cold>>, <<necrotic necrotic>>, <<poison poison>>, and <<psychic psychic>>. The wall disappears when the dragon uses this lair action again or when the dragon dies.
+

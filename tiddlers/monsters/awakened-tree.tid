@@ -1,0 +1,36 @@
+xp: 450
+wis: 10
+title: Awakened Tree
+tags: Monster Plant
+str: 19
+speed: 20 ft
+source: MM
+skills: 
+size: Huge
+senses: passive Perception 10
+mtype: plant
+modified: 20210810045515601
+languages: one language known by its creator
+int: 10
+hp: 59
+hitdice: 7d12+14
+dex: 6
+damage_vulnerability: fire
+damage_resistance: bludgeoning, piercing
+created: 20210810045354570
+cr: 2
+con: 15
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''False Appearance.'' While the tree remains motionless, it is indistinguishable from a normal tree.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +6>>|<<bludgeoning 3d6+4>> |<<reach 5>> |
+

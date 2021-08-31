@@ -1,0 +1,33 @@
+xp: 25
+wis: 12
+title: Giant Weasel
+tags: Monster Beast
+str: 11
+speed: 40 ft
+source: MM
+skills: Perception +3, Stealth +5
+size: Medium
+senses: darkvision 60 ft, passive Perception 13
+mtype: beast
+modified: 20210810112801605
+languages: &mdash;
+int: 4
+hp: 9
+hitdice: 2d8
+dex: 16
+created: 20190701120932824
+cr: 1/8
+con: 10
+cha: 5
+alignment: unaligned
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d4+3>> |<<reach 5>> |
+

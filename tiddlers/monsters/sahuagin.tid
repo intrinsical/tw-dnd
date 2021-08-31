@@ -1,0 +1,39 @@
+xp: 100
+wis: 13
+title: Sahuagin
+tags: Monster Humanoid
+str: 13
+speed: 30 ft., swim 40 ft.
+source: MM
+skills: Perception +5
+size: Medium
+senses: darkvision 120 ft., passive Perception 15
+mtype: humanoid (sahuagin)
+modified: 20210808053313917
+languages: Sahuagin
+int: 12
+hp: 22
+hitdice: 4d8+4
+dex: 11
+created: 20210808052853169
+cr: 1/2
+con: 12
+cha: 9
+armor: natural armor
+alignment: lawful evil
+ac: 12
+
+"""
+''Blood Frenzy.'' The sahuagin has advantage on melee attack rolls against any creature that doesn’t have all its hit points.
+''Limited Amphibiousness.'' The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
+''Shark Telepathy.'' The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
+"""
+<<divider>>
+''Multiattack.'' The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d4+1>> |<<reach 5>> |
+| !<<melee Claws +3>>|<<slashing 1d4+1>> |<<reach 5>> |
+| !<<ranged Spear +3>>|<<piercing 1d6+1>><br/><<piercing 1d8+1>> (''Two-handed'') |<<reach 5>><br/><<range 20/60>> |
+

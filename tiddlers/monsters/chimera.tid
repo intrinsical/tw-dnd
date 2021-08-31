@@ -1,0 +1,34 @@
+xp: 2300
+wis: 14
+title: Chimera
+tags: Monster Monstrosity
+str: 19
+speed: 30 ft., fly 60 ft.
+source: MM
+skills: Perception +8
+size: Large
+senses: darkvision 60 ft., passive Perception 18
+mtype: monstrosity
+modified: 20210222121124372
+languages: understands Draconic but can’t speak
+int: 3
+hp: 114
+hitdice: 12d10+48
+dex: 11
+created: 20210222120700451
+cr: 6
+con: 19
+cha: 10
+armor: natural armor
+alignment: chaotic evil
+ac: 14
+
+''Multiattack.'' The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d6+4>> |<<reach 5>> |
+| !<<melee Horns +7>>|<<bludgeoning 1d12+4>> |<<reach 5>> |
+| !<<melee Claws +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Fire Breath|''Recharge on 5–6''<br/>The dragon head exhales fire in a <<cone 15>>. Each creature in that area must make a <<save Dex 15>>, taking <<fire 7d8>> on a failed save, or <<halved>> on a successful one. |<|
+

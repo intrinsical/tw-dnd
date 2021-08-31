@@ -1,0 +1,12 @@
+title: Truth Serum
+tags: Poison Ingested
+modified: 20210812034022202
+created: 20210812033929367
+
+"""
+''Price per Dose:'' 150 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 11>> or become [[Poisoned]] for <<time 1h>>. 
+** The [[Poisoned]] creature can’t knowingly speak a lie, as if under the effect of a [[Zone of Truth]] spell.
+

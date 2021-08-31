@@ -1,0 +1,26 @@
+type: 
+title: Tongues
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Touch
+modified: 20210809230221075
+material: (a small clay model of a ziggurat)
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Understand any spoken language. Listener who speaks at least 1 language understands <<target>>.
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190612153332497
+concentration: No
+components: V, M
+classes: [[Bard]] [[Cleric]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.

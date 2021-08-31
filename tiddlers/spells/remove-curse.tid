@@ -1,0 +1,25 @@
+type: 
+title: Remove Curse
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809222804312
+level: 3
+glyph_target: <<per 1>>/<<loot 1>>
+glyph_range: <<touch>>
+glyph_effect: Remove all curses on <<target>> / Breaks attunement to cursed object.
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721094414454
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Paladin]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.

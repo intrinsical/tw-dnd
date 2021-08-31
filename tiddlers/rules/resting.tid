@@ -1,0 +1,13 @@
+title: Resting
+tags: Environment Rule
+order: 6
+modified: 20210824015458929
+created: 20210824015011527
+
+Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration, social interaction, and combat. They need rest&mdash;time to sleep and eat, tend their wounds, refresh their minds and spirits for spellcasting, and brace themselves for further adventure.
+
+Adventurers can take short rests in the midst of an adventuring day and a long rest to end the day.
+
+<<include "Short Rest">>
+<<include "Long Rest">>
+

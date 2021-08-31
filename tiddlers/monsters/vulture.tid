@@ -1,0 +1,34 @@
+xp: 10
+wis: 12
+title: Vulture
+tags: Beast Monster
+str: 7
+speed: 10 ft., fly 50 ft.
+source: MM
+skills: Perception +3
+size: Medium
+senses: passive Perception 13
+mtype: beast
+modified: 20210810175439173
+languages: &mdash;
+int: 2
+hp: 5
+hitdice: 1d8+1
+dex: 10
+created: 20210810175307423
+cr: 0
+con: 13
+cha: 4
+alignment: unaligned
+ac: 10
+
+"""
+''Keen Sight and Smell.'' The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.
+''Pack Tactics.'' The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 feet of the creature and the ally isn’t [[Incapacitated]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +2>>|<<piercing 1d4>> |<<reach 5>> |
+

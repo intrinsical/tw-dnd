@@ -1,0 +1,48 @@
+xp: 41000
+wis: 17
+title: Ancient Green Dragon
+tags: Monster Dragon Green MM
+str: 27
+speed: 40 ft, fly 80 ft, swim 40 ft
+source: MM
+skills: Deception +11, Insight +10, Perception +17, Persuasion +11, Stealth +8
+size: Gargantuan
+senses: blindsight 60 ft, darkvision 120 ft, passive Perception 27
+saving_throw: Dex +8, Con +14, Wis +10, Cha +11
+mtype: dragon
+modified: 20210827032814234
+languages: Common, Draconic
+int: 20
+hp: 385
+hitdice: 22d20+154
+dex: 12
+damage_immunity: poison
+created: 20190827065421667
+cr: 22
+condition_immunity: poisoned
+con: 25
+cha: 19
+armor: natural armor
+alignment: lawful evil
+ac: 21
+
+"""
+''Amphibious.'' The dragon can breath air and water.
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its ''Frightful Presence''. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Green Dragon Lair Action">><<fold "Green Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|!<<melee Bite +15>> |<<piercing 2d10+8>> + <<poison 3d6>> |<<reach 15>> |
+|!<<melee Claw +15>> |<<slashing 4d6+8>> |<<reach 10>> |
+|!<<melee Tail +15>> |<<bludgeoning 2d8+8>> |<<reach 20>> |
+|^!Frightful Presence |Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a <<save Wis 19>> saving throw or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours. |<|
+|^!Poison Breath<br/>(Recharge 5-6) |The dragon exhales poisonous gas in a <<cone 90>>. Each creature in that area must make a <<save Con 22>> <fail><<poison 22d6>></fail> <pass><<halved>></pass>. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+|!Tail Attack |The dragon makes a tail attack. |<|
+|!Wing Attack<br/>(Costs 2 Actions) |The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a <<save Dex 23>> saving throw or take <<bludgeoning 2d6+8>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

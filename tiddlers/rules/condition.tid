@@ -1,0 +1,25 @@
+title: Condition
+tags: Table Rule Combat
+order: 7
+modified: 20210812062100904
+created: 20190529210052892
+caption: Conditions
+
+|max top|k
+| !Condition | !Effect |
+|![[Blinded]] |<$transclude tiddler=Blinded mode=block/> |
+|![[Charmed]] |<$transclude tiddler=Charmed mode=block /> |
+|![[Deafened]] |<$transclude tiddler=Deafened mode=block /> |
+|![[Exhaustion]] |<$transclude tiddler=Exhaustion mode=block /> |
+|![[Frightened]] |<$transclude tiddler=Frightened mode=block /> |
+|![[Grappled]] |<$transclude tiddler=Grappled mode=block /> |
+|![[Incapacitated]] |<$transclude tiddler=Incapacitated mode=block /> |
+|![[Invisible]] |<$transclude tiddler=Invisible mode=block /> |
+|![[Paralyzed]] |<$transclude tiddler=Paralyzed mode=block /> |
+|![[Petrified]] |<$transclude tiddler=Petrified mode=block /> |
+|![[Poisoned]] |<$transclude tiddler=Poisoned mode=block /> |
+|![[Prone]] |<$transclude tiddler=Prone mode=block /> |
+|![[Restrained]] |<$transclude tiddler=Restrained mode=block /> |
+|![[Stunned]] |<$transclude tiddler=Stunned mode=block /> |
+|![[Unconscious]] |<$transclude tiddler=Unconscious mode=block /> |
+

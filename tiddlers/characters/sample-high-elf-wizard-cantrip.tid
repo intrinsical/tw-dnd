@@ -1,0 +1,9 @@
+title: Sample High Elf Wizard Cantrip
+tags: [[Sample High Elf Wizard Spellbook]]
+order: 0
+modified: 20210815065510946
+created: 20210815065202589
+caption: Cantrips
+
+<<spelltable "[[Acid Splash]] [[Fire Bolt]] [[Ray of Frost]] [[Shocking Grasp]]">>
+

@@ -1,0 +1,33 @@
+xp: 10
+wis: 12
+title: Bat
+tags: Beast Monster
+str: 2
+speed: 5 ft, fly 30 ft
+source: MM
+size: Tiny
+senses: blindsight 60 ft, passive Perception 11
+mtype: beast
+modified: 20210810045846097
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 15
+created: 20210201141400014
+cr: 0
+con: 8
+cha: 4
+alignment: unaligned
+ac: 12
+
+"""
+''Echolocation.'' The bat can't use its [[Blindsight]] while [[Deafened]].
+''Keen Hearing.'' The bat has advantage on Wisdom (Perception) checks that rely on hearing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +0>>|<<piercing 1>> |<<reach 5>> |
+

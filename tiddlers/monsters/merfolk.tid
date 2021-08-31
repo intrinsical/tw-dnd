@@ -1,0 +1,33 @@
+xp: 25
+wis: 11
+title: Merfolk
+tags: Humanoid Monster
+str: 10
+speed: 10 ft, swim 40 ft
+source: MM
+skills: Perception +2
+size: Medium
+senses: passive Perception 12
+mtype: humanoid (merfolk)
+modified: 20210806062056015
+languages: Aquan, Common
+int: 11
+hp: 11
+hitdice: 2d8+2
+dex: 13
+created: 20191006052300161
+cr: 1/8
+con: 12
+cha: 12
+alignment: neutral
+ac: 11
+
+"""
+''Amphibious.'' The merfolk can breathe air and water. 
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Spear +2>>|<<piercing 1d6>><br/><<piercing 1d8>> (''Two-handed'') |<<reach 5>><br/><<range 20/60>> |
+

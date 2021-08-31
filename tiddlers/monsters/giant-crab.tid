@@ -1,0 +1,35 @@
+xp: 25
+wis: 9
+title: Giant Crab
+tags: Beast Monster
+str: 13
+speed: 30 ft, swim 30 ft
+source: MM
+skills: Stealth +4
+size: Medium
+senses: blindsight 30 ft., passive Perception 9
+mtype: beast
+modified: 20210810075157128
+languages: &mdash;
+int: 1
+hp: 13
+hitdice: 3d8
+dex: 15
+created: 20210810074949779
+cr: 1/8
+con: 11
+cha: 3
+armor: natural armor
+alignment: unaligned
+ac: 15
+
+"""
+Amphibious. The crab can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +3>>|<<bludgeoning 1d6+1>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 11>>). The crab has two claws, each of which can grapple only one target. |<|
+

@@ -1,0 +1,36 @@
+xp: 7,200
+wis: 10
+title: Remorhaz
+tags: Monstrosity Monster
+str: 24
+speed: 30 ft, burrow 20 ft
+source: MM
+size: Huge
+senses: darkvision 60 ft, tremorsense 60 ft, passive Perception 10
+mtype: monstrosity
+modified: 20210807130254291
+languages: &mdash;
+int: 4
+hp: 195
+hitdice: 17d12+85
+dex: 13
+damage_immunity: cold, fire
+created: 20191119072540953
+cr: 11
+con: 21
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 17
+
+"""
+''Heated Body.'' A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes <<fire 3d6>> damage.
+"""
+[img[divider.png]]
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +11>>|<<piercing 6d10+7>> + <<fire 3d6>> |<<reach 10>> |
+|~|If the target is a creature, it is [[Grappled]] (escape DC 17). Until this grapple ends, the target is [[Restrained]], and the remorhaz can't bite another target. |<|
+|^ !Swallow|The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the remorhaz, and it takes <<acid 6d6>> at the start of each of the remorhaz's turns.<br/> If the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a <<save Con 15>> at the end of that turn or regurgitate all swallowed creatures, which fall [[Prone]] in a space within 10 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse using 15 feet of movement, exiting [[Prone]]. |<|
+

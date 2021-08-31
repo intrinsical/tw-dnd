@@ -1,0 +1,36 @@
+xp: 450
+wis: 14
+title: Grick
+tags: Monstrosity Monster
+str: 14
+speed: 30 ft, climb 30 ft
+source: MM
+size: Medium
+senses: darkvision 60 ft, passive Perception 12
+mtype: monstrosity
+modified: 20210329061510462
+languages: &mdash;
+int: 3
+hp: 27
+hitdice: 6d8
+dex: 14
+damage_resistance: bludgeoning, piercing and slashing damage from nonmagical weapons
+created: 20191119071056683
+cr: 2
+con: 11
+cha: 5
+armor: natural armor
+alignment: neutral
+ac: 14
+
+"""
+''Stone Camouflage.'' The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+"""
+[img[divider.png]]
+''Multiattack.'' The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Tentacles +4>>|<<slashing 2d6+2>> |<<reach 5>> |
+| !<<melee Beak +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+

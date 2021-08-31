@@ -1,0 +1,34 @@
+xp: 50
+wis: 12
+title: Giant Bat
+tags: Beast Monster
+str: 15
+speed: 10 ft., fly 60 ft.
+source: MM
+skills: 
+size: Large
+senses: blindsight 60 ft., passive Perception 11
+mtype: beast
+modified: 20210810074446498
+languages: &mdash;
+int: 2
+hp: 22
+hitdice: 4d10
+dex: 16
+created: 20210810074322060
+cr: 1/4
+con: 11
+cha: 6
+alignment: unaligned
+ac: 13
+
+"""
+''Echolocation.'' The bat can’t use its blindsight while deafened.
+''Keen Hearing.'' The bat has advantage on Wisdom (Perception) checks that rely on hearing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+

@@ -1,0 +1,13 @@
+title: Oil of Taggit
+tags: Poison Contact
+modified: 20210812032905653
+created: 20210812031218165
+
+"""
+''Price per Dose:'' 400 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 13>> or become [[Poisoned]] for <<time 24h>>. 
+** The poisoned creature is [[Unconscious]]. 
+** The creature wakes up if it takes damage.
+

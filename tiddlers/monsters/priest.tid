@@ -1,0 +1,39 @@
+xp: 450
+wis: 16
+title: Priest
+tags: Humanoid Monster
+str: 10
+speed: 30 ft
+source: MM
+skills: Medicine +7, Persuasion +3, Religion +4
+size: Medium
+senses: passive Perception 13
+mtype: humanoid (any race)
+modified: 20210809031137884
+languages: any two languages
+int: 13
+hp: 27
+hitdice: 5d8+5
+dex: 10
+created: 20191107024353113
+cr: 2
+con: 12
+cha: 13
+armor: chain shirt
+alignment: any alignment
+ac: 13
+
+"""
+''Divine Eminence.'' As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra <<radiant 3d6>> to a target on a hit. This benefit lasts until the end of the turn . If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.
+''Spellcasting.'' The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (<<save "Spell DC" 13>>, <<casted "Spell Attack" +5>>). The priest has the following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrip (at-will):'' [[Light]], [[Sacred Flame]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st (4 slots):'' [[Cure Wounds]], [[Guiding Bolt]], [[Sanctuary]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd (3 slots):'' [[Lesser Restoration]], [[Spiritual Weapon]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd (2 slots):'' [[Dispel Magic]], [[Spirit Guardians]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Mace +2>>|<<bludgeoning 1d6>> |<<reach 5>> |
+

@@ -1,0 +1,14 @@
+title: White Dragon Regional Effect
+tags: [[Regional Effect]] Dragon MM White
+modified: 20210827053111659
+created: 20210827052842900
+caption: Regional Effects
+
+The region containing a legendary white dragon’s lair is warped by the dragon’s magic, which creates one or more of the following effects:
+
+* Chilly fog [[lightly obscures|Lightly Obscured]] the land within 6 miles of the dragon’s lair.
+* Freezing precipitation falls within 6 miles of the dragon’s lair, sometimes forming blizzard conditions when the dragon is at rest.
+* Icy walls block off areas in the dragon’s lair. Each wall is <<wall "6 inches thick">>, and a 10-foot section has <<ac 5>> <<hp 15>>, vulnerability to <<fire fire>>, and immunity to <<acid acid>>, <<cold cold>>, <<necrotic necrotic>>, <<poison poison>>, and <<psychic psychic>>.<br/>If the dragon wishes to move through a wall, it can do so without slowing down. The portion of the wall the dragon moves through is destroyed, however.
+
+If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of <<time "1d10 days">>.
+

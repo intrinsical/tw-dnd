@@ -1,0 +1,47 @@
+xp: 25000
+wis: 18
+title: Pit Fiend
+tags: Monster Fiend Devil
+str: 26
+speed: 30 ft., fly 60 ft.
+source: MM
+size: Large
+senses: truesight 120 ft., passive Perception 14
+saving_throw: Dex +8, Con +13, Wis +10
+mtype: fiend (devil)
+modified: 20210223004312045
+languages: Infernal, telepathy 120 ft.
+int: 22
+hp: 300
+hitdice: 24d10+168
+dex: 14
+damage_resistance: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: fire, poison
+created: 20210223000433165
+cr: 20
+condition_immunity: poisoned
+con: 24
+cha: 24
+armor: natural armor
+alignment: lawful evil
+ac: 19
+
+"""
+''Fear Aura.'' Any creature hostile to the pit fiend that starts its turn within <<range 20>> of the pit fiend must make a <<save Wis 21>>, unless the pit fiend is [[Incapacitated]]. On a failed save, the creature is [[Frightened]] until the start of its next turn. If a creature’s saving throw is successful, the creature is immune to the pit fiend’s Fear Aura for the next <<time 24h>>.
+''Magic Resistance.'' The pit fiend has advantage on saving throws against spells and other magical effects.
+''Magic Weapons.'' The pit fiend’s weapon attacks are magical.
+''Innate Spellcasting.'' The pit fiend’s spellcasting ability is Charisma, <<skillcheck "Spell DC" 21>>. The pit fiend can innately cast the following spells, requiring no material components:
+''At will:'' [[Detect Magic]], [[Fireball]]
+''3/day each:'' [[Hold Monster]], [[Wall of Fire]]
+"""
+<<divider>>
+''Multiattack.'' The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +14>>|<<piercing 4d6+8>> |<<reach 5>> |
+|~|Target must succeed on a <<save Con 21>> or become [[Poisoned]]. While [[Poisoned]] in this way, the target can’t regain <<hp>>, and it takes <<poison 6d6>> at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !<<melee Claw +14>>|<<slashing 2d8+8>> |<<reach 10>> |
+| !<<melee Mace +14>>|<<bludgeoning 2d6+8>>+<<fire 6d6>> |<<reach 10>> |
+| !<<melee Tail +14>>|<<bludgeoning 3d10+8>> |<<reach 10>> |
+

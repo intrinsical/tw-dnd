@@ -1,0 +1,37 @@
+xp: 50
+wis: 10
+title: Giant Frog
+tags: Beast Monster
+str: 12
+speed: 30 ft., swim 30 ft.
+source: MM
+skills: Perception +2, Stealth +3
+size: Medium
+senses: darkvision 30 ft., passive Perception 12
+mtype: beast
+modified: 20210810083003576
+languages: &mdash;
+int: 2
+hp: 18
+hitdice: 4d8
+dex: 13
+created: 20210810082705642
+cr: 1/4
+con: 11
+cha: 3
+armor: 
+alignment: unaligned
+ac: 11
+
+"""
+''Amphibious.'' The frog can breathe air and water.
+''Standing Leap.'' The frog’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d6+1>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 11>>). Until this grapple ends, the target is [[Restrained]], and the frog can’t bite another target. |<|
+| !Swallow|The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the frog, and it takes <<acid 2d4>> at the start of each of the frog’s turns. The frog can have only one target swallowed at a time.<br/>&nbsp;<br/>If the frog dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse using 5 feet of movement, exiting [[Prone]]. |<|
+

@@ -1,0 +1,25 @@
+type: 
+title: Blur
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: No
+range: Self
+modified: 20210809164327809
+level: 2
+glyph_target: <<na>>
+glyph_range: <<self>>
+glyph_effect: <<disadvantage>> on attack rolls against caster
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190627082019861
+concentration: Yes
+components: V
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesnt rely on sight, as with [[Blindsight]], or can see through illusions, as with [[Truesight]].

@@ -1,0 +1,43 @@
+title: Core Macro
+tags: Macro
+modified: 20210820051426316
+created: 20210820042627694
+caption: Core Macros
+
+The following macros are built into ~TiddlyWiki's core. For more details please look at http://tiddlywiki.com.
+
+"""
+''&lt;&lt;changecount&gt;&gt;'' - Reports the number of changes made to a tiddler.
+''&lt;&lt;colour'' //name//''&gt;&gt;'' - Returns the color value for the named entry in the current palette in #rrggbb format.
+''&lt;&lt;colour-picker'' //actions//''&gt;&gt;'' - Displays an interactive color picker.
+''&lt;&lt;contrastcolour'' //target fallbackTarget colourA colourB//''&gt;&gt;'' - Returns a color deemed best to contrast with the target.
+''&lt;&lt;copy-to-clipboard'' //src class style//''&gt;&gt;'' - Displays a button that copies the //src// text to the clipboard.
+''&lt;&lt;csvtiddlers'' //filter format//''&gt;&gt;'' - Returns the //filtered// tiddlers in comma-separated value format.
+''&lt;&lt;datauri'' //title//''&gt;&gt;'' - Returns a data URI for the content of the tiddler.
+''&lt;&lt;dumpvariables&gt;&gt;'' - Debugging tool. Displays all variables and macros that exist at that position where the macro was called.
+''&lt;&lt;image-picker'' //actions subfilter//''&gt;&gt;'' - Displays an interactive image picker.
+''&lt;&lt;jsontiddler'' //tiddler//''&gt;&gt;'' - Returns the fields of a single tiddler in JSON format. 
+''&lt;&lt;jsontiddlers'' //filter spaces//''&gt;&gt;'' - Returns the fields of the selected tiddlers in JSON format. //spaces// is a number, default is 4, for the number of spaces used in packing the JSON output.
+''&lt;&lt;keyboard-driven-input'' //many_parameters//''&gt;&gt;'' - Creates an input field or textarea that can be cycled through using up and down keys.
+''&lt;&lt;lingo'' title''&gt;&gt;'' - Used for localization, return the entry for //title// in the current language.
+''&lt;&lt;list-links'' //filter type subtype class emptyMessage//''&gt;&gt;'' - Displays the //filtered// set of tiddlers as a list using html tag //type// and each entry using html tag //subtype//.
+''&lt;&lt;list-links-draggable'' //many_parameters//''&gt;&gt;'' - Displays the filtered set of tiddlers as a list that can be reordered by drag-and-dropping entries.
+''&lt;&lt;list-tagged-draggable&gt;&gt;'' - Displays tiddlers with the //tag// as a list that can be reordered by drag-and-dropping entries.
+''&lt;&lt;list-thumbnails'' //filter width height//''&gt;&gt;'' - Displays the //filtered// list of images as linkable thumbnail panels. Default dimension is 280x157 pixels.
+''&lt;&lt;makedatauri&gt;&gt;'' - Used by datauri macro to convert content into a data URI.
+''&lt;&lt;now'' //format//''&gt;&gt;'' - Displays the current date and time in the specified //format//.
+''&lt;&lt;qualify'' //title//''&gt;&gt;'' - Returns a unique string identifying //title//.
+&lt;&lt;resolvepath&gt;&gt; - 
+''Stylesheet Macros'' - Set of macros for generating CSS stylesheets
+''Table-of-Contents Macros'' - Set of macros for generating a tree of tiddler links.
+''&lt;&lt;tabs'' //tabsList default state class template buttonTemplate retain actions expliciteState//''&gt;&gt;'' - Presents the selected tiddlers as a set of switchable tabs.
+''&lt;&lt;tag'' //tag//''&gt;&gt;'' - Displays a tag pill for the specified //tag//.
+''&lt;&lt;tag-picker'' //actions tagField//''&gt;&gt;'' - Generates a combobox and button that allows a tag to be selected.
+''&lt;&lt;tag-pill'' //tag element_tag element_attributes actions//''&gt;&gt;'' - Like the tag macro, but generates a static tag-pill without any of the dropdown actions.
+''&lt;&lt;thumbnail'' //link image caption icon color//''&gt;&gt;'' - Set of macros that generate linkable thumbnail pictures.
+''&lt;&lt;timeline'' //many_parameters//''&gt;&gt;'' - Returns a list of tiddlers in reverse chronological order of modification (or some other date_field).
+''&lt;&lt;tree'' //prefix separator//''&gt;&gt;'' - Generates an expandable tree based on a //prefix// and //separator// within tiddler titles.
+''&lt;&lt;unusedtitle'' //baseName//''&gt;&gt;'' - Returns an unused title.
+''&lt;&lt;version&gt;&gt;'' - Returns the current version number of ~TiddlyWiki.
+"""
+

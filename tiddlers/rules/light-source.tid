@@ -1,0 +1,13 @@
+title: Light Source
+tags: Environment Rule
+order: 1
+modified: 20210812063321060
+created: 20210113025921034
+caption: Light
+
+The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
+
+|^!{{Light, Bright||Link}} |{{Light, Bright}} |
+|^!{{Light, Dim||Link}} |{{Light, Dim}} |
+|^!{{Light, Darkness||Link}} |{{Light, Darkness}} |
+

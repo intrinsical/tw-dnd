@@ -1,0 +1,31 @@
+type: 
+title: Flaming Sphere
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: Dex
+ritual: No
+range: 60 feet
+modified: 20210809171006706
+material: (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)
+level: 2
+glyph_target: <<sphere 2.5>>
+glyph_range: <<range 60>>
+glyph_effect: <<sphere 5>> of fire. End turn within <<range 5>> / <<ba>> Ram <<range 30>> : <<save Dex $(dc)$>> <fail> <<fire 2d6>></fail> <pass> <<halved>></pass>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190613014249195
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
+
+A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. 
+Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.
+
+As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.
+
+When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.&nbsp;

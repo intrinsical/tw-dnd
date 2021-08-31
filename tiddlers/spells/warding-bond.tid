@@ -1,0 +1,30 @@
+type: 
+title: Warding Bond
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809230551251
+material: (a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<ac +1>>, +1 saving throws, damage resistance to all <<damage>>. Caster takes same amount of damage as target. 
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190612152025276
+concentration: No
+components: V, S, M
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends.
+
+While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.
+
+The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.

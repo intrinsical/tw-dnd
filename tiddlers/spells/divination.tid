@@ -1,0 +1,25 @@
+type: 
+title: Divination
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: Yes
+range: Self
+modified: 20210809170101516
+material: (incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes)
+level: 4
+effect: 
+duration: Instantaneous
+created: 20190103192512578
+concentration: No
+components: V, S, M
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. 
+
+The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. 
+
+If you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.

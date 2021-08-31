@@ -1,0 +1,36 @@
+xp: 2900
+wis: 13
+title: Young Copper Dragon
+tags: Monster Dragon MM Copper
+str: 19
+speed: 40 ft., climb 40 ft., fly 80 ft.
+source: MM
+skills: Deception +5, Perception +7, Stealth +4
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 17
+saving_throw: Dex +4, Con +6, Wis +4, Cha +5
+mtype: dragon
+modified: 20210827072246697
+languages: Common, Draconic
+int: 16
+hp: 119
+hitdice: 14d10+42
+dex: 12
+damage_immunity: acid
+created: 20210827071958449
+cr: 7
+condition_immunity: 
+con: 17
+cha: 15
+armor: natural armor
+alignment: chaotic good
+ac: 17
+
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>> |<<reach 10>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Acid Breath.'' The dragon exhales acid in an <<line "40' long, 5' wide">>. Each creature in that line must make a <<save Dex 14>> <fail><<acid 9d8>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Slowing Breath.'' The dragon exhales gas in a <<cone 30>>. Each creature in that area must succeed on a <<save Con 14>>. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for <<time 1m>>. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. |<|
+

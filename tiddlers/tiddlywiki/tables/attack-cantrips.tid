@@ -1,0 +1,21 @@
+title: Attack Cantrips
+tags: Table [[Spell Encyclopedia]]
+modified: 20210809231042232
+created: 20190816154352544
+
+|max top|k
+| !Spell | !Melee | !Ranged |
+|[[Acid Splash]] 60'<br/><<save Dex>> <<acid d6>>,<<per 2>> |[[Booming Blade]]<br/><<thunder d8>><<thunder d8>> |[[Chill Touch]] 120'<br/><<necrotic d8>>, <<heal no>> |
+|[[Create Bonfire]] 60'<br/><<save Dex>> <<fire d8>>, ''[C]'' |[[Green-Flame Blade]]<br/><<fire d8>><<fire modifier>> |[[Eldritch Blast]] 120'<br/><<force d10>> |
+|[[Frostbite]] 60'<br/><<save Con>> <<cold d6>>, //Atk disadv// |[[Primal Savagery]]<br/><<acid d10>> |[[Fire Bolt]] 120'<br/><<fire d10>> |
+|[[Infestation]] 30'<br/><<save Con>><<poison d6>>, //move// <<roll d4>> |[[Shocking Grasp]]<br/>//Metal Armor: Adv//, <<lightning d8>>, //No ''[R]''// |[[Magic Stone]] 60'<br/><<bludgeoning d8+modifier>> |
+|[[Lightning Lure]] 15'<br/><<save Str>>, //pull 10ft up//<<lightning d8>> |[[Thorn Whip]] 30'<br/><<piercing d6>>, //Pull 10'// |[[Produce Flame]] 30'<br/><<fire d8>> |
+|[[Mind Sliver]] 60'<br/><<save Int>><<psychic 1d6>>, //<<roll -1d4>> next save// | |[[Ray of Frost]] 60'<br/><<cold d8>>, //speed -10 ft// |
+|[[Poison Spray]] 10'<br/><<save Con>><<poison d12>> | | |
+|[[Sacred Flame]] 60'<br/><<save Dex>><<radiant d8>> | | |
+|[[Sword Burst]] <<sphere 5'>><br/><<save Dex>><<force d6>> | | |
+|[[Thunderclap]] <<sphere 5'>><br/><<save Con>><<thunder d6>> | | |
+|[[Toll the Dead]] 60'<br/><<save Wis>><<necrotic d8>> / <<necrotic d12>> | | |
+|[[Vicious Mockery]] 60'<br/><<save Wis>><<psychic d4>>, //Atk disadv// | | |
+|[[Word of Radiance]] <<sphere 5'>><br/><<save Con>><<radiant d6>> | | |
+

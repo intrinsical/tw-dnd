@@ -1,0 +1,10 @@
+title: Additional Fighting Style
+tags: Ability Champion
+modified: 20210820103902276
+level: 10
+created: 20190408110223496
+
+At 10th level, you can choose a second option from the Fighting Style class feature.
+
+<$list filter="[tag[Fighter]tag[Fighting Style]sort[]]"><p>{{||Link}}''.'' <$transclude tiddler=<<currentTiddler>>/></p></$list>
+

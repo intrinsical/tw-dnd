@@ -1,0 +1,46 @@
+xp: 15,000
+wis: 22
+title: Planetar
+tags: Monster Celestial
+str: 24
+speed: 40 ft., fly 120 ft.
+source: MM
+skills: Perception +11
+size: Large
+senses: truesight 120 ft., passive Perception 21
+saving_throw: Con +12, Wis +11, Cha +12
+mtype: celestial
+modified: 20210213115300391
+languages: all, telepathy 120 ft.
+int: 19
+hp: 200
+hitdice: 16d10+112
+dex: 20
+damage_resistance: radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: 
+created: 20210213113204747
+cr: 16
+condition_immunity: charmed, exhaustion, frightened
+con: 24
+cha: 25
+armor: natural armor
+alignment: lawful good
+ac: 19
+
+"""
+''Angelic Weapons.'' The planetar’s weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra <<radiant 5d8>> (included in the attack).
+''Divine Awareness.'' The planetar knows if it hears a lie.
+''Innate Spellcasting.'' The planetar’s spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:
+//At will:// [[Detect Evil and Good]], [[Invisibility]] (self only)
+//3/day each:// [[Blade Barrier]], [[Dispel Evil and Good]], [[Flame Strike]], Raise Dead]]
+//1/day each:// [[Commune]], [[Control Weather]], [[Insect Plague]]
+''Magic Resistance.'' The planetar has advantage on saving throws against spells and other magical effects.
+"""
+[img[divider.png]]
+''Multiattack.'' The planetar makes two melee attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatsword +12>>|<<slashing 4d6+7>> + <<radiant 5d8>> |<<reach 5>> |
+| !Healing Touch|''4/Day''<br/>The planetar touches another creature. The target magically regains <<heal 6d8+3>> and is freed from any curse, disease, poison, blindness, or deafness. |<|
+

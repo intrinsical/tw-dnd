@@ -1,0 +1,32 @@
+type: 
+title: Create or Destroy Water
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809165333169
+material: (a drop of water if creating water or a few grains of sand if destroying it)
+level: 1
+glyph_target: <<cube 30>>
+glyph_range: <<range 30>>
+glyph_effect: ''Rain'' <<cube 30>> / ''Destroy Fog'' <<cube 30>> / ''Create/Destroy'' 10 gallons of water
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>>30']'' //<<hover "Create or Destroy Water">>//
+duration: Instantaneous
+created: 20190612151720276
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Druid]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.
+
+You either create or destroy water. 
+
+<b>Create Water</b> 
+You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area. 
+
+<b>Destroy Water</b>&nbsp;
+You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range.&nbsp;

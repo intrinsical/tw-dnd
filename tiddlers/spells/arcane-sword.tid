@@ -1,0 +1,23 @@
+type: 
+title: Arcane Sword
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 ft
+modified: 20210809163830550
+material: (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)
+level: 7
+effect: 
+duration: 1 Minute
+created: 20210809163821165
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You create a sword-shaped plane of force that hovers within range. It lasts for the duration.
+
+When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.

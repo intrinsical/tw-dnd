@@ -1,0 +1,25 @@
+type: 
+title: Scorching Ray
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809223039637
+level: 2
+glyph_target: <<per 1-3>>
+glyph_range: <<range 120>>
+glyph_effect: ''3 rays.'' Each ray, <<ranged to-hit>>: <<fire 2d6>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721084105803
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.
+
+You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.

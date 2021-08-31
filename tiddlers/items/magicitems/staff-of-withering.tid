@@ -1,0 +1,11 @@
+title: Staff of Withering
+tags: [[Magic Item]] Rare Attunement DMG Staff
+modified: 20210814105556679
+item_type: Staff
+created: 20210205073616536
+attunement: requires attunement by a cleric, druid, or warlock
+
+This staff has 3 charges and regains <<roll 1d3>> expended charges daily at dawn.
+
+The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra <<necrotic 2d10>> to the target. In addition, the target must succeed on a <<save Con 15>> or have disadvantage for <<time 1h>> on any ability check or saving throw that uses Strength or Constitution.
+

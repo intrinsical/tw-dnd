@@ -1,0 +1,38 @@
+xp: 450
+wis: 10
+title: Merrow
+tags: Monster Monstrosity
+str: 18
+speed: 10 ft, swim 40 ft
+source: MM
+skills: 
+size: Large
+senses: darkvision 60 ft, passive Perception 10
+mtype: monstrosity
+modified: 20210806062304362
+languages: Abyssal, Aquan
+int: 8
+hp: 45
+hitdice: 6d10+12
+dex: 10
+created: 20200311055728728
+cr: 2
+con: 15
+cha: 9
+armor: natural armor
+alignment: chaotic evil
+ac: 13
+
+"""
+''Amphibious.'' The merrow can breathe air and water.
+"""
+<<divider>>
+''Multiattack.'' The merrow makes two attacks: one with its bite and one with its claws or harpoon.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d8+4>> |<<reach 5>> |
+| !<<melee Claw +6>>|<<slashing 2d4+4>> |<<reach 5>> |
+| !<<ranged Harpoon +6>>|<<piercing 2d6+4>> |<<reach 5>><br/><<range 20/60>> |
+|~|If the target is a Huge or smaller creature, it must succeed on a Strength contest check against the Merrow or be pulled up to 20 feet toward the Merrow |<|
+

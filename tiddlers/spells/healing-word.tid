@@ -1,0 +1,25 @@
+type: 
+title: Healing Word
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809172237740
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: <<heal 1d4+modifier>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<ba>>
+effect: ''[<<upcast>>60'<<per 1>>]'' <<heal 1d4+modifier>>
+duration: Instantaneous
+created: 20190721070025060
+concentration: No
+components: V
+classes: [[Bard]] [[Cleric]] [[Druid]]
+casting_time: 1 Bonus Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.
+
+A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.

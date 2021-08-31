@@ -1,0 +1,52 @@
+xp: 5,900
+wis: 15
+title: Aboleth
+tags: Monster Aberration Index
+str: 21
+speed: 10 ft., swim 40 ft.
+source: MM
+skills: History +12, Perception +10
+size: Large
+senses: darkvision 120 ft., passive Perception 20
+saving_throw: Con +6, Int +8, Wis +6
+mtype: aberration
+modified: 20210403082123095
+languages: Deep Speech, telepathy 120 ft.
+int: 18
+hp: 135
+hitdice: 18d10+36
+dex: 9
+damage_resistance: 
+damage_immunity: 
+created: 20210213100145740
+cr: 10
+condition_immunity: 
+con: 15
+cha: 18
+armor: natural armor
+alignment: lawful evil
+ac: 17
+
+"""
+''Amphibious.'' The aboleth can breathe air and water.
+''Mucous Cloud.'' While underwater, the aboleth is surrounded by transformative mucus. A creature that <<touch>> the aboleth or that ''hits it with a melee attack'' while within <<range 5>> feet of it must make a <<save Con 14>>. On a failure, the creature is diseased for <<time 1d4>>. The diseased creature can breathe only underwater.
+''Probing Telepathy.'' If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
+"""
+[img[divider.png]]
+''Multiattack.'' The aboleth makes three tentacle attacks.
+
+<<fold "Aboleth Lair Action">>
+<<fold "Aboleth Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Tentacle +9>>|<<bludgeoning 2d6+5>> |<<reach 10>> |
+|~|If the target is a creature, it must succeed on a <<save Con 14>> or become diseased. The disease has no effect for <<time 1m>> and can be removed by any magic that cures disease. After <<time 1m>>, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes <<acid 1d12>> every <<time 10m>> unless moisture is applied to the skin before <<time 10m>> have passed. |<|
+| !<<melee Tail +4>>|<<bludgeoning 3d6+5>> |<<reach 10>> |
+| !Enslave|''3/Day''<br/>The aboleth targets one creature it can see within <<range 30>> of it. The target must succeed on a <<save Wis 14>> or be magically [[Charmed]] by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The [[Charmed]] target is under the aboleth’s control and can’t take <<reaction>>, and the aboleth and the target can communicate telepathically with each other over any distance.<br/>&nbsp;<br/>Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every <<time 24h>>, the target can also repeat the saving throw when it is at least <<range "1 mile">> away from the aboleth. |<|
+| !<<action>> Legendary Actions |<|<|
+|The aboleth can take ''3'' legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn. |<|<|
+| !Detect|The aboleth makes a Wisdom (Perception) check. |<|
+| !Tail Swipe|The aboleth makes one tail attack. |<|
+| !Psychic Drain|''Costs 2 Actions''<br/>One creature [[Charmed]] by the aboleth takes <<psychic 3d6>>, and the aboleth regains hit points equal to the damage the creature takes. |
+

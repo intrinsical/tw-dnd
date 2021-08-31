@@ -1,0 +1,26 @@
+type: 
+title: Shocking Grasp
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: Touch
+modified: 20210809223324561
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<melee spell-attack $(to-hit)$>> (<<advantage>> if target is wearing metal armor), <<lightning 1d8>>, no <<reaction>> till start of its next turn
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721061927682
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+Lightning springs from your hand to deliver a shock to a creature you try to touch.
+Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can’t take reactions until the start of its next turn.

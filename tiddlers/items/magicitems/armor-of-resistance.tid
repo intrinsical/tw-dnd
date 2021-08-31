@@ -1,0 +1,20 @@
+title: Armor of Resistance
+tags: Attunement Rare [[Magic Item]] DMG Armor
+modified: 20210814025257934
+item_type: Armor (light, medium, or heavy)
+created: 20201102150029778
+
+You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.
+
+| !d10 | !Damage Type |
+| !1 |Acid |
+| !2 |Cold |
+| !3 |Fire |
+| !4 |Force |
+| !5 |Lightning |
+| !6 |Necrotic |
+| !7 |Poison |
+| !8 |Psychic |
+| !9 |Radiant |
+| !10 |Thunder |
+

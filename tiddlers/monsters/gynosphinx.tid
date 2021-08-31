@@ -1,0 +1,56 @@
+xp: 7200
+wis: 18
+title: Gynosphinx
+tags: Monster Monstrosity
+str: 18
+speed: 40 ft., fly 60 ft.
+source: MM
+skills: Arcana +12, History +12, Perception +8, Religion +8
+size: Large
+senses: truesight 120 ft., passive Perception 18
+saving_throw: 
+mtype: monstrosity
+modified: 20210808112959623
+languages: Common, Sphinx
+int: 18
+hp: 136
+hitdice: 16d10+48
+dex: 15
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: psychic
+created: 20210808112121812
+cr: 11
+condition_immunity: charmed, frightened
+con: 16
+cha: 18
+armor: natural armor
+alignment: lawful neutral
+ac: 17
+
+"""
+''Inscrutable.'' The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx’s intentions or sincerity have disadvantage.
+''Magic Weapons.'' The sphinx’s weapon attacks are magical.
+''Spellcasting.'' The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (<<save "Spell DC" 16>>, <<casted "Spell Attack" +8>>). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Mage Hand]], [[Minor Illusion]], [[Prestidigitation]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Detect Magic]], [[Identify]], [[Shield]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Darkness]], [[Locate Object]], [[Suggestion]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Dispel Magic]], [[Remove Curse]], [[Tongues]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Banishment]], [[Greater Invisibility]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (1 slot):'' [[Legend Lore]]
+"""
+<<divider>>
+''Multiattack.'' The sphinx makes two claw attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +8>>|<<slashing 2d8+4>> |<<reach 5>>|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Claw Attack|The sphinx makes one claw attack. |<|
+| !Teleport|''Costs 2 Actions.''<br/>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see. |<|
+| !Cast a Spell|''Costs 3 Actions.''<br/>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal. |<|
+| !<<action>> Lair Actions @ Initiative 20 |<|<|
+|The flow of time is altered such that every creature in the lair must reroll initiative. The sphinx can choose not to reroll. |<|<|
+|The effects of time are altered such that every creature in the lair must succeed on a <<save Con 15>> or become <<time "1d20 years">> older or younger (the sphinx’s choice), but never any younger than 1 year old. A [[Greater Restoration]] spell can restore a creature’s age to normal. |<|<|
+|The flow of time within the lair is altered such that everything within moves up to 10 years forward or backward (sphinx’s choice). Only the sphinx is immediately aware of the time change. A [[Wish]] spell can return the caster and up to seven other creatures designated by the caster to their normal time. |<|<|
+|The sphinx shifts itself and up to seven other creatures it can see within in its lair to another plane of existence. Once outside its lair, the sphinx can’t use lair actions, but it can return to its lair as a bonus action on its turn, taking up to seven creatures with it. |<|<|
+

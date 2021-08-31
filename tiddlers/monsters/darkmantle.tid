@@ -1,0 +1,38 @@
+xp: 100
+wis: 10
+title: Darkmantle
+tags: Monster Monstrosity
+str: 16
+speed: 10 ft., fly 30 ft.
+source: MM
+skills: Stealth +3
+size: Small
+senses: blindsight 60 ft., passive Perception 10
+mtype: monstrosity
+modified: 20210222143103754
+languages: &mdash;
+int: 2
+hp: 22
+hitdice: 5d6+5
+dex: 12
+created: 20210222142612741
+cr: 1/2
+con: 13
+cha: 5
+armor: 
+alignment: unaligned
+ac: 11
+
+"""
+''Echolocation.'' The darkmantle can’t use its [[Blindsight]] while [[Deafened]].
+''False Appearance.'' While the darkmantle remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Crush +5>>|<<bludgeoning 1d6+3>> |<<reach 5>> |
+|~|The darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target’s head, and the target is also [[Blinded]] and unable to breathe while the darkmantle is attached in this way.<br/>&nbsp;<br/>While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle’s speed also becomes 0, it can’t benefit from any bonus to its speed, and it moves with the target.<br/>&nbsp;<br/>A creature can detach the darkmantle by making a successful <<save Str 13>> as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement. |<|
+| !Darkness Aura|''1/Day''<br/>A <<sphere 15>> of magical [[Darkness]] extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can’t penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled. |<|
+
+

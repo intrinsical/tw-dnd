@@ -1,0 +1,35 @@
+xp: 50
+wis: 8
+title: Goblin
+tags: Humanoid Monster
+str: 8
+speed: 30 ft
+source: MM
+skills: Stealth +6
+size: Small
+senses: darkvision 60 ft, passive Perception 9
+mtype: humanoid (goblinoid)
+modified: 20210329022205872
+languages: Common, Goblin
+int: 10
+hp: 7
+hitdice: 2d6
+dex: 14
+created: 20190924131249657
+cr: 1/4
+con: 10
+cha: 8
+armor: leather armor, shield
+alignment: neutral evil
+ac: 15
+
+"""
+''Nimble Escape.'' The goblin can take the ''Disengage'' or ''Hide'' action as a ''bonus action'' on each of its turns 
+"""
+[img[divider.png]]
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +4>>|<<slashing 1d6+2>> |<<reach 5>> |
+| !<<ranged Shortbow +4>>|<<piercing 1d6+2>> |<<range 80/320>> |
+

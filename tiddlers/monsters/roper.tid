@@ -1,0 +1,40 @@
+xp: 1800
+wis: 16
+title: Roper
+tags: Monster Monstrosity
+str: 18
+speed: 10 ft., climb 10 ft.
+source: MM
+skills: Perception +6, Stealth +5
+size: Large
+senses: darkvision 60 ft., passive Perception 16
+mtype: monstrosity
+modified: 20210807140134716
+languages: &mdash;
+int: 7
+hp: 93
+hitdice: 11d10+33
+dex: 8
+created: 20210807135521651
+cr: 5
+con: 17
+cha: 6
+armor: natural armor
+alignment: neutral evil
+ac: 20
+
+"""
+''False Appearance.'' While the roper remains motionless, it is indistinguishable from a normal cave formation, such as a stalagmite.
+''Grasping Tendrils.'' The roper can have up to six tendrils at a time. Each tendril can be attacked (<<ac 20>>; <<hp 10>>; immunity to poison and psychic damage). Destroying a tendril deals no damage to the roper, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a <<skillcheck Str 15>> against it.
+''Spider Climb.'' The roper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+<<divider>>
+''Multiattack.'' The roper makes four attacks with its tendrils, uses Reel, and makes one attack with its bite.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 4d8+4>> |<<reach 5>> |
+| !<<melee Tendril +7>>|No damage |<<reach 50>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 15>>). Until the grapple ends, the target is [[Restrained]] and has disadvantage on Strength checks and Strength saving throws, and the roper can’t use the same tendril on another target. |<|
+| !Reel|The roper pulls each creature grappled by it up to 25 feet straight toward it. |<|
+

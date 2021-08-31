@@ -1,0 +1,26 @@
+type: 
+title: Charm Person
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809164523421
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<range 30>>
+glyph_effect: <<save Wis $(dc)$>> (<<advantage>> if fighting) <fail> [[Charmed]]</fail>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190530072511976
+concentration: No
+components: V, S
+classes: [[Bard]] [[Druid]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
+
+You attempt to charm a humanoid you can see within range. 
+It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is [[Charmed]] by you until the spell ends or until you  or your companions do anything harmful to it.The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.

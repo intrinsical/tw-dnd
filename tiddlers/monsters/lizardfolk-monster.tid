@@ -1,0 +1,39 @@
+xp: 100
+wis: 12
+title: Lizardfolk, Monster
+tags: Monster Humanoid
+str: 15
+speed: 30 ft., swim 30 ft.
+source: MM
+skills: Perception +3, Stealth +4, Survival +5
+size: Medium
+senses: passive Perception 13
+mtype: humanoid (lizardfolk)
+modified: 20210809051154983
+languages: Draconic
+int: 7
+hp: 22
+hitdice: 4d8+4
+dex: 10
+created: 20210805181819881
+cr: 1/2
+con: 13
+cha: 7
+caption: Lizardfolk
+armor: natural armor, shield
+alignment: neutral
+ac: 15
+
+"""
+''Hold Breath.'' The lizardfolk can hold its breath for 15 minutes.
+"""
+<<divider>>
+''Multiattack.'' The lizardfolk makes two melee attacks, each one with a different weapon.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<melee "Heavy Club" +4>>|<<bludgeoning 1d6+2>> |<<reach 5>> |
+| !<<ranged Javelin +4>>|<<piercing 1d6+2>> |<<reach 5>><br/><<range 30/120>> |
+| !<<melee "Spiked Shield" +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+

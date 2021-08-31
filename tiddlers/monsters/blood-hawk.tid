@@ -1,0 +1,34 @@
+xp: 25
+wis: 14
+title: Blood Hawk
+tags: Beast Monster [[DDAL5-02 Creatures]]
+str: 6
+speed: 10 ft, fly 60 ft
+source: MM
+skills: Perception +4
+size: Small
+senses: passive Perception 14
+mtype: beast
+modified: 20210810050643137
+languages: &mdash;
+int: 3
+hp: 7
+hitdice: 2d6
+dex: 14
+created: 20190717234549490
+cr: 1/8
+con: 10
+cha: 5
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Sight.'' The hawk has advantage on Wisdom (Perception) checks that rely on sight.
+''Pack Tactics.'' The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +4>>|<<piercing 1d4+2>> |<<reach 5>> |
+

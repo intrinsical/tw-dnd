@@ -1,0 +1,10 @@
+title: Paralyzed
+tags: Condition
+modified: 20210209131739452
+created: 20190529211032893
+
+* A paralyzed creature is [[Incapacitated]] (see the condition) and can't move or speak.
+* The creature automatically fails Strength and Dexterity saving throws.
+* Attack rolls against the creature have advantage.
+* Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.
+

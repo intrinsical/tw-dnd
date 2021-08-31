@@ -1,0 +1,31 @@
+xp: 100
+wis: 8
+title: Warhorse Skeleton
+tags: Monster Undead
+str: 18
+speed: 60 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 9
+mtype: undead
+modified: 20210808072402841
+languages: &mdash;
+int: 2
+hp: 22
+hitdice: 3d10+6
+dex: 12
+damage_vulnerability: bludgeoning
+damage_immunity: poison
+created: 20210808072238243
+cr: 1/2
+condition_immunity: exhaustion, poisoned
+con: 15
+cha: 5
+armor: barding scraps
+alignment: lawful evil
+ac: 13
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +6>>|<<bludgeoning 2d6+4>> |<<reach 5>> |
+

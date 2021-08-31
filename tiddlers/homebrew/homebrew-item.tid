@@ -1,0 +1,14 @@
+title: Homebrew Item
+tags: Homebrew List
+order: 5
+modified: 20210825034954438
+icon: loot.gif
+created: 20210815062531307
+caption: Items
+
+!! Items
+<<list-box "[tag[Homebrew]tag[Item]sort[]]" "0 items found.">>
+
+!! Magic Items 
+<<list-box "[tag[Homebrew]tag[Magic Item]sort[]]" "0 magic items found.">>
+

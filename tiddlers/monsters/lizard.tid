@@ -1,0 +1,28 @@
+xp: 10
+wis: 8
+title: Lizard
+tags: Beast Monster
+str: 2
+speed: 20 ft., climb 20 ft.
+source: MM
+skills: 
+size: Tiny
+senses: darkvision 30 ft., passive Perception 9
+mtype: beast
+modified: 20210810162218894
+languages: &mdash;
+int: 1
+hp: 2
+hitdice: 1d4
+dex: 11
+created: 20210810162048354
+cr: 0
+con: 10
+cha: 3
+alignment: unaligned
+ac: 10
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite 0>>|<<piercing 1>> |<<reach 5>> |
+

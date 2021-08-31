@@ -1,0 +1,39 @@
+xp: 700
+wis: 12
+title: Winter Wolf
+tags: Monstrosity Monster
+str: 18
+speed: 50 ft
+source: MM
+skills: Perception +5, Stealth +3
+size: Large
+senses: passive Perception 15
+mtype: monstrosity
+modified: 20210810180306810
+languages: Common, Giant, Winter Wolf
+int: 7
+hp: 75
+hitdice: 10d10+20
+dex: 13
+damage_immunity: cold
+created: 20191119105542537
+cr: 3
+con: 14
+cha: 8
+armor: natural armor
+alignment: neutral evil
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pack Tactics.'' The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
+''Snow Camouflage.'' The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +6>>|<<piercing 2d6+4>> |<<reach 5>> |
+|~|If the target is a creature, it must scuceed on a <<save Str 14>> or be knocked [[Prone]] |<|
+|^ !Cold Breath|''Recharge on 5-6''<br/>The wolf exhales a blast of freezing wind in a <<cone 15>>. Each creature in that area must make a <<save Dex 12>>, taking <fail><<cold 4d8>></fail>, or <pass><<halved>></pass>. |<|
+

@@ -1,0 +1,36 @@
+xp: 50
+wis: 12
+title: Swarm of Ravens
+tags: Beast Monster
+str: 6
+speed: 10 ft., fly 50 ft.
+source: MM
+skills: Perception +5
+size: Medium swarm of Tiny
+senses: passive Perception 15
+mtype: beasts
+modified: 20210810175143107
+languages: &mdash;
+int: 3
+hp: 24
+hitdice: 7d8-7
+dex: 14
+damage_resistance: bludgeoning, piercing, slashing
+created: 20210810175007215
+cr: 1/4
+condition_immunity: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+con: 8
+cha: 6
+armor: 
+alignment: unaligned
+ac: 12
+
+"""
+''Swarm.'' The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain hit points or gain temporary hit points.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beaks +4>>|<<hp>>: <<piercing 2d6>><br/><<halved>>: <<piercing 1d6>> |<<reach 0>> |
+

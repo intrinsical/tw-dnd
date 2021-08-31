@@ -1,0 +1,11 @@
+title: Falling
+tags: Rule Movement
+order: 4
+modified: 20210812063613668
+created: 20190720225019052
+
+A fall from a great height is one of the most common hazards facing an adventurer.
+
+* At the end of a fall, a creature takes <<bludgeoning 1d6>> ''for every 10 feet'' it fell, to a maximum of <<bludgeoning 20d6>>. 
+* The creature lands [[Prone]], unless it avoids taking damage from the fall.
+

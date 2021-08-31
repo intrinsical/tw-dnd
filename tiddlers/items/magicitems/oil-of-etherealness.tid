@@ -1,0 +1,8 @@
+title: Oil of Etherealness
+tags: Potion DMG Rare [[Magic Item]]
+modified: 20210814052501105
+item_type: Potion
+created: 20210814022553542
+
+Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes <<time 10m>>. The affected creature then gains the effect of the [[Etherealness]] spell for <<time 1h>>.
+

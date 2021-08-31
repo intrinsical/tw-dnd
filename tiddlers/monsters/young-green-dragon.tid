@@ -1,0 +1,38 @@
+xp: 3,900
+wis: 13
+title: Young Green Dragon
+tags: Monster Dragon Green MM
+str: 19
+speed: 40 ft, fly 80 ft, swim 40 ft
+source: MM
+skills: Deception +4, Perception +7, Stealth +4
+size: Large
+senses: blindsight 30 ft, darkvision 120 ft, passive Perception 17
+saving_throw: Dex +4, Con +6, Wis +4, Cha +5
+mtype: dragon
+modified: 20210827021348368
+languages: Common, Draconic
+int: 16
+hp: 136
+hitdice: 16d10+48
+dex: 12
+damage_immunity: poison
+created: 20190819033900194
+cr: 8
+condition_immunity: poisoned
+con: 17
+cha: 15
+armor: natural armor
+alignment: lawful evil
+ac: 18
+
+''Amphibious.'' The dragon can breath air and water.
+<<divider>>
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>> <<poison 2d6>> |<<reach 10>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Poison Breath|''Recharge on 5-6''<br/>The dragon exhales poisonous gas in a <<cone 30>>. Each creature in that area must make a <<save Con 14>> <fail><<poison 12d6>></fail> <pass><<halved>></pass> |<|
+

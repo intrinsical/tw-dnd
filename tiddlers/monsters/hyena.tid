@@ -1,0 +1,33 @@
+xp: 10
+wis: 12
+title: Hyena
+tags: Monster Beast
+str: 11
+speed: 50 ft.
+source: MM
+skills: Perception +3
+size: Medium
+senses: passive Perception 13
+mtype: beast
+modified: 20210810114312406
+languages: &mdash;
+int: 2
+hp: 5
+hitdice: 1d8+1
+dex: 13
+created: 20210214070408123
+cr: 0
+con: 12
+cha: 5
+alignment: unaligned
+ac: 11
+
+"""
+''Pack Tactics.'' The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +2>>|<<piercing 1d6>> |<<reach 5>> |
+

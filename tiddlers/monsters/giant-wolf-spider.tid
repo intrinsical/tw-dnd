@@ -1,0 +1,44 @@
+xp: 50
+wis: 12
+type: text/vnd.tiddlywiki
+title: Giant Wolf Spider
+tags: Beast Monster
+str: 12
+speed: 40 ft, climb 40 ft
+source: MM
+skills: Perception +3, Stealth +7
+size: Medium
+senses: blindsight 10 ft, darkvision 60 ft, passive Perception 13
+mtype: beast
+modified: 20210810112903473
+list: 
+languages: &mdash;
+int: 3
+hp: 11
+hitdice: 2d8+2
+dex: 16
+damage_vulnerability: 
+damage_resistance: 
+damage_immunity: 
+created: 20190801023433196
+cr: 1/4
+condition_immunity: 
+con: 13
+cha: 4
+bite_tohit: 20,4 = 24
+bite_dmg: 1,3 = 4
+alignment: unaligned
+ac: 13
+
+"""
+''Spider Climb.'' The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+''Web Sense.'' While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+''Web Walker.'' The spider ignores movement restrictions caused by webbing.
+"""
+<<divider>>
+
+|max|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +3>>|<<piercing 1d6+1>> |<<reach 5>> |
+|~|The target must make a <<save Con 11>>, taking <<poison 2d6>> on a failed save, or <<halved>>  on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [[Poisoned]] for <<time 1h>>, even after regaining hit points, and is [[Paralyzed]] while [[Poisoned]] in this way. |<|
+

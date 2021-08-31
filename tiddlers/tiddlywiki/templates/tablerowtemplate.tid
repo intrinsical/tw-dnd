@@ -1,0 +1,7 @@
+title: TableRowTemplate
+tags: Template
+modified: 20200531024641925
+created: 20200531022017188
+
+<tr><th valign="top" align="left"><p><$link to={{!!title}}><$list filter="[all[current]has[icon]]"><$image source={{!!icon}} height=14 /></$list><$list filter="[all[current][has[caption]]"><$view field=caption /></$list><$list filter ="[all[current]!has[caption]]"><$view field=title /></$list></$link></p></th><td><$transclude field="text" mode="block" /></td></tr>
+

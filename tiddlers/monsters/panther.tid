@@ -1,0 +1,35 @@
+xp: 50
+wis: 14
+title: Panther
+tags: Beast Monster
+str: 14
+speed: 50 ft., climb 40 ft.
+source: MM
+skills: Perception +4, Stealth +6
+size: Medium
+senses: passive Perception 14
+mtype: beast
+modified: 20210810163458181
+languages: &mdash;
+int: 3
+hp: 13
+hitdice: 3d8
+dex: 15
+created: 20210810163249534
+cr: 1/4
+con: 10
+cha: 7
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The panther has advantage on Wisdom (Perception) checks that rely on smell.
+''Pounce.'' If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <<save Str 12>> or be knocked prone. If the target is [[Prone]], the panther can make one bite attack against it as a bonus action.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<melee Claw +4>>|<<slashing 1d4+2>> |<<reach 5>> |
+

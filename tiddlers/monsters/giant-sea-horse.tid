@@ -1,0 +1,34 @@
+xp: 100
+wis: 12
+title: Giant Sea Horse
+tags: Monster Beast
+str: 12
+speed: 0 ft., swim 40 ft.
+source: MM
+size: Large
+senses: passive Perception 11
+mtype: beast
+modified: 20210810091336767
+languages: &mdash;
+int: 2
+hp: 16
+hitdice: 3d10
+dex: 15
+created: 20210810091115010
+cr: 1/2
+con: 11
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Charge.'' If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra <<bludgeoning 2d6>>. It the target is a creature, it must succeed on a <<save Str 11>> or be knocked [[Prone]].
+''Water Breathing.'' The sea horse can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Ram +3>>|<<bludgeoning 1d6+1>> |<<reach 5>> |
+

@@ -1,0 +1,9 @@
+title: Sample Spellbook Cantrip
+tags: [[Sample Spellbook]]
+order: 0
+modified: 20210811115420881
+created: 20210811115230082
+caption: Cantrips
+
+<<spelltable "[[Fire Bolt]] [[Mage Hand]] [[Message]] [[Prestidigitation]]">>
+

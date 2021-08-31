@@ -1,0 +1,21 @@
+type: 
+title: Circle of Death
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: 150 feet
+modified: 20210809164610981
+material: (the powder of a crushed black pearl worth at least 500 gp)
+level: 6
+effect: 
+duration: Instantaneous
+created: 20190627100036688
+concentration: No
+components: V, S, M
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: W hen you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.
+
+A sphere of negative energy ripples out in a 60-foot-radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.

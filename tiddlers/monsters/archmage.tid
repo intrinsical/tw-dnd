@@ -1,0 +1,47 @@
+xp: 8400
+wis: 15
+title: Archmage
+tags: Humanoid Monster
+str: 10
+speed: 30 ft
+source: MM
+skills: Arcana +13, History +13
+size: Medium
+senses: passive Perception 12
+saving_throw: Int +9, Wis +6
+mtype: humanoid (any race)
+modified: 20210808233623324
+languages: any six language
+int: 20
+hp: 99
+hitdice: 18d8+18
+dex: 14
+damage_resistance: damage from spells; nonmagical bludgeoning, piercing, and slashing (from [[Stoneskin]])
+created: 20210808232917435
+cr: 12
+con: 12
+cha: 16
+armor: 15 with [[Mage Armor]]
+alignment: any alignment
+ac: 12
+
+"""
+''Magic Resistance.'' The archmage has advantage on saving throws against spells and other magical effects.
+''Spellcasting.'' The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (<<save "Spell DC" 17>>, <<casted "Spell Attack" +9>>). The archmage can cast [[Disguise Self]] and [[Invisibility]] at will and has the following wizard spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Fire Bolt]], [[Light]], [[Mage Hand]], [[Prestidigitation]], [[Shocking Grasp]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Detect Magic]], [[Identify]], [[Mage Armor]]*, [[Magic Missile]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Detect Thoughts]], [[Mirror Image]], [[Misty Step]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Counterspell]], [[Fly]], [[Lightning Bolt]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Banishment]], [[Fire Shield]], [[Stoneskin]]*
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (3 slots):'' [[Cone of Cold]], [[Scrying]], [[Wall of Force]]
+&nbsp;&nbsp;&nbsp;&nbsp;''6th level (1 slot):'' [[Globe of Invulnerability]]
+&nbsp;&nbsp;&nbsp;&nbsp;''7th level (1 slot):'' [[Teleport]]
+&nbsp;&nbsp;&nbsp;&nbsp;''8th level (1 slot):'' [[Mind Blank]]*
+&nbsp;&nbsp;&nbsp;&nbsp;''9th level (1 slot):'' [[Time Stop]]
+*The archmage casts these spells on itself before combat."""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Dagger +6>>|<<piercing 1d4+2>> |<<reach 5>><br/><<range 20/60>> |
+

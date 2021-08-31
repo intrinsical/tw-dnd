@@ -1,0 +1,37 @@
+xp: 10
+wis: 10
+title: Spider
+tags: Beast Monster
+str: 2
+speed: 20 ft., climb 20 ft.
+source: MM
+skills: Stealth +4
+size: Tiny
+senses: darkvision 30 ft., passive Perception 10
+mtype: beast
+modified: 20210810173402708
+languages: &mdash;
+int: 1
+hp: 1
+hitdice: 1d4-1
+dex: 14
+created: 20210810173153537
+cr: 0
+con: 8
+cha: 2
+armor: 
+alignment: unaligned
+ac: 12
+
+"""
+''Spider Climb.'' The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+''Web Sense.'' While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+''Web Walker.'' The spider ignores movement restrictions caused by webbing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 9>> or take <<poison 1d4>>. |<|
+

@@ -1,0 +1,49 @@
+xp: 62000
+wis: 17
+title: Ancient Gold Dragon
+tags: Monster Dragon MM Gold
+str: 30
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Insight +10, Perception +17, Persuasion +16, Stealth +9
+size: Gargantuan
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 27
+saving_throw: Dex +9, Con +16, Wis +10, Cha +16
+mtype: dragon
+modified: 20210827080301410
+languages: Common, Draconic
+int: 18
+hp: 546
+hitdice: 28d20+252
+dex: 14
+damage_immunity: fire
+created: 20210827075919492
+cr: 24
+condition_immunity: 
+con: 29
+cha: 28
+armor: natural armor
+alignment: lawful good
+ac: 22
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its ''Frightful Presence''. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Gold Dragon Lair Action">><<fold "Gold Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|!<<melee Bite +17>> |<<piercing 2d10+10>> |<<reach 15>> |
+|!<<melee Claw +17>> |<<slashing 2d6+10>> |<<reach 10>> |
+|!<<melee Tail +17>> |<<bludgeoning 2d8+10>> |<<reach 20>> |
+| !Frightful Presence|Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a <<save Wis 24>> saving throw or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons:<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in a <<cone 90>>. Each creature in that area must make a <<save Dex 24>> <fail><<fire 13d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Weakening Breath.'' The dragon exhales gas in a <<cone 90>>. Each creature in that area must succeed on a <<save Dex 24>> or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !Change Shape|The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). <br/>In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+|!Tail Attack |The dragon makes a tail attack. |<|
+|!Wing Attack<br/>(Costs 2 Actions) |The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a <<save Dex 25>> saving throw or take <<bludgeoning 2d6+10>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

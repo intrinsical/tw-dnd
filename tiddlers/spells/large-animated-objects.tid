@@ -1,0 +1,24 @@
+title: Large Animated Objects
+tags: [[Animate Objects Table]]
+modified: 20210819145102839
+created: 20190812094307851
+caption: Large
+
+<div style="display: flex;">
+<<stat Large 2 Objects>>
+<<stat Armor 10 Class>>
+<<stat Hit 50 Points>>
+</div>
+<div style="display: flex;">
+<<ability-value Strength 14>>
+<<ability-value Dexterity 10>>
+<<ability-value Constitution 10>>
+<<ability-value Intelligence 3>>
+<<ability-value Wisdom 3>>
+<<ability-value Charisma 1>>
+</div>
+<table>
+
+| !<<action>> Actions |<|<|
+| !<<melee Slam +6>>|<<bludgeoning 2d10+2>> |<<reach 5>> |
+

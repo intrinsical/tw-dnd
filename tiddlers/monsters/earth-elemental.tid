@@ -1,0 +1,38 @@
+xp: 1,800
+wis: 10
+title: Earth Elemental
+tags: Elemental Monster
+str: 20
+speed: 30 ft, burrow 30 ft
+source: MM
+size: Large
+senses: darkvision 60 ft., tremorsense 60 ft., passive Perception 10
+mtype: elemental
+modified: 20210223172018877
+languages: Terran
+int: 5
+hp: 126
+hitdice: 12d10+60
+dex: 8
+damage_vulnerability: thunder
+damage_resistance: bludgeoning, piercing, slashing from nonmagical weapons
+damage_immunity: poison
+created: 20191222004112033
+cr: 5
+condition_immunity: exhaustion, paralyzed, petrified, poisoned, unconscious
+con: 20
+cha: 5
+alignment: neutral
+ac: 17
+
+"""
+''Earth Glide.'' The elemental can burrow through non magical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.
+''Siege Monster.'' The elemental deals double damage to objects and structures.
+"""
+<<divider>>
+''Multiattack.'' The elemental makes two slam attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +8>>|<<bludgeoning 2d8+5>> |<<reach 10>> |
+

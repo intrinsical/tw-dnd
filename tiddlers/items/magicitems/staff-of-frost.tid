@@ -1,0 +1,13 @@
+title: Staff of Frost
+tags: Attunement [[Very Rare]] DMG Staff [[Magic Item]]
+modified: 20210814083339236
+item_type: Staff
+created: 20201029154623172
+attunement: requires attunement by a druid, sorcerer, warlock, or wizard
+
+You have resistance to <<cold cold>> damage while you hold this staff.
+
+The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: [[Cone of Cold]] (5 charges), [[Fog Cloud]] (1 charge), [[Ice Storm]] (4 charges), or [[Wall of Ice]] (4 charges).
+
+The staff regains <<roll 1d6+4>> expended charges daily at dawn. If you expend the last charge, roll a <<roll d20>>. On a 1, the staff turns to water and is destroyed.
+

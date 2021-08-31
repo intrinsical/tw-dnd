@@ -1,0 +1,11 @@
+title: Movement Type
+tags: Exploration Rule RuleMenu
+modified: 20210819143633886
+created: 20190730030919703
+
+<<p "Walking">>
+<<p "Burrowing">>
+<<p "Climbing">>
+<<p "Flying">>
+<<p "Swimming">>
+

@@ -1,0 +1,35 @@
+xp: 450
+wis: 13
+title: Griffon
+tags: Monster Monstrosity
+str: 18
+speed: 30 ft., fly 80 ft.
+source: MM
+skills: Perception +5
+size: Large
+senses: darkvision 60 ft., passive Perception 15
+mtype: monstrosity
+modified: 20210329061833286
+languages: &mdash;
+int: 2
+hp: 59
+hitdice: 7d10+21
+dex: 15
+created: 20210329061621069
+cr: 2
+con: 16
+cha: 8
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Sight.'' The griffon has advantage on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+''Multiattack.'' The griffon makes two attacks: one with its beak and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +6>>|<<piercing 1d8+4>> |<<reach 5>> |
+| !<<melee Claw +6>>|<<slashing 2d6+4>> |<reach 5>> |
+

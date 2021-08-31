@@ -1,0 +1,29 @@
+xp: 450
+wis: 7
+title: Ogre
+tags: Giant Monster
+str: 19
+speed: 40 ft
+source: MM
+size: Large
+senses: darkvision 60 ft, passive Perception 8
+mtype: giant
+modified: 20210806144758107
+languages: Common, Giant
+int: 5
+hp: 59
+hitdice: 7d10+21
+dex: 8
+created: 20190924180655787
+cr: 2
+con: 16
+cha: 7
+armor: hide armor
+alignment: chaotic evil
+ac: 11
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatclub +6>>|<<bludgeoning 2d8+4>> |<<reach 5>> |
+| !<<ranged Javelin +6>>|<<piercing 2d6+4>> |<<reach 5>><br/><<range 30/120>> |
+

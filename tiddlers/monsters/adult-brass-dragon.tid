@@ -1,0 +1,47 @@
+xp: 10000
+wis: 13
+title: Adult Brass Dragon
+tags: Monster Dragon MM Brass
+str: 23
+speed: 40 ft., burrow 30 ft., fly 80 ft.
+source: MM
+skills: History +7, Perception +11, Persuasion +8, Stealth +5
+size: Huge
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 21
+saving_throw: Dex +5, Con +10, Wis +6, Cha +8
+mtype: dragon
+modified: 20210827055458354
+languages: Common, Draconic
+int: 14
+hp: 172
+hitdice: 15d12+75
+dex: 10
+damage_immunity: fire
+created: 20210827054140808
+cr: 13
+condition_immunity: 
+con: 21
+cha: 17
+armor: natural armor
+alignment: chaotic good
+ac: 18
+
+"""
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Brass Dragon Lair Action">><<fold "Brass Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +11>>|<<piercing 2d10+6>> |<<reach 10>> |
+| !<<melee Claw +11>>|<<slashing 2d6+6>> |<<reach 5>> |
+| !<<melee Tail +11>>|<<bludgeoning 2d8+6>> |<<reach 15>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 16>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in an <<line "60' long, 5' wide">>. Each creature in that line must make a <<save Dex 18>> <fail><<fire 13d6>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Sleep Breath.'' The dragon exhales sleep gas in a <<cone 60>>. Each creature in that area must succeed on a <<save Con 18>> <fail>fall [[Unconscious]] for <<time 10m>></fail>. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 10>> of the dragon must succeed on a <<save Dex 19>> or take <<bludgeoning 2d6+6>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

@@ -1,0 +1,51 @@
+xp: 50,000
+wis: 18
+title: Kraken
+tags: Monster Monstrosity
+str: 30
+speed: 20 ft., swim 60 ft.
+source: MM
+size: Gargantuan
+senses: truesight 120 ft., passive Perception 14
+saving_throw: Str +17, Dex +7, Con +14, Int +13, Wis +11
+mtype: monstrosity (titan)
+modified: 20210403074331880
+languages: understands Abyssal, Celestial, Infernal, and Primordial but can’t speak, telepathy 120 ft.
+int: 22
+hp: 472
+hitdice: 27d20+189
+dex: 11
+damage_immunity: lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210331012235837
+cr: 23
+condition_immunity: frightened, paralyzed
+con: 25
+cha: 20
+armor: natural armor
+alignment: chaotic evil
+ac: 18
+
+"""
+''Amphibious.'' The kraken can breathe air and water.
+''Freedom of Movement.'' The kraken ignores <<difficult>>, and magical effects can’t reduce its speed or cause it to be [[Restrained]]. It can spend 5 feet of movement to escape from nonmagical restraints or being [[Grappled]].
+''Siege Monster.'' The kraken deals double damage to objects and structures.
+"""
+<<divider>>
+''Multiattack.'' The kraken makes three tentacle attacks, each of which it can replace with one use of Fling.
+
+<<fold "Kraken Lair Action">>
+<<fold "Kraken Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee  Bite +17>>|<<piercing 3d8+10>> |<<reach 5>> |
+|~|If the target is a Large or smaller creature [[Grappled]] by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the kraken, and it takes <<acid 12d6>> at the start of each of the kraken’s turns.<br/><br/>If the kraken takes <<damage &ge;50>> on a single turn from a creature inside it, the kraken must succeed on a <<save Con 25>> at the end of that turn or regurgitate all swallowed creatures, which fall [[Prone]] in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse using 15 feet of movement, exiting [[Prone]]. |<|
+| !<<melee Tentacle +17>>|<<bludgeoning 3d6+10>> |<<reach 30>> |
+|~|Target is [[Grappled]] (<<skillcheck Escape 18>>). Until this grapple ends, the target is [[Restrained]]. The kraken has ten tentacles, each of which can grapple one target. |<|
+| !Fling|One Large or smaller object held or creature grappled by the kraken is thrown up to <<range 60>> in a random direction and knocked [[Prone]]. If a thrown target strikes a solid surface, the target takes <<bludgeoning "1d6 per 10'">> it was thrown. If the target is thrown at another creature, that creature must succeed on a <<save Dex 18>> or take the same damage and be knocked [[Prone]]. |<|
+| !Lightning Storm|The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within <<range 120>> of it. A target must make a <<save Dex 23>>, taking <<lightning 4d10>> on a failed save, or <<halved>> on a successful one. |<|
+| !<<action>> Legendary Actions [3] |<|<|
+| !Tentacle Attack or Fling|The kraken makes one tentacle attack or uses its Fling. |<|
+| !Lightning Storm|''Costs 2 Actions''<br/>The kraken uses Lightning Storm. |<|
+| !Ink Cloud|''Costs 3 Actions''<br/>While underwater, the kraken expels an ink cloud in a <<sphere 60>>. The cloud spreads around corners, and that area is [[Heavily Obscured]] to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a <<save Con 23>>, taking <<poison 3d10>> on a failed save, or <<halved>> on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken’s next turn. |<|
+

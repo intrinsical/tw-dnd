@@ -1,0 +1,28 @@
+type: 
+title: Meteor Swarm
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 1 mile
+modified: 20210809220340174
+level: 9
+glyph_target: 4 x <<sphere 40>>
+glyph_range: <<range "1 mile">>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<fire 20d6>> <<bludgeoning 20d6>></fail> <pass> <<halved>></pass>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721140718668
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Blazing orbs of fire plummet to the ground at four different points you can see within range.
+Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a sucessful one. A creature in the area of more than one fiery burst is affected only once.
+
+The spell damages objects in the area and ignites flammable objects that aren’t being worn or carried.

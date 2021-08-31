@@ -1,0 +1,9 @@
+title: Organization
+tags: Entity
+modified: 20210825130322660
+icon: org.gif
+created: 20210810010807871
+caption: Organizations
+
+<<list-icons "[tag[Organization]sort[]]" "0 organizations found.">>
+

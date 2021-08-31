@@ -1,0 +1,25 @@
+type: 
+title: Poison Spray
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 10 feet
+modified: 20210809222159283
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 10>>
+glyph_effect: <<save Con $(dc)$>> <fail> <<poison 1d12>></fail>
+glyph_duration: 
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721061840874
+concentration: No
+components: V, S
+classes: [[Druid]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level (4d12).
+
+You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.

@@ -1,0 +1,34 @@
+xp: 100
+wis: 11
+title: Worg
+tags: Monstrosity Monster
+str: 16
+speed: 50 ft
+source: MM
+skills: Perception +4
+size: Large
+senses: darkvision 60 ft, passive Perception 14
+mtype: monstrosity
+modified: 20210205164957993
+languages: Goblin, Worg
+int: 7
+hp: 26
+hitdice: 4d10+4
+dex: 13
+created: 20191028073654246
+cr: 1/2
+con: 13
+cha: 8
+armor: natural armor
+alignment: neutral evil
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The worg has advantage on Wisdom (Perception) checks that rely on he aring or smell.
+"""
+[img[divider.png]]
+
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +5>>|<<piercing 2d6+3>> |<<range 5>> |
+|~|If target is a creature, it must succeed on a <<save Str 13>> or be knocked [[Prone]] |<|
+

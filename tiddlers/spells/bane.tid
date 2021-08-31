@@ -1,0 +1,27 @@
+type: 
+title: Bane
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: Cha
+ritual: No
+range: 30 feet
+modified: 20210809164028972
+material: (A drop of blood)
+level: 1
+glyph_target: <<per 3>>
+glyph_range: <<range 30>>
+glyph_effect: <<save Cha $(dc)$>> <fail> <<roll -1d4>> to attack rolls & saving throws</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>><<concentration>>30'<<per 3>><<save Cha {{!!dc}}>>]'' //-1d4 to attack rolls and saving throw//
+duration: 1 Minute
+dc: DC
+created: 20190419071928005
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Cleric]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spelslot of 2nd level or higher, you can target one aditional creature for each slot level above 1st.
+
+Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.

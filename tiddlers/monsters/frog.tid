@@ -1,0 +1,30 @@
+xp: 0
+wis: 8
+title: Frog
+tags: Monster Beast
+str: 1
+speed: 20 ft., swim 20 ft.
+source: MM
+skills: Perception +1, Stealth +3
+size: Tiny
+senses: darkvision 30 ft., passive Perception 11
+mtype: beast
+modified: 20210810073911872
+languages: &mdash;
+int: 1
+hp: 1
+hitdice: 1d4-1
+dex: 13
+created: 20210810073752779
+cr: 0
+con: 8
+cha: 3
+armor: 
+alignment: unaligned
+ac: 11
+
+"""
+''Amphibious.'' The frog can breathe air and water.
+''Standing Leap.'' The frog’s long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start.
+"""
+

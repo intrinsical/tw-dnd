@@ -1,0 +1,40 @@
+xp: 700
+wis: 14
+title: Green Hag
+tags: Monster Fey
+str: 18
+speed: 30 ft.
+source: MM
+skills: Arcana +3, Deception +4, Perception +4, Stealth +3
+size: Medium
+senses: darkvision 60 ft., passive Perception 14
+mtype: fey
+modified: 20210330023328155
+languages: Common, Draconic, Sylvan
+int: 13
+hp: 82
+hitdice: 11d8+33
+dex: 12
+created: 20210330020426703
+cr: 3
+con: 16
+cha: 14
+armor: natural armor
+alignment: neutral evil
+ac: 17
+
+"""
+''Amphibious.'' The hag can breathe air and water.
+''Innate Spellcasting.'' The hag’s innate spellcasting ability is Charisma (<<save "Spell DC" 12>>). She can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Dancing Lights]], [[Minor Illusion]], [[Vicious Mockery]]
+''Mimicry.'' The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful <<insight 14>>.
+"""
+{{Hag Shared Spellcasting}}
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +6>>|<<slashing 2d8+4>> |<<reach 5>> |
+| !Illusory Appearance|The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a <<ba>> to end it or if she dies.<br/>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a <<investigation 20>> to discern that the hag is disguised. |<|
+| !Invisible Passage|The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her. |<|
+

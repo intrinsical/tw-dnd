@@ -1,0 +1,35 @@
+type: 
+title: Prestidigitation
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 10 feet
+modified: 20210809222356821
+level: 0
+glyph_target: <<na>>
+glyph_range: <<range 10>>
+glyph_effect: Various effects.
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Up to 1 hour
+created: 20190721061855562
+concentration: No
+components: V, S
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:
+
+* You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor. 
+* You instantaneously light or snuff out a candle, a torch, or a small campfire. 
+* You instantaneously clean or soil an object no larger than 1 cubic foot. 
+* You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. 
+* You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. 
+* You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn. 
+
+If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
+

@@ -1,0 +1,38 @@
+xp: 1800
+wis: 10
+title: Giant Crocodile
+tags: Beast Monster
+str: 21
+speed: 30 ft, swim 50 ft.
+source: MM
+skills: Stealth +5
+size: Huge
+senses: passive Perception 10
+mtype: beast
+modified: 20210810080254283
+languages: &mdash;
+int: 2
+hp: 85
+hitdice: 9d12+27
+dex: 9
+created: 20210810075204895
+cr: 5
+con: 17
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+"""
+''Hold Breath.'' The crocodile can hold its breath for <<time 30m>>.
+"""
+<<divider>>
+''Multiattack.'' The crocodile makes two attacks: one with its bite and one with its tail.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +8>>|<<piercing 3d10+5>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 16>>). Until this grapple ends, the target is [[Restrained]], and the crocodile can’t bite another target. |<|
+| !<<melee Tail +8>>|<<bludgeoning 2d8+5>> |<<reach 10>><br/>Not [[Grappled]] by the crocodile |
+|~|If the target is a creature, it must succeed on a <<save Str 16>> or be knocked [[Prone]]. |<|
+

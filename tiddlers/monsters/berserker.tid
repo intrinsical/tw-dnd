@@ -1,0 +1,33 @@
+xp: 450
+wis: 11
+title: Berserker
+tags: Humanoid Monster
+str: 16
+speed: 30 ft
+source: MM
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809021301549
+languages: any one language (usually Common)
+int: 9
+hp: 67
+hitdice: 9d8+27
+dex: 12
+created: 20210809021134302
+cr: 2
+con: 17
+cha: 9
+armor: hide armor
+alignment: any chaotic alignment
+ac: 13
+
+"""
+''Reckless.'' At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greataxe +5>>|<<slashing 1d12+3>> |<<reach 5>> |
+

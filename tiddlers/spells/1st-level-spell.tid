@@ -1,0 +1,9 @@
+title: 1st Level Spell
+tags: [[Spells By Level]]
+order: 1
+modified: 20210811021358784
+created: 20210811021333487
+caption: 1st
+
+<<spelltable "[all[shadows+tiddlers]tag[Spell]level[1]sort[]]">>
+

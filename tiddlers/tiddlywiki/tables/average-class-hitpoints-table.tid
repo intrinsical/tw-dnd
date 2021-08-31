@@ -1,0 +1,14 @@
+title: Average Class Hitpoints Table
+tags: Table [[DM Tool]] [[DM Reference]]
+order: 8
+modified: 20210812064516365
+created: 20190725010401326
+caption: Average HP by Class
+
+| !Hit<br/>Dice | !Classes | !Per<br/>Level | !Base<br/>HP | !Hitpoints @ Level (Con +2) |<|<|<|<|
+|~|~|~|~| !1 | !5 | !10 | !15 | !20 |
+|^ !d12 |!Barbarian |^ 7+2 |^ 12 |^ 14 |^ 50 |^ 95 |^ 140 |^ 185 |
+|^ !d10 |!Fighter<br/>Paladin<br/>Ranger |^ 6+2 |^ 10 |^ 12 |^ 44 |^ 89 |^ 134 |^ 179 |
+|^ !d8 |!Bard<br/>Cleric<br/>Druid<br/>Monk<br/>Rogue<br/>Warlock |^ 5+2 |^ 8 |^ 10 |^ 38 |^ 73 |^ 108 |^ 143 |
+|^ !d6 |!Sorcerer<br/>Wizard |^ 4+2 |^ 6 |^ 8 |^ 32 |^ 62 |^ 92 |^ 122 |
+

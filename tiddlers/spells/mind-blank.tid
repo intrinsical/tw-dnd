@@ -1,0 +1,20 @@
+type: 
+title: Mind Blank
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809220411528
+level: 8
+effect: 
+duration: 24 hours
+created: 20190530081655403
+concentration: No
+components: V, S
+classes: [[Bard]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the [[Charmed]] condition. The spell even foils wish spells and spells or effects of similar power used to affect the target&#8217;s mind or to gain information about the target.

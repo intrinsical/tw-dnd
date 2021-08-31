@@ -1,0 +1,20 @@
+title: Winter's Splendor - Determining Party Strength
+tags: [[Winter's Splendor]]
+modified: 20210825170543074
+created: 20210825170243003
+
+When combat is a possibility, the adventure will provide a sidebar that helps you to determine the best mix/number of opponents to provide them with to create an appropriate challenge. While you’re not bound to these adjustments; they’re here for your convenience and consideration.
+
+To determine whether you should consider adjusting the adventure, add up the total levels of all the characters and divide the result by the number of characters (rounding .5 or greater up; .4 or less down). This is the group’s ''average party level (APL)''. To approximate the ''party strength'' for the adventure, consult the table below.
+
+| !Party Composition | !Party Strength |
+|3-4 characters, ''APL'' less than 3 |!Very Weak |
+|3-4 characters, ''APL'' equivalent to 3 |!Weak |
+|3-4 characters, ''APL'' greater than 3 |!Average |
+|5 characters, ''APL'' less than 3 |!Weak |
+|5 characters, ''APL'' equivalent to 3 |!Average |
+|5 characters, ''APL'' greater than 3 |!Strong |
+|6-7 characters, ''APL'' less than 3 |!Average |
+|6-7 characters, ''APL'' equivalent to 3 |!Strong |
+|6-7 characters, ''APL'' greater than 3 |!Very strong |
+

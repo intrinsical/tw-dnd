@@ -1,0 +1,33 @@
+xp: 10
+wis: 12
+title: Cat
+tags: Beast Monster
+str: 3
+speed: 40 ft, climb 30 ft
+source: MM
+skills: Perception +3, Stealth +4
+size: Tiny
+senses: passive Perception 13
+mtype: beast
+modified: 20210810051454344
+languages: &mdash;
+int: 3
+hp: 2
+hitdice: 1d4
+dex: 15
+created: 20190831072819507
+cr: 0
+con: 10
+cha: 7
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The cat has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +0>>|<<slashing 1>> |<<reach 5>> |
+

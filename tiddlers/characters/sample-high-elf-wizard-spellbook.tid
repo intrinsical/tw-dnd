@@ -1,0 +1,14 @@
+title: Sample High Elf Wizard Spellbook
+tags: [[Sample High Elf Wizard]] Spellbook
+order: 4
+modified: 20210815071410113
+created: 20210815065128519
+caption: Spellbook
+
+<div style="display: flex;">
+<<stat Spell 13 DC>>
+<<stat Spell +5 Attack>>
+</div>
+
+<<htabs "[tag[Sample High Elf Wizard Spellbook]sort[order]]">>
+

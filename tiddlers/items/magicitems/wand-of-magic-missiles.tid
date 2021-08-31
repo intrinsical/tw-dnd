@@ -1,0 +1,10 @@
+title: Wand of Magic Missiles
+tags: Uncommon DMG [[Magic Item]] Wand
+modified: 20210814181803578
+item_type: Wand
+created: 20190924181246888
+
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the [[Magic Missile]] spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+
+The wand regains <<roll 1d6+1>> expended charges daily at dawn. If you expend the wand’s last charge, roll a <<roll d20>>. On a 1, the wand crumbles into ashes and is destroyed.
+

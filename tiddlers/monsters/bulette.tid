@@ -1,0 +1,33 @@
+xp: 1800
+wis: 10
+title: Bulette
+tags: Monster Monstrosity
+str: 19
+speed: 40 ft., burrow 40 ft.
+source: MM
+skills: Perception +6
+size: Large
+senses: darkvision 60 ft., tremorsense 60 ft., passive Perception 16
+mtype: monstrosity
+modified: 20210222121239792
+languages: &mdash;
+int: 2
+hp: 94
+hitdice: 9d10+45
+dex: 11
+created: 20210222083302315
+cr: 5
+con: 21
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 17
+
+''Standing Leap.'' The bulette’s long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 4d12+4>> |<<reach 5>> |
+| !Deadly Leap|If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a <<save "Str/Dex" 16>> (target’s choice) or be knocked [[Prone]] and take <<bludgeoning 3d6+4>> + <<slashing 3d6+4>>. On a successful save, the creature takes only <<halved>>, isn’t knocked [[Prone]], and is pushed 5 feet out of the bulette’s space into an unoccupied space of the creature’s choice. If no unoccupied space is within range, the creature instead falls [[Prone]] in the bulette’s space. |<|
+

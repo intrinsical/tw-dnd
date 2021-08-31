@@ -1,0 +1,41 @@
+xp: 450
+wis: 10
+title: Wererat
+tags: Monster Humanoid
+str: 10
+speed: 30 ft.
+source: MM
+skills: Perception +2, Stealth +4
+size: Medium
+senses: darkvision 60 ft. (rat form only), passive Perception 12
+saving_throw: 
+mtype: humanoid (human, shapechanger)
+modified: 20210806023138409
+languages: Common (can’t speak in rat form)
+int: 11
+hp: 33
+hitdice: 6d8+6
+dex: 15
+damage_immunity: bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered
+created: 20210806022711380
+cr: 2
+con: 12
+cha: 8
+armor: 
+alignment: lawful evil
+ac: 12
+
+"""
+''Shapechanger.'' The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Keen Smell.'' The wererat has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack (Humanoid or Hybrid Form Only).'' The wererat makes two attacks, only one of which can be a bite.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>><br/>''Rat or Hybrid Form Only''|<<piercing 1d4+2>> |<<reach 5>> |
+|~|If the target is a humanoid, it must succeed on a <<save Con 11>> or be cursed with wererat [[Lycanthropy]]. |<|
+| !<<melee Shortsword +4>><br/>''Humanoid or Hybrid Form Only''|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged "Hand Crossbow" +4>><br/>''Humanoid or Hybrid Form Only''|<<piercing 1d6+2>> |<<range 30/120>> |
+

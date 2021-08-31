@@ -1,0 +1,33 @@
+xp: 200
+wis: 11
+title: Brass Dragon Wyrmling
+tags: Monster Dragon MM Brass
+str: 19
+speed: 30 ft., burrow 15 ft., fly 60 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +3, Wis +2, Cha +3
+mtype: dragon
+modified: 20210827060759496
+languages: Draconic
+int: 10
+hp: 16
+hitdice: 3d8+3
+dex: 10
+damage_immunity: fire
+created: 20210827060426135
+cr: 1
+condition_immunity: 
+con: 13
+cha: 13
+armor: natural armor
+alignment: chaotic good
+ac: 16
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.'' The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in an <<line "20' long, 5' wide">>. Each creature in that line must make a <<save Dex 11>> <fail><<fire 4d6>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Sleep Breath.'' The dragon exhales sleep gas in a <<cone 15>>. Each creature in that area must succeed on a <<save Con 11>> <fail>fall [[Unconscious]] for <<time 1m>></fail>. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. |<|
+

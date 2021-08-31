@@ -1,0 +1,45 @@
+xp: 5,900
+wis: 20
+title: Deva
+tags: Monster Celestial
+str: 18
+speed: 30 ft., fly 90 ft.
+source: MM
+skills: Insight +9, Perception +9
+size: Medium
+senses: darkvision 120 ft., passive Perception 19
+saving_throw: Wis +9, Cha +9
+mtype: celestial
+modified: 20210213115241490
+languages: all, telepathy 120 ft.
+int: 17
+hp: 136
+hitdice: 16d8+64
+dex: 18
+damage_resistance: radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: 
+created: 20210213112716022
+cr: 10
+condition_immunity: charmed, exhaustion, frightened
+con: 18
+cha: 20
+armor: natural armor
+alignment: lawful good
+ac: 17
+
+"""
+''Angelic Weapons.'' The deva’s weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra <<radiant 4d8>> (included in the attack).
+''Innate Spellcasting.'' The deva’s spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:
+//At will:// [[Detect Evil and Good]]
+//1/day each:// [[Commune]], [[Raise Dead]]
+''Magic Resistance.'' The deva has advantage on saving throws against spells and other magical effects.
+"""
+[img[divider.png]]
+''Multiattack.'' The deva makes two melee attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Mace +8>>|<<bludgeoning 1d6+4>> + <<radiant 4d8>> |<<reach 5>> |
+| !Healing Touch|''3/Day''<br/>The deva touches another creature. The target magically regains <<heal 4d8+2>> and is freed from any curse, disease, poison, blindness, or deafness. |<|
+| !Change Shape|The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva’s choice).<br/>&nbsp;<br/>In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. |<|
+

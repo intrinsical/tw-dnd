@@ -1,0 +1,28 @@
+type: 
+title: Feather Fall
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809170647134
+material: (a small feather or piece of down)
+level: 1
+glyph_target: <<per 5>>
+glyph_range: <<range 60>>
+glyph_effect: Falls @ 60' per round, no falling damage. 
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<reaction>>
+effect: ''[R]'' 60'/round
+duration: 1 minute
+created: 20190612174609302
+concentration: No
+components: V, M
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: Special
+at_higher_level: 
+
+Reaction: When you or a creature within 60 feet of you falls 
+
+Choose up to five falling creatures within range. A falling creature’s rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.

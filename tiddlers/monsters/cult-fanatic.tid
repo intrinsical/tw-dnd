@@ -1,0 +1,39 @@
+xp: 450
+wis: 13
+title: Cult Fanatic
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+skills: Deception +4, Persuasion +4, Religion +2
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809021917010
+languages: any one language (usually Common)
+int: 10
+hp: 33
+hitdice: 6d8+6
+dex: 14
+created: 20191110052500568
+cr: 2
+con: 12
+cha: 14
+armor: leather armor
+alignment: any non-good alignment
+ac: 13
+
+"""
+''Dark Devotion.'' The fanatic has advantage on saving throws against being [[Charmed]] or [[Frightened]].
+''Spellcasting.'' The fanatic is a 4th-level spell caster. Its spell casting ability is Wisdom (<<save "Spell DC" 11>>, <<casted "Spell Attack" +3>>). The fanatic has the following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Light]], [[Sacred Flame]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Command]], [[Inflict Wounds]], [[Shield of Faith]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Hold Person]], [[Spiritual Weapon]]
+"""
+<<divider>>
+''Multiattack.'' The fanatic makes two melee attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Dagger +4>>|<<piercing 1d4+2>> |<<reach 5>><br/><<range 20/60>> |
+

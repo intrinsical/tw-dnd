@@ -1,0 +1,35 @@
+xp: 50
+wis: 9
+title: Boar
+tags: Beast Monster
+str: 13
+speed: 40 ft
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 9
+mtype: beast
+modified: 20210810051122898
+languages: &mdash;
+int: 2
+hp: 11
+hitdice: 2d8+2
+dex: 11
+created: 20190801093415329
+cr: 1/4
+con: 12
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+"""
+''Charge.'' If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra <<slashing 1d6>>. If the target is a creature, it must succeed on a <<save Str 11>> or be knocked prone.
+''Relentless (Recharges after a Short or Long Rest).'' If the boar takes <<damage "&le;7">> that would reduce it to <<hp 0>>, it is reduced to <<hp 1>> instead.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Tusk +3>>|<<slashing 1d6+1>> |<<reach 5>> |
+

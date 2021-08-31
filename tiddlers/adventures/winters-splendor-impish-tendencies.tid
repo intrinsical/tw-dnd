@@ -1,0 +1,26 @@
+title: Winter's Splendor - Impish Tendencies
+tags: [[Section 1.1]] [[Winter's Splendor]]
+order: 3
+modified: 20210825142151515
+created: 20210825142018465
+caption: Impish Tendencies
+
+!!! Impish Tendencies
+
+<<per Aria>> extends her arms, heralding the start of another song, but suddenly stumbles and lets out a blood-curdling scream.
+
+* <<perception 14>> to see a bright red <<mob Imp>> has glommed onto the back of her neck
+* <<mob Imp>> attacks <<per Aria>> with its ''sting attack'', causing <<damage 25>>
+** <<per Aria>> is more distressed from shock and surprise than injury.
+
+''Party has 30 seconds of real time to act.''
+
+* ''The Crowd'' panics.
+* <<mob Imp>>
+** Fixated on attacking <<per Aria>>, largely because of her celestial aura.
+** Reacts with hostility towards characters attempting to communicate with it.
+* ''If party does not act.''
+** City watch defeats the imp
+
+<<mobs "[[Imp]] [[Veteran]] [[Guard]]">>
+

@@ -1,0 +1,32 @@
+xp: 50
+wis: 8
+title: Skeleton
+tags: Undead Monster
+str: 10
+speed: 30 ft
+source: MM
+size: Medium
+senses: darkvision 60 ft, passive Perception 9
+mtype: undead
+modified: 20210808071547254
+languages: understands all languages it knew in life, but can't speak
+int: 6
+hp: 13
+hitdice: 2d8+4
+dex: 14
+damage_vulnerability: bludgeoning
+damage_immunity: poison
+created: 20190930020201194
+cr: 1/4
+condition_immunity: exhaustion, poisoned
+con: 15
+cha: 5
+armor: armor scraps
+alignment: lawful evil
+ac: 13
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged Shortbow +4>>|<<piercing 1d6+2>> |<<reach 80/320>> |
+

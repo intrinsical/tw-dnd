@@ -1,0 +1,42 @@
+xp: 5000
+wis: 14
+title: Bone Devil
+tags: Monster Fiend Devil
+str: 18
+speed: 40 ft., fly 40 ft.
+source: MM
+skills: Deception +7, Insight +6
+size: Large
+senses: darkvision 120 ft., passive Perception 12
+saving_throw: Int +5, Wis +6, Cha +7
+mtype: fiend (devil)
+modified: 20210222193954565
+languages: Infernal, telepathy 120 ft.
+int: 13
+hp: 142
+hitdice: 15d10+60
+dex: 16
+damage_resistance: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: fire, poison
+created: 20210222193550823
+cr: 9
+condition_immunity: poisoned
+con: 18
+cha: 16
+armor: natural armor
+alignment: lawful evil
+ac: 19
+
+"""
+''Devil’s Sight.'' Magical darkness doesn’t impede the devil’s darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes three attacks: two with its claws and one with its sting.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +8>>|<<slashing 1d8+4>> |<<reach 10>> |
+| !<<melee Sting +8>>|<<piercing 2d8+4>>+<<poison 5d6>> |<<reach 10>> |
+|~|Target must succeed on a <<save Con 14>> or become [[Poisoned]] for <<time 1m>>. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+

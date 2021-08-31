@@ -1,0 +1,21 @@
+type: 
+title: True Seeing
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Touch
+modified: 20210809230329414
+material: (an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell)
+level: 6
+effect: 
+duration: 1 hour
+created: 20190612151039554
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight,  notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.

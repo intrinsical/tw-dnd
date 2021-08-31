@@ -1,0 +1,34 @@
+xp: 10
+wis: 12
+title: Jackal
+tags: Monster Beast
+str: 8
+speed: 40 ft.
+source: MM
+skills: Perception +3
+size: Small
+senses: passive Perception 13
+mtype: beast
+modified: 20210810114438865
+languages: &mdash;
+int: 3
+hp: 3
+hitdice: 1d6
+dex: 15
+created: 20210810114325144
+cr: 0
+con: 11
+cha: 6
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Hearing and Smell.'' The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pack Tactics.'' The jackal has advantage on an attack roll against a creature if at least one of the jackal’s allies is within 5 feet of the creature and the ally isn’t [[Incapacitated]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +1>>|<<piercing 1d4-1>> |<<reach 5>> |
+

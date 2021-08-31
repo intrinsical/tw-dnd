@@ -1,0 +1,38 @@
+xp: 7200
+wis: 10
+title: Roc
+tags: Monster Monstrosity
+str: 28
+speed: 20 ft., fly 120 ft.
+source: MM
+skills: Perception +4
+size: Gargantuan
+senses: passive Perception 14
+saving_throw: Dex +4, Con +9, Wis +4, Cha +3
+mtype: monstrosity
+modified: 20210807135354606
+languages: &mdash;
+int: 3
+hp: 248
+hitdice: 16d20+80
+dex: 10
+created: 20210807133510586
+cr: 11
+con: 20
+cha: 9
+armor: natural armor
+alignment: unaligned
+ac: 15
+
+"""
+''Keen Sight.'' The roc has advantage on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+''Multiattack.'' The roc makes two attacks: one with its beak and one with its talons.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +13>>|<<piercing 4d8+9>> |<<reach 10>> |
+| !<<melee Talons +13>>|<<slashing 4d6+9>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<save Escape 19>>). Until this grapple ends, the target is [[Restrained]], and the roc can’t use its talons on another target. |<|
+

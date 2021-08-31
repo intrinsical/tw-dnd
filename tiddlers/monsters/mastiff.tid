@@ -1,0 +1,35 @@
+xp: 25
+wis: 12
+title: Mastiff
+tags: Beast Monster
+str: 13
+speed: 40 ft
+source: MM
+skills: Perception +3
+size: Medium
+senses: passive Perception 13
+mtype: beast
+modified: 20210810162524068
+languages: &mdash;
+int: 3
+hp: 5
+hitdice: 1d8+1
+dex: 14
+created: 20210810162325955
+cr: 1/8
+con: 12
+cha: 7
+armor: 
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Hearing and Smell.'' The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d6+1>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Str 11>> or be knocked [[Prone]]. |<|
+

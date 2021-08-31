@@ -1,0 +1,46 @@
+type: application/javascript
+title: dnd.range.js
+tags: Javascript
+module-type: macro
+modified: 20210811143351172
+created: 20210210101234396
+
+/*\
+title: dnd.range.js
+type: application/javascript
+module-type: macro
+A Tiddlywiki macro for calculating average dice result
+\*/
+(function() {
+
+    /*jslint node: true, browser: true */
+    /*global $tw: false */
+    "use strict";
+
+    exports.name = "dnd.range";
+
+    exports.params = [{
+            name: "range",
+            default: ""
+        }
+    ];
+
+    /*
+    Run the macro. Make sure it accepts the parameters you have defined above.
+    */
+    exports.run = function(range) {
+        try {
+            var regexp = /^([\/\d]+)$/i;
+            var match = range.trim().match(regexp);
+            if(!match) {
+                return range;
+            }
+            return range + "'";
+        } catch (err) {
+            console.error(err.stack)
+            return "(ERROR: " + err.message + ") ";
+        }
+    };
+
+})();
+

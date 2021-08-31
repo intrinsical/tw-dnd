@@ -1,0 +1,32 @@
+xp: 25
+wis: 14
+title: Noble, Monster
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+skills: Deception +5, Insight +4, Persuasion +5
+size: Medium
+senses: passive Perception 12
+mtype: humanoid (any race)
+modified: 20210809030745048
+languages: any two languages
+int: 12
+hp: 9
+hitdice: 2d8
+dex: 12
+created: 20210809030547587
+cr: 1/8
+con: 11
+cha: 16
+caption: Noble
+armor: breastplate
+alignment: any alignment
+ac: 15
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Rapier +3>>|<<piercing 1d8+1>> |<<reach 5>> |
+| !<<reaction>> Reactions |<|<|
+| !Parry|The noble adds <<ac +2>> against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon. |<|
+

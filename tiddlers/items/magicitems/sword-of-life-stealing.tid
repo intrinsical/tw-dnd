@@ -1,0 +1,8 @@
+title: Sword of Life Stealing
+tags: Attunement Rare DMG [[Magic Item]] Weapon
+modified: 20210814172948657
+item_type: Weapon (any sword)
+created: 20190517025050681
+
+When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra <<necrotic 10>> damage if it isn't a construct or an undead. You also gain <<temp-hp 10>>.
+

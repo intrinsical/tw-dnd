@@ -1,0 +1,15 @@
+title: Serpent Venom
+tags: Poison Injury
+modified: 20210812033514681
+created: 20210812033403513
+
+"""
+''Price per Dose:'' 200 gp
+"""
+
+This poison must be harvested from a dead or [[Incapacitated]] giant poisonous snake. 
+
+* A creature subjected to this poison must succeed on a <<save Con 11>>,
+** <fail><<poison 3d6>></fail>
+** <pass><<halved>></pass>
+

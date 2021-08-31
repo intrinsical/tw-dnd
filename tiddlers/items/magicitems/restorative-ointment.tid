@@ -1,0 +1,9 @@
+title: Restorative Ointment
+tags: Uncommon DMG [[Magic Item]]
+modified: 20210815040621074
+created: 20210814011108867
+
+This glass jar, 3 inches in diameter, contains <<roll 1d4+1>> doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.
+
+As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains <<heal 2d8+2>>, ceases to be [[Poisoned]], and is cured of any disease.
+

@@ -1,0 +1,24 @@
+type: 
+title: Maze
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809220243064
+level: 8
+effect: 
+duration: 10 minutes
+created: 20190627104833058
+concentration: Yes
+components: V, S
+classes: [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.
+
+The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).
+
+When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.

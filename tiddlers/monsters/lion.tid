@@ -1,0 +1,37 @@
+xp: 200
+wis: 12
+title: Lion
+tags: Beast Monster
+str: 17
+speed: 50 ft.
+source: MM
+skills: Perception +3, Stealth +6
+size: Large
+senses: passive Perception 13
+mtype: beast
+modified: 20210810114833910
+languages: &mdash;
+int: 3
+hp: 26
+hitdice: 4d10+4
+dex: 15
+created: 20210328015247210
+cr: 1
+con: 13
+cha: 8
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The lion has advantage on Wisdom (Perception) checks that rely on smell.
+''Pack Tactics.'' The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't [[Incapacitated]].
+''Pounce.'' If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <<save Str 13>> or be knocked [[Prone]]. If the target is prone, the lion can make one bite attack against it as a bonus action.
+''Running Leap.'' With a 10-foot running start, the lion can long jump up to 25 feet.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d8+3>> |<<reach 5>> |
+| !<<melee Claw +5>>|<<slashing 1d6+3>> |<<reach 5>> |
+

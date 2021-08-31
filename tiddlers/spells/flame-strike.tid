@@ -1,0 +1,21 @@
+type: 
+title: Flame Strike
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809171121944
+material: (pinch of sulfur)
+level: 5
+effect: 
+duration: Instantaneous
+created: 20190612154117368
+concentration: No
+components: V, S, M
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th.
+
+A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.&nbsp;

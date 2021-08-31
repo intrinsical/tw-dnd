@@ -1,0 +1,29 @@
+title: Iron Flask
+tags: DMG [[Magic Item]] Legendary
+modified: 20210813235753345
+created: 20210813235048882
+
+This iron bottle has a brass stopper. You can use an action to speak the flask’s command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you’re on, the target must succeed on a <<save Wis 17>> or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn’t need to breathe, eat, or drink and doesn’t age.
+
+You can use an action to remove the flask’s stopper and release the creature the flask contains. The creature is friendly to you and your companions for <<time 1h>> and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.
+
+An [[Identify]] spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the DM or determined randomly.
+
+|max top|k
+| !d100 | !Contents | !d100 | !Contents |
+| !01–50 |Empty | !77–78 |Elemental (any) |
+| !51 |<<mob Arcanaloth>> | !79 |<<mob "Githyanki Knight">> |
+| !52 |<<mob Cambion>> | !80 |<<mob "Githzerai Zerth">> |
+| !53–54 |<<mob Dao>> | !81–82 |<<mob "Invisible Stalker">> |
+| !55–57 |Demon (type 1)	| !83–84 |<<mob Marid>> |
+| !58–60 |Demon (type 2)	| !85–86 |<<mob Mezzoloth>> |
+| !61–62 |Demon (type 3)	| !87–88 |<<mob "Night Hag">> |
+| !63–64 |Demon (type 4)	| !89–90 |<<mob Nycaloth>> |
+| !65 |Demon (type 5)	| !91 |<<mob Planetar>> |
+| !66 |Demon (type 6)	| !92–93 |<<mob Salamander>> |
+| !67 |<<mob Deva>>	| !94–95 |Slaad (any) |
+| !68–69 |Devil (greater)	| !96 |<<mob Solar>> |
+| !70–72 |Devil (lesser)	| !97–98 |<<mob Succubus/Incubus>> |
+| !73–74 |<<mob Djinni>> | !99 |<<mob Ultroloth>> |
+| !75–76 |<<mob Efreeti>> | !00 |<<mob Xorn>> |
+

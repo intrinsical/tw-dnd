@@ -1,0 +1,27 @@
+xp: 50
+wis: 10
+title: Axe Beak
+tags: Beast Monster
+str: 14
+speed: 50 ft
+source: MM
+size: Large
+senses: passive Perception 10
+mtype: beast
+modified: 20210810045559911
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 12
+created: 20190701115759039
+cr: 1/4
+con: 12
+cha: 5
+alignment: unaligned
+ac: 11
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +4>>|<<slashing 1d8+2>> |<<reach 5>> |
+

@@ -1,0 +1,35 @@
+title: SRD
+tags: Sourcebook
+modified: 20210811055955717
+icon: dnd.gif
+created: 20210109114855160
+caption: System Reference Document
+
+!! Races
+
+<div class="shadow-box"><$list filter="[tag[Race]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!!! Subraces
+
+<div class="shadow-box"><$list filter="[tag[Subrace]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!! Classes
+
+<div class="shadow-box"><$list filter="[tag[Class]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!!! Subclasses
+
+<div class="shadow-box"><$list filter="[tag[Subclass]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!! Feats
+
+<div class="shadow-box"><$list filter="[tag[Feat]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!!Backgrounds
+
+<div class="shadow-box"><$list filter="[tag[Background]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+
+!! Spells
+
+<div class="shadow-box"><$list filter="[tag[Spell]tag[SRD]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+

@@ -1,0 +1,36 @@
+xp: 5900
+wis: 11
+title: Young Red Dragon
+tags: Monster Dragon MM Red
+str: 23
+speed: 40 ft., climb 40 ft., fly 80 ft.
+source: MM
+skills: Perception +8, Stealth +4
+size: Large
+senses: blindsight 30 ft, darkvision 120 ft, passive Perception 18
+saving_throw: Dex +4, Con +9, Wis +4, Cha +8
+mtype: dragon
+modified: 20210827034221404
+languages: Common, Draconic
+int: 14
+hp: 178
+hitdice: 17d10+85
+dex: 10
+damage_immunity: fire
+created: 20210827033935263
+cr: 10
+condition_immunity: 
+con: 21
+cha: 19
+armor: natural armor
+alignment: chaotic evil
+ac: 18
+
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +10>>|<<piercing 2d10+6>> + <<fire 1d6>> |<<reach 10>> |
+| !<<melee Claw +10>>|<<slashing 2d6+6>> |<<reach 5>> |
+| !Fire Breath|''Recharge 5–6.''<br/>The dragon exhales fire in a <<cone 30>>. Each creature in that area must make a <<save Dex 17>> <fail><<fire 16d6>></fail> <pass><<halved>></pass>. |<|
+

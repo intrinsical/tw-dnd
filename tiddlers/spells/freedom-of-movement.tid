@@ -1,0 +1,23 @@
+type: 
+title: Freedom of Movement
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809171258938
+material: (a leather strap, bound around the arm or a similar appendage)
+level: 4
+effect: 
+duration: 1 hour
+created: 20190530072127768
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be [[Paralyzed]] or [[Restrained]].
+
+The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.

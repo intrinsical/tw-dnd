@@ -1,0 +1,22 @@
+title: Combat Action
+tags: Rule Combat
+order: 2
+modified: 20210812061939646
+created: 20190419061825740
+caption: Combat Actions
+
+|max top|k
+| !Standard Actions	 |<|
+|![[Attack]] |Pretty straight forward. Grappling, pushing and shoving are also considered an attack. |
+|!Cast Spell |Pretty straight forward  |
+|!Dash |''Extra movement.'' Doubles move distance |
+|!Disengage |''Good when surrounded.'' Allow moving away from opponents without receiving opportunity attacks |
+|!Dodge |''Avoid melee and ranged attacks.'' Attack rolls on me get disadvantage (only applies when I can see attacker) |
+|~|''Avoid nuke spells.'' Advantage to all dexterity saving throws |
+|!Help |''Assist teammate with ability check.'' Gives advantage to teammate's next ability roll |
+|~|''Assist in melee attack. (Not good)'' Gives advantage to next attack roll. |
+|!Hide |''Avoid combat.'' (See [[Hiding]]) |
+|!Ready |''Declaration to wait till a condition occurs, then do a specific action.'' |
+|!Search |''Spend all 6 seconds searching.'' |
+|!Use An Object |''Any interaction with 1 object for 6 seconds.'' |
+

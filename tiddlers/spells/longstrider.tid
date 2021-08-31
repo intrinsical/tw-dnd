@@ -1,0 +1,26 @@
+type: 
+title: Longstrider
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809173521069
+material: (a pinch of dirt)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: +10 movement speed
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>><<time 1h>>]'' +10' speed
+duration: 1 hour
+created: 20190612174110686
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Druid]] [[Ranger]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
+
+You touch a creature. The target’s speed increases by 10 feet until the spell ends.

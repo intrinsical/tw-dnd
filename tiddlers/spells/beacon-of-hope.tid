@@ -1,0 +1,25 @@
+type: 
+title: Beacon of Hope
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809164114977
+level: 3
+glyph_target: <<per any>>
+glyph_range: <<range 30>>
+glyph_effect: <<advantage>> to <<save Wis/death>>, maximize heals.
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190627161740156
+concentration: Yes
+components: V, S
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.

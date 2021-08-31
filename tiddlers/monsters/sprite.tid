@@ -1,0 +1,34 @@
+xp: 50
+wis: 13
+title: Sprite
+tags: Fey Monster
+str: 3
+speed: 10 ft, fly 40 ft
+source: MM
+skills: Perception +3, Stealth +8
+size: Tiny
+senses: passive Perception 13
+mtype: fey
+modified: 20210808113207680
+languages: Common, Elvish, Sylvan
+int: 14
+hp: 2
+hitdice: 1d4
+dex: 18
+created: 20190801074637678
+cr: 1/4
+condition_immunity: 
+con: 10
+cha: 11
+armor: leather armor
+alignment: neutral good
+ac: 15
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +2>>|<<slashing 1>> |<<reach 5>> |
+|^ !<<ranged Shortbow +6>>|<<piercing 1>> |<<range 40/160>> |
+|~|The target must succeed on a <<save Con 10>> or become [[Poisoned]] for <<time 1m>>. If its saving throw result is 5 or lower, the [[Poisoned]] target falls [[Unconscious]] for the same duration, or until it takes damage or another creature takes an action to shake it awake. |<|
+|^ !Heart Sight|The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a <<save Cha 10>>, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw. |<|
+|^ !Invisibility|The sprite magically turns [[Invisible]] until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it. |<|
+

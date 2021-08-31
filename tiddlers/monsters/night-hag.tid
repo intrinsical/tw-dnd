@@ -1,0 +1,48 @@
+xp: 1,800
+wis: 14
+title: Night Hag
+tags: Monster Fiend
+str: 18
+speed: 30 ft.
+source: MM
+skills: Deception +7, Insight +6, Perception +6, Stealth +6
+size: Medium
+senses: darkvision 120 ft., passive Perception 16
+mtype: fiend
+modified: 20210330024631859
+languages:  Abyssal, Common, Infernal, Primordial
+int: 16
+hp: 112
+hitdice: 15d8+45
+dex: 15
+damage_resistance: cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+created: 20210330023435192
+cr: 5
+condition_immunity: charmed
+con: 16
+cha: 16
+armor: natural armor
+alignment: neutral evil
+ac: 17
+
+"""
+''Innate Spellcasting.'' The hag’s innate spellcasting ability is Charisma (<<save "Spell DC" 14>>, <<casted "" +6>>). She can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Magic]], [[Magic Missile]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2/day each:'' [[Plane Shift]] (self only), [[Ray of Enfeeblement]], [[Sleep]]
+''Magic Resistance.'' The hag has advantage on saving throws against spells and other magical effects.
+''Night Hag Items.'' A night hag carries two very rare magic items that she must craft for herself. If either object is lost, the night hag will go to great lengths to retrieve it, as creating a new tool takes time and effort.
+&nbsp;&nbsp;&nbsp;&nbsp;''Heartstone.'' This lustrous black gem allows a night hag to become ethereal while it is in her possession. The touch of a heartstone also cures any disease. Crafting a heartstone takes <<time 30d>>.
+&nbsp;&nbsp;&nbsp;&nbsp;''Soul Bag.'' When an evil humanoid dies as a result of a night hag’s Nightmare Haunting, the hag catches the soul in this black sack made of stitched flesh. A soul bag can hold only one evil soul at a time, and only the night hag who crafted the bag can catch a soul with it. Crafting a soul bag takes <<time 7d>> and a humanoid sacrifice (whose flesh is used to make the bag).
+"""
+{{Hag Shared Spellcasting}}
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +7>>|<<slashing 2d8+4>> |<<reach 5>> |
+|~|''Hag Form Only'' |<|
+| !Change Shape|The hag magically polymorphs into a Small or Medium female humanoid, or back into her true form. Her statistics are the same in each form. Any equipment she is wearing or carrying isn’t transformed. She reverts to her true form if she dies. |<|
+| !Etherealness|The hag magically enters the Ethereal Plane from the Material Plane, or vice versa. To do so, the hag must have a heartstone in her possession. |<|
+| !Nightmare Haunting|''1/Day''<br/>While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A [[Protection from Evil and Good]] spell cast on the target prevents this contact, as does a [[Magic Circle]]. As long as the contact persists, the target has dreadful visions. If these visions last for at least <<time 1h>>, the target gains no benefit from its rest, and its hit point maximum is reduced by <<damage 1d10>>. If this effect reduces the target’s hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag’s soul bag. The reduction to the target’s hit point maximum lasts until removed by the [[Greater Restoration]] spell or similar magic. |<|
+
+

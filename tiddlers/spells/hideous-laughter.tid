@@ -1,0 +1,29 @@
+type: 
+title: Hideous Laughter
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809172341216
+material: (tiny tarts and a feather that is waved in the air)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<range 30>>
+glyph_effect: <<save Wis $(dc)$>> <fail> [[Prone]], [[Incapacitated]], cannot stand.</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: ''[30'<<time 1m>>]'' <<save Wis>>: [[Prone]] + [[Incapacitated]]
+duration: 1 minute
+created: 20210809172329896
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall [[Prone]], becoming [[Incapacitated]] and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn’t affected.
+
+At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends.
+

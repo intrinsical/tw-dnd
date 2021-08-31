@@ -1,0 +1,38 @@
+xp: 100
+wis: 10
+title: Satyr, Monster
+tags: Monster Fey
+str: 12
+speed: 40 ft.
+source: MM
+skills: Perception +2, Performance +6, Stealth +5
+size: Medium
+senses: passive Perception 12
+mtype: fey
+modified: 20210809051237066
+languages: Common, Elvish, Sylvan
+int: 12
+hp: 31
+hitdice: 7d8
+dex: 16
+created: 20210808061945684
+cr: 1/2
+con: 11
+cha: 14
+caption: Satyr
+armor: leather armor
+alignment: chaotic neutral
+ac: 14
+
+"""
+''Magic Resistance.'' The satyr has advantage on saving throws against spells and other magical effects.
+<<fold "Satyr Pipes, Variant">>
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Ram +3>>|<<bludgeoning 2d4+1>> |<<reach 5>> |
+| !<<melee Shortsword +5>>|<<piercing 1d6+3>> |<<reach 5>> |
+| !<<ranged Shortbow +5>>|<<piercing 1d6+3>> |<<range 80/320>> |
+

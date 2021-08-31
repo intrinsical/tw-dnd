@@ -1,0 +1,21 @@
+title: Winter's Splendor - Laiba Rosse
+tags: [[Winter's Splendor]] NPC [[Section 2.1.1]] Homebrew
+order: 6
+modified: 20210827153926844
+created: 20210825065927433
+caption: Laiba "Nana" Rosse
+
+|!Alignment |Lawful Evil |
+|!Race |Tiefling |
+|!Gender |Female |
+|!Statblock |<<mob "Cult Fanatic">> |
+
+//Nana is <<per Elzerina>> and <<per Terenzio>>'s tutor. She puts on a stern face when questioned.//
+
+* ''What She Knows.''
+** Tries to deflect suspicion away from the <<org Cassalanters>>. 
+** Says that another partygoer likely brought the imps into the house to ruin the lovely festivities and bring shame upon the <<org Cassalanters>>.
+** Might call attention to a specific guest (not a character), in order to divert attention. 
+** Claims she has never seen the book <<per Elzerina>> was reading. 
+** Suspects it was a gift Elzerina opened early.<br/>//&quot;Fables are just that &mdash; fables. Only silly children believe in fairytales.&quot;//
+

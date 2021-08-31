@@ -1,0 +1,34 @@
+xp: 100
+wis: 12
+title: Warhorse
+tags: Beast Monster
+str: 18
+speed: 60 ft
+source: MM
+skills: 
+size: Large
+senses: passive Perception 11
+mtype: beast
+modified: 20210810175650849
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 12
+created: 20210810175450480
+cr: 1/2
+con: 13
+cha: 7
+alignment: unaligned
+ac: 11
+
+"""
+''Trampling Charge.'' If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a <<save Str 14>> or be knocked [[Prone]]. If the target is prone, the horse can make another attack with its hooves against it as a bonus action.
+"""
+<<fold "Warhorse Armor, Variant">>
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +6>>|<<bludgeoning 2d6+4>> |<<reach 5>> |
+

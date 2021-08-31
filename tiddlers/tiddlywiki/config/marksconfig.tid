@@ -1,0 +1,25 @@
+type: 
+title: MarksConfig
+tags: Config
+modified: 20210228120902634
+created: 20210208065714172
+caption: Mark Settings
+
+|max top|k
+|^!Entity Mark |''Entity Text''<br/>[[$:/config/DefaultColourMappings/mark-entity-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-entity-text" tag=input/>|
+|~|''Entity Background''<br/>[[$:/config/DefaultColourMappings/mark-entity-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-entity-background" tag=input/>|
+|^!Positive Mark |''Positive Text''<br/>[[$:/config/DefaultColourMappings/mark-positive-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-positive-text" tag=input/>|
+|~|''Positive Background''<br/>[[$:/config/DefaultColourMappings/mark-positive-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-positive-background" tag=input/>|
+|^!Negative Mark |''Negative Text''<br/>[[$:/config/DefaultColourMappings/mark-negative-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-negative-text" tag=input/>|
+|~|''Negative Background''<br/>[[$:/config/DefaultColourMappings/mark-negative-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-negative-background" tag=input/>|
+|^!Saving Throw Mark |''Saving Throw Text''<br/>[[$:/config/DefaultColourMappings/mark-save-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-save-text" tag=input/>|
+|~|''Saving Throw Background''<br/>[[$:/config/DefaultColourMappings/mark-save-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-save-background" tag=input/>|
+|^!Skill Check Mark |''Skill Check Text''<br/>[[$:/config/DefaultColourMappings/mark-skill-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-skill-text" tag=input/>|
+|~|''Skill Check Background''<br/>[[$:/config/DefaultColourMappings/mark-skill-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-skill-background" tag=input/>|
+|^!Pass Mark |''Pass Text''<br/>[[$:/config/DefaultColourMappings/mark-pass-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-pass-text" tag=input/>|
+|~|''Pass Background''<br/>[[$:/config/DefaultColourMappings/mark-pass-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-pass-background" tag=input/>|
+|^!Fail Mark |''Fail Text''<br/>[[$:/config/DefaultColourMappings/mark-fail-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-fail-text" tag=input/>|
+|~|''Fail Background''<br/>[[$:/config/DefaultColourMappings/mark-fail-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-fail-background" tag=input/>|
+|^!Value Mark |''Value Text''<br/>[[$:/config/DefaultColourMappings/mark-value-text]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-value-text" tag=input/>|
+|~|''Value Background''<br/>[[$:/config/DefaultColourMappings/mark-value-background]] |<$edit-text tiddler="$:/config/DefaultColourMappings/mark-value-background" tag=input/>|
+

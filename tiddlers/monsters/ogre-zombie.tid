@@ -1,0 +1,35 @@
+xp: 450
+wis: 6
+title: Ogre Zombie
+tags: Monster Undead
+str: 19
+speed: 30 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 8
+saving_throw: Wis +0
+mtype: undead
+modified: 20210808162112080
+languages: understands Common and Giant but can’t speak
+int: 3
+hp: 85
+hitdice: 9d10+36
+dex: 6
+damage_immunity: poison
+created: 20210808161852679
+cr: 2
+condition_immunity: poisoned
+con: 18
+cha: 5
+alignment: neutral evil
+ac: 8
+
+"""
+''Undead Fortitude.'' If damage reduces the zombie to <<hp 0>>, it must make a <<save Con "5+damage taken">>, unless the damage is <<radiant radiant>> or from a ''critical hit''. On a success, the zombie drops to <<hp 1>> instead.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Morningstar +6>>|<<bludgeoning 2d8+4>> |<<reach 5>> |
+

@@ -1,0 +1,28 @@
+type: 
+title: Haste
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809172251983
+material: (a shaving of licorice root)
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<range 30>>
+glyph_effect: <<ac +2>>, <<save Dex Advantage>>, Additional Attack/Dash/Disengage/Hide/Use Object. ''Spell End,'' no movement, no action for 1 turn
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190612180757367
+concentration: Yes
+components: V, S, M
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+
+When the spell ends, the target can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it.

@@ -1,0 +1,27 @@
+type: 
+title: Acid Splash
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809163214856
+level: 0
+glyph_target: <<per 1-2>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<acid 1d6>></fail>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190721061346722
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
+You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take <<acid 1d6>>. 
+
+

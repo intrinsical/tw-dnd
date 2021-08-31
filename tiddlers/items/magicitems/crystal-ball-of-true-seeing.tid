@@ -1,0 +1,9 @@
+title: Crystal Ball of True Seeing
+tags: [[Magic Item]] Legendary Attunement [[Crystal Ball]] DMG
+modified: 20210813074545471
+created: 20210205080453210
+
+This crystal ball is about 6 inches in diameter. While touching it, you can cast the [[Scrying]] spell (<<save "Spell DC" 17>>) with it.
+
+While [[Scrying]] with the crystal ball, you have [[Truesight]] with a radius of 120 feet centered on the spell's sensor.
+

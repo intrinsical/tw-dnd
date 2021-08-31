@@ -1,0 +1,15 @@
+title: Ritual Spells
+tags: [[Spell Encyclopedia]]
+modified: 20190723101301912
+created: 20190723101217951
+
+<table>
+<tr><th>Spell</th><th>Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]sort[title]]" emptyMessage="<tr><td>No spells found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+</table>
+

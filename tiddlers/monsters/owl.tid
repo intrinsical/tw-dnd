@@ -1,0 +1,34 @@
+xp: 10
+wis: 12
+title: Owl
+tags: Beast Monster
+str: 3
+speed: 5 ft, fly 60 ft
+source: MM
+skills: Perception +3, Stealth +3
+size: Tiny
+senses: darkvision 120 ft, passive Perception 13
+mtype: beast
+modified: 20210810163148284
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 13
+created: 20190606180612128
+cr: 0
+con: 8
+cha: 7
+alignment: unaligned
+ac: 11
+
+"""
+''Flyby.'' The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach. 
+''Keen Hearing and Sight.'' The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight. 
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Talons +3>>|<<slashing 1>> |<<reach 5>> |
+

@@ -1,0 +1,12 @@
+title: Sun Blade
+tags: Attunement Rare DMG [[Magic Item]] Weapon
+modified: 20210814105946199
+item_type: Weapon (longsword)
+created: 20191016155530206
+
+This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the sun blade.
+
+You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra <<radiant 1d8>>.
+
+The sword’s luminous blade emits <<bright 15>> and an additional <<dim 15>>. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.
+

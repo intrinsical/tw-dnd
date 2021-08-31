@@ -1,0 +1,12 @@
+title: Vision
+tags: Environment Rule
+order: 2
+modified: 20210812063346415
+created: 20210113030551462
+
+!! Types of Vision
+
+|^!{{Darkvision, Sight||Link}} |{{Darkvision, Sight}} |
+|^!{{Blindsight||Link}} |{{Blindsight}} |
+|^!{{Truesight||Link}} |{{Truesight}} |
+

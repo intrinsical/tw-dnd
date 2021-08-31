@@ -1,0 +1,9 @@
+title: Magic Weapon List
+tags: Category [[Magic Item]]
+order: 3
+modified: 20210825060729802
+created: 20210815054122925
+caption: Magic Weapons
+
+<<list-box "[tag[Magic Item]tag[Weapon]sort[]]" "No magical weapons found.">>
+

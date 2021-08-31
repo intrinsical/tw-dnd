@@ -1,0 +1,34 @@
+type: 
+title: Magic Circle
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: 10 feet
+modified: 20210809173859033
+material: (holy water or powdered silver and iron worth at least 100 gp, which the spell consumes)
+level: 3
+glyph_target: <<cylinder 10x20>>
+glyph_range: <<range 10>>
+glyph_effect: Celestial/elemental/fey/fiend/undead. Cannot enter. Teleport after <<save Cha $(dc)$>>. <<disadvantage>> attacking <<target>>. Cannot be [[Charmed]], [[Frightened]] or possessed.
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<time 1m>>
+effect: 
+duration: 1 hour
+created: 20190530081918082
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Paladin]] [[Warlock]] [[Wizard]]
+casting_time: 1 Minute
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 hour for each slot level above 3rd.
+
+You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.
+
+Choose one or more of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways:
+
+* The creature can’t willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.
+* The creature has disadvantage on attack rolls against targets within the cylinder.
+* Targets within the cylinder can’t be [[Charmed]], [[Frightened]], or possessed by the creature.
+
+When you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.

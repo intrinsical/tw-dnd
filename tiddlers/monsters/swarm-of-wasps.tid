@@ -1,0 +1,36 @@
+xp: 100
+wis: 7
+title: Swarm of Wasps
+tags: Beast Monster
+str: 3
+speed: 5 ft., fly 30 ft.
+source: MM
+size: Medium swarm of Tiny
+senses: blindsight 10 ft, passive Perception 8
+mtype: beast
+modified: 20210810174518372
+languages: &mdash;
+int: 1
+hp: 22
+hitdice: 5d8
+dex: 13
+damage_resistance: bludgeoning, piercing, slashing
+created: 20210810174459375
+cr: 1/2
+condition_immunity: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+con: 10
+cha: 1
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Swarm.'' The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.
+"""
+<<fold "Insect Swarms, Variant">>
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bites +3>>|<<hp>>: <<piercing 4d4>><br/><<halved>>: <<piercing 2d4>> |<<reach 0>> |
+

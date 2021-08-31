@@ -1,0 +1,12 @@
+title: Sword of Sharpness
+tags: [[Magic Item]] [[Very Rare]] Attunement DMG Weapon
+modified: 20210814173715791
+item_type: Weapon (any sword that deals slashing damage)
+created: 20210205082503538
+
+When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
+
+When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra <<slashing 14>>. Then roll another <<roll d20>>. If you roll a 20, you lop off one of the target’s limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.
+
+In addition, you can speak the sword’s command word to cause the blade to shed <<bright 10>> and an additional <<dim 10>>. Speaking the command word again or sheathing the sword puts out the light.
+

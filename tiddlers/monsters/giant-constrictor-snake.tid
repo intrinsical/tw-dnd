@@ -1,0 +1,30 @@
+xp: 450
+wis: 10
+title: Giant Constrictor Snake
+tags: Beast Monster
+str: 19
+speed: 30 ft, swim 30 ft
+source: MM
+skills: Perception +2
+size: Huge
+senses: blindsight 10 ft, passive Perception 12
+mtype: beast
+modified: 20210810074942411
+languages: &mdash;
+int: 1
+hp: 60
+hitdice: 8d12+8
+dex: 14
+created: 20190831064554982
+cr: 2
+con: 12
+cha: 3
+alignment: unaligned
+ac: 12
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 2d6+4>> |<<reach 10>> |
+| !<<melee Constrict +6>>|<<bludgeoning 2d8+4>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 16>>). Until this grapple ends, the creature is [[Restrained]], and the snake can't constrict another target. |<|
+

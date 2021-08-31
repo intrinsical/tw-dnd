@@ -1,0 +1,40 @@
+xp: 5900
+wis: 13
+title: Young Gold Dragon
+tags: Monster Dragon MM Gold
+str: 23
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Insight +5, Perception +9, Persuasion +9, Stealth +6
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 19
+saving_throw: Dex +6, Con +9, Wis +5, Cha +9
+mtype: dragon
+modified: 20210827081609599
+languages: Common, Draconic
+int: 16
+hp: 178
+hitdice: 17d10+85
+dex: 14
+damage_immunity: fire
+created: 20210827081259772
+cr: 10
+condition_immunity: 
+con: 21
+cha: 20
+armor: natural armor
+alignment: lawful good
+ac: 18
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +10>>|<<piercing 2d10+6>> |<<reach 10>> |
+| !<<melee Claw +10>>|<<slashing 2d6+6>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in a <<cone 30>>. Each creature in that area must make a <<save Dex 17>> <fail><<fire 10d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Weakening Breath.'' The dragon exhales gas in a <<cone 30>>. Each creature in that area must succeed on a <<save Str 17>> or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+

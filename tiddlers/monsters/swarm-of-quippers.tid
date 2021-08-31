@@ -1,0 +1,36 @@
+xp: 200
+wis: 7
+title: Swarm of Quippers
+tags: Beast Monster
+str: 13
+speed: 0 ft, swim 40 ft
+source: MM
+size: Medium swarm of Tiny
+senses: blindsight 60 ft, passive Perception 8
+mtype: beast
+modified: 20210810174807554
+languages: &mdash;
+int: 1
+hp: 28
+hitdice: 8d8-8
+dex: 16
+damage_resistance: bludgeoning, piercing, slashing
+created: 20190805123703239
+cr: 1
+condition_immunity: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+con: 9
+cha: 2
+alignment: unaligned
+ac: 13
+
+"""
+''Blood Frenzy.'' The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points. 
+''Swarm.'' The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.
+''Water Breathing.'' The swarm can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bites +5>>|<<hp>>: <<piercing 4d6>><br/><<halved>>: <<piercing 2d6>> |<<reach 0>> |
+

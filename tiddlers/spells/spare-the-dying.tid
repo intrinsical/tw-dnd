@@ -1,0 +1,25 @@
+type: 
+title: Spare the Dying
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: Touch
+modified: 20210809223653429
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Target is stable
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[<<touch>><<per 1>>]'' //Stabilize//
+duration: Instantaneous
+created: 20190721063440475
+concentration: No
+components: V, S
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.

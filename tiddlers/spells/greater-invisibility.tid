@@ -1,0 +1,20 @@
+type: 
+title: Greater Invisibility
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: No
+range: Touch
+modified: 20210809171629092
+level: 4
+effect: ''[<<concentration>><<touch>><<time 1m>>]'' Invisible
+duration: 1 minute
+created: 20190627091337108
+concentration: Yes
+components: V, S
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target&#8217;s person.

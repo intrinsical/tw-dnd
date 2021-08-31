@@ -1,0 +1,42 @@
+xp: 3900
+wis: 11
+title: Assassin, Monster
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+skills: Acrobatics +6, Deception +3, Perception +3, Stealth +9
+size: Medium
+senses: passive Perception 13
+saving_throw: Dex +6, Int +4
+mtype: humanoid (any race)
+modified: 20210809020717560
+languages: Thieves’ cant plus any two languages
+int: 13
+hp: 78
+hitdice: 12d8+24
+dex: 16
+damage_resistance: poison
+created: 20210809020239703
+cr: 8
+con: 14
+cha: 10
+caption: Assassin
+armor: studded leather
+alignment: any non-good alignment
+ac: 15
+
+"""
+''Assassinate.'' During its first turn, the assassin has advantage on attack rolls against any creature that hasn’t taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.
+''Evasion.'' If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+''Sneak Attack (1/Turn).'' The assassin deals an extra <<damage 4d6>> when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn’t [[Incapacitated]] and the assassin doesn’t have disadvantage on the attack roll."""
+<<divider>>
+''Multiattack.'' The assassin makes two shortsword attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +6>>|<<piercing 1d6+3>> |<<reach 5>> |
+|~|The target must make a <<save Con 15>>, <fail><<poison 7d6>></fail>, <pass><<halved>></pass>. |<|
+| !<<ranged "Light Crossbow" +6>>|<<piercing 1d8+3>> |<<range 80/320>> |
+|~|The target must make a <<save Con 15>>, <fail><<poison 7d6>></fail>, <pass><<halved>></pass>. |<|
+

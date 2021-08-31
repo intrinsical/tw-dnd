@@ -1,0 +1,11 @@
+title: Bronze Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Bronze
+modified: 20210827070658691
+created: 20210827070550390
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
+
+* The dragon creates fog as though it had cast the [[Fog Cloud]] spell. The fog lasts until initiative count 20 on the next round.
+* ''A thunderclap'' originates at a point the dragon can see within 120 feet of it. Each creature within a <<sphere 20>> centered on that point must make a <<save Con 15>> or take <<thunder 1d10>> and be [[Deafened]] until the end of its next turn.
+

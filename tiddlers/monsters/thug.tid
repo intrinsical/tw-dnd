@@ -1,0 +1,36 @@
+xp: 100
+wis: 10
+title: Thug
+tags: Humanoid Monster
+str: 15
+speed: 30 ft
+source: MM
+skills: Intimidation +2
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809050423823
+languages: any one language (usually Common)
+int: 10
+hp: 32
+hitdice: 5d8+10
+dex: 11
+created: 20191107023237799
+cr: 1/2
+con: 14
+cha: 11
+armor: leather armor
+alignment: any non-good alignment
+ac: 11
+
+"""
+''Pack Tactics.'' The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't [[Incapacitated]].
+"""
+<<divider>>
+''Multiattack.'' The thug makes two melee attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Mace +4>>|<<bludgeoning 1d6+2>> |<<reach 5>> |
+| !<<ranged "Heavy Crossbow" +2>>|<<piercing 1d10>> |<<range 100/400>> |
+

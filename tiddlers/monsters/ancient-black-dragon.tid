@@ -1,0 +1,47 @@
+xp: 33000
+wis: 15
+title: Ancient Black Dragon
+tags: Monster Dragon MM Black
+str: 27
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Perception +16, Stealth +9
+size: Gargantuan
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 26
+saving_throw: Dex +9, Con +14, Wis +9, Cha +11
+mtype: dragon
+modified: 20210826202638842
+languages: Common, Draconic
+int: 16
+hp: 367
+hitdice: 21d20+147
+dex: 14
+damage_immunity: acid
+created: 20210223050621969
+cr: 21
+con: 25
+cha: 19
+armor: natural armor
+alignment: chaotic evil
+ac: 22
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Black Dragon Lair Action">><<fold "Black Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +15>>|<<piercing 2d10+8>>+<<acid 2d8>> |<<reach 15>> |
+| !<<melee Claw +15>>|<<slashing 2d6+8>> |<<reach 10>> |
+| !<<melee Tail +15>>|<<bludgeoning 2d8+8>> |<<reach 20>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 19>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Acid Breath|''Recharge on 5–6''<br/>The dragon exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a <<save Dex 22>>, taking <<acid 15d8>> on a failed save, or <<halved>> on a successful one. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 15>> of the dragon must succeed on a <<save Dex 23>> or take <<bludgeoning 2d6+8>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

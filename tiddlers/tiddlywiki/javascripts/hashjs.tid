@@ -1,0 +1,53 @@
+type: application/javascript
+title: hash.js
+tags: Javascript
+module-type: macro
+modified: 20210110123148710
+created: 20201210083328102
+caption: hash.js
+
+/*\
+title: hash.js
+type: application/javascript
+module-type: macro
+A hash generating macro for Tiddlywiki
+\*/
+(function() {
+
+    /*jslint node: true, browser: true */
+    /*global $tw: false */
+    "use strict";
+
+    exports.name = "hash";
+
+    exports.params = [{
+            name: "text",
+            default: ""
+        }
+    ];
+
+    /*
+    Run the macro. Make sure it accepts the parameters you have defined above.
+    */
+    exports.run = function(text) {
+        try {
+            var theString = String(text);
+            var hashcode = 0;
+            var i = 0;
+            var code = 0;
+            
+            for (i = 0; i < theString.length; i++) {
+                code = theString.charCodeAt(i);
+                hashcode  = ((hashcode << 5) - hashcode) + code;
+                hashcode |= 0; // Convert to 32bit integer
+            }
+            
+            return Math.abs(hashcode).toString(16);
+        } catch (err) {
+            console.error(err.stack)
+            return "(ERROR: " + err.message + ") ";
+        }
+    };
+
+})();
+

@@ -1,0 +1,48 @@
+title: Winter's Splendor - Danse Macabre
+tags: [[Winter's Splendor]] Section
+order: 5
+modified: 20210824090453279
+created: 20210813020432312
+caption: Bonus Objective B
+
+!! Danse Macabre
+
+|top|k
+|!Task |Help lift a curse placed on <<per Elzerina>> |
+|!Prerequisite |Party must fhave discovered Elzerina's toy chest.<br/>''OR:'' Party finds <<per Elzerina>> and <<per Terenzio>> playing with <<loot "a strange toy">> |
+|!Duration |<<time "Around 30m">> |
+
+Party discover a strange toy in Elzerina’s toy box that has a strange effect on Elzerina and can destroy it or remove the curse. It bears a maker’s mark that reads BLINSKY.
+
+!!! Elzerina Ballerina
+
+* ''Ornate Round Music Box.'' 
+** Found in <<per Elzerina>>'s toy chest.
+** ''Physical Appearance.'' Shaped like an egg, about 10 inches long. Outside is a deep ruby red, encrusted with small gems.
+** ''Opening the egg.'' 
+*** Reveals a tiny ballerina inside who looks exactly like <<per Elzerina>>. 
+*** Ballerina has blonde pigtails and wide hazel eyes, dressed in a white leotard similar to Elzerina's Midwinter Gala white dress.
+
+** ''Turning the music box key.'' 
+*** Ballerina starts twirling slowly to the mournful melody that emits from the box.
+*** <<per Elzerina>> starts to twirl too, until the song ends. 
+*** <<per Elzerina>> has no control over her body when this happens, and this occurs regardless of how far she is from the item. 
+**** Her parents assume she is just being her usual self, but this compulsion to dance distresses her greatly. 
+**** ''If Elzerina is around the characters when they discover the toy,'' she panics and asks them to take it from the house.
+** [[Detect Magic]]
+*** Tendrils of darkness reach out for <<per Elzerina>>, suggesting the egg is cursed.
+** <<investigation 12>> to spot the ''maker's mark'' , the name ''BLINKSY'', carved into flat underside of music box. 
+*** <<history 20>> ''or'' <<arcana 20>> to recognize Blinsky's name. <<per Blinsky is from <<loc Barovia>> and is reputed for making exquisite, albeit sinister, toys.
+** <<investigation 14>> to discover the ballerina looks startingly like <<per Elzerina>>
+** <<arcana 15>> to discover music box is ''cursed'' with an enchantment that causes the subject to dance whenever the music box is playing. If someone continuously winds the key, <<per Elzerina>> would be forced to continue dancing till she dies from [[Exhaustion]]
+** <<arcana 17>> to determine curse can be broken by severing the link between ballerina and <<per Elzerina>>. 
+*** Altering the ballerina's appearance (eg, changing hair color). 
+*** Or by destroying the ballerina.
+*** Elzerina would not be harmed because the ballerina is not a poppet.
+
+!! After breaking the curse
+
+* <<per Elzerina>> does not want the music box, and is eager for the party to take it far away,
+* Party can opt to take the music box. It is worth a hefty sum of gold.
+* ''If parents are asked about the music box,'' they say it was a gift from an acquaintance in <<loc Damara>> and don’t know much about it
+

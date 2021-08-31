@@ -1,0 +1,25 @@
+type: 
+title: Magic Missile
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809173957181
+level: 1
+glyph_target: <<per 1-3>>
+glyph_range: <<range 120>>
+glyph_effect: 3 darts, each <<force 1d4+1>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>>120']'' 3 x <<force 1d4+1>>
+duration: Instantaneous
+created: 20190721075338306
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.
+
+You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.

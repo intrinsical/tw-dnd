@@ -1,0 +1,38 @@
+xp: 450
+wis: 6
+title: Ochre Jelly
+tags: Monster Ooze
+str: 15
+speed: 10 ft., climb 10 ft.
+source: MM
+skills: Stealth +2
+size: Large
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 8
+mtype: ooze
+modified: 20210807104917406
+languages: &mdash;
+int: 2
+hp: 45
+hitdice: 6d10+12
+dex: 6
+damage_resistance: acid
+created: 20210807104641585
+cr: 2
+condition_immunity: blinded, charmed, deafened, exhaustion, frightened, prone
+con: 14
+cha: 1
+alignment: unaligned
+ac: 8
+
+"""
+''Amorphous.'' The jelly can move through a space as narrow as 1 inch wide without squeezing.
+''Spider Climb.'' The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pseudopod +4>>|<<bludgeoning 2d6+2>> + <<acid 1d6>> |<<reach 5>> |
+| !<<reaction>> Reactions |<|<|
+| !Split|When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has <<hp &gt;10>>. Each new jelly has hit points equal to half the original jelly’s, rounded down. New jellies are one size smaller than the original jelly. |<|
+

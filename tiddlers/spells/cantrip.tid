@@ -1,0 +1,9 @@
+title: Cantrip
+tags: [[Spells By Level]]
+order: 0
+modified: 20210811021307441
+created: 20210811021234446
+caption: Cantrips
+
+<<spelltable "[all[shadows+tiddlers]tag[Spell]level[0]sort[]]">>
+

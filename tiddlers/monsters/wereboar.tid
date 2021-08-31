@@ -1,0 +1,43 @@
+xp: 1100
+wis: 11
+title: Wereboar
+tags: Monster Humanoid
+str: 17
+speed: 30 ft. (40 ft. in boar form)
+source: MM
+skills: Perception +2
+size: Medium
+senses: passive Perception 12
+saving_throw: 
+mtype: humanoid (human, shapechanger)
+modified: 20210806022403497
+languages: Common (can’t speak in boar form)
+int: 10
+hp: 78
+hitdice: 12d8+24
+dex: 10
+damage_immunity: bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered
+created: 20210806021431563
+cr: 4
+con: 15
+cha: 8
+armor: in humanoid form, 11 (natural armor) in boar or hybrid form
+alignment: neutral evil
+ac: 10
+
+"""
+''Shapechanger.'' The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Charge (Boar or Hybrid Form Only).'' If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra <<slashing 2d6>>. If the target is a creature, it must succeed on a <<save Str 13>> or be knocked [[Prone]].
+''Relentless (Recharges after a Short or Long Rest).'' If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
+"""
+<<divider>>
+''Multiattack (Humanoid or Hybrid Form Only).'' The wereboar makes two attacks, only one of which can be with its tusks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Maul +5>><br/>''Humanoid or Hybrid Form Only''|<<bludgeoning 2d6+3>> |<<reach 5>> |
+| !<<melee Tusks +5>><br/>''Boar or Hybrid Form Only''|<<slashing 2d6+3>> |<<reach 5>> |
+|~|If the target is a humanoid, it must succeed on a <<save Con 12>> or be cursed with wereboar [[Lycanthropy]]. |<|
+
+
+

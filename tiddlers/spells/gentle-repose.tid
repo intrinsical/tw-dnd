@@ -1,0 +1,28 @@
+type: 
+title: Gentle Repose
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: Yes
+range: Touch
+modified: 20210809171446040
+material: (a pinch of salt and one copper piece placed on each of the corpse’s eyes, which must remain there for the duration)
+level: 2
+glyph_target: <<loot corpse>>
+glyph_range: <<touch>>
+glyph_effect: Corpse is protected from decay, cannot become undead.
+glyph_duration: <<time 10d>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 10 days
+created: 20190103192437150
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a corpse or other remains. For the duration, the target is protected from decay and can’t become undead.
+
+The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don’t count against the time limit of spells such as [[Raise Dead]].

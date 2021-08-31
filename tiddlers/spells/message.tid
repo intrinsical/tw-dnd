@@ -1,0 +1,29 @@
+type: 
+title: Message
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809220426858
+material: (a short piece of copper wire)
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 120>>
+glyph_effect: Whisper + reply message only caster and target can hear
+glyph_duration: <<round 1>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 round
+created: 20190612155131734
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You point your finger toward a creature within range and whisper a message.
+The target (and only the target) hears the message and can reply in a whisper that only you can hear.
+
+You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings.

@@ -1,0 +1,29 @@
+title: Winter's Splendor - Elzerina Cassalanter
+tags: [[Winter's Splendor]] NPC [[Section 2.1.1]] Homebrew
+order: 1
+modified: 20210827153713184
+created: 20210825063143603
+caption: Elzerina Cassalanter
+
+Elzerina is an eight-year-old girl with some elvish blood, thanks to her father’s half-elf lineage. Asmodeus has temporarily set his sights on her to get to her parents, and she feels very guilty for letting imps into her home.
+
+|!Alignment |Chaotic Good |
+|!Race |Half-Elf |
+|!Gender |Female |
+|!Statblock |<<mob Commoner>> (child) |
+|!Pronunciation |EL-zuhr-ee-nah CASS-ah-lan-tur |
+|!Personality |I’m bubbly and outgoing, and I enjoy meeting new strangers. |
+|!Ideal |All I want to do is explore the city but our parents don’t let us out very much. |
+|!Bond |I adore my brother, <<per Terenzio>>, even if he is a lot quieter than I am. |
+|!Flaw |Sometimes I act without thinking. |
+
+//Elzerina clearly exhibits signs of guilt and asks frequently for her brother.//
+
+* <<per "Captain Staget">> immediately stops <<intimidation any>>.
+** If necessary, forcibly removes the intimidators. 
+* <<persuasion 10>> persuades Elzerina to reveal everything she knows.
+* ''What She Knows.''
+** She saw {{Winter's Splendor - The Wooden Girl||Link}} with her name in the text.
+*** She thought it was a present for her.
+** She does not understand how she did it, but she accidentally brought an <<mob Imp>>, <<per Chernok>> to her room.<br/>// &quot;He was nice, at first! He let me clean his hat, which had a smudge on it. But then Chernok and his stinky friend Brimtoe started breaking things in my room and I got scared. Is Aria going to be alright?&quot;//
+

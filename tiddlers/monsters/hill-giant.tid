@@ -1,0 +1,32 @@
+xp: 1,800
+wis: 9
+title: Hill Giant
+tags: Giant Monster
+str: 21
+speed: 40 ft
+source: MM
+skills: Perception +2
+size: Huge
+senses: passive Perception 12
+mtype: giant
+modified: 20210328100738391
+languages: Giant
+int: 5
+hp: 105
+hitdice: 10d12+40
+dex: 8
+created: 20191121053108001
+cr: 5
+con: 19
+cha: 6
+armor: natural armor
+alignment: chaotic evil
+ac: 13
+
+''Multiattack.'' The giant makes two greatclub attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatclub +8>>|<<bludgeoning 3d8+5>> |<<reach 10>> |
+| !<<ranged Rock +8>>|<<bludgeoning 3d10+5>> |<<range 60/240>> |
+

@@ -1,0 +1,37 @@
+xp: 700
+wis: 10
+title: Mummy
+tags: Monster Undead
+str: 16
+speed: 20 ft.
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 10
+saving_throw: Wis +2
+mtype: undead
+modified: 20210806084827548
+languages: the languages it knew in life
+int: 6
+hp: 58
+hitdice: 9d8+18
+dex: 8
+damage_vulnerability: fire
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: necrotic, poison
+created: 20210806084337342
+cr: 3
+condition_immunity: charmed, exhaustion, frightened, paralyzed, poisoned
+con: 15
+cha: 12
+armor: natural armor
+alignment: lawful evil
+ac: 11
+
+''Multiattack.'' The mummy can use its Dreadful Glare and makes one attack with its rotting fist.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Rotting Fist" +5>>|<<bludgeoning 2d6+3>> + <<necrotic 3d6>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Con 12>> or be cursed with mummy rot. The cursed target can’t regain hit points, and its hit point maximum decreases by <<damage 3d6>> for every <<time 24h>> that elapse. If the curse reduces the target’s hit point maximum to <<hp 0>>, the target dies, and its body turns to dust. The curse lasts until removed by the [[Remove Curse]] spell or other magic. |<|
+| !Dreadful Glare|The mummy targets one creature it can see within <<range 60>> of it. If the target can see the mummy, it must succeed on a <<save Wis 11>> against this magic or become [[Frightened]] until the end of the mummy’s next turn. If the target fails the saving throw by 5 or more, it is also [[Paralyzed]] for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next <<time 24h>>. |<|
+

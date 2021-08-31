@@ -1,0 +1,32 @@
+type: 
+title: Antipathy/Sympathy
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809163637070
+material: (either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect)
+level: 8
+effect: 
+duration: 10 days
+created: 20190627104627059
+concentration: No
+components: V, S, M
+classes: [[Druid]] [[Wizard]]
+casting_time: 1 Hour
+at_higher_level: 
+
+This spell attracts or repels creatures of your choice. 
+You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura’s effect.&nbsp;
+
+Antipathy. 
+The enchantment causes creatures of the&nbsp;kind you designated to feel an intense urge to leave the&nbsp;area and avoid the target. When such a creature can&nbsp;see the target or comes within 60 feet of it, the creature&nbsp;must succeed on a Wisdom saving throw or become&nbsp;frightened. The creature remains frightened while it can&nbsp;see the target or is within 60 feet of it. While frightened&nbsp;by the target, the creature must use its movement to&nbsp;move to the nearest safe spot from which it can’t see&nbsp;the target. If the creature moves more than 60 feet from&nbsp;the target and can’t see it, the creature is no longer&nbsp;frightened, but the creature becomes frightened again if&nbsp;it regains sight of the target or moves within 60 feet of it.&nbsp;
+
+Sympathy. 
+The enchantment causes the specified&nbsp;creatures to feel an intense urge to approach the target&nbsp;while within 60 feet of it or able to see it. When such a&nbsp;creature can see the target or comes within 60 feet o fit,&nbsp;the creature must succeed on a Wisdom saving throw or&nbsp;use its movement on each of its turns to enter the area&nbsp;or move within reach of the target. When the creature&nbsp;has done so, it can’t willingly move away from the target.&nbsp;If the target damages or otherwise harms an affected&nbsp;creature, the affected creature can make a Wisdom&nbsp;saving throw to end the effect, as described below.&nbsp;
+
+Ending the Effect. 
+If an affected creature ends its&nbsp;turn while not within 60 feet of the target or able to see&nbsp;it, the creature makes a Wisdom saving throw. On a&nbsp;successful save, the creature is no longer affected by&nbsp;the target and recognizes the feeling of repugnance or&nbsp;attraction as magical. In addition, a creature affected by&nbsp;the spell is allowed another Wisdom saving throw every&nbsp;24 hours while the spell persists.&nbsp;
+A creature that successfully saves against this effect&nbsp;is immune to it for 1 minute, after which time it can be&nbsp;affected again.

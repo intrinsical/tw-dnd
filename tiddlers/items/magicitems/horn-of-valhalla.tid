@@ -1,0 +1,19 @@
+title: Horn of Valhalla
+tags: DMG [[Magic Item]]
+rarity: rare (silver or brass), very rare (bronze), or legendary (iron)
+modified: 20210813232201639
+created: 20200419032911742
+
+You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the <<mob Berserker>> statistics from the Monster Manual. They return to Ysgard after <<time 1h>> or when they drop to <<hp 0>>. Once you use the horn, it can’t be used again until <<time 7d>> have passed.
+
+Four types of horn of Valhalla are known to exist, each made of a different metal. The horn’s type determines how many berserkers answer its summons, as well as the requirement for its use. The DM chooses the horn’s type or determines it randomly.
+
+|max top|k
+| !d100 | !Horn Type | !Berserkers<br/>Summoned | !Requirement |
+| !01-40 |[[Horn of Valhalla, Silver]] (Rare) | 2d4+2 |None |
+| !41-75 |[[Horn of Valhalla, Brass]] (Rare) | 3d4+3 |Proficiency with all simple weapons |
+| !76-90 |[[Horn of Valhalla, Bronze]] (Very Rare) | 4d4+4 |Proficiency with all medium armor |
+| !91-00 |[[Horn of Valhalla, Iron]] (Legendary) | 5d4+5 |Proficiency with all martial weapons |
+
+If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.
+

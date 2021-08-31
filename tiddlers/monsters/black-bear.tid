@@ -1,0 +1,36 @@
+xp: 100
+wis: 12
+title: Black Bear
+tags: Beast Monster
+str: 15
+speed: 40 ft, climb 30 ft
+source: MM
+skills: Perception +3
+size: Medium
+senses: passive Perception 13
+mtype: beast
+modified: 20210810045956676
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d8+6
+dex: 10
+created: 20190701083225302
+cr: 1/2
+con: 14
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+"""
+''Keen Smell.'' The bear has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack.'' The bear makes two attacks, one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<melee Claw +4>>|<<slashing 2d4+2>> |<<reach 5>> |
+

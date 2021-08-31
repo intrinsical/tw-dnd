@@ -1,0 +1,47 @@
+type: text/vnd.tiddlywiki
+title: MonsterViewTemplate
+tags: $:/tags/ViewTemplate
+modified: 20210411042739418
+list-before: $:/core/ui/ViewTemplate/body
+created: 20210203010556588
+
+<$list filter="[all[current]tag[Monster]]">
+
+<$list filter="[all[current]tag[Summoned]]">
+<div style="width: 500px;">
+
+|max top|k
+| !Summoned Creature Parameters |<|
+| !Proficiency Bonus | !Spell Level |
+| <$edit-text field=proficiency/> | <$edit-text field=spell_level/> |
+| !Caster DC | !Caster To-Hit |
+| <$edit-text field=dc/> | <$edit-text field=to-hit/> |
+</div></$list><div style="width: 500px;"><h2><$transclude field="caption"><$view field="title"/></$transclude></h2>
+<div style="text-transform: initial;">//{{!!size}}, {{!!mtype}}, {{!!alignment}}//</div>
+[img[divider.png]]
+<div>''Armor Class'' {{!!ac}}<$reveal type="nomatch" state="!!armor" text=""> ({{!!armor}})</$reveal></div>
+<div>''Hitpoints'' {{!!hp}} ({{!!hitdice}})</div>
+<div>''Speed'' {{!!speed}}</div>
+[img[divider.png]]
+<div style="display: flex">
+ <div style="width: 60px; text-align: center;">''STR''<br/>{{!!str}} (<$transclude tiddler=Modifiers index={{!!str}} />)</div>
+ <div style="width: 60px; text-align: center;">''DEX''<br/>{{!!dex}} (<$transclude tiddler=Modifiers index={{!!dex}} />)</div>
+ <div style="width: 60px; text-align: center;">''CON''<br/>{{!!con}} (<$transclude tiddler=Modifiers index={{!!con}} />)</div>
+ <div style="width: 60px; text-align: center;">''INT''<br/>{{!!int}} (<$transclude tiddler=Modifiers index={{!!int}} />)</div>
+ <div style="width: 60px; text-align: center;">''WIS''<br/>{{!!wis}} (<$transclude tiddler=Modifiers index={{!!wis}} />)</div>
+ <div style="width: 60px; text-align: center;">''CHA''<br/>{{!!cha}} (<$transclude tiddler=Modifiers index={{!!cha}} />)</div>
+</div>
+[img[divider.png]]
+<$reveal type="nomatch" state="!!saving_throw" text=""><div>''Saving Throws'' {{!!saving_throw}}</div></$reveal>
+<$reveal type="nomatch" state="!!skills" text=""><div>''Skills'' {{!!skills}}</div></$reveal>
+<$reveal type="nomatch" state="!!damage_vulnerability" text=""><div>''Damage Vulnerabilities'' {{!!damage_vulnerability}}</div></$reveal>
+<$reveal type="nomatch" state="!!damage_resistance" text=""><div>''Damage Resistances'' {{!!damage_resistance}}</div></$reveal>
+<$reveal type="nomatch" state="!!damage_immunity" text=""><div>''Damage Immunities'' {{!!damage_immunity}}</div></$reveal>
+<$reveal type="nomatch" state="!!condition_vulnerability" text=""><div>''Condition Vulnerabilities'' {{!!condition_vulnerability}}</div></$reveal>
+<$reveal type="nomatch" state="!!condition_immunity" text=""><div>''Condition Immunities'' {{!!condition_immunity}}</div></$reveal>
+<$reveal type="nomatch" state="!!senses" text=""><div>''Senses'' {{!!senses}}</div></$reveal>
+<$reveal type="nomatch" state="!!languages" text=""><div>''Languages'' {{!!languages}}</div></$reveal>
+<div>''Challenge'' {{!!cr}} ({{!!xp}} XP)<$reveal type="nomatch" state="!!proficiency" text="">&nbsp;&nbsp;&nbsp;&nbsp;''Proficiency Bonus'' {{!!proficiency}}</$reveal></div>
+[img[divider.png]]
+</div>
+</$list>

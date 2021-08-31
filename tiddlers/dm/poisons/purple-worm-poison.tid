@@ -1,0 +1,15 @@
+title: Purple Worm Poison
+tags: Poison Injury
+modified: 20210812032949887
+created: 20210812031701035
+
+"""
+''Price per Dose:'' 2,000 gp
+"""
+
+This poison must be harvested from a dead or incapacitated purple worm. 
+
+* A creature subjected to this poison must make a <<save Con 19>>
+** <fail><<poison 12d6>></fail>
+** <pass><<halved>></pass>
+

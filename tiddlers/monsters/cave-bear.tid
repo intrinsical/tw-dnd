@@ -1,0 +1,36 @@
+xp: 450
+wis: 13
+title: Cave Bear
+tags: Beast Monster
+str: 20
+speed: 40 ft, swim 30 ft
+source: MM
+skills: Perception +3
+size: Large
+senses: darkvision 60 ft, passive Perception 13
+mtype: Beast
+modified: 20210211011242255
+languages: &mdash;
+int: 2
+hp: 42
+hitdice: 5d10+15
+dex: 10
+created: 20190831075643705
+cr: 2
+con: 16
+cha: 7
+armor: natural armor
+alignment: Unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The bear has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack.'' The bear makes two attacks, one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 1d8+5>> |<<reach 5>> |
+| !<<melee Claw +7>>|<<slashing 2d6+5>> |<<reach 5>> |
+

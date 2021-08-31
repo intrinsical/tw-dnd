@@ -1,0 +1,9 @@
+title: P2Template
+tags: Template
+modified: 20200309045732381
+created: 20200309045722678
+caption: Paragraph
+
+<h2><$link to={{!!title}}><$transclude field="caption"><$view field="title" /></$transclude></$link></h2>
+
+<$transclude field="text" mode="block"/>

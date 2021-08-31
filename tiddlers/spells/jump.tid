@@ -1,0 +1,26 @@
+type: 
+title: Jump
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809173110453
+material: (a grasshopper’s hind leg)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Jump distance tripled
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190612174053955
+concentration: No
+components: V, S, M
+classes: [[Druid]] [[Ranger]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a creature. The creature’s jump distance is tripled until the spell ends.

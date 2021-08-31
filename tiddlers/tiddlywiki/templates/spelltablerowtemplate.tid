@@ -1,0 +1,21 @@
+title: SpellTableRowTemplate
+tags: Template
+modified: 20210226135447479
+list: 
+created: 20190408010610453
+
+<tr>
+<th valign="top" align="left"><$link to={{!!title}}><$view field="title"/></$link></th>
+<td valign="top" align="center">{{!!level}}</td>
+<td valign="top" align="center">{{!!school}}</td>
+<td valign="top" align="center">{{!!casting_time}}</td>
+<td valign="top" align="center">{{!!components}}</td>
+<td valign="top" align="center">{{!!range}}</td>
+<td valign="top" align="center">{{!!duration}}</td>
+<td valign="top" align="left">
+<$list filter="[all[current]has[at_higher_level]]"><<upcast>></$list>
+<$list filter="[all[current]field:concentration[Yes]]"><<concentration>></$list>
+<$list filter="[all[current]field:ritual[Yes]]"><<ritual>></$list>
+</td>
+</tr>
+

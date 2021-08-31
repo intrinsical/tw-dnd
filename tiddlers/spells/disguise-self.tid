@@ -1,0 +1,29 @@
+type: 
+title: Disguise Self
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: No
+range: Self
+modified: 20210809170000114
+level: 1
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: Make self look different, including clothing, armor, weapons and belongings
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190721064739979
+concentration: No
+components: V, S
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You make yourself &mdash; including your clothing, armor, weapons, and other belongings on your person &mdash; look different until the spell ends or until you use your action to dismiss it. 
+
+You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can’t change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. 
+
+The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of som eone who reaches out to touch you would bump into you while it was seemingly still in midair. To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.

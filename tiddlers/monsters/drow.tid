@@ -1,0 +1,40 @@
+xp: 50
+wis: 11
+title: Drow
+tags: Monster Humanoid
+str: 10
+speed: 30 ft.
+source: MM
+skills: Perception +2, Stealth +4
+size: Medium
+senses: darkvision 120 ft., passive Perception 12
+mtype: humanoid (elf)
+modified: 20210224021954481
+languages: Elvish, Undercommon
+int: 11
+hp: 13
+hitdice: 3d8
+dex: 14
+created: 20210224021538164
+cr: 1/4
+con: 10
+cha: 12
+armor: chain shirt
+alignment: neutral evil
+ac: 15
+
+"""
+''Fey Ancestry.'' The drow has advantage on saving throws against being [[Charmed]], and magic can’t put the drow to sleep.
+''Innate Spellcasting.'' The drow’s spellcasting ability is Charisma, <<skillcheck "Save DC" 11>>. It can innately cast the following spells, requiring no material components:
+''At will:'' [[Dancing Lights]]
+''1/day each:'' [[Darkness]], [[Faerie Fire]]
+''Sunlight Sensitivity.'' While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Shortsword +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged "Hand Crossbow" +4>>|<<piercing 1d6+2>> |<<range 30/120>> |
+|~|Target must succeed on a <<save Con 13>> or be [[Poisoned]] for <<time 1h>>. If the saving throw fails by 5 or more, the target is also [[Unconscious]] while poisoned in this way. The target wakes up if it takes damage or if another creature takes an <<action>> to shake it awake. |<|
+

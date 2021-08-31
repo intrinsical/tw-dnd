@@ -1,0 +1,71 @@
+title: Spell Macros
+tags: Macro $:/tags/Macro
+modified: 20210317042601761
+list: 
+created: 20190408004658942
+
+\define spell(name)
+!! [[$name$]]
+"""
+<hr/>//{{$name$!!classes}}// <span style="float:right">//Source: {{$name$!!source}}//</span><hr/>//Level {{$name$!!level}} {{$name$!!school}}//
+
+''Casting Time'': {{$name$!!casting_time}}
+''Range'': {{$name$!!range}}
+''Components'': {{$name$!!components}}
+''Duration'': <$list filter="[all[{$name$]get[concentration]] -No">Concentration, </$list> {{$name$!!duration}}
+"""
+
+{{$name$!!text}}
+
+<$list filter="[all[$name$]get[at_higher_level]]" variable="">
+''At Higher Levels'': {{$name$!!at_higher_level}}
+</$list>
+\end
+
+
+\define spelltable(spells)
+<table class="max spelltable">
+<tr>
+<th align="left">Spell</th>
+<th align="center">Level</th>
+<th align="center">School</th>
+<th align="center">Casting Time</th>
+<th align="center">V/S/M</th>
+<th align="center">Range/Area</th>
+<th align="center">Duration</th>
+<th align="center">Meta</th>
+</tr>
+<$list filter="$spells$" template=SpellTableRowTemplate />
+</table>
+\end
+
+\define spells(spells, dc:"DC", to-hit:"to-hit")
+<table class="max">
+<tr>
+<th align="center">Cast</th>
+<th align="center" colspan="3">Spell</th>
+<th align="center" rowspan="2">Effect</th>
+</tr>
+<tr>
+<th align="center">VSM</th>
+<th align="right"><<range>></th>
+<th align="center"><<target>></th>
+<th align="left"><<time>></th>
+</tr>
+<$set name=dc value="$dc$"><$set name=to-hit value="$to-hit$"><$list filter="$spells$" template=SpellSummaryRowTemplate /></$set></$set>
+</table>
+\end
+
+"""
+&lt;&lt;''spell'' //spellname//&gt;&gt; - Displays a single spell
+&lt;&lt;''spelltable'' //spell1 spell2 ...//&gt;&gt; - Displays a table of spells
+&lt;&lt;''spells'' //spells dc to-hit//&gt;&gt; - Displays a table of spells
+"""
+
+| !Spell Templates |
+|SpellUpperViewTemplate |
+|SpellLowerViewTemplate |
+|SpellEditTemplate |
+|SpellTableRowTemplate |
+|SpellSummaryRowTemplate |
+

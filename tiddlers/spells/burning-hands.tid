@@ -1,0 +1,27 @@
+type: 
+title: Burning Hands
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: Dex
+ritual: No
+range: Self (15-foot cone)
+modified: 20210809164403322
+level: 1
+glyph_target: <<cone 15>>
+glyph_range: <<self>>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<fire 3d6>></fail> <pass> <<halved>></pass>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: <<cone 15>><<fire 3d6>><<save Dex "DC">><<halved>>
+duration: Instantaneous
+created: 20190702023316990
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+
+As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. 
+
+The fire ignites any flammable objects in the area that aren’t being worn or carried.&nbsp;

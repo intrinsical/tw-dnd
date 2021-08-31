@@ -1,0 +1,40 @@
+xp: 3,900
+wis: 10
+title: Hydra
+tags: Monstrosity Monster
+str: 20
+speed: 30 ft, swim 30 ft
+source: MM
+skills: Perception +6
+size: Huge
+senses: darkvision 60 ft, passive Perception 16
+mtype: monstrosity
+modified: 20210330091136980
+languages: &mdash;
+int: 2
+hp: 172
+hitdice: 15d12+75
+dex: 12
+created: 20190828124538965
+cr: 8
+con: 20
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 15
+
+"""
+''Hold Breath.'' The hydra can hold its breath for 1 hour.
+''Multiple Heads.'' The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being [[Blinded]], [[Charmed]], [[Deafened]], [[Frightened]], [[Stunned]], and [[Unconscious]].
+Whenever the hydra takes <<damage &ge;25>> in a single turn, one of its heads dies. If all its heads die, the hydra dies. 
+At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken <<fire>> since its last turn. The hydra regains <<heal 10>> for each head regrown in this way .
+''Reactive Heads.'' For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+''Wakeful.'' While the hydra sleeps, at least one of its heads is awake.
+"""
+<<divider>>
+''Multiattack.'' The hydra can make as many bite attacks as it has heads.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +8>>|<<piercing 1d10+5>> |<<reach 10>> |
+

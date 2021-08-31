@@ -1,0 +1,12 @@
+title: Ring of Elemental Command
+tags: Legendary Attunement DMG Ring [[Magic Item]]
+modified: 20210814051140057
+item_type: Ring
+created: 20210814050947041
+
+This ring is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane.
+
+While wearing this ring, you have advantage on attack rolls against elementals from the linked plane, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.
+
+The ring has 5 charges. It regains <<roll 1d4+1>> expended charges daily at dawn. Spells cast from the ring have a <<save "Spell DC" 17>>.
+

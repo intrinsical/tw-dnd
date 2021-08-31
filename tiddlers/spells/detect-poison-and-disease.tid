@@ -1,0 +1,28 @@
+type: 
+title: Detect Poison and Disease
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: Yes
+range: Self
+modified: 20210809165927159
+material: (a yew leaf)
+level: 1
+glyph_target: <<sphere 30>>
+glyph_range: <<self>>
+glyph_effect: Detect and identify poison, poisonous creature, or disease. 
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: ''[<<ritual>><<concentration>><<time 10m>><<sphere 30>>]'' //identify & locate (poison | poisonous creatures | disease)//
+duration: 10 minutes
+created: 20190612151747086
+concentration: Yes
+components: V, S, M
+classes: [[Cleric]] [[Druid]] [[Paladin]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case. 
+
+The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.

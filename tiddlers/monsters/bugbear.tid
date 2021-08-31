@@ -1,0 +1,36 @@
+xp: 200
+wis: 11
+title: Bugbear
+tags: Humanoid Monster
+str: 15
+speed: 30 ft
+source: MM
+skills: Stealth +6, Survival +2
+size: Medium
+senses: darkvision 60 ft, passive Perception 10
+mtype: humanoid (goblinoid)
+modified: 20210806030924176
+languages: Common, Goblin
+int: 8
+hp: 27
+hitdice: 5d8+5
+dex: 14
+created: 20191102065534219
+cr: 1
+con: 13
+cha: 9
+armor: hide armor, shield
+alignment: chaotic evil
+ac: 16
+
+"""
+''Brute.'' A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
+''Surprise Attack.'' If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra <<damage 2d6>> from the attack.
+"""
+[img[divider.png]]
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Morningstar +4>>|<<piercing 2d8+2>> |<<reach 5>> |
+| !<<melee Javelin +4>>|<<piercing 2d6+2>> |<<reach 5>> |
+| !<<ranged Javelin +4>>|<<piercing 1d6+2>> |<<range 30/120>> |

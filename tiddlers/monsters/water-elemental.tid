@@ -1,0 +1,39 @@
+xp: 1,800
+wis: 10
+title: Water Elemental
+tags: Elemental Monster
+str: 18
+speed: 30 ft, swim 90 ft
+source: MM
+size: Large
+senses: darkvision 60 ft, passive Perception 10
+mtype: elemental
+modified: 20210223172350893
+languages: Aquan
+int: 5
+hp: 114
+hitdice: 12d10+48
+dex: 14
+damage_resistance: acid; bludgeoning, piercing, slashing from nonmagical weapons
+damage_immunity: poison
+created: 20191222004727524
+cr: 5
+condition_immunity: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+con: 18
+cha: 8
+armor: natural armor
+alignment: neutral
+ac: 14
+
+"""
+''Water Form.'' The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.
+''Freeze.'' If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn.
+"""
+<<divider>>
+''Multiattack.'' The elemental makes two slam attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +7>>|<<bludgeoning 2d8+4>> |<<reach 5>> |
+|^ !Whelm|''Recharge on 4-6''<br/>Each creature in the elemental's space must make a <<save Str 15>>. On a failure, a target takes <<bludgeoning 2d8+4>>. If it is Large or smaller, it is also [[Grappled]], <<skillcheck Escape 14>>. Until this grapple ends, the target is [[Restrained]] and ''unable to breathe'' unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space. |<|
+

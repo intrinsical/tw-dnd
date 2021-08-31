@@ -1,0 +1,48 @@
+title: Monk
+tags: PHB Class
+subclass: Base Monk
+modified: 20210823141010487
+list: Monk [[Base Monk]]
+label: Tradition
+icon: monk.gif
+created: 20190405081525806
+class: Monk
+
+As a monk, you gain the following class features.
+
+!!! Hit Points
+
+"""
+''Hit Dice:'' 1d8 per monk level
+''Hit Points at 1st Level:'' 8 + your Constitution modifier
+''Hit Points at Higher Levels:'' 1d8 (or 5) + your Constitution modifier per monk level after 1st
+"""
+
+!!! Proficiencies
+
+"""
+''Armor:'' None
+''Weapons:'' Simple weapons, shortswords
+''Tools:'' Choose one type of artisan’s tools or one musical instrument
+''Saving Throws:'' Strength, Dexterity
+''Skills:'' Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth
+"""
+
+!!! Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+
+"""
+(a) a shortsword or (b) any simple weapon
+(a) a dungeoneer’s pack or (b) an explorer’s pack
+10 darts
+"""
+
+!!! Subclasses
+
+<<list-box "[tag[Monk]tag[Subclass]sort[]]">>
+
+!!! Advancement Table
+{{||MonkAdvancementTemplate}}
+{{||ClassAbilityTemplate}}
+

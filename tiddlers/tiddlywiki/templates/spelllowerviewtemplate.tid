@@ -1,0 +1,12 @@
+type: text/vnd.tiddlywiki
+title: SpellLowerViewTemplate
+tags: $:/tags/ViewTemplate
+modified: 20210317010447910
+list-after: $:/core/ui/ViewTemplate/body
+list: 
+created: 20190407015754428
+
+<$list filter="[all[current]tag[Spell]]">
+<$reveal type="nomatch" state="!!at_higher_level" text="">''At Higher Levels'': {{!!at_higher_level}}<br/></$reveal>
+''Summary'': <$set name=dc value=DC><$set name=to-hit value=to-hit>{{!!glyph_casting_time}} | {{!!glyph_range}} | {{!!glyph_target}} | {{!!glyph_duration}} | {{!!glyph_effect}}</$set></$set>
+</$list>

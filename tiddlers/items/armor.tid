@@ -1,0 +1,28 @@
+title: Armor
+tags: Table Item Category
+order: 1
+modified: 20210825061605528
+created: 20190708011143439
+
+Fantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, medium armor, and heavy armor. Many warriors supplement their armor with a shield.
+
+|max|k
+| !Armor | !Cost (gp) | !Armor Class (AC) | !Strength | !Stealth | !Weight (lb.) |
+| !Light Armor |<|<|<|<|<|
+|!Padded | 5 |11 + Dex modifier | &mdash; | Disadvantage | 8 |
+|!Leather | 10 |11 + Dex modifier | &mdash; | &mdash; | 10 |
+|!Studded leather | 45 |12 + Dex modifier | &mdash; | &mdash; | 13 |
+| !Medium Armor |<|<|<|<|<|
+|!Hide | 10 |12 + Dex modifier (max 2) | &mdash; | &mdash; | 12 |
+|!Chain shirt | 50 |13 + Dex modifier (max 2) | &mdash; | &mdash; | 20 |
+|!Scale mail | 50 |14 + Dex modifier (max 2) | &mdash; | Disadvantage | 45 |
+|!Breastplate | 400 |14 + Dex modifier (max 2) | &mdash; | &mdash; | 20 |
+|!Half plate | 750 |15 + Dex modifier (max 2) | &mdash; | Disadvantage | 40 |
+| !Heavy Armor |<|<|<|<|<|
+|!Ring mail | 30 |14 | &mdash; | Disadvantage | 40 |
+|!Chain mail | 75 |16 | Str 13 | Disadvantage | 55 |
+|!Splint | 200 |17 | Str 15 | Disadvantage | 60 |
+|!Plate | 1,500 |18 | Str 15 | Disadvantage | 65 |
+| !Shield |<|<|<|<|<|
+|!Shield | 10 |+2 | &mdash; | &mdash; | 6 |
+

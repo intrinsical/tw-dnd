@@ -1,0 +1,27 @@
+xp: 10
+wis: 10
+title: Commoner
+tags: Humanoid Monster
+str: 10
+speed: 30 ft
+source: MM
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809050619018
+languages: any one language (usually Common)
+int: 10
+hp: 4
+hitdice: 1d8
+dex: 10
+created: 20191107054051374
+cr: 0
+con: 10
+cha: 10
+alignment: any alignment
+ac: 10
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Club +2>>|<<bludgeoning 1d4>> |<<reach 5>> |
+

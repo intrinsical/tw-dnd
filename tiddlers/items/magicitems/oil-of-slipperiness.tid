@@ -1,0 +1,10 @@
+title: Oil of Slipperiness
+tags: Uncommon DMG Potion [[Magic Item]]
+modified: 20210814052521376
+item_type: Potion
+created: 20201001075243972
+
+This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes <<time 10m>>. The affected creature then gains the effect of a [[Freedom of Movement]] spell for <<time 8h>>.
+
+Alternatively, the oil can be poured on the ground as an action, where it covers a <<square 10>>, duplicating the effect of the [[Grease]] spell in that area for <<time 8h>>.
+

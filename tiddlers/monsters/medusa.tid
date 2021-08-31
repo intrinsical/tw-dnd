@@ -1,0 +1,40 @@
+xp: 2300
+wis: 13
+title: Medusa
+tags: Monster Monstrosity
+str: 10
+speed: 30 ft.
+source: MM
+skills: Deception +5, Insight +4, Perception +4, Stealth +5
+size: Medium
+senses: darkvision 60 ft., passive Perception 14
+mtype: monstrosity
+modified: 20210806031802137
+languages: Common
+int: 12
+hp: 127
+hitdice: 17d8+51
+dex: 15
+created: 20210806031239597
+cr: 6
+con: 16
+cha: 15
+armor: natural armor
+alignment: lawful evil
+ac: 15
+
+"""
+''Petrifying Gaze.'' When a creature that can see the medusa’s eyes starts its turn within <<sphere 30>> of the medusa, the medusa can force it to make a <<save Con 14>> if the medusa isn’t [[Incapacitated]] and can see the creature. If the saving throw fails by 5 or more, the creature is instantly [[Petrified]]. Otherwise, a creature that fails the save begins to turn to stone and is [[Restrained]]. The [[Restrained]] creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the [[Greater Restoration]] spell or other magic.
+
+Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
+If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of <<bright>>, the medusa is, due to its curse, affected by its own gaze.
+"""
+<<divider>>
+''Multiattack.'' The medusa makes either three melee attacks — one with its snake hair and two with its shortsword — or two ranged attacks with its longbow.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Snake Hair" +5>>|<<piercing 1d4+2>> + <<poison 4d6>> |<<reach 5>> |
+| !<<melee Shortsword +5>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<ranged Longbow +5>>|<<piercing 1d8+2>> + <<poison 2d6>> |<<range 150/600>> |
+

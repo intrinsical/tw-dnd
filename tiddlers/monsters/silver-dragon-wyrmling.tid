@@ -1,0 +1,33 @@
+xp: 450
+wis: 11
+title: Silver Dragon Wyrmling
+tags: Monster Dragon MM Silver
+str: 19
+speed: 30 ft., fly 60 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +5, Wis +2, Cha +4
+mtype: dragon
+modified: 20210827092321057
+languages: Draconic
+int: 12
+hp: 45
+hitdice: 6d8+18
+dex: 10
+damage_immunity: cold
+created: 20210827092034407
+cr: 2
+condition_immunity: 
+con: 17
+cha: 15
+armor: natural armor
+alignment: lawful good
+ac: 17
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d10+4>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.'' The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Cold Breath.'' The dragon exhales an icy blast in a <<cone 15>>. Each creature in that area must make a <<save Con 13>> <fail><<cold 4d8>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Paralyzing Breath.'' The dragon exhales paralyzing gas in a <<cone 15>>. Each creature in that area must succeed on a <<save Con 13>> <fail>[[Paralyzed]] for <<time 1m>></fail>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+

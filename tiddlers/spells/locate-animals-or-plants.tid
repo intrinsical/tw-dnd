@@ -1,0 +1,26 @@
+type: 
+title: Locate Animals or Plants
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: Yes
+range: Self
+modified: 20210809173431671
+material: (a bit of fur from a bloodhound)
+level: 2
+glyph_target: <<sphere "5 miles">>
+glyph_range: <<self>>
+glyph_effect: Locate specific plant or beast's direction and distance if within <<range "5 miles">>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190103192405633
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.

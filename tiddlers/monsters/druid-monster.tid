@@ -1,0 +1,38 @@
+xp: 450
+wis: 15
+title: Druid, Monster
+tags: Humanoid Monster
+str: 10
+speed: 30 ft
+source: MM
+skills: Medicine +4, Nature +3, Perception +4
+size: Medium
+senses: passive Perception 14
+mtype: humanoid (any race)
+modified: 20210809030906788
+languages: Druidic plus any two languages
+int: 12
+hp: 27
+hitdice: 5d8+5
+dex: 12
+created: 20210809021935301
+cr: 2
+con: 13
+cha: 11
+caption: Druid
+armor: 16 with [[Barkskin]]
+alignment: any alignment
+ac: 11
+
+"""
+''Spellcasting.'' The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (<<save "Spell DC" 12>>, <<casted "Spell Attack" +4>>). It has the following druid spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Druidcraft]], [[Produce Flame]], [[Shillelagh]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Entangle]], [[Longstrider]], [[Speak with Animals]], [[Thunderwave]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Animal Messenger]], [[Barkskin]]
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Quarterstaff +2>><br/><<melee "Quarterstaff with&nbsp;[[Shillelagh]]" +4>>|<<bludgeoning 1d6>><br/><<bludgeoning 1d8+2>> (''with [[Shillelagh]] or Two-handed'') |<<reach 5>> |
+

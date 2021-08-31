@@ -1,0 +1,6 @@
+title: Walking
+tags: [[Movement Type]] Rule
+modified: 20210812061623301
+created: 20190730031107192
+
+All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.

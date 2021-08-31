@@ -1,0 +1,30 @@
+title: WizardAdvancementTemplate
+tags: Wizard Table Template
+subclass: School of Evocation
+modified: 20210823131057322
+created: 20191124100020405
+class: Wizard
+
+|max top|k
+| !Level | !PB | !Features | !Cantrips Known | !1st | !2nd | !3rd | !4th | !5th | !6th | !7th | !8th | !9th |
+| !1st | +2 |<<list-abilities 1>> | 3 | 2 | — | — | — | — | — | — | — | — |
+| !2nd | +2 |<<list-abilities 2>> | 3 | 3 | — | — | — | — | — | — | — | — |
+| !3rd | +2 |<<list-abilities 3>> | 3 | 4 | 2 | — | — | — | — | — | — | — |
+| !4th | +2 |<<list-abilities 4>> | 4 | 4 | 3 | — | — | — | — | — | — | — |
+| !5th | +3 |<<list-abilities 5>> | 4 | 4 | 3 | 2 | — | — | — | — | — | — |
+| !6th | +3 |<<list-abilities 6>> | 4 | 4 | 3 | 3 | — | — | — | — | — | — |
+| !7th | +3 |<<list-abilities 7>> | 4 | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| !8th | +3 |<<list-abilities 8>> | 4 | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| !9th | +4 |<<list-abilities 9>> | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| !10th | +4 |<<list-abilities 10>> | 5 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| !11th | +4 |<<list-abilities 11>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| !12th | +4 |<<list-abilities 12>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| !13th | +5 |<<list-abilities 13>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| !14th | +5 |<<list-abilities 14>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| !15th | +5 |<<list-abilities 15>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| !16th | +5 |<<list-abilities 16>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| !17th | +6 |<<list-abilities 17>> | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| !18th | +6 |<<list-abilities 18>> | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| !19th | +6 |<<list-abilities 19>> | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| !20th | +6 |<<list-abilities 20>> | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+

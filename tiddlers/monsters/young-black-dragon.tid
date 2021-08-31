@@ -1,0 +1,39 @@
+xp: 2900
+wis: 11
+title: Young Black Dragon
+tags: Monster Dragon Black MM
+str: 19
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Perception +6, Stealth +5
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 16
+saving_throw: Dex +5, Con +6, Wis +3, Cha +5
+mtype: dragon
+modified: 20210826173137047
+languages: Common, Draconic
+int: 12
+hp: 127
+hitdice: 15d10+45
+dex: 14
+damage_immunity: acid
+created: 20210223051939805
+cr: 7
+con: 17
+cha: 15
+armor: natural armor
+alignment: chaotic evil
+ac: 18
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>>+<<acid 1d8>> |<<reach 10>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Acid Breath|''Recharge on 5–6''<br/>The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a <<save Dex 14>>, taking <<acid 11d8>> on a failed save, or <<halved>> on a successful one. |<|
+

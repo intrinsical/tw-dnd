@@ -1,0 +1,33 @@
+xp: 3900
+wis: 12
+title: Tyrannosaurus Rex
+tags: Monster Beast Dinosaur
+str: 25
+speed: 50 ft.
+source: MM
+skills: Perception +4
+size: Huge
+senses: passive Perception 14
+mtype: beast
+modified: 20210223022748584
+languages: &mdash;
+int: 2
+hp: 136
+hitdice: 13d12+52
+dex: 10
+created: 20210223022102005
+cr: 8
+con: 19
+cha: 9
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+''Multiattack.'' The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can’t make both attacks against the same target.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +10>>|<<piercing 4d12+7>> |<<reach 10>> |
+|~|If the target is a Medium or smaller creature, it is [[Grappled]], <<skillcheck Escape 17>>. Until this grapple ends, the target is [[Restrained]], and the tyrannosaurus can’t bite another target. |<|
+| !<<melee Tail +10>>|<<bludgeoning 3d8+7>> |<<reach 10>> |
+

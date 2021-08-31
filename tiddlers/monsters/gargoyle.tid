@@ -1,0 +1,38 @@
+xp: 450
+wis: 11
+title: Gargoyle
+tags: Monster Elemental
+str: 15
+speed: 30 ft., fly 60 ft.
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 10
+mtype: elemental
+modified: 20210224135444556
+languages: Terran
+int: 6
+hp: 52
+hitdice: 7d8+21
+dex: 11
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
+damage_immunity: poison
+created: 20210224135204686
+cr: 2
+condition_immunity: exhaustion, petrified, poisoned
+con: 16
+cha: 7
+armor: natural armor
+alignment: chaotic evil
+ac: 15
+
+"""
+''False Appearance.'' While the gargoyle remains motionless, it is indistinguishable from an inanimate statue.
+"""
+<<divider>>
+''Multiattack.'' The gargoyle makes two attacks: one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+| !<<melee Claws +4>>|<<slashing 1d6+2>> |<<reach 5>> |
+

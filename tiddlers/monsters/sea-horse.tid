@@ -1,0 +1,29 @@
+xp: 10
+wis: 10
+title: Sea Horse
+tags: Beast Monster
+str: 1
+speed: 0 ft., swim 20 ft.
+source: MM
+skills: 
+size: Tiny
+senses: passive Perception 10
+mtype: beast
+modified: 20210810172828601
+languages: &mdash;
+int: 1
+hp: 1
+hitdice: 1d4-1
+dex: 12
+created: 20210810172733374
+cr: 0
+con: 8
+cha: 2
+armor: 
+alignment: unaligned
+ac: 11
+
+"""
+''Water Breathing.'' The sea horse can breathe only underwater.
+"""
+

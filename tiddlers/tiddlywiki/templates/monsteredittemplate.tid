@@ -1,0 +1,38 @@
+type: text/vnd.tiddlywiki
+title: MonsterEditTemplate
+tags: $:/tags/EditTemplate
+modified: 20210411042511608
+list-before: $:/core/ui/EditTemplate/body
+list: 
+created: 20210201125122038
+
+<$list filter="[all[current]tag[Monster]]">
+
+|''Name'' |<$edit-text field=caption size=80/>|
+|''Size'' |<$edit-text field=size size=60/>|
+|''Type'' |<$edit-text field=mtype size=60 />|
+|''Alignment'' |<$edit-text field=alignment size=60/>|
+|''Source'' |<$edit-text field=source size=60/>|
+|[img[divider.png]]|<|
+|''Armor Class'' |<$edit-text field=ac size=8/>|
+|''Armor'' |<$edit-text field=armor size=80/>|
+|''Hitpoints'' |<$edit-text field=hp size=8/>|
+|''Hit Dice'' |<$edit-text field=hitdice size=8/>|
+|''Speed'' |<$edit-text field=speed size=80/>|
+|[img[divider.png]]|<|
+| <div style="display: flex"><div style="width: 60px; text-align: center;">''STR''<br/><$edit-text size=3 field=str/></div><div style="width: 60px; text-align: center;">''DEX''<br/><$edit-text size=3 field=dex/></div><div style="width: 60px; text-align: center;">''CON''<br/><$edit-text size=3 field=con/></div><div style="width: 60px; text-align: center;">''INT''<br/><$edit-text size=3 field=int/></div><div style="width: 60px; text-align: center;">''WIS''<br/><$edit-text size=3 field=wis/></div><div style="width: 60px; text-align: center;">''CHA''<br/><$edit-text size=3 field=cha/></div></div>|<|
+|[img[divider.png]]|<|
+|''Saving Throws'' |<$edit-text field=saving_throw size=80/>|
+|''Skills'' |<$edit-text field=skills size=80/>|
+|''Damage Vulnerabilities'' |<$edit-text field=damage_vulnerability size=80/>|
+|''Damage Resistances'' |<$edit-text field=damage_resistance size=80/>|
+|''Damage Immunities'' |<$edit-text field=damage_immunity size=80/>|
+|''Condition Vulnerabilities'' |<$edit-text field=condition_vulnerability size=80/>|
+|''Condition Immunities'' |<$edit-text field=condition_immunity size=80/>|
+|''Senses'' |<$edit-text field=senses size=80/>|
+|''Languages'' |<$edit-text field=languages size=80/>|
+|''Challenge'' |<$edit-text field=cr size=3/>|
+|''XP'' |<$edit-text field=xp size=12/>|
+|''Proficiency Bonus'' |<$edit-text field=proficiency size=3/>|
+|[img[divider.png]]|<|
+</$list>

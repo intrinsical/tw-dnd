@@ -1,0 +1,13 @@
+title: Burnt Othur Fumes
+tags: Poison Inhaled
+modified: 20210812032659493
+created: 20210812030024830
+
+"""
+''Price per Dose:'' 500 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 13>> or take <<poison 3d6>>, and must repeat the saving throw at the start of each of its turns. 
+* On each successive failed save, the character takes <<poison 1d6>>.
+* After three successful saves, the poison ends.
+

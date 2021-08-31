@@ -1,0 +1,41 @@
+xp: 450
+wis: 6
+title: Gelatinous Cube
+tags: Monster Ooze
+str: 14
+speed: 15 ft.
+source: MM
+size: Large
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 8
+mtype: ooze
+modified: 20210807104320059
+languages: &mdash;
+int: 1
+hp: 84
+hitdice: 8d10+40
+dex: 3
+created: 20210807103651266
+cr: 2
+condition_immunity: blinded, charmed, deafened, exhaustion, frightened, prone
+con: 20
+cha: 1
+alignment: unaligned
+ac: 6
+
+"""
+''Ooze Cube.'' The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube’s Engulf and has disadvantage on the saving throw.
+
+Creatures inside the cube can be seen but have [[Total Cover]].
+
+A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful <<skillcheck Str 12>>, and the creature making the attempt takes <<acid 3d6>>.
+
+The cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time.
+''Transparent.'' Even when the cube is in plain sight, it takes a successful <<perception 15>> to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube’s space while unaware of the cube is [[Surprised]] by the cube.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pseudopod +4>>|<<acid 3d6>> |<<reach 5>> |
+| !Engulf|The cube moves up to its speed. While doing so, it can enter Large or smaller creatures’ spaces. Whenever the cube enters a creature’s space, the creature must make a <<save Dex 12>>. <br/>&nbsp;<br/>On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.<br/>&nbsp;<br/>On a failed save, the cube enters the creature’s space, and the creature takes <<acid 3d6>> and is engulfed. The engulfed creature can’t breathe, is [[Restrained]], and takes <<acid 6d6>> at the start of each of the cube’s turns. When the cube moves, the engulfed creature moves with it.<br/>&nbsp;<br/>An engulfed creature can try to escape by taking an action to make a <<skillcheck Str 12>>. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube. |<|
+

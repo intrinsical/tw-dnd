@@ -1,0 +1,9 @@
+title: Race
+tags: Presentation [[Character Creation]]
+order: 1
+modified: 20210809143500042
+created: 20190709061348640
+caption: Races
+
+<div class="shadow-box" style="column-width: 11em;"><$list filter="[tag[Race]sort[]]"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+

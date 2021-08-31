@@ -1,0 +1,34 @@
+xp: 50
+wis: 13
+title: Blink Dog
+tags: Monster Fey
+str: 12
+speed: 40 ft.
+source: MM
+skills: Perception +3, Stealth +5
+size: Medium
+senses: passive Perception 13
+mtype: fey
+modified: 20210810050341131
+languages: Blink Dog, understands Sylvan but can’t speak it
+int: 10
+hp: 22
+hitdice: 4d8+4
+dex: 17
+created: 20210810050040958
+cr: 1/4
+con: 12
+cha: 11
+alignment: lawful good
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d6+1>> |<<reach 5>> |
+| !Teleport|''Recharge 4–6.''<br/>The dog magically teleports, along with any equipment it is wearing or carrying, up to <<range 40>> to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack. |<|
+

@@ -1,0 +1,25 @@
+type: 
+title: Misty Step
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: Self
+modified: 20210809220549882
+level: 2
+glyph_target: <<range 30>>
+glyph_range: <<self>>
+glyph_effect: Teleport 30'
+glyph_duration: <<instant>>
+glyph_casting_time: <<ba>>
+effect: ''[<<ba>>]'' Teleport 30'
+duration: Instantaneous
+created: 20190721083429236
+concentration: No
+components: V
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Bonus Action
+at_higher_level: 
+
+Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.

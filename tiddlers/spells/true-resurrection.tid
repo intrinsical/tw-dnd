@@ -1,0 +1,30 @@
+type: 
+title: True Resurrection
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: Touch
+modified: 20210809230315319
+material: (a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes)
+level: 9
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<target>> restored to life with full <<hp>>, all disease cured, all curses lifted, damaged limbs and organs replaced. 
+glyph_duration: <<instant>>
+glyph_casting_time: <<time 1h>>
+effect: 
+duration: Instantaneous
+created: 20190627161015536
+concentration: No
+components: V, S, M
+classes: [[Cleric]] [[Druid]]
+casting_time: 1 Hour
+at_higher_level: 
+
+You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature’s soul is free and willing, the creature is restored to life with all its hit points.
+
+This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs or limbs.
+
+The spell can even provide a new body if the original no longer exists, in which case you must speak the creature’s name. The creature then appears in an unoccupied space you choose within 10 feet of you.

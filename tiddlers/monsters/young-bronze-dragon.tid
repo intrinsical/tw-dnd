@@ -1,0 +1,40 @@
+xp: 3900
+wis: 13
+title: Young Bronze Dragon
+tags: Monster Dragon MM Bronze
+str: 21
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Insight +4, Perception +7, Stealth +3
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 17
+saving_throw: Dex +3, Con +7, Wis +4, Cha +6
+mtype: dragon
+modified: 20210827065301993
+languages: Common, Draconic
+int: 14
+hp: 142
+hitdice: 15d10+60
+dex: 10
+damage_immunity: lightning
+created: 20210827062529584
+cr: 8
+condition_immunity: 
+con: 19
+cha: 17
+armor: natural armor
+alignment: lawful good
+ac: 18
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +8>>|<<piercing 2d10+5>> |<<reach 10>> |
+| !<<melee Claw +8>>|<<slashing 2d6+5>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Lightning Breath.'' The dragon exhales lightning in a <<line "60' long, 5' wide">>. Each creature in that line must make a <<save Dex 15>> <fail><<lightning 10d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Repulsion Breath.'' The dragon exhales repulsion energy in a <<cone 30>>. Each creature in that area must succeed on a <<save Str 15>>. On a failed save, the creature is pushed 40 feet away from the dragon. |<|
+

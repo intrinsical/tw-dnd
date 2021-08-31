@@ -1,0 +1,38 @@
+xp: 200
+wis: 10
+title: Specter
+tags: Undead Monster
+str: 1
+speed: 0 ft, fly 50 ft (hover)
+source: MM
+size: Medium
+senses: darkvision 60 ft, passive Perception 10
+mtype: undead
+modified: 20210808110820362
+languages: understands all languages it knew in life, but can't speak
+int: 10
+hp: 22
+hitdice: 5d8
+dex: 14
+damage_resistance: acid, cold, fire, lightning, thunder; bludgeoning, piercing and slashing from nonmagical weapons
+damage_immunity: necrotic, poison
+created: 20190930023911987
+cr: 1
+condition_immunity: charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconcious
+con: 11
+cha: 11
+alignment: chaotic evil
+ac: 12
+
+"""
+''Incorporeal Movement.'' The specter can move through other creatures and objects as if they were difficult terrain. It takes <<force 1d10>> if it ends its turn inside an object.
+''Sunlight Sensitivity.'' While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+"""
+<<fold "Poltergeist, Variant">>
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee "Life Drain" +4>>|<<necrotic 3d6>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 10>> or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. |<|
+

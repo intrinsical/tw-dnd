@@ -1,0 +1,13 @@
+title: Homebrew Map
+tags: Homebrew List
+order: 8
+modified: 20210827154110949
+icon: sword-shield.gif
+created: 20210816005012232
+caption: Maps
+
+<div class="my-gallery">
+<$list filter="[tag[Homebrew]tag[Image]tag[Map]sort[]]"><div style="width: 15%; text-align: center; display: inline-block;" title=<<currentTiddler>>><$link to=<<currentTiddler>>><$image width=100% source=<<currentTiddler>> /><br/><$view tiddler=<<currentTiddler>> field="title"/></$link></div>
+</$list>
+</div>
+

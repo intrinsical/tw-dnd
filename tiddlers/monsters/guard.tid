@@ -1,0 +1,29 @@
+xp: 25
+wis: 11
+title: Guard
+tags: Humanoid Monster
+str: 13
+speed: 30 ft
+source: MM
+skills: Perception +2
+size: Medium
+senses: passive Perception 12
+mtype: humanoid (any race)
+modified: 20210809030841677
+languages: any one language (usually Common)
+int: 10
+hp: 11
+hitdice: 2d8+2
+dex: 12
+created: 20210809025010123
+cr: 1/8
+con: 12
+cha: 10
+armor: chain shirt, shield
+alignment: any alignment
+ac: 16
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Spear +3>>|<<piercing 1d6+1>> |<<reach 5>><br/><<range 20/60>> |
+

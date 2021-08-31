@@ -1,0 +1,15 @@
+title: Warhorse Armor, Variant
+tags: Warhorse Variant
+modified: 20210810175910695
+created: 20210810175653908
+caption: Variant: Warhorse Armor
+
+An armored warhorse has an AC based on the type of barding worn (see the Player’s Handbook for more information on barding). The horse’s AC includes its Dexterity modifier, where applicable. Barding doesn’t alter the horse’s challenge rating.
+
+|max|k
+| !AC | !Barding | !AC | !Barding |
+| 12 |Leather | 16 |Chain mail |
+| 13 |Studded leather | 17 |Splint |
+| 14 |Ring mail | 18 |Plate |
+| 15 |Scale mail | |<|
+

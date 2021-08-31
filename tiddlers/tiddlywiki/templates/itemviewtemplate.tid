@@ -1,0 +1,10 @@
+type: text/vnd.tiddlywiki
+title: ItemViewTemplate
+tags: $:/tags/ViewTemplate
+modified: 20210825061329430
+list-before: $:/core/ui/ViewTemplate/body
+list: 
+created: 20190725061540986
+
+<$list filter="[all[current]tag[Magic Item]!tag[Category]]">//<$list filter="[all[current]!has[item_type]]">Wonderous item</$list><$list filter="[all[current]has[item_type]]">{{!!item_type}}</$list>, <$list filter="[all[current]!has[rarity]]"><$list filter="[all[current]tag[Common]]">common</$list><$list filter="[all[current]tag[Uncommon]]">uncommon</$list><$list filter="[all[current]tag[Rare]]">rare</$list><$list filter="[all[current]tag[Very Rare]]">very rare</$list><$list filter="[all[current]tag[Legendary]]">legendary</$list></$list><$list filter="[all[current]has[rarity]]">{{!!rarity}}</$list>&nbsp;<$list filter="[all[current]tag[Attunement]!has[attunement]]">(requires attunement)</$list><$list filter="[all[current]tag[Attunement]has[attunement]]">({{!!attunement}})</$list>//
+</$list>

@@ -1,0 +1,41 @@
+xp: 7200
+wis: 16
+title: Djinni
+tags: Monster Elemental
+str: 21
+speed: 30 ft., fly 90 ft.
+source: MM
+size: Large
+senses: darkvision 120 ft., passive Perception 13
+saving_throw: Dex +6, Wis +7, Cha +9
+mtype: elemental
+modified: 20210224165218844
+languages: Auran
+int: 15
+hp: 161
+hitdice: 14d10+84
+dex: 15
+damage_immunity: lightning, thunder
+created: 20210224143536513
+cr: 11
+con: 22
+cha: 20
+armor: natural armor
+alignment: chaotic good
+ac: 17
+
+"""
+''Elemental Demise.'' If the djinni dies, its body disintegrates into a warm breeze, leaving behind only equipment the djinni was wearing or carrying.
+''Innate Spellcasting.'' The djinni’s innate spellcasting ability is Charisma, <<skillcheck "Save DC" 17>>, <<casted "Spell To-Hit" +9>>. It can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Evil and Good]], [[Detect Magic]], [[Thunderwave]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3/day each:'' [[Create Food and Water]] (can create wine instead of water), [[Tongues]], [[Wind Walk]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Conjure Elemental]] (<<mob "Air Elemental">> only), [[Creation]], [[Gaseous Form]], [[Invisibility]], [[Major Image]], [[Plane Shift]]
+"""
+<<divider>>
+''Multiattack.'' The djinni makes three scimitar attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +9>>|<<slashing 2d6+5>>+(<<lightning>>/ <<thunder 1d6>>) |<<reach 5>> |
+| !Create Whirlwind|A <<cylinder 5>>, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within <<range 120>> of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a <<save Str 18>> or be [[Restrained]] by it. The djinni can move the whirlwind up to <<range 60>> as an action, and creatures [[Restrained]] by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.<br/>&nbsp;<br/>A creature can use its action to free a creature [[Restrained]] by the whirlwind, including itself, by succeeding on a <<skillcheck Str 18>>. If the check succeeds, the creature is no longer [[Restrained]] and moves to the nearest space outside the whirlwind. |<|
+

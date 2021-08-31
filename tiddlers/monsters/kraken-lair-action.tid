@@ -1,0 +1,11 @@
+title: Kraken Lair Action
+tags: Kraken [[Lair Action]]
+modified: 20210819140557202
+created: 20210403073837690
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the kraken takes a lair action to cause one of the following magical effects:
+
+* ''Strong Current.''<br/>//A strong current moves through the kraken’s lair.//<br/> Each creature within <<sphere 60>> of the kraken must succeed on a <<save Str 23>> or be pushed up to <<range 60>> away from the kraken. On a success, the creature is pushed <<range 10>> away from the kraken.
+* ''Lightning Vulnerability.''<br/>Creatures in the water within <<sphere 60>> of the kraken have vulnerability to <<lightning>> damage until initiative count 20 on the next round.
+* ''Charged Water.''<br/>//The water in the kraken’s lair becomes electrically charged.//<br/> All creatures within <<sphere 120>> of the kraken must succeed on a <<save Con 23>>, taking <<lightning 3d6>> on a failed save, or <<halved>> on a successful one.

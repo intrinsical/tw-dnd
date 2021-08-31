@@ -1,0 +1,39 @@
+xp: 200
+wis: 10
+title: Quasit
+tags: Monster Fiend Demon Shapechanger
+str: 5
+speed: 40 ft.
+source: MM
+skills: Stealth +5
+size: Tiny
+senses: darkvision 120 ft., passive Perception 10
+mtype: fiend (demon, shapechanger)
+modified: 20210222184334133
+languages: Abyssal, Common
+int: 7
+hp: 7
+hitdice: 3d4
+dex: 17
+damage_immunity: poison
+created: 20210222174515089
+cr: 1
+condition_immunity: poisoned
+con: 10
+cha: 10
+alignment: chaotic evil
+ac: 13
+
+"""
+''Shapechanger.'' The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Magic Resistance.'' The quasit has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Claws (Bite in Beast Form)" +4>>|<<piercing 1d4+3>> |<<reach 5>> |
+|~|Target must succeed on a <<save Con 10>> or take <<poison 2d4>> and become [[Poisoned]] for <<time 1m>>. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !Scare|''1/Day''<br/>One creature of the quasit’s choice within <<range 20>> of it must succeed on a <<save Wis 10>> or be [[Frightened]] for <<time 1m>>. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success. |<|
+| !Invisibility|The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it. |<|
+

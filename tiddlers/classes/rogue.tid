@@ -1,0 +1,50 @@
+title: Rogue
+tags: PHB Class
+subclass: Base Rogue
+modified: 20210823143552271
+list: Rogue [[Base Rogue]]
+label: Archetype
+icon: rogue.gif
+created: 20190405081655781
+class: Rogue
+
+As a rogue, you have the following class features.
+
+!!! Hit Points
+
+"""
+''Hit Dice:'' 1d8 per rogue level
+''Hit Points at 1st Level:'' 8 + your Constitution modifier
+''Hit Points at Higher Levels:'' 1d8 (or 5) + your Constitution modifier per rogue level after 1st
+"""
+
+!!! Proficiencies
+
+"""
+''Armor:'' Light armor
+''Weapons:'' Simple weapons, hand crossbows, longswords, rapiers, shortswords
+''Tools:'' Thieves’ tools
+''Saving Throws:'' Dexterity, Intelligence
+''Skills:'' Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth
+"""
+
+!!! Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+
+"""
+(a) a rapier or (b) a shortsword
+(a) a shortbow and quiver of 20 arrows or (b) a shortsword
+(a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack
+Leather armor, two daggers, and thieves’ tools
+"""
+
+!!! Subclasses
+
+<<list-box "[tag[Rogue]tag[Subclass]sort[]]">>
+
+!!! Advancement Table
+
+{{||RogueAdvancementTemplate}}
+{{||ClassAbilityTemplate}}
+

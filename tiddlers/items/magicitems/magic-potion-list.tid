@@ -1,0 +1,9 @@
+title: Magic Potion List
+tags: Category [[Magic Item]]
+order: 7
+modified: 20210825060823216
+created: 20210815054235873
+caption: Potions
+
+<<list-box "[tag[Magic Item]tag[Potion]sort[]]" "No potions found.">>
+

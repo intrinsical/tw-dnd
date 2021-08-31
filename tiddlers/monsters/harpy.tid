@@ -1,0 +1,32 @@
+xp: 200
+wis: 10
+title: Harpy
+tags: Monstrosity Monster
+str: 12
+speed: 20 ft, fly 40 ft
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 10
+mtype: monstrosity
+modified: 20210330031936438
+languages: Common
+int: 7
+hp: 38
+hitdice: 7d8+7
+dex: 13
+created: 20190828132648179
+cr: 1
+con: 12
+cha: 13
+alignment: chaotic evil
+ac: 11
+
+''Multiattack.''The harpy makes two attacks: one with its claws and one with its club.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +3>>|<<slashing 2d4+1>> |<<reach 5>> |
+| !<<melee Club +3>>|<<bludgeoning 1d4+1>> |<<reach 5>> |
+| !Luring Song|The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a <<save Wis 11>> saving throw or be [[Charmed]] until the song ends. The harpy must take a <<ba>> on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is [[Incapacitated]].<br/>&nbsp;<br/>While [[Charmed]] by the harpy, a target is [[Incapacitated]] and ignores the songs of other harpies. If the [[Charmed]] target is more than 5 feet away from the harpy, the target can take the Dash action on its turn to move toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.<br/>&nbsp;<br/>A target that successfully saves is immune to this harpy's song for the next 24 hours. |<|
+

@@ -1,0 +1,46 @@
+xp: 15000
+wis: 15
+title: Adult Blue Dragon
+tags: Monster Dragon MM Blue
+str: 25
+speed: 40 ft., burrow 30 ft., fly 80 ft.
+source: MM
+skills: Perception +12, Stealth +5
+size: Huge
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 22
+saving_throw: Dex +5, Con +11, Wis +7, Cha +9
+mtype: dragon
+modified: 20210827013540282
+languages: Common, Draconic
+int: 16
+hp: 225
+hitdice: 18d12+108
+dex: 10
+damage_immunity: lightning
+created: 20210827011322857
+cr: 16
+con: 23
+cha: 19
+armor: natural armor
+alignment: lawful evil
+ac: 19
+
+"""
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Blue Dragon Lair Action">><<fold "Blue Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +12>>|<<piercing 2d10+7>>+<<lightning 1d10>> |<<reach 10>> |
+| !<<melee Claw +12>>|<<slashing 2d6+7>> |<<reach 5>> |
+| !<<melee Tail +12>>|<<bludgeoning 2d8+7>> |<<reach 15>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 17>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Lightning Breath|''Recharge 5–6.''<br/>The dragon exhales lightning in a <<line 90>> that is 5 feet wide. Each creature in that line must make a <<save Dex 19>> <fail><<lightning 12d10>></fail> <pass><<halved>></pass>. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 10>> of the dragon must succeed on a <<save Dex 20>> or take <<bludgeoning 2d6+7>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

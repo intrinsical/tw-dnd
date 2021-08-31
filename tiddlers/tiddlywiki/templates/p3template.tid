@@ -1,0 +1,9 @@
+title: P3Template
+tags: Template
+modified: 20200309045718613
+created: 20200309042809683
+caption: Paragraph
+
+<h3><$link to={{!!title}}><$transclude field="caption"><$view field="title" /></$transclude></$link></h3>
+
+<$transclude field="text" mode="block"/>

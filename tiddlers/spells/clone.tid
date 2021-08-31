@@ -1,0 +1,26 @@
+type: 
+title: Clone
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+save: 
+ritual: No
+range: Touch
+modified: 20210809164644420
+material: (a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consum es, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such
+level: 8
+effect: 
+duration: Instantaneous
+created: 20190627104547808
+concentration: No
+components: V, S, M
+classes: [[Wizard]]
+casting_time: 1 Hour
+at_higher_level: 
+
+<div>This spell grows an inert duplicate of a living creature as a safeguard against death. 
+This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.
+
+
+&nbsp;At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original’s equipment. The original creature’s physical remains, if they still exist, becom e inert and can’t thereafter be restored to life, since the creature’s soul is elsewhere.
+</div>

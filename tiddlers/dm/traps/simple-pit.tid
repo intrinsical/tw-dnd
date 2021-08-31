@@ -1,0 +1,15 @@
+title: Simple Pit
+tags: Trap
+modified: 20210811145427733
+created: 20210811145219959
+
+"""
+''Mechanical Trap''
+"""
+A simple pit trap is a hole dug in the ground. The hole is covered by a large cloth anchored on the pit’s edge and camouflaged with dirt and debris.
+
+|max top|k
+|!Detection |<<perception 10>> to spot the pit. |
+|!Trigger |Stepping on the camouflaged cloth. |
+|!Effect |Target falls into the pit, taking falling damage based on the pit's depth. |
+

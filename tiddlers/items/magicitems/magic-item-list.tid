@@ -1,0 +1,9 @@
+title: Magic Item List
+tags: Category [[Magic Item]]
+order: 1
+modified: 20210825060657763
+created: 20210815054041934
+caption: All Magic Items
+
+<<list-box "[tag[Magic Item]sort[]]" "No magic items found.">>
+

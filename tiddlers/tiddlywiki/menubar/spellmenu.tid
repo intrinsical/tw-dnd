@@ -1,0 +1,12 @@
+title: SpellMenu
+tags: $:/tags/MenuBar
+modified: 20210130051231252
+is-dropdown: yes
+created: 20210120090341375
+caption: Spells
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable "Spell Encyclopedia"  "sort[title]">>
+
+</div>

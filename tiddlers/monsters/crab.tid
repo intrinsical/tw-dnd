@@ -1,0 +1,34 @@
+xp: 10
+wis: 8
+title: Crab
+tags: Beast Monster
+str: 2
+speed: 20 ft., swim 20 ft.
+source: MM
+skills: Stealtj +2
+size: Tiny
+senses: blindsight 30 ft., passive Perception 9
+mtype: beast
+modified: 20210810052013386
+languages: &mdash;
+int: 1
+hp: 2
+hitdice: 1d4
+dex: 11
+created: 20210810051833771
+cr: 0
+con: 10
+cha: 2
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+"""
+''Amphibious.'' The crab can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +0>>|<<bludgeoning 1>> |<<reach 5>> |
+

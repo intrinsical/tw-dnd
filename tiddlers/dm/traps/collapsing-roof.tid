@@ -1,0 +1,18 @@
+title: Collapsing Roof
+tags: Trap
+modified: 20210811143700626
+created: 20210811121437250
+
+"""
+''Mechanical Trap''
+"""
+This trap uses a trip wire to collapse the supports keeping an unstable section of a ceiling in place. The trip wire is 3 inches off the ground and stretches between two support beams. 
+
+|max top|k
+|!Detection |<<perception 10>> to spot the trip wire |
+|!Trigger |Breaking the trip wire, or knocking over an overhead beam. |
+|!Effect |Anyone beneath trap <<save Dex 15>>, taking <fail><<bludgeoning 4d10>></fail>, <pass><<halved>></pass>. <br/>Once triggered, floor area under trap is filled with rubble and is <<difficult>>. |
+|!Countermeasure #1 |<<thievestools 15>> to disable trip wire. <br/><fail>Trap is triggered</fail>. |
+|!Countermeasure #2 |Using a edged weapon or tool to disable the trip wire, <<skillcheck Dex 15>> at disadvantage.<br/><fail>Trap is triggered</fail> |
+|!Countermeasure #3 |Trigger the trap by knocking over an overhead beam. |
+

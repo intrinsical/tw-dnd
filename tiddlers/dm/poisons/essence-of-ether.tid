@@ -1,0 +1,13 @@
+title: Essence of Ether
+tags: Poison Inhaled
+modified: 20210812032809732
+created: 20210812030750942
+
+"""
+''Price per Dose:'' 300 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 15>> or become [[Poisoned]] for <<time 8h>>. 
+** The poisoned creature is [[Unconscious]]. 
+** The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
+

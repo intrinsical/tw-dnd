@@ -1,0 +1,35 @@
+xp: 50
+wis: 6
+title: Zombie
+tags: Monster Undead
+str: 13
+speed: 20 ft.
+source: MM
+size: Medium
+senses: darkvision 60 ft., passive Perception 8
+saving_throw: Wis +0
+mtype: undead
+modified: 20210808162027188
+languages: understands all languages it spoke in life but can't speak
+int: 3
+hp: 22
+hitdice: 3d8+9
+dex: 6
+damage_immunity: poison
+created: 20210214071206538
+cr: 1/4
+condition_immunity: poisoned
+con: 16
+cha: 5
+alignment: neutral evil
+ac: 8
+
+"""
+''Undead Fortitude.'' If damage reduces the zombie to <<hp 0>>, it must make a <<save Con "5+damage taken">>, unless the damage is <<radiant radiant>> or from a ''critical hit''. On a success, the zombie drops to <<hp 1>> instead.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Slam +3>>|<<bludgeoning 1d6+1>> |<<reach 5>> |
+

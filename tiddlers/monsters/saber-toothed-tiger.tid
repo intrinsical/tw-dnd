@@ -1,0 +1,35 @@
+xp: 450
+wis: 12
+title: Saber-toothed Tiger
+tags: Beast Monster
+str: 18
+speed: 40 ft
+source: MM
+skills: Perception +3, Stealth +6
+size: Large
+senses: darkvision 60 ft, passive Perception 13
+mtype: beast
+modified: 20210810172457718
+languages: &mdash;
+int: 3
+hp: 52
+hitdice: 7d10+14
+dex: 14
+created: 20210810172251350
+cr: 2
+con: 15
+cha: 8
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The tiger has advantage on Wisdom (Perception) checks that rely on smell.
+''Pounce.'' If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <<save Str 14>> or be knocked [[Prone]]. If the target is prone, the tiger can make one bite attack against it as a bonus action.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d10+5>> |<<reach 5>> |
+| !<<melee Claw +6>>|<<slashing 2d6+5>> |<<reach 5>> |
+

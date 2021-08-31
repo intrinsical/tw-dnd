@@ -1,0 +1,37 @@
+xp: 700
+wis: 10
+title: Phase Spider
+tags: Monster Monstrosity
+str: 15
+speed: 30 ft., climb 30 ft.
+source: MM
+skills: Stealth +6
+size: Large
+senses: passive Perception 10
+mtype: monstrosity
+modified: 20210810163825099
+languages: &mdash;
+int: 6
+hp: 32
+hitdice: 5d10+5
+dex: 15
+created: 20210810163514453
+cr: 3
+con: 12
+cha: 6
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Ethereal Jaunt.'' As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.
+''Spider Climb.'' The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+''Web Walker.'' The spider ignores movement restrictions caused by webbing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>> |<<reach 5>> |
+|~|The target must make a <<save Con 11>>, taking <fail><<poison 4d8>></fail>, or <pass><<halved>></pass>. If the poison damage reduces the target to <<hp 0>>, the target is stable but [[Poisoned]] for <<time 1h>>, even after regaining hit points, and is [[Paralyzed]] while [[Poisoned]] in this way. |<|
+

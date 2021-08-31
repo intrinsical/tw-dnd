@@ -1,0 +1,11 @@
+title: Copper Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Copper
+modified: 20210827074206561
+created: 20210827073659153
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
+
+* The dragon chooses a point on the ground that it can see within 120 feet of it. Stone spikes sprout from the ground in a <<circle 20>> centered on that point. The effect is otherwise identical to the [[Spike Growth]] spell and lasts until the dragon uses this lair action again or until the dragon dies.
+* The dragon chooses a <<square 10>> on the ground that it can see within 120 feet of it. The ground in that area turns into 3-foot-deep mud. Each creature on the ground in that area when the mud appears must succeed on a <<save Dex 15>> or sink into the mud and become [[Restrained]]. A creature can take an action to attempt a <<skillcheck Str 15>>, freeing itself or another creature within its reach and ending the [[Restrained]] condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On initiative count 20 on the next round, the mud hardens, and the difficulty to work free increases to <<skillcheck Str 20>>.
+

@@ -1,0 +1,10 @@
+title: Mace of Smiting
+tags: Rare [[Magic Item]] DMG Weapon
+modified: 20210814030122707
+item_type: Weapon (mace)
+created: 20200922055235852
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.
+
+When you roll a 20 on an attack roll made with this weapon, the target takes an extra <<bludgeoning 7>>, or <<bludgeoning 14>> if it’s a construct. If a construct has <<hp "&le;25">> after taking this damage, it is destroyed.
+

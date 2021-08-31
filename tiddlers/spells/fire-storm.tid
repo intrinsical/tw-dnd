@@ -1,0 +1,23 @@
+type: 
+title: Fire Storm
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 150 feet
+modified: 20210809170952598
+level: 7
+effect: 
+duration: Instantaneous
+created: 20190721134821443
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Druid]] [[Sorcerer]]
+casting_time: 1 Action
+at_higher_level: 
+
+A storm made up of sheets of roaring flame appears in a location you choose within range. 
+The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make  Dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.
+
+The fire damages objects in the area and ignites flammable objects that aren’t being worn or carried. If you choose, plant life in the area is unaffected by this spell.

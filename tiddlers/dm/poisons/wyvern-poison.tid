@@ -1,0 +1,15 @@
+title: Wyvern Poison
+tags: Poison Injury
+modified: 20210812034146694
+created: 20210812034038930
+
+"""
+''Price per Dose:'' 1,200 gp
+"""
+
+This poison must be harvested from a dead or [[Incapacitated]] wyvern. 
+
+* A creature subjected to this poison must make a <<save Con 15>>
+** <fail><<poison 7d6>></fail>
+** <pass><<halved>></pass>
+

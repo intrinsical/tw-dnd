@@ -1,0 +1,25 @@
+type: text/vnd.tiddlywiki
+title: SpellEditTemplate
+tags: $:/tags/EditTemplate
+modified: 20210411043414403
+list-before: $:/core/ui/EditTemplate/body
+list: 
+created: 20210201183415334
+
+<$list filter="[all[current]tag[Spell]]">
+
+|!''Spell Level'' |<$edit-text field=level/>|!''Classes'' |<$edit-text field=classes/>|
+|!''Spell School'' |<$edit-text field=school/>|!''Source'' |<$edit-text field=source/>|
+|!''Casting Time'' |<$edit-text field=casting_time/>|!''Concentration?'' |<$edit-text field=concentration/>|
+|!''Range'' |<$edit-text field=range/>|!''Ritual?'' |<$edit-text field=ritual/>|
+|!''Components'' |<$edit-text field=components/>|<|<|
+|!''Material'' |<$edit-text size=70 field=material/>|<|<|
+|!''Duration'' |<$edit-text field=duration/>|<|<|
+|!''At Higher Levels'' |<$edit-text size=70 field=at_higher_level/>|<|<|
+| !Glyph |<|<|<|
+|!''Casting Time'' |<$edit-text field=glyph_casting_time/>|<|<|
+|!''Range'' |<$edit-text field=glyph_range/>|<|<|
+|!''Target'' |<$edit-text field=glyph_target/>|<|<|
+|!''Duration'' |<$edit-text field=glyph_duration/>|<|<|
+|!''Summary'' |<$edit-text field=glyph_effect size=70/>|<|<|
+</$list>

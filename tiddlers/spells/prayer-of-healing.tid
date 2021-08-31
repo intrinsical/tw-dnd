@@ -1,0 +1,25 @@
+type: 
+title: Prayer of Healing
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809222341592
+level: 2
+glyph_target: <<per 6>>
+glyph_range: <<range 30>>
+glyph_effect: <<heal 2d8+modifier>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<time 10m>>
+effect: 
+duration: Instantaneous
+created: 20190721084020003
+concentration: No
+components: V
+classes: [[Cleric]]
+casting_time: 10 Minutes
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.
+
+Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.

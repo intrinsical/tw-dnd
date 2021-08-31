@@ -1,0 +1,48 @@
+xp: 18000
+wis: 15
+title: Adult Gold Dragon
+tags: Monster Dragon MM Gold
+str: 27
+speed: 40 ft., fly 80 ft., swim 40 ft.
+source: MM
+skills: Insight +8, Perception +14, Persuasion +13, Stealth +8
+size: Huge
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 24
+saving_throw: Dex +8, Con +13, Wis +8, Cha +13
+mtype: dragon
+modified: 20210827080812303
+languages: Common, Draconic
+int: 16
+hp: 256
+hitdice: 19d12+133
+dex: 14
+damage_immunity: fire
+created: 20210827080330416
+cr: 17
+condition_immunity: 
+con: 25
+cha: 24
+armor: natural armor
+alignment: lawful good
+ac: 19
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Gold Dragon Lair Action">><<fold "Gold Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +12>>|<<piercing 2d10+7>> |<<reach 10>> |
+| !<<melee Claw +12>>|<<slashing 2d6+7>> |<<reach 5>> |
+| !<<melee Tail +12>>|<<bludgeoning 2d8+7>> |<<reach 15>> |
+| !Frightful Presence|Each creature of the dragon’s choice that is within <<range 120>> of the dragon and aware of it must succeed on a <<save Wis 21>> or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next <<time 24h>>. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in a <<cone 60>>. Each creature in that area must make a <<save Dex 21>> <fail><<fire 12d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Weakening Breath.'' The dragon exhales gas in a <<cone 60>>. Each creature in that area must succeed on a <<save Str 21>> or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+| !Tail Attack|The dragon makes a tail attack. |<|
+| !Wing Attack|''Costs 2 Actions''<br/>The dragon beats its wings. Each creature within <<range 10>> of the dragon must succeed on a <<save Dex 22>> or take <<bludgeoning 2d6+8>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

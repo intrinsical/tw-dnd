@@ -1,0 +1,33 @@
+title: Cackle Fever
+tags: Disease
+modified: 20210811160120754
+created: 20210811155042208
+
+This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its common name and its morbid nickname: &quot;the shrieks.&quot;
+
+!! Symptoms
+
+Symptoms manifest <<time "1d4 hours">> after infection and include fever and disorientation. The infected creature gains one level of [[Exhaustion]] that can’t be
+removed until the disease is cured.
+
+* ''On suffering great stress.''
+** Entering combat
+** Taking damage
+** Experiencing fear
+** Having a nightmare
+** <<save Con 13>>
+*** <fail><<psychic 1d10>> + [[Incapacitated]] with mad laughter for <<time 1m>></fail>
+*** Creature can repeat saving throw at end of each of its turn, ending the mad laughter and [[Incapacitated]] condition on a success.
+* ''End of Long Rest.''
+** <<save Con 13>>
+*** <pass>DC for this save, and for avoiding an attack of mad laughter is reduced by <<roll 1d6>></pass>
+*** When DC drops to 0, creature recovers from the disease. 
+*** ''Three failures.'' Creature gains a randomly determined [[Indefinite Madness]]
+
+!! Infection
+
+* ''On starting turn within 10 feet of an infected creature in the throws of mad laughter.''
+** <<save Con 10>> 
+*** <fail>Infected with Cackle Fever</fail>
+*** <pass>Immune to mad laughter of that particular infected creature for <<time 24h>></pass>
+

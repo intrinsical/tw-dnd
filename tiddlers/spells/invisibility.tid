@@ -1,0 +1,26 @@
+type: 
+title: Invisibility
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: No
+range: Touch
+modified: 20210809172908928
+material: (an eyelash encased in gum arabic)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Invisible until attack or cast a spell
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: ''[<<touch>><<time 1h>>]'' Invisible till attack or cast spell.
+duration: 1 hour
+created: 20190408012449640
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
+A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person. The spell ends for a target that attacks or casts a spell.

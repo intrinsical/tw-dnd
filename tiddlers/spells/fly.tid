@@ -1,0 +1,26 @@
+type: 
+title: Fly
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809171232498
+material: (a wing feather from any bird)
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Fly 60 ft. 
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 10 minutes
+created: 20190612180654375
+concentration: Yes
+components: V, S, M
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+
+You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.

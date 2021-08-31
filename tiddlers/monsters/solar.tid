@@ -1,0 +1,55 @@
+xp: 33,000
+wis: 25
+title: Solar
+tags: Monster Celestial
+str: 26
+speed: 50 ft., fly 150 ft.
+source: MM
+skills: Perception +14
+size: Large
+senses: truesight 120 ft., passive Perception 24
+saving_throw: Int +14, Wis +14, Cha +17
+mtype: celestial
+modified: 20210213153031774
+languages: all, telepathy 120 ft.
+int: 25
+hp: 243
+hitdice: 18d10+144
+dex: 22
+damage_resistance: radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: 
+created: 20210213152028232
+cr: 21
+condition_immunity: charmed, exhaustion, frightened, poisoned
+con: 26
+cha: 30
+armor: natural armor
+alignment: lawful good
+ac: 21
+
+"""
+''Angelic Weapons.'' The solar’s weapon attacks are magical. When the solar hits with any weapon, the weapon deals an extra <<radiant 6d8>> (included in the attack).
+''Divine Awareness.'' The solar knows if it hears a lie.
+''Innate Spellcasting.'' The solar’s spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components:
+//At will:// [[Detect Evil and Good]], [[Invisibility]] (self only)
+//3/day each:// [[Blade Barrier]], [[Dispel Evil and Good]], [[Resurrection]]
+//1/day each:// [[Commune]], [[Control Weather]]
+''Magic Resistance.'' The solar has advantage on saving throws against spells and other magical effects.
+"""
+[img[divider.png]]
+''Multiattack.'' The solar makes two greatsword attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatsword +15>>|<<slashing 4d6+8>> + <<radiant 6d8>> |<<reach 5>> |
+| !<<ranged "Slaying Longbow" +13>>|<<piercing 2d8+6>> + <<radiant 6d8>> |<<range 150/600>> |
+|~|If the target is a creature that has 100 hit points or fewer, it must succeed on a <<save Con 15>> or die. |<|
+| !Healing Touch|''3/Day''<br/>The deva touches another creature. The target magically regains <<heal 4d8+2>> and is freed from any curse, disease, poison, blindness, or deafness. |<|
+| !Flying Sword|The solar releases its greatsword to hover magically in an unoccupied space within <<range 5>> of it. If the solar can see the sword, the solar can mentally command it as a bonus action to fly up to <<range 50>> and either make one attack against a target or return to the solar’s hands. If the hovering sword is targeted by any effect, the solar is considered to be holding it. The hovering sword falls if the solar dies. |<|
+| !Healing Touch|''4/Day''<br/>The solar touches another creature. The target magically regains <<heal 8d8+4>> and is freed from any curse, disease, poison, blindness, or deafness. |<|
+| !<<action>> Legendary Actions |<|<|
+|The solar can take ''3'' legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The solar regains spent legendary actions at the start of its turn. |<|<|
+| !Teleport|The solar magically teleports, along with any equipment it is wearing or carrying, up to <<range 120>> to an unoccupied space it can see. |<|
+| !Searing Burst|''Costs 2 Actions''<br/>The solar emits magical, divine energy. Each creature of its choice in a <<sphere 10>> must make a <<save Dex 23>>, taking <<fire 4d6>> + <<radiant 4d6>> on a failed save, or <<halved>> on a successful one. |<|
+| !Blinding Gaze|''Costs 3 Actions''<br/>The solar targets one creature it can see within <<range 30>> of it. If the target can see it, the target must succeed on a <<save Con 15>> or be [[Blinded]] until magic such as the [[Lesser Restoration]] spell removes the blindness. |<|
+

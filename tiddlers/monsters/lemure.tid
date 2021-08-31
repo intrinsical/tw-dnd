@@ -1,0 +1,36 @@
+xp: 10
+wis: 11
+title: Lemure
+tags: Fiend Monster Devil
+str: 10
+speed: 15 ft
+source: MM
+size: Medium
+senses: darkvision 120 ft, passive Perception 10
+mtype: fiend (devil)
+modified: 20210223000413624
+languages: understands Infernal but can't speak
+int: 1
+hp: 13
+hitdice: 3d8
+dex: 5
+damage_resistance: cold
+damage_immunity: fire, poison
+created: 20191110060653177
+cr: 0
+condition_immunity: charmed, frightened, poisoned
+con: 11
+cha: 3
+alignment: lawful evil
+ac: 7
+
+"""
+''Devil's Sight.'' Magical darkness doesn't impede the lemure's darkvision.
+''Hellish Rejuvenation.'' A lemure that dies in the Nine Hells comes back to life with all it's hit points in 1d10 days unless it is killed by a good·aligned creature with a [[Bless]] spell cast on that creature or its remains are sprinkled with holy water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Fist +3>>|<<bludgeoning 1d4>> |<<reach 5>> |
+

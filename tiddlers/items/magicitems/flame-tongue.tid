@@ -1,0 +1,8 @@
+title: Flame Tongue
+tags: Attunement Rare DMG [[Magic Item]] Weapon
+modified: 20210814030211484
+item_type: Weapon (any sword)
+created: 20190930052505217
+
+You can use a bonus action to speak this magic sword’s command word, causing flames to erupt from the blade. These flames shed <<bright 40>> and an additional <<dim 40>>. While the sword is ablaze, it deals an extra <<fire 2d6>> to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+

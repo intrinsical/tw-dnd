@@ -1,0 +1,29 @@
+xp: 25
+wis: 10
+title: Bandit
+tags: Humanoid Monster
+str: 11
+speed: 30 ft
+source: MM
+size: Medium
+senses: passive Perception 10
+mtype: humanoid (any race)
+modified: 20210809021117931
+languages: any one language (usually Common)
+int: 10
+hp: 11
+hitdice: 2d8+2
+dex: 12
+created: 20190903030642975
+cr: 1/8
+con: 12
+cha: 10
+armor: leather armor
+alignment: any non-lawful alignment
+ac: 12
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +3>>|<<slashing 1d6+1>> |<<reach 5>> |
+| !<<ranged "Light Crossbow" +3>>|<<piercing 1d8+1>> |<<range 80/320>> |
+

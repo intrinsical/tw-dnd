@@ -1,0 +1,41 @@
+xp: 1100
+wis: 6
+title: Black Pudding
+tags: Monster Ooze
+str: 16
+speed: 20 ft., climb 20 ft.
+source: MM
+size: Large
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 8
+mtype: ooze
+modified: 20210807103910272
+languages: &mdash;
+int: 1
+hp: 85
+hitdice: 10d10+30
+dex: 5
+damage_immunity: acid, cold, lightning, slashing
+created: 20210807103205164
+cr: 4
+condition_immunity: blinded, charmed, deafened, exhaustion, frightened, prone
+con: 16
+cha: 1
+alignment: unaligned
+ac: 7
+
+"""
+''Amorphous.'' The pudding can move through a space as narrow as 1 inch wide without squeezing.
+''Corrosive Form.'' A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes <<acid 1d8>>. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage.
+
+The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.
+''Spider Climb.'' The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Pseudopod +5>>|<<bludgeoning 1d6+3>> + <<acid 4d8>> |<<reach 5>> |
+|~|Nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its <<ac 10>>. |<|
+| !<<reaction>> Reactions |<|<|
+| !Split|When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least <<hp 10>>. Each new pudding has hit points equal to half the original pudding’s, rounded down. New puddings are one size smaller than the original pudding. |<|
+

@@ -1,0 +1,10 @@
+title: Javelin of Lightning
+tags: Uncommon DMG [[Magic Item]] Weapon
+modified: 20210814030136455
+item_type: Weapon (javelin)
+created: 20200615160034069
+
+This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a 5 feet wide, <<line 120>>. Each creature in the line excluding you and the target must make a <<save Dex 13>> <fail><<lightning 4d6>></fail> <pass><<halved>></pass>. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus <<lightning 4d6>>.
+
+The javelin’s property can’t be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.
+

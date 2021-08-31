@@ -1,0 +1,7 @@
+title: MonsterTabTemplate
+tags: 
+modified: 20210217104931429
+created: 20190801024412723
+
+<$list filter="[<currentTab>tag[Monster]]"><$macrocall $name=monster tiddler=<<currentTab>> /></$list><$list filter="[<currentTab>!tag[Monster]]"><$transclude tiddler=<<currentTab>> field=text mode=block /></$list>
+

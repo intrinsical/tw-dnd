@@ -1,0 +1,28 @@
+type: 
+title: Faerie Fire
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809170536774
+level: 1
+glyph_target: <<cube 20>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<dim 10>>, attack on target has <<advantage>>, cannot be invisible</fail> 
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: ''[<<concentration>>60']'' <<cube 20>><<save Dex DC>> <<dim 10'>> + Attack with Advantage
+duration: 1 Minute
+created: 20190613015348659
+concentration: Yes
+components: V
+classes: [[Bard]] [[Druid]]
+casting_time: 1 Action
+at_higher_level: 
+
+Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). 
+Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. 
+
+Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being invisible.

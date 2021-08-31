@@ -1,0 +1,20 @@
+type: 
+title: Power Word Stun
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809222309203
+level: 8
+effect: 
+duration: Instantaneous
+created: 20190530085808645
+concentration: No
+components: V
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is [[Stunned]]. Otherwise, the spell has no effect. The stunned target must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.

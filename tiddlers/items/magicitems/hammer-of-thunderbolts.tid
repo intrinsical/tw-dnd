@@ -1,0 +1,12 @@
+title: Hammer of Thunderbolts
+tags: [[Magic Item]] Legendary DMG Weapon
+modified: 20210814030150255
+item_type: Weapon (maul)
+created: 20210205091425969
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+''Giant’s Bane (Requires Attunement).'' You must be wearing a [[Belt of Giant Strength]] (any variety) and [[Gauntlets of Ogre Power]] to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a <<save Con 17>> or die.
+
+The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with <<range 20/60>>. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a <<save Con 17>> or be [[Stunned]] until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.
+

@@ -1,0 +1,35 @@
+xp: 10
+wis: 10
+title: Awakened Shrub
+tags: Monster Plant
+str: 3
+speed: 20 ft
+source: MM
+skills: 
+size: Small
+senses: passive Perception 10
+mtype: plant
+modified: 20210810045341341
+languages: one language known by its creator
+int: 10
+hp: 10
+hitdice: 3d6
+dex: 8
+damage_vulnerability: fire
+damage_resistance: piercing
+created: 20210201124331751
+cr: 0
+con: 11
+cha: 6
+alignment: unaligned
+ac: 9
+
+"""
+''False Appearance.'' While the shrub remains motionless, it is indistinguishable from a normal shrub.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Rake +1>>|<<slashing 1d4-1>> |<<reach 5>> |
+

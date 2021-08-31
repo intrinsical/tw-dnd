@@ -1,0 +1,15 @@
+title: Champion
+tags: Fighter Subclass PHB
+subclass: Champion
+modified: 20210820103946707
+list: Fighter Champion
+label: Champion
+icon: fighter.gif
+created: 20190408074218348
+class: Fighter
+
+The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
+
+{{||FighterAdvancementTemplate}}
+{{||ClassAbilityTemplate}}
+

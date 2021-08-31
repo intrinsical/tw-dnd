@@ -1,0 +1,33 @@
+xp: 10
+wis: 12
+title: Raven
+tags: Beast Monster
+str: 2
+speed: 10 ft., fly 50 ft.
+source: MM
+skills: Perception +3
+size: Tiny
+senses: passive Perception 13
+mtype: beast
+modified: 20210810171823474
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 14
+created: 20210810171702614
+cr: 0
+con: 8
+cha: 6
+alignment: unaligned
+ac: 12
+
+"""
+''Mimicry.'' The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful <<insight 10>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +4>>|<<piercing 1>> |<<reach 5>> |
+

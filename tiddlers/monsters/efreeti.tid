@@ -1,0 +1,41 @@
+xp: 7200
+wis: 15
+title: Efreeti
+tags: Monster Elemental
+str: 22
+speed: 40 ft. fly 60 ft.
+source: MM
+size: Large
+senses: darkvision 120 ft., passive Perception 12
+saving_throw: Int +7, Wis +6, Cha +7
+mtype: elemental
+modified: 20210224165726826
+languages: Ignan
+int: 16
+hp: 200
+hitdice: 16d10+112
+dex: 12
+damage_immunity: fire
+created: 20210224165231912
+cr: 11
+con: 24
+cha: 16
+armor: natural armor
+alignment: lawful evil
+ac: 17
+
+"""
+''Elemental Demise.'' If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying.
+''Innate Spellcasting.'' The efreeti’s innate spellcasting ability is Charisma, <<skillcheck "Spell DC" 15>>, <<casted "Spell To-Hit" +7>>. It can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Magic]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3/day each:'' [[Enlarge/Reduce]], [[Tongues]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Conjure Elemental]] (<<mob "Fire Elemental">> only), [[Gaseous Form]], [[Invisibility]], [[Major Image]], [[Plane Shift]], [[Wall of Fire]]
+"""
+<<divider>>
+''Multiattack.'' The efreeti makes two scimitar attacks or uses its Hurl Flame twice.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +10>>|<<slashing 2d6+6>>+<<fire 2d6>> |<<reach 5>> |
+| !<<ranged "Hurl Flame" +7>>|<<fire 5d6>> |<<range 120>> |
+

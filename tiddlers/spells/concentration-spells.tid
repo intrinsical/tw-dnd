@@ -1,0 +1,15 @@
+title: Concentration Spells
+tags: [[Spell Encyclopedia]]
+modified: 20190723101055263
+created: 20190723100649017
+
+<table>
+<tr><th>Spell</th><th>Duration</th></tr>
+<$list filter="[tag[Spell]field:concentration[Yes]sort[title]]" emptyMessage="<tr><td>No spells found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!duration}}</td>
+  </tr>
+</$list>
+</table>
+

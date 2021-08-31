@@ -1,0 +1,23 @@
+title: Ring of Earth Elemental Command
+tags: Legendary Attunement DMG Ring [[Magic Item]] [[Ring of Elemental Command]]
+modified: 20210814052020163
+item_type: Ring
+created: 20210814051604462
+
+This ring is linked to the Elemental Plane of Earth.
+
+While wearing this ring, you have advantage on attack rolls against <<mob "Earth Elemental">>, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Earth.
+
+The ring has 5 charges. It regains <<roll 1d4+1>> expended charges daily at dawn. Spells cast from the ring have a <<save "Spell DC" 17>>.
+
+You can expend 2 of the ring's charges to cast [[Dominate Monster]] on an <<mob "Earth Elemental">>. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.
+
+If you help slay an <<mob "Earth Elemental">> while attuned to the ring, you gain access to the following additional properties:
+
+* You have resistance to <<acid acid>> damage.
+* You can move through solid earth or rock as if those areas were difficult terrain. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.
+* You can cast the following spells from the ring, expending the necessary number of charges: 
+** [[Stone Shape]] (2 charges)
+** [[Stoneskin]] (3 charges)
+** [[Wall of Stone]] (3 charges)
+

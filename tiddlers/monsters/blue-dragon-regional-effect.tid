@@ -1,0 +1,14 @@
+title: Blue Dragon Regional Effect
+tags: [[Regional Effect]] Dragon Blue MM
+modified: 20210827015216295
+created: 20210827014434116
+caption: Regional Effects
+
+The region containing a legendary blue dragon’s lair is warped by the dragon’s magic, which creates one or more of the following effects:
+
+* Thunderstorms rage within 6 miles of the lair.
+* Dust devils scour the land within 6 miles of the lair. A <<mob "Dust Devil">> has the statistics of an <<mob "Air Elemental">>, but it can’t fly, has a speed of 50 feet, and has an Intelligence and Charisma of 1 (−5).
+* Hidden sinkholes form in and around the dragon’s lair. A sinkhole can be spotted from a safe distance with a successful <<perception 20>>. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a <<save Dex 15>> or fall 1d6 × 10 feet into the sinkhole.
+
+If the dragon dies, the <<mob "Dust Devil">> disappear immediately, and the thunderstorms abate within <<time "1d10 days">>. Any sinkholes remain where they are.
+

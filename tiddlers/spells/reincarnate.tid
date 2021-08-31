@@ -1,0 +1,41 @@
+type: 
+title: Reincarnate
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809222735561
+material: (rare oils and unguents worth at least 1,000 gp, which the spell consumes)
+level: 5
+effect: 
+duration: Instantaneous
+created: 20190627122808062
+concentration: No
+components: V, S, M
+classes: [[Druid]]
+casting_time: 1 Hour
+at_higher_level: 
+
+You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target’s soul isn’t free or willing to do so, the spell fails.
+
+The magic fashions a new body for the creature to inhabit, which likely causes the creature’s race to change. The DM rolls a d 100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.
+
+| !d100 | !Race |
+| !01-04 | Dragonborn |
+| !05-13 | Dwarf, Hill |
+| !14-21 | Dwarf, Mountain |
+| !22-25 | Elf, Dark |
+| !26-34 | Elf, High |
+| !35-42 | Elf, Wood |
+| !43-46 | Gnome, Forest |
+| !47-52 | Gnome, Rock |
+| !53-56 | Half-Elf |
+| !57-60 | Half-Orc |
+| !61-68 | Halfling, Lightfoot |
+| !69-76 | Halfling, Stout |
+| !77-96 | Human |
+| !97-00 | Tiefling |
+
+The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.

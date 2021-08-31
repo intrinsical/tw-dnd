@@ -1,0 +1,18 @@
+title: Vampire Spellcasters, Variant
+tags: Vampire Variant
+modified: 20210808142811157
+created: 20210808142533351
+caption: Variant: Vampire Spellcasters
+
+Some vampires are practitioners of the arcane arts. A spellcaster vampire spellcaster has a challenge rating of 15 (13,000 XP) and the following trait:
+
+"""
+''Spellcasting.'' The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (<<save "Spell DC" 16>>, <<casted "Spell Attack" +8>>). The vampire has the following wizard spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Mage Hand]], [[Prestidigitation]], [[Ray of Frost]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Comprehend Languages]], [[Fog Cloud]], [[Sleep]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Detect Thoughts]], [[Gust of Wind]], [[Mirror Image]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Animate Dead]], [[Bestow Curse]], [[Nondetection]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Blight]], [[Greater Invisibility]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (1 slot):'' [[Dominate Person]]
+"""
+

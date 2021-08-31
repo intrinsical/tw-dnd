@@ -1,0 +1,29 @@
+title: Winter's Splendor - Entering the Villa
+tags: [[Winter's Splendor]] [[Section 1.1]]
+order: 1
+modified: 20210825141631973
+created: 20210825141555493
+caption: Entering the Villa
+
+At 3 p.m., when the sun is beginning to lower in the sky, the doors of the Cassalanter Villa open. A servant of the household steps forward and heralds the start of the performance in the villa, by sounding off on a trumpet.
+
+The crowd clusters in the Entrance Hall the servant leads them to the Ballroom on
+the second floor. The doors remain open to allow the overflow audience to trickle into the villa.
+
+* <<per "Willifort Crowelle">>, Servant.
+** Male, Lawful Evil, <<mob Doppelganger>>
+** He is in the form of an aging male tiefling.
+** He leads the crowd to the Ballroom on the second floor.
+
+!!! Villa Security
+
+* ''Guards.'' The villa is well fortified.
+** ''Front Door.'' 4 <<mob Guard>> flank the front door, two on each side of the interior.
+** ''Ballroom.'' 6 <<mob Guard>> posted around the perimeter.
+*** Hired by the <<org Cassalanters>> to prevent guests from wandering around the estate.
+* ''City Watch.'' In addition to the private guards, the City Watch is on hand.
+** <<per "Captain Hyustus Staget">>
+*** //Male, Illuskan Human, Lawful Good, <<mob Veteran>>//
+*** He is accompanied by two <<mob Guard>> under his command.
+
+

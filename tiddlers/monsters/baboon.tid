@@ -1,0 +1,32 @@
+xp: 10
+wis: 12
+title: Baboon
+tags: Beast Monster
+str: 8
+speed: 30 ft, climb 30 ft
+source: MM
+size: Small
+senses: passive Perception 11
+mtype: beast
+modified: 20210810045656387
+languages: &mdash;
+int: 4
+hp: 3
+hitdice: 1d6
+dex: 14
+created: 20190701120054639
+cr: 0
+con: 11
+cha: 6
+alignment: unaligned
+ac: 12
+
+"""
+''Pack Tactics.'' The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't [[Incapacitated]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +1>>|<<piercing 1d4-1>> |<<reach 5>> |
+

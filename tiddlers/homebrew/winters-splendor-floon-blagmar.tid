@@ -1,0 +1,19 @@
+title: Winter's Splendor - Floon Blagmar
+tags: [[Winter's Splendor]] NPC [[Section 2.1.1]] Homebrew
+order: 5
+modified: 20210827153644518
+created: 20210825065545310
+caption: Floon Blagmar
+
+|!Alignment |Chaotic Good |
+|!Race |Human, Illuskan |
+|!Gender |Male |
+|!Statblock |<<mob Commoner>> |
+
+//Floon has enjoyed quite a few cups of delectable mulled wine. He is in a jovial mood and hasn’t quite registered the danger.//
+
+* ''What He Knows.''
+** Rather simpleminded. 
+** Has no idea what the attack meant or where the <<mob Imp>> came from. 
+**Speaks about <<per Aria>> with great reverence<br/>//&quot;That bard has a lovely voice, doesn’t she?&quot;//
+

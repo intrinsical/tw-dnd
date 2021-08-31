@@ -1,0 +1,35 @@
+xp: 200
+wis: 12
+title: Hippogriff
+tags: Monster Monstrosity
+str: 17
+speed: 40 ft., fly 60 ft.
+source: MM
+skills: Perception +5
+size: Large
+senses: passive Perception 15
+mtype: monstrosity
+modified: 20210330055638060
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 13
+created: 20210330055349652
+cr: 1
+con: 13
+cha: 8
+alignment: unaligned
+ac: 11
+
+"""
+''Keen Sight.'' The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+''Multiattack.'' The hippogriff makes two attacks: one with its beak and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +5>>|<<piercing 1d10+3>> |<<reach 5>> |
+| !<<melee Claws +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+

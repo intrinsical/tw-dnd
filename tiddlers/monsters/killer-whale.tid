@@ -1,0 +1,36 @@
+xp: 700
+wis: 12
+title: Killer Whale
+tags: Monster Beast
+str: 19
+speed: 0 ft., swim 60 ft.
+source: MM
+skills: Perception +3
+size: Huge
+senses: blindsight 120 ft., passive Perception 13
+mtype: beast
+modified: 20210810114657847
+languages: &mdash;
+int: 3
+hp: 90
+hitdice: 12d12+12
+dex: 10
+created: 20210810114447698
+cr: 3
+con: 13
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Echolocation.'' The whale can’t use its [[Blindsight]] while [[Deafened]].
+''Hold Breath.'' The whale can hold its breath for <<time 30m>>.
+''Keen Hearing.'' The whale has advantage on Wisdom (Perception) checks that rely on hearing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 5d6+4>> |<<reach 5>> |
+

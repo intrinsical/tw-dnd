@@ -1,0 +1,10 @@
+title: Dragon Slayer
+tags: Rare DMG [[Magic Item]] Weapon
+modified: 20210814030224800
+item_type: Weapon (any sword)
+created: 20200709015818477
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+When you hit a dragon with this weapon, the dragon takes an extra <<damage 3d6>> of the weapon’s type. For the purpose of this weapon, “dragon” refers to any creature with the dragon type, including dragon turtles and wyverns.
+

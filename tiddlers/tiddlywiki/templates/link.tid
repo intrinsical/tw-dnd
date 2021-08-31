@@ -1,0 +1,7 @@
+title: Link
+tags: Template
+modified: 20200705133225789
+created: 20200705133217801
+caption: Link
+
+<strong><$link to={{!!title}}><$transclude field="caption"><$view field="title" /></$transclude></$link></strong>

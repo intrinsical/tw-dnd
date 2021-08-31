@@ -1,0 +1,9 @@
+title: 1st Level Cleric Spells
+tags: Table [[Cleric Spells]]
+order: 1
+modified: 20210809152511985
+created: 20190627161235352
+caption: 1st
+
+<<spelltable "[[Bane]] [[Bless]] [[Ceremony]] [[Command]] [[Create or Destroy Water]] [[Cure Wounds]] [[Detect Evil and Good]] [[Detect Magic]] [[Detect Poison and Disease]] [[Protection from Evil and Good]] [[Purify Food and Drink]] [[Sanctuary]] [[Shield of Faith]]">>
+

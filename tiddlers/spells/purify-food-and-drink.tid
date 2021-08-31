@@ -1,0 +1,25 @@
+type: 
+title: Purify Food and Drink
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: Yes
+range: 10 feet
+modified: 20210809222543779
+level: 1
+glyph_target: <<sphere 5>>
+glyph_range: <<range 10>>
+glyph_effect: Food and drinks are rendered free of poison and disease
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[10']'' //<<sphere 5>> remove poison & disease from food & drink//
+duration: Instantaneous
+created: 20190103192334810
+concentration: No
+components: V, S
+classes: [[Cleric]] [[Druid]] [[Paladin]]
+casting_time: 1 Action
+at_higher_level: 
+
+All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.

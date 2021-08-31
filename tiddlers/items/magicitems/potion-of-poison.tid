@@ -1,0 +1,10 @@
+title: Potion of Poison
+tags: Potion DMG Uncommon [[Magic Item]]
+modified: 20210814052946511
+item_type: Potion
+created: 20210814040053435
+
+This concoction looks, smells, and tastes like a [[Potion of Healing]] or other beneficial potion. However, it is actually poison masked by illusion magic. An [[Identify]] spell reveals its true nature.
+
+If you drink it, you take <<poison 3d6>>, and you must succeed on a <<save Con 13>> or be [[Poisoned]]. At the start of each of your turns while you are poisoned in this way, you take <<poison 3d6>>. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by <<roll 1d6>>. The poison ends when the damage decreases to 0.
+

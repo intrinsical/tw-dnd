@@ -1,0 +1,28 @@
+type: 
+title: Produce Flame
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: Self
+modified: 20210809222515087
+level: 0
+glyph_target: <<na>>
+glyph_range: <<self>>
+glyph_effect: <<bright 10>> + <<dim 10>>. <<ranged to-hit>>: <<fire 1d8>> <<range 30>>
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 10 minutes
+created: 20190721063312067
+concentration: No
+components: V, S
+classes: [[Druid]]
+casting_time: 1 Action
+at_higher_level: This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+A flickering flame appears in your hand.
+The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.
+
+You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.

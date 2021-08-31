@@ -1,0 +1,21 @@
+type: 
+title: Stoneskin
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809224217294
+material: (diamond dust worth 100 gp, which the spell consumes)
+level: 4
+effect: 
+duration: 1 hour
+created: 20190627091159180
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Ranger]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.

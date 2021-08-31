@@ -1,0 +1,12 @@
+title: Damage Severity Table
+tags: Table [[DM Tool]] [[DM Reference]]
+order: 9
+modified: 20210812064528777
+created: 20210130120128952
+
+| !Tier | !Level | !Moderate | !Dangerous | !Deadly |
+| !1 |!1-4 |<<damage 1d10>> |<<damage 2d10>> |<<damage 4d10>> |
+| !2 |!5-10 |<<damage 2d10>> |<<damage 4d10>> |<<damage 10d10>> |
+| !3 |!11-16 |<<damage 4d10>> |<<damage 10d10>> |<<damage 18d10>> |
+| !4 |!17-20 |<<damage 10d10>> |<<damage 18d10>> |<<damage 24d10>> |
+

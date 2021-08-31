@@ -1,0 +1,29 @@
+xp: 50
+wis: 10
+title: Giant Poisonous Snake
+tags: Beast Monster
+str: 10
+speed: 30 ft, swim 30 ft
+source: MM
+skills: Perception +2
+size: Medium
+senses: blindsight 10 ft, passive Perception 12
+mtype: beast
+modified: 20210810090513734
+languages: &mdash;
+int: 2
+hp: 11
+hitdice: 2d8+2
+dex: 18
+created: 20190831081134304
+cr: 1/4
+con: 13
+cha: 3
+alignment: unaligned
+ac: 14
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d4+4>> |<<reach 10>> |
+|~|The target must make a <<save Con 11>>, taking <<poison 3d6>> on a failed save, or <<halved>> on a successful one. |<|
+

@@ -1,0 +1,9 @@
+title: Horn of Blasting
+tags: [[Magic Item]] Rare DMG
+modified: 20210813231831033
+created: 20210205055956444
+
+You can use an action to speak the horn’s command word and then blow the horn, which emits a thunderous blast in a <<cone 30>> that is audible 600 feet away. Each creature in the cone must make a <<save Con 15>> <fail><<thunder 5d6>> + [[Deafened]] for <<time 1m>></fail> <pass><<halved>></pass>. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take <<thunder 10d6>> instead of 5d6.
+
+Each use of the horn’s magic has a 20 percent chance of causing the horn to explode. The explosion deals <<fire 10d6>> to the blower and destroys the horn.
+

@@ -1,0 +1,26 @@
+type: 
+title: Water Breathing
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: Yes
+range: 30 feet
+modified: 20210809230620647
+material: (a short reed or piece of straw)
+level: 3
+glyph_target: <<per 10>>
+glyph_range: <<range 30>>
+glyph_effect: Allows breathing underwater
+glyph_duration: <<time 24h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 24 hours
+created: 20190103192207863
+concentration: No
+components: V, S, M
+classes: [[Druid]] [[Ranger]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.

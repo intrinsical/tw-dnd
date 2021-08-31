@@ -1,0 +1,38 @@
+xp: 450
+wis: 11
+title: Bronze Dragon Wyrmling
+tags: Monster Dragon MM Bronze
+str: 17
+speed: 30 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +4, Wis +2, Cha +4
+mtype: dragon
+modified: 20210827070535477
+languages: Draconic
+int: 12
+hp: 32
+hitdice: 5d8+10
+dex: 10
+damage_immunity: lightning
+created: 20210827065325175
+cr: 2
+condition_immunity: 
+con: 15
+cha: 15
+armor: natural armor
+alignment: lawful good
+ac: 17
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d10+3>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.'' The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Lightning Breath.'' The dragon exhales lightning in a <<line "40' long, 5' wide">>. Each creature in that line must make a <<save Dex 12>> <fail><<lightning 3d10>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Repulsion Breath.'' The dragon exhales repulsion energy in a <<cone 30>>. Each creature in that area must succeed on a <<save Str 12>>. On a failed save, the creature is pushed 30 feet away from the dragon. |<|
+

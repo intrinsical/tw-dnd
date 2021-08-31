@@ -1,0 +1,10 @@
+title: Shield, Magic Item
+tags: Armor [[Magic Item]] DMG
+rarity: uncommon (+1), rare (+2), or very rare (+3)
+modified: 20210815042458184
+item_type: Armor (shield)
+created: 20210814080615108
+caption: Shield
+
+While holding this shield, you have a bonus to AC determined by the shield’s rarity. This bonus is in addition to the shield’s normal bonus to AC.
+

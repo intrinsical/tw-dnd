@@ -1,0 +1,29 @@
+xp: 25
+wis: 8
+title: Stirge
+tags: Monster Beast
+str: 4
+speed: 10 ft., fly 40 ft.
+source: MM
+size: Tiny
+senses: darkvision 60 ft., passive Perception 9
+mtype: beast
+modified: 20210808113623245
+languages: &mdash;
+int: 2
+hp: 2
+hitdice: 1d4
+dex: 16
+created: 20210808113347347
+cr: 1/8
+con: 11
+cha: 6
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Blood Drain" +5>>|<<piercing 1d4+3>> |<<reach 5>> |
+|~|The stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses <<damage 1d4+3>> due to blood loss.<br/>&nbsp;<br/>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains <<hp 10>> of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge. |<|
+

@@ -1,0 +1,20 @@
+title: Poison Darts
+tags: Trap
+modified: 20210811151133535
+created: 20210811150532723
+
+"""
+''Mechanical Trap''
+"""
+When a creature steps on a hidden pressure plate, poison-tipped darts shoot from spring-loaded or pressurized tubes cleverly embedded in the surrounding walls. An area might include multiple pressure plates, each one rigged to its own set of darts.
+
+The tiny holes in the walls are obscured by dust and cobwebs, or cleverly hidden amid bas-reliefs, murals, or frescoes that adorn the walls.
+
+|max top|k
+|!Detection #1 |<<perception 15>> to spot cleverly hidden holes in the walls. |
+|!Detection #2 |<<investigation 15>> to deduce presence of pressure plate from variations in the mortar and stone used to create it, |
+|!Trigger |20 or more pounds of weight is placed on the pressure plate. |
+|!Effect |4 darts released. Each dart makes <<ranged Dart +8>> attack against random target within 10 feet from pressure plate. <br/>''On Hit:'' Target takes <<piercing 1d4>> and must succeed on a <<save Con 15>>, taking <fail><<poison 2d10>></fail>, or <pass><<halved>></pass> |
+|!Countermeasure #1 |Wedge an iron spike or other object under the pressure plate. |
+|!Countermeasure #2 |Stuffing the holes with cloth or wax, preventing darts from being launched. |
+

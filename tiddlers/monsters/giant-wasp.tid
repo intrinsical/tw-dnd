@@ -1,0 +1,29 @@
+xp: 100
+wis: 10
+title: Giant Wasp
+tags: Beast Monster
+str: 10
+speed: 10 ft, fly 50 ft
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 10
+mtype: beast
+modified: 20210810092736554
+languages: &mdash;
+int: 1
+hp: 13
+hitdice: 3d8
+dex: 14
+created: 20210810092410647
+cr: 1/2
+con: 10
+cha: 3
+alignment: unaligned
+ac: 12
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Sting +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+|~|The target must make a <<save Con 11>>, taking <fail><<poison 3d6>></fail>, or <pass><<halved>></pass>. If the poison damage reduces the target to <<hp 0>, the target is stable but [[Poisoned]] for <<time 1h>>, even after regaining hit points, and is [[Paralyzed]] while [[Poisoned]] in this way. |<|
+

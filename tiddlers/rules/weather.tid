@@ -1,0 +1,16 @@
+created: 20200810101442623
+title: Weather
+tags: Environment Rule
+order: 10
+modified: 20210831063947626
+
+| !d20 | !Temperature |
+| !1-14 |Normal weather for the season |
+| !15-17 |1d4 x 10 degrees F colder than normal |
+| !18-20 |1d4 x 10 degrees F hotter than normal |
+
+| !d20 | !Wind | !Precipitation |
+| !1-12 |None |None |
+| !13-17 |Light |Light rain or light snowfall |
+| !18-20 |Strong |Heavy rain or heavy snowfall |
+

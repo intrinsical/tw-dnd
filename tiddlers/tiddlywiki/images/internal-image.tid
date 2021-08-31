@@ -1,0 +1,11 @@
+title: Internal Image
+tags: Image Category
+order: 1
+modified: 20210813044825558
+created: 20210813013118565
+caption: Internal Images
+
+<div class="gallery">
+<$list filter="[all[tiddlers]tag[Image]!has[_canonical_uri]sort[]]"><$link to=<<currentTiddler>> tooltip=<<currentTiddler>> class="icon" ><$image source=<<currentTiddler>> /></$link></$list>
+</div>
+

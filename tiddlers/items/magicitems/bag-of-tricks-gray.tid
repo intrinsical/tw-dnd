@@ -1,0 +1,18 @@
+title: Bag of Tricks, Gray
+tags: Uncommon [[Magic Item]] DMG [[Bag of Tricks]]
+modified: 20210813065512856
+created: 20190725050304428
+
+{{Bag of Tricks}}
+
+| !d8 | !Creature | !CR |
+| !1 |<<mob Weasel>> | {{Weasel!!cr}} |
+| !2 |<<mob "Giant Rat">> | {{Giant Rat!!cr}} |
+| !3 |<<mob Badger>> | {{Badger!!cr}} |
+| !4 |<<mob Boar>> | {{Boar!!cr}} |
+| !5 |<<mob Panther>> | {{Panther!!cr}} |
+| !6 |<<mob "Giant Badger">> | {{Giant Badger!!cr}} |
+| !7 |<<mob "Dire Wolf">> | {{Dire Wolf!!cr}} |
+| !8 |<<mob "Giant Elk">> | {{Giant Elk!!cr}} |
+
+

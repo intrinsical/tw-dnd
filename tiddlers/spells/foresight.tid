@@ -1,0 +1,27 @@
+type: 
+title: Foresight
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Touch
+modified: 20210809171341899
+material: (a hummingbird feather)
+level: 9
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Can't be surprised, <<advantage>> to attack rolls, ability checks, saving throws. Attackers have <<disadvantage>> to attack rolls
+glyph_duration: <<time 8h>>
+glyph_casting_time: <<time 1m>>
+effect: 
+duration: 8 hours
+created: 20190613014653892
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Druid]] [[Warlock]] [[Wizard]]
+casting_time: 1 Minute
+at_higher_level: 
+
+You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
+This spell immediately ends if you cast it again before its duration ends.

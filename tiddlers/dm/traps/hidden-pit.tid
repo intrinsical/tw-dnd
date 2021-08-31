@@ -1,0 +1,17 @@
+title: Hidden Pit
+tags: Trap
+modified: 20210811145850723
+created: 20210811145430394
+
+"""
+''Mechanical Trap''
+"""
+This pit has a cover constructed from material identical to the floor around it.
+
+|max top|k
+|!Detection |<<perception 15>> to discern an absence of foot traffic over the section of floor that forms the pit's cover.<br/>A successful <<investigation 15>> is necessary to confirm that the trapped section of floor is actually the cover of a pit. |
+|!Trigger |Stepping on the cover. |
+|!Effect |Cover swings open like a trapdoor, causing target to spill into the pit below. Target takes falling damage based on the pit's depth. |
+|!Countermeasure #1 |Wedging an iron spike or similar item between the pit's cover and the floor in such a way that prevent the cover from opening,. |
+|!Countermeasure #2 |Cover can be magically held shut using [[Arcane Lock]] or similar spell. |
+

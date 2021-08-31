@@ -1,0 +1,35 @@
+xp: 50
+wis: 12
+title: Giant Badger
+tags: Beast Monster
+str: 13
+speed: 30 ft., burrow 10 ft.
+source: MM
+skills: Athletics +9, Perception +4
+size: Medium
+senses: darkvision 30 ft., passive Perception 11
+mtype: beast
+modified: 20210810074317451
+languages: &mdash;
+int: 2
+hp: 13
+hitdice: 2d8+4
+dex: 10
+created: 20210810074049315
+cr: 1/4
+con: 15
+cha: 5
+alignment: unaligned
+ac: 10
+
+"""
+''Keen Smell.'' The badger has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack.'' The badger makes two attacks: one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +3>>|<<piercing 1d6+1>> |<<reach 5>> |
+| !<<melee Claws +3>>|<<slashing 2d4+1>> |<<reach 5>> |
+

@@ -1,0 +1,10 @@
+title: Nine Lives Stealer
+tags: Attunement [[Very Rare]] DMG [[Magic Item]] Weapon
+modified: 20210814030107979
+item_type: Weapon (any sword)
+created: 20191118010036018
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+The sword has <<roll 1d8+1>> charges. If you score a critical hit against a creature that has <<hp "&lt;100">>, it must succeed on a <<save Con 15>> or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.
+

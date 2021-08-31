@@ -1,0 +1,12 @@
+title: Red Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Red
+modified: 20210827034910127
+created: 20210827034625133
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row:
+
+* Magma erupts from a point on the ground the dragon can see within 120 feet of it, creating a <<cylinder "20' high, 5' radius">> geyser. Each creature in the geyser’s area must make a <<save Dex 15>> <fail><<fire 6d6>></fail> <pass><<halved>></pass>.
+* A tremor shakes the lair in a <<circle 60>> around the dragon. Each creature other than the dragon on the ground in that area must succeed on a <<save Dex 15>> <fail>Knocked [[Prone]]</fail>.
+* Volcanic gases form a cloud in a <<sphere 20>> centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is [[Lightly Obscured]]. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a <<save Con 13>> or be [[Poisoned]] until the end of its turn. While [[Poisoned]] in this way, a creature is [[Incapacitated]].
+

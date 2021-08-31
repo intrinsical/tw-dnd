@@ -1,0 +1,9 @@
+title: Download
+tags: 
+modified: 20210816030918441
+created: 20210816025424390
+
+<$button class="btn-download">
+<$action-sendmessage $message="tm-download-file" $param="$:/core/save/all" filename="tw-dnd.html"/>
+Download Wiki {{$:/core/images/save-button}}
+</$button>

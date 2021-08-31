@@ -1,0 +1,46 @@
+xp: 1100
+wis: 20
+title: Couatl
+tags: Monster Celestial
+str: 16
+speed: 30 ft., fly 90 ft.
+source: MM
+size: Medium
+senses: truesight 120 ft., passive Perception 15
+saving_throw: Con +5, Wis +7, Cha +6
+mtype: celestial
+modified: 20210222132847600
+languages: all, telepathy 120 ft.
+int: 18
+hp: 97
+hitdice: 13d8+39
+dex: 20
+damage_resistance: radiant
+damage_immunity: psychic; bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210222132054700
+cr: 4
+con: 17
+cha: 18
+armor: natural armor
+alignment: lawful good
+ac: 19
+
+"""
+''Innate Spellcasting.'' The couatl’s spellcasting ability is Charisma, <<skillcheck "Save DC" 14>>. It can innately cast the following spells, requiring only verbal components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Detect Evil and Good]], [[Detect Magic]], [[Detect Thoughts]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3/day each:'' [[Bless]], [[Create Food and Water]], [[Cure Wounds]], [[Lesser Restoration]], [[Protection from Poison]], [[Sanctuary]], [[Shield]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Dream]], [[Greater Restoration]], [[Scrying]]
+''Magic Weapons.'' The couatl’s weapon attacks are magical.
+''Shielded Mind.'' The couatl is immune to [[Scrying]] and to any effect that would sense its emotions, read its thoughts, or detect its location.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +8>>|<<piercing 1d6+5>> |<<reach 5>> |
+|~|Target must succeed on a <<save Con 13>> or be [[Poisoned]] for <<time 24h>>. Until this poison ends, the target is [[Unconscious]]. Another creature can use an action to shake the target awake. |<|
+| !<<melee Constrict +6>>|<<bludgeoning 2d6+3>> |<<reach 10>> |
+|~|Target is [[Grappled]], <<skillcheck "Escape" 15>>. Until this grapple ends, the target is [[Restrained]], and the couatl can’t constrict another target. |<|
+| !Change Shape|The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl’s choice).<br/>&nbsp;<br/>In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form. |<|
+
+

@@ -1,0 +1,35 @@
+xp: 450
+wis: 7
+title: Giant Boar
+tags: Beast Monster
+str: 17
+speed: 40 ft
+source: MM
+skills: 
+size: Large
+senses: passive Perception 8
+mtype: beast
+modified: 20210810074607253
+languages: &mdash;
+int: 2
+hp: 42
+hitdice: 5d10+15
+dex: 10
+created: 20190831065214693
+cr: 2
+con: 16
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Charge.'' If the boar moves at least <<range 20>> straight toward a target and then hits it with a ''tusk attack'' on the same turn, the target takes an extra <<slashing 2d6>>. If the target is a creature, it must succeed on a <<save Str 13>> or be knocked [[Prone]].
+''Relentless (Recharges after a Short or Long Rest).'' If the boar takes <<damage "&le;10">> that would reduce it to <<hp 0>>, it is reduced to <<hp 1>> instead.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Tusk +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+

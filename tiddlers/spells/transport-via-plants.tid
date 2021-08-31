@@ -1,0 +1,20 @@
+type: 
+title: Transport via Plants
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 10 feet
+modified: 20210809230236897
+level: 6
+effect: 
+duration: 1 round
+created: 20190721134701243
+concentration: No
+components: V, S
+classes: [[Druid]]
+casting_time: 1 Action
+at_higher_level: 
+
+This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.

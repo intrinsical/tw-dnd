@@ -1,0 +1,92 @@
+title: D&D Macros
+tags: Macro $:/tags/Macro
+modified: 20210204131034577
+list: 
+created: 20190405080147886
+claw_tohit2: 8,7 = 15
+claw_tohit1: 13,7 = 20
+claw_dmg2: 3 = 3
+claw_dmg1: 6,2 = 8
+bite_tohit2: 3,6 = 9
+bite_tohit1: 3,6 = 9
+bite_tohit: 2,6 = 8
+bite_dmg2: 1,2,4 = 7
+bite_dmg1: 2,4 = 6
+
+\define ability(label, value, modifier, saving)
+<table style="width: 100px;">
+<tr><td colspan="2" align="center" style="width: 75px; height: 78px;">$label$<br/><div style="font-size:x-large; font-weight: bold; width: 1.5em; height: 1.5em; padding-top: 0.3em;">$value$</div></td></tr>
+<tr>
+<td align="center">Mod</td><td align="center">$modifier$</td>
+</tr>
+<tr>
+<td align="center">Save</td><td align="center">$saving$</td>
+</tr>
+</table>
+\end
+
+\define ability-value(label, value)
+<$macrocall $name="ability" label=$label$ value=$value$ modifier={{Modifiers##$value$}} saving={{Modifiers##$value$}} />
+\end
+
+\define ability-field(label, field)
+<$macrocall $name="ability-value" label=$label$ value={{$field$}} />
+\end
+
+\define stat(label1, value, label2, class="")
+<table style="width: 100px; height: 100px; margin: 0px;" class="$class$">
+<tr><td style="text-align: center; vertical-align: middle; height: 22px; border: none; font-size: 90%;">$label1$</td></tr>
+<tr><td style="text-align: center; vertical-align: middle; height: 31px; border: none; font-size: x-large;">$value$</td></tr>
+<tr><td style="text-align: center; vertical-align: middle; height: 22px; border: none; font-size: 90%;">$label2$</td></tr>
+</table>
+\end
+
+\define box(field)
+<$checkbox field="$field$" checked="Used" unchecked="" class="box" />
+\end
+
+\define skill(level)
+<$reveal type="match" default="0" text="$level$">&#9675;&#9675;</$reveal><$reveal type="match" default="1" text="$level$">&#9673;&#9675;</$reveal><$reveal type="match" default="2" text="$level$">&#9673;&#9673;</$reveal>
+\end
+
+\define diceroll(title dice field)
+<table><tr><th style="padding: 0;" colspan="2">$title$</th></tr>
+<tr><td style="padding: 0;" align="center"><$button>
+<$action-dice $dice="$dice$" $field="$field$" />
+$dice$
+</$button></td><td style="padding: 0px 5px 1px 5px;"><$view field="$field$" class="dice" /></td></tr></table>
+\end
+
+\define dicerollv(title dice field)
+<table><tr><th style="padding: 0;" colspan="2">$title$</th></tr>
+<tr><td style="padding: 0;" align="center"><$button>
+<$action-dice $dice="$dice$" $field="$field$" $verbose=1 />
+$dice$
+</$button></td><td style="padding: 0px 5px 1px 5px;"><$view field="$field$" class="dice" /></td></tr></table>
+\end
+
+\define attack(prefix name damage_type tohit damage info)
+<tr><th colspan="4">Deprecated function</th></tr>
+\end
+
+\define attack2(prefix name tohit damage1 damage2 info)
+<tr><th colspan="4">Deprecated function</th></tr>
+\end
+
+\define dc(prefix name damage_type dc damage info)
+<tr><th colspan="4">Deprecated function</th></tr>
+\end
+
+"""
+''&lt;&lt;ability'' //label// //value// //modifier// //saving_throw//''&gt;&gt;'' - Display a single character ability score
+''&lt;&lt;ability-value'' //label// //value//''&gt;&gt;'' - Display a single character ability score, modifiers are automatically calculated from value
+''&lt;&lt;ability-field'' //label// //field//''&gt;&gt;'' - Display a single character ability score, with value is stored in a tiddler field
+''&lt;&lt;statistic'' //top_label// //value// //bottom_label// //stylesheet class//''&gt;&gt;'' - Display a single character statistic
+''&lt;&lt;box'' //field//''&gt;&gt;'' - Create a checkbox field
+''&lt;&lt;skill'' //proficiency_level//''&gt;&gt;'' - <<skill 1>>
+''&lt;&lt;diceroll'' //title 1d6 field//''&gt;&gt;'' - Roll dice 
+''&lt;&lt;dicerollv'' //title 3d6 field//''&gt;&gt;'' - Roll dice, with detailed results
+''&lt;&lt;attack'' //name damage_type tohit dmg_dice field_prefix info//''&gt;&gt;'' - Roll attack dice
+''&lt;&lt;dc'' //name damage_type dc dmg_dice field_prefix info//''&gt;&gt;'' - Roll saving throw attack damage
+"""
+

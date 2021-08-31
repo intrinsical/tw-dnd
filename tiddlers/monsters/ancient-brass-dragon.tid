@@ -1,0 +1,48 @@
+xp: 25000
+wis: 15
+title: Ancient Brass Dragon
+tags: Monster Dragon MM Brass
+str: 27
+speed: 40 ft., burrow 40 ft., fly 80 ft.
+source: MM
+skills: History +9, Perception +14, Persuasion +10, Stealth +6
+size: Gargantuan
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 24
+saving_throw: Dex +6, Con +13, Wis +8, Cha +10
+mtype: dragon
+modified: 20210827054613405
+languages: Common, Draconic
+int: 16
+hp: 297
+hitdice: 17d20+119
+dex: 10
+damage_immunity: fire
+created: 20210827053431084
+cr: 20
+condition_immunity: 
+con: 25
+cha: 19
+armor: natural armor
+alignment: chaotic good
+ac: 20
+
+"""
+''Legendary Resistance (3/Day).'' If the dragon fails a saving throw, it can choose to succeed instead.
+"""
+<<divider>>
+''Multiattack.'' The dragon can use its ''Frightful Presence''. It then makes three attacks: one with its bite and two with its claws.
+<<fold "Brass Dragon Lair Action">><<fold "Brass Dragon Regional Effect">>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|!<<melee Bite +14>> |<<piercing 2d10+8>> |<<reach 15>> |
+|!<<melee Claw +14>> |<<slashing 2d6+8>> |<<reach 10>> |
+|!<<melee Tail +14>> |<<bludgeoning 2d8+8>> |<<reach 20>> |
+| !Frightful Presence|Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a <<save Wis 18>> saving throw or become [[Frightened]] for <<time 1m>>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours. |<|
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons:<br/>&nbsp;<br/>''Fire Breath,'' The dragon exhales fire in an <<line "90' long, 10' wide">>. Each creature in that line must make a <<save Dex 21>> <fail><<fire 16d6>></fail> <pass><<halved>></pass><br/>&nbsp;<br/>''Sleep Breath.'' The dragon exhales sleep gas in a <<cone 90>>. Each creature in that area must succeed on a <<save Con 21>> <fail>fall [[Unconscious]] for <<time "10m">></fail>. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. |<|
+| !Change Shape|The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). <br/>In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Detect|The dragon makes a Wisdom (Perception) check. |<|
+|!Tail Attack |The dragon makes a tail attack. |<|
+|!Wing Attack<br/>(Costs 2 Actions) |The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a <<save Dex 22>> saving throw or take <<bludgeoning 2d6+8>> and be knocked [[Prone]]. The dragon can then fly up to half its flying speed. |<|
+

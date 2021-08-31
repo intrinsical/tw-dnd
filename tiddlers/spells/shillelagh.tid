@@ -1,0 +1,27 @@
+type: 
+title: Shillelagh
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809223448048
+material: (mistletoe, a shamrock leaf, and a club or quarterstaff)
+level: 0
+glyph_target: <<loot 1>>
+glyph_range: <<touch>>
+glyph_effect: Imbue club/staff with magic. Attack with wis modifier, <<bludgeoning 1d8+wis>>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<ba>>
+effect: 
+duration: 1 minute
+created: 20190627121246904
+concentration: No
+components: V, S, M
+classes: [[Druid]]
+casting_time: 1 Bonus Action
+at_higher_level: 
+
+The wood of a club or quarterstaff you are holding is imbued with nature’s power.
+For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon’s damage die becomes a d8. The weapon also becomes magical, if it isn’t already. The spell ends if you cast it again or if you let go of the weapon

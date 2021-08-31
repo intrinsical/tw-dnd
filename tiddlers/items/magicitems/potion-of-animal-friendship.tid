@@ -1,0 +1,8 @@
+title: Potion of Animal Friendship
+tags: Potion Uncommon DMG [[Magic Item]]
+modified: 20210814053450528
+item_type: Potion
+created: 20210814030455581
+
+When you drink this potion, you can cast the [[Animal Friendship]] spell (<<save "Spell DC" 13>>) for <<time 1h>> at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.
+

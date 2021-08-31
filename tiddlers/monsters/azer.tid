@@ -1,0 +1,39 @@
+xp: 450
+wis: 13
+title: Azer
+tags: Monster Elemental
+str: 17
+speed: 30 ft.
+source: MM
+size: Medium
+senses: passive Perception 11
+saving_throw: Con +4
+mtype: elemental
+modified: 20210222121611505
+languages: Ignan
+int: 12
+hp: 39
+hitdice: 6d8+12
+dex: 12
+damage_immunity: fire, poison
+created: 20210213173327461
+cr: 2
+condition_immunity: poisoned
+con: 15
+cha: 10
+armor: natural armor, shield
+alignment: lawful neutral
+ac: 17
+
+"""
+''Heated Body.'' A creature that touches the azer or hits it with a melee attack while within <<range 5>> of it takes <<fire 1d10>>.
+''Heated Weapons.'' When the azer hits with a metal melee weapon, it deals an extra <<fire 1d6>> (included in the attack).
+''Illumination.'' The azer sheds <<bright>> in a <<sphere 10>> and <<dim>> for <<sphere 20>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Warhammer +5>>|<<bludgeoning 1d8+3>><br/><<bludgeoning 1d10+3>> (''two-handed'') |<<reach 5>> |
+|~|<<fire 1d6>> |<|
+

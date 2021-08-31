@@ -1,0 +1,11 @@
+title: External Image
+tags: Image Category
+order: 2
+modified: 20210813044838336
+created: 20210813014452090
+caption: External Images
+
+<div class="gallery">
+<$list filter="[all[tiddlers]tag[Image]has[_canonical_uri]sort[]]"><$link to=<<currentTiddler>> tooltip=<<currentTiddler>> class="icon" ><$image source=<<currentTiddler>> /></$link></$list>
+</div>
+

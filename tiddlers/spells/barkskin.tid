@@ -1,0 +1,26 @@
+type: 
+title: Barkskin
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809164100320
+material: (A handful of oak bark)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<ac 16>>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190627114932202
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a willing creature. Until the spellends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing.

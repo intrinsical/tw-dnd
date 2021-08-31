@@ -1,0 +1,27 @@
+type: 
+title: Darkvision
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809165723208
+material: (either a pinch of dried carrot or an agate)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Target has darkvision 60'
+glyph_duration: <<time 8h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 8 hours
+created: 20190613014152731
+concentration: No
+components: V, S, M
+classes: [[Druid]] [[Ranger]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a willing creature to grant it the ability to see in the dark.
+For the duration, that creature has darkvision out to a range of 60 feet.

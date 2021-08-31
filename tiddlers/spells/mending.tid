@@ -1,0 +1,29 @@
+type: 
+title: Mending
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809220357650
+material: (two lodestones)
+level: 0
+glyph_target: <<loot 1>>
+glyph_range: <<touch>>
+glyph_effect: Repairs an object you touch
+glyph_duration: <<instant>>
+glyph_casting_time: <<time 1m>>
+effect: //<<hover Mending>>//
+duration: Instantaneous
+created: 20190612151312140
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Minute
+at_higher_level: 
+
+This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloack, or a leaking wineskin.
+As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
+
+This spell can physically repair a magic item or construct, but the spell can’t restore magic to such an object.

@@ -1,0 +1,9 @@
+title: SRD Spell Cantrip
+tags: [[SRD Spell]]
+order: 0
+modified: 20210812065002376
+created: 20210812064815776
+caption: Cantrips
+
+<<spelltable "[tag[Spell]tag[SRD]level[0]sort[]]">>
+

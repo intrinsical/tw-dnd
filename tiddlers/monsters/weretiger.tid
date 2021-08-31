@@ -1,0 +1,43 @@
+xp: 1100
+wis: 13
+title: Weretiger
+tags: Monster Humanoid
+str: 17
+speed: 30 ft. (40 ft. in tiger form)
+source: MM
+skills: Perception +5, Stealth +4
+size: Medium
+senses: darkvision 60 ft., passive Perception 15
+saving_throw: 
+mtype: humanoid (human, shapechanger)
+modified: 20210806023813831
+languages: Common (can’t speak in tiger form)
+int: 10
+hp: 120
+hitdice: 16d8+48
+dex: 15
+damage_immunity: bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered
+created: 20210806023216977
+cr: 4
+con: 16
+cha: 11
+armor: 
+alignment: neutral
+ac: 12
+
+"""
+''Shapechanger.'' The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+''Keen Hearing and Smell.'' The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pounce (Tiger or Hybrid Form Only).'' If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <<save Str 14>> or be knocked [[Prone]]. If the target is [[Prone]], the weretiger can make one bite attack against it as a bonus action.
+"""
+<<divider>>
+''Multiattack (Humanoid or Hybrid Form Only).'' In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>><br/>''Tiger or Hybrid Form Only''|<<piercing 1d10+3>> |<<reach 5>> |
+|~|If the target is a humanoid, it must succeed on a <<save Con 13>> or be cursed with weretiger [[Lycanthropy]]. |<|
+| !<<melee Claw +5>><br/>''Tiger or Hybrid Form Only''|<<slashing 1d8+3>> |<<reach 5>> |
+| !<<melee Scimitar +5>><br/>''Humanoid or Hybrid Form Only''|<<slashing 1d6+2>> |<<reach 5>> |
+| !<<ranged Longbow +4>><br/>''Humanoid or Hybrid Form Only''|<<piercing 1d8+2>> |<<range 150/600>> |
+

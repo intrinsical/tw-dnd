@@ -1,0 +1,25 @@
+type: 
+title: Protection from Energy
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809222555827
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Resistance to either <<acid>><<cold>><<fire>><<lightning>><<thunder>>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190627082318979
+concentration: Yes
+components: V, S
+classes: [[Cleric]] [[Druid]] [[Ranger]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.

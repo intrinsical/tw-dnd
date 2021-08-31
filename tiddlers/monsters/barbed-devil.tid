@@ -1,0 +1,44 @@
+xp: 1,800
+wis: 14
+title: Barbed Devil
+tags: Fiend Monster Devil
+str: 16
+speed: 30 ft.
+source: MM
+skills: Deception +5, Insight +5, Perception +8
+size: Medium
+senses: darkvision 120 ft, passive Perception 18
+saving_throw: Str +6, Con +7, Wis +5, Cha +5
+mtype: fiend (devil)
+modified: 20210222190737660
+languages: Infernal, telepathy 120 ft
+int: 12
+hp: 110
+hitdice: 13d8+52
+dex: 17
+damage_resistance: cold; bludgeoning, piercing and slashing from nonmagical weapons that aren't silvered
+damage_immunity: fire, poison
+created: 20200128140412818
+cr: 5
+condition_immunity: poisoned
+con: 18
+cha: 14
+armor: natural armor
+alignment: lawful evil
+ac: 15
+
+"""
+''Barbed Hide.'' At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+''Devil's Sight.'' Magical darkness doesn't impede the devil's darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +6>>|<<piercing 1d6+3>> |<<reach 5>> |
+| !<<melee Tail +6>>|<<piercing 2d6+3>> |<<reach 5>> |
+| !<<ranged "Hurl Flame" +5>>|<<fire 3d6>> |<<range 150>> |
+|~|If the target is a flammable object that isn't being worn or carried, it also catches fire. |<|
+

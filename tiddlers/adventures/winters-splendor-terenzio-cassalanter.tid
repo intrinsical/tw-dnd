@@ -1,0 +1,18 @@
+title: Winter's Splendor - Terenzio Cassalanter
+tags: [[Winter's Splendor]] [[Section 2.1.1]] NPC
+order: 2
+modified: 20210827153920696
+created: 20210825063929804
+caption: Terenzio Cassalanter
+
+|!Alignment |Chaotic Good |
+|!Statblock |<<mob Commoner>> (child) |
+
+//Terenzio, Elzerina's twin brother, is excited by the activity in his home, but shy.//
+
+* <<per "Captain Staget">> immediately stops <<intimidation any>>.
+** If necessary, forcibly removes the intimidators. 
+* <<persuasion 13>> to earn <<per Terenzio>>'s trust.
+* ''What He Knows.''
+** He heard <<per Elzerina>> talking to someone the other night but didn’t recognize the voice.<br/>//&quot;I thought it might be Osvaldo visiting from school, but I don’t think it was.&quot;//
+

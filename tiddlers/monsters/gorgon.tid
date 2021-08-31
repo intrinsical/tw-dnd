@@ -1,0 +1,38 @@
+xp: 1,800
+wis: 12
+title: Gorgon
+tags: Monster Monstrosity
+str: 20
+speed: 40 ft.
+source: MM
+skills: Perception +4
+size: Large
+senses: darkvision 60 ft., passive Perception 14
+mtype: monstrosity
+modified: 20210329060713497
+languages: &mdash;
+int: 2
+hp: 114
+hitdice: 12d10+48
+dex: 11
+damage_immunity: 
+created: 20210329060301542
+cr: 5
+condition_immunity: petrified
+con: 18
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 19
+
+"""
+''Trampling Charge.'' If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a <<save Str 16>> or be knocked [[Prone]]. If the target is [[Prone]], the gorgon can make one attack with its hooves against it as a <<ba>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Gore +8>>|<<piercing 2d12+5>> |<<reach 5>> |
+| !<<melee Hooves +8>>|<<bludgeoning 2d10+5>> |<<reach 5>> |
+| !Petrifying Breath|''Recharge 5–6''<br/>The gorgon exhales petrifying gas in a <<cone 30>>. Each creature in that area must succeed on a <<save Con 13>>. On a failed save, a target begins to turn to stone and is [[Restrained]]. The [[Restrained]] target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is [[Petrified]] until freed by the [[Greater Restoration]] spell or other magic. |<|
+

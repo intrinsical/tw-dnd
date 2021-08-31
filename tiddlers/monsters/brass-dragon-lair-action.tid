@@ -1,0 +1,11 @@
+title: Brass Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Brass
+modified: 20210827060937231
+created: 20210827060816303
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
+
+* ''A strong wind'' blows around the dragon. Each creature within 60 feet of the dragon must succeed on a <<save Str 15>> or be pushed 15 feet away from the dragon and knocked [[Prone]]. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished.
+* ''A cloud of sand'' swirls about in a <<sphere 20>> centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a <<save Con 15>> <fail>[[Blinded]] for <<time 1m>></fail>. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+

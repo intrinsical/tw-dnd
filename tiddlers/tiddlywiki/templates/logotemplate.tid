@@ -1,0 +1,6 @@
+title: LogoTemplate
+tags: Template
+modified: 20210813013925425
+created: 20210720094232281
+
+<div class="icon"><$link to={{!!title}}><$list filter="[all[current]has[icon]]"><$image source={{!!icon}} width=100 /><br/></$list><$list filter="[all[current]has[caption]]"><$view field=caption /></$list><$list filter="[all[current]!has[caption]]"><$view field=title /></$list></$link><$list filter="[all[current]has[level]]"><br/>//level <$view field=level />//</$list></div>

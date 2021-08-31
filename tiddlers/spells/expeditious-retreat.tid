@@ -1,0 +1,25 @@
+type: 
+title: Expeditious Retreat
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Self
+modified: 20210809170447769
+level: 1
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: Gains <<ba>> Dash
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<ba>>
+effect: ''[<<ba>><<time 10m>>]'' Gain <<ba>> Dash
+duration: 10 minutes
+created: 20190627083352398
+concentration: Yes
+components: V, S
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Bonus Action
+at_higher_level: 
+
+This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.

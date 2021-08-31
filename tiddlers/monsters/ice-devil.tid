@@ -1,0 +1,42 @@
+xp: 11500
+wis: 15
+title: Ice Devil
+tags: Monster Fiend Devil
+str: 21
+speed: 40 ft.
+source: MM
+size: large
+senses: blindsight 60 ft., darkvision 120 ft., passive Perception 12
+saving_throw: Dex +7, Con +9, Wis +7, Cha +9
+mtype: fiend (devil)
+modified: 20210222235749124
+languages: Infernal, telepathy 120 ft.
+int: 18
+hp: 180
+hitdice: 19d10+76
+dex: 14
+damage_resistance: bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: cold, fire, poison
+created: 20210222234530756
+cr: 14
+condition_immunity: poisoned
+con: 18
+cha: 18
+armor: natural armor
+alignment: lawful evil
+ac: 18
+
+"""
+''Devil’s Sight.'' Magical darkness doesn’t impede the devil’s darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes three attacks: one with its bite, one with its claws, and one with its tail.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +10>>|<<piercing 2d6+5>>+<<cold 3d6>> |<<reach 5>> |
+| !<<melee Claws +10>>|<<slashing 2d4+5>>+<<cold 3d6>> |<<reach 5>> |
+| !<<melee Tail +10>>|<<bludgeoning 2d6+5>>+<<cold 3d6>> |<<reach 10>> |
+| !Wall of Ice|''Recharge on 6''<br/>The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it’s a hemispherical dome up to 20 feet in diameter.<br/>&nbsp;<br/>When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is [[Incapacitated]]. The creature then makes a <<save Dex 17>>, taking <<cold 10d6>> on a failed save, or <<halved>> on a successful one.<br/>&nbsp;<br/>The wall lasts for <<time 1m>> or until the devil is [[Incapacitated]] or dies. The wall can be damaged and breached; each 10-foot section has <<ac 5>>, <<hp 30>>, vulnerability to <<fire>>fire damage, and immunity to <<acid>>acid, <<cold>>cold, <<necrotic>>necrotic, <<poison>>poison, and <<psychic>>psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a <<save Con 17>>, taking <<cold 5d6>> on a failed save, or <<halved>> on a successful one. The frigid air dissipates when the rest of the wall vanishes. |<|
+

@@ -1,0 +1,26 @@
+type: 
+title: See Invisibility
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: No
+range: Self
+modified: 20210809223216381
+material: (a pinch of talc and a small sprinkling of powdered silver)
+level: 2
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: See invisible <<per>> & <<loot>>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: ''[<<per>><<time 1h>>]'' See invisibility
+duration: 1 hour
+created: 20190610052407605
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.

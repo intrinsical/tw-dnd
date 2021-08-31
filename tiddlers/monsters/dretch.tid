@@ -1,0 +1,35 @@
+xp: 50
+wis: 8
+title: Dretch
+tags: Monster Fiend Demon
+str: 11
+speed: 20 ft
+source: MM
+size: Small
+senses: darkvision 60 ft, passive Perception 9
+mtype: fiend (demon)
+modified: 20210222184035034
+languages: Abyssal, telepathy 60 ft (works only with creatures that understand Abyssal)
+int: 5
+hp: 18
+hitdice: 4d6+4
+dex: 11
+damage_resistance: cold, fire, lightning
+damage_immunity: poison
+created: 20190829070534275
+cr: 1/4
+condition_immunity: poisoned
+con: 12
+cha: 3
+armor: natural armor
+alignment: chaotic evil
+ac: 11
+
+''Multiattack.'' The dretch makes two attacks: one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +2>>|<<piercing 1d6>> |<<reach 5>> |
+| !<<melee Claw +2>>|<<slashing 2d4>> |<<reach 5>> |
+| !Fetid Cloud|''1/Day''<br/>A <<sphere 10>> of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is [[Lightly Obscured]]. It lasts for <<time 1m>> or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a <<save Con 11>> or be [[Poisoned]] until the start of it's next turn. While [[Poisoned]] in this way, the target can take either an <<action>> or <<ba>> on its turn, not both, and can't take <<reaction>>. |<|
+

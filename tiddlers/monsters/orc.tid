@@ -1,0 +1,35 @@
+xp: 100
+wis: 11
+title: Orc
+tags: Monster Humanoid
+str: 16
+speed: 30 ft.
+source: PHB
+skills: Intimidation +2
+size: Medium
+senses: darkvision 60 ft, passive Perception 10
+mtype: humanoid (orc)
+modified: 20210213092142222
+languages: Common, Orc
+int: 7
+hp: 15
+hitdice: 2d8+6
+dex: 12
+created: 20210213091834534
+cr: 1/2
+con: 16
+cha: 10
+armor: hide armor
+alignment: chaotic evil
+ac: 13
+
+"""
+''Aggressive.'' As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+"""
+[img[divider.png]]
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greataxe +5>>|<<slashing 1d12+3>> |<<reach 5>> |
+| !<<ranged Javelin +5>>|<<piercing 1d6+3>> |<<reach 5>><br/><<range 30/120>> |
+

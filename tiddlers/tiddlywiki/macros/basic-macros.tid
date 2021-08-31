@@ -1,0 +1,113 @@
+title: Basic Macros
+tags: Macro $:/tags/Macro
+modified: 20210820080154370
+list: 
+created: 20190703054059220
+
+\define test()
+<$transclude field="label" />
+\end
+
+\define hover(tiddler)
+<$hover popup="$:/state/$tiddler$">[[$tiddler$]]</$hover><$reveal type="popup" state="$:/state/$tiddler$"><div class="tc-drop-down" style="max-width: 500px; padding: 7px; white-space: normal;"><$transclude tiddler="$tiddler$" mode="block" /></div></$reveal>
+\end
+
+\define include(tiddler)
+!! <$link to="$tiddler$"><$transclude tiddler="$tiddler$" field="caption"><$view tiddler="$tiddler$" field="title" /></$transclude></$link>
+{{$tiddler$}}
+\end
+
+\define h3(tiddler)
+!!! <$link to="$tiddler$"><$transclude tiddler="$tiddler$" field="caption"><$view tiddler="$tiddler$" field="title" /></$transclude></$link>
+
+<$transclude tiddler="$tiddler$" mode=block />
+\end
+
+\define p(tiddler)
+<p>''<$link to="$tiddler$"><$transclude tiddler="$tiddler$" field="caption"><$view tiddler="$tiddler$" field="title" /></$transclude></$link>.'' <$transclude tiddler="$tiddler$" mode=inline /> </p>
+\end
+
+\define list-icons(tiddlers, emptyMessage)
+<div class="gallery"><$list filter="$tiddlers$" emptyMessage="$emptyMessage$">{{||LogoTemplate}}</$list></div>
+\end
+
+\define list-box(tiddlers, emptyMessage)
+<div class="shadow-box" style="column-width: 200px;"><$list filter="$tiddlers$" emptyMessage="$emptyMessage$"><span style="width:200px; display: inline-block;">{{||Link}}</span></$list></div>
+\end
+
+\define list-abilities(level)
+<$set name=label value={{!!label}}><div><$list filter="[all[current]get[class]] +[tagging[]tag[Ability]!tag[Optional]level[$level$]first[]]">{{||Link}}</$list><$list filter="[all[current]get[class]] +[tagging[]tag[Ability]!tag[Optional]level[$level$]butfirst[]]">, {{||Link}}</$list></div><div><$list filter="[all[current]get[class]] +[tagging[]tag[Ability]tag[Optional]level[$level$]first[]]">''[Optional]'' {{||Link}}</$list><$list filter="[all[current]get[class]] +[tagging[]tag[Ability]tag[Optional]level[$level$]butfirst[]]">, {{||Link}}</$list></div><div><$list filter="[all[current]get[subclass]] +[tagging[]tag[Ability]level[$level$]first[]]">''[<<label>>]'' {{||Link}}</$list><$list filter="[all[current]get[subclass]] +[tagging[]tag[Ability]level[$level$]butfirst[]]">, {{||Link}}</$list></div></$set>
+\end
+
+\define htabs(tiddlers)
+<$macrocall $name="tabs" tabsList="$tiddlers$" state="$:/state/tab<<hash $tiddlers$>>"/>
+<hr/>
+//Quick Links:// <<links "$tiddlers$">>
+\end
+
+\define sections(tiddlers, default)
+<$macrocall $name="tabs" tabsList="$tiddlers$" state="$:/state/tab<<hash $tiddlers$>>" default="$default$"/>
+<hr/>
+//Quick Links:// <<links "$tiddlers$">>
+\end
+
+\define vtabs(tiddlers, default)
+<$macrocall $name="tabs" tabsList="$tiddlers$" class="tc-vertical" state="$:/state/tab<<hash $tiddlers$>>" default="$default$"/>
+<hr/>
+//Quick Links:// <<links "$tiddlers$">>
+\end
+
+\define sections-vertical(tiddlers)
+<$macrocall $name="tabs" tabsList="$tiddlers$" class="tc-vertical" state="$:/state/tab<<hash $tiddlers$>>"/>
+<hr/>
+//Quick Links:// <<links "$tiddlers$">>
+\end
+
+\define link(tiddler)
+{{$tiddler$||Link}}
+\end
+
+\define links(tiddlers)
+<$list filter="$tiddlers$">| {{||Link}} </$list> |
+\end
+
+\define p2(tiddlers)
+<$list filter="$tiddlers$">{{||P2Template}} </$list>
+\end
+
+\define p3(tiddlers)
+<$list filter="$tiddlers$">{{||P3Template}} </$list>
+\end
+
+\define imageuri(title)
+<$macrocall $name="makedatauri" type={{$title$!!type}} text={{$title$}}/>
+\end
+
+\define snippet(tiddler)
+<span class="padding">
+
+{{$tiddler$}}
+</span>
+\end
+
+
+"""
+''&lt;&lt;include'' //tiddler//''&gt;&gt;'' - Include a tiddler as a chapter
+''&lt;&lt;list-icons'' //tiddler emptyMessage//''&gt;&gt;'' - List tiddlers as a grid of icons
+''&lt;&lt;list-box'' //tiddler emptyMessage//''&gt;&gt;'' - List tiddlers as a grid of links
+''&lt;&lt;list-abilities'' //classes level//''&gt;&gt;'' - List class-level abilities as a comma delimited list
+''&lt;&lt;htabs'' //tiddler//''&gt;&gt;'' - List tiddlers in a tab panel
+''&lt;&lt;vtabs'' //tiddler//''&gt;&gt;'' - List tiddlers in a vertical tab panel
+''&lt;&lt;link'' //tiddler//''&gt;&gt;'' - Link to a tiddler, using it's caption if it exists
+''&lt;&lt;links'' //tiddlers//''&gt;&gt;'' - Link to a list of tiddlers, using their captions if it exists
+''&lt;&lt;p'' //tiddler//''&gt;&gt;'' - Include a tiddler as a paragraph
+''&lt;&lt;p2'' //tiddlers//''&gt;&gt;'' - List tiddlers as a series of paragraphs
+''&lt;&lt;p3'' //tiddlers//''&gt;&gt;'' - List tiddlers as a series of paragraphs
+''&lt;&lt;imageuri'' //tiddler//''&gt;&gt;'' - URI of image tiddler
+
+//Old Macros - To be deprecated//
+''&lt;&lt;h3'' //tiddler//''&gt;&gt;'' - Include a tiddler as a third level chapter
+''&lt;&lt;hover'' //tiddler//''&gt;&gt;'' - Popup tiddler's content
+''&lt;&lt;snippet'' //title// //tiddler//''&gt;&gt;'' - Include tiddler as a floating snippet
+"""
+

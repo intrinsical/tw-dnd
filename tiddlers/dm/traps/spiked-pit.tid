@@ -1,0 +1,15 @@
+title: Spiked Pit
+tags: Trap
+modified: 20210811150519256
+created: 20210811150235871
+
+"""
+''Mechanical Trap''
+"""
+This pit trap is a [[simple|Simple Pit]], [[hidden|Hidden Pit]], or [[locking pit|Locking Pit]] trap with sharpened wooden or iron spikes at the bottom. 
+
+* ''Falling into the pit.''
+** Creature takes <<piercing 2d10>>
+* ''Poisoned Spikes.''
+** Target makes <<save Con 13>>, taking <fail><<poison 4d10>></fail>, or <pass><<halved>></pass>
+

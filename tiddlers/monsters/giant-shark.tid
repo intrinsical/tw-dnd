@@ -1,0 +1,35 @@
+xp: 1,800
+wis: 10
+title: Giant Shark
+tags: Beast Monster
+str: 23
+speed: 0 ft, swim 50 ft
+source: MM
+skills: 
+size: Huge
+senses: blindsight 60 ft, passive Perception 13
+mtype: beast
+modified: 20210810091436293
+languages: &mdash;
+int: 1
+hp: 126
+hitdice: 11d12+55
+dex: 11
+created: 20200311054818368
+cr: 5
+con: 21
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Blood Frenzy.'' The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+''Water Breathing.''  The shark can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +9>>|<<piercing 3d10+6>> |<<reach 5>> |
+

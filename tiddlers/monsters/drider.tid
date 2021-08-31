@@ -1,0 +1,43 @@
+xp: 2300
+wis: 14
+title: Drider
+tags: Monster Monstrosity
+str: 16
+speed: 30 ft., climb 30 ft.
+source: MM
+skills: Perception +5, Stealth +9
+size: Large
+senses: darkvision 120 ft., passive Perception 15
+mtype: monstrosity
+modified: 20210223072203505
+languages: Elvish, Undercommon
+int: 13
+hp: 123
+hitdice: 13d10+52
+dex: 16
+created: 20210223071303261
+cr: 6
+con: 18
+cha: 12
+armor: natural armor
+alignment: chaotic evil
+ac: 19
+
+"""
+''Fey Ancestry.'' The drider has advantage on saving throws against being [[Charmed]], and magic can’t put the drider to sleep.
+''Innate Spellcasting.'' The drider’s innate spellcasting ability is Wisdom, <<skillcheck "Spell DC" 13>>. The drider can innately cast the following spells, requiring no material components:
+''At will:'' [[Dancing Lights]]
+''1/day each:'' [[Darkness]], [[Faerie Fire]]
+''Spider Climb.'' The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+''Sunlight Sensitivity.'' While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+''Web Walker.'' The drider ignores movement restrictions caused by webbing.
+"""
+<<divider>>
+''Multiattack.'' The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d4>> + <<poison 2d8>>  |<<reach 5>> |
+| !<<melee Longsword +6>>|<<slashing 1d8+3>><br/><<slashing 1d10+3  >> (''two-handed'') |<<reach 5>> |
+| !<<ranged Longbow +6>>|<<piercing 1d8+3>>+<<poison 1d8>> |<<range 150/600>> |
+

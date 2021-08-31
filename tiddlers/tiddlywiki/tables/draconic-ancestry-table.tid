@@ -1,0 +1,17 @@
+title: Draconic Ancestry Table
+tags: Table [[Draconic Ancestry]]
+modified: 20190720131648993
+created: 20190720130439998
+
+| !Dragon | !Damage Type | ![[Breath Weapon]] | !Save |
+|!Black	 | Acid		 | 5 by 30 ft. line | Dex |
+|!Blue	 | Lightning	 | 5 by 30 ft. line | Dex |
+|!Brass	 | Fire		 | 5 by 30 ft. line | Dex |
+|!Bronze	 | Lightning	 | 5 by 30 ft. line | Dex |
+|!Copper	 | Acid		 | 5 by 30 ft. line | Dex |
+|!Gold	 | Fire		 | <<cone 15>> | Dex |
+|!Green	 | Poison		 | <<cone 15>> | Con |
+|!Red	 | Fire		 | <<cone 15>> | Dex |
+|!Silver	 | Cold		 | <<cone 15>> | Con |
+|!White	 | Cold		 | <<cone 15>> | Con |
+

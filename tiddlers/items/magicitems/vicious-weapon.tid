@@ -1,0 +1,8 @@
+title: Vicious Weapon
+tags: [[Magic Item]] Rare DMG Weapon
+modified: 20210814175315406
+item_type: Weapon (any)
+created: 20210205074242191
+
+When you roll a 20 on your attack roll with this magic weapon, the target takes an extra <<damage 7>> of the weapon’s type.
+

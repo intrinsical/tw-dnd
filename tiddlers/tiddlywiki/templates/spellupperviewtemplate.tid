@@ -1,0 +1,19 @@
+type: text/vnd.tiddlywiki
+title: SpellUpperViewTemplate
+tags: $:/tags/ViewTemplate
+modified: 20210309171817000
+list-before: $:/core/ui/ViewTemplate/body
+list: 
+created: 20190407014656316
+
+<$list filter="[all[current]tag[Spell]]">
+
+"""
+<hr/>//{{!!classes}}// <span style="float:right">//Source: {{!!source}}//</span><hr/>//Level {{!!level}} {{!!school}}//
+
+''Casting Time'': {{!!casting_time}}
+''Range'': {{!!range}}
+''Components'': {{!!components}} {{!!material}}
+''Duration'': <$reveal type="nomatch" state="!!concentration" text="No">Concentration, </$reveal> {{!!duration}}
+"""
+</$list>

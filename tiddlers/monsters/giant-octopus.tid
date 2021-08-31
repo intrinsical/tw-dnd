@@ -1,0 +1,37 @@
+xp: 200
+wis: 10
+title: Giant Octopus
+tags: Beast Monster
+str: 17
+speed: 10 ft, swim 60 ft
+source: MM
+skills: Perception +4, Stealth +5
+size: Large
+senses: darkvision 60 ft, passive Perception 14
+mtype: beast
+modified: 20210810084506068
+languages: &mdash;
+int: 4
+hp: 52
+hitdice: 8d10+8
+dex: 13
+created: 20190701122734888
+cr: 1
+con: 13
+cha: 4
+alignment: unaligned
+ac: 11
+
+"""
+''Hold Breath.'' While out of water, the octopus can hold its breath for <<time 1h>>.
+''Underwater Camouflage.'' The octopus has advantage on Dexterity (Stealth) checks made while underwater.
+''Water Breathing.'' The octopus can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Tentacles +5>>|<<bludgeoning 2d6+3>> |<<reach 15>> |
+|~|If target is a creature, it is [[Grappled]] (<<skillcheck Escape 16>>). Until this grapple ends, the target is [[Restrained]], and the octopus can't use its tentacles on another target. |<|
+|^ !Ink Cloud|''Recharges after a Short or Long Rest''<br/>A <<sphere 20>> cloud of ink extends all around the octopus if it is underwater. The area is [[Heavily Obscured]] for <<time 1m>>, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.  |<|
+

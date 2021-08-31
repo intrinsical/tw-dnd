@@ -1,0 +1,36 @@
+xp: 50
+wis: 12
+title: Wolf
+tags: Beast Monster
+str: 12
+speed: 40 ft
+source: MM
+skills: Perception +3, Stealth +4
+size: Medium
+senses: passive Perception 13
+mtype: beast
+modified: 20210810180358251
+languages: &mdash;
+int: 3
+hp: 11
+hitdice: 2d8+2
+dex: 15
+created: 20190801064910378
+cr: 1/4
+con: 12
+cha: 6
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pack Tactics.'' The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +4>>|<<piercing 2d4+2>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Str 11>> or be knocked [[Prone]]. |<|
+

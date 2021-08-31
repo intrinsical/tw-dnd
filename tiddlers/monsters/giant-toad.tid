@@ -1,0 +1,36 @@
+xp: 200
+wis: 10
+title: Giant Toad
+tags: Beast Monster
+str: 15
+speed: 20 ft, swim 40 ft
+source: MM
+skills: 
+size: Large
+senses: darkvision 30 ft, passive Perception 10
+mtype: beast
+modified: 20210810092244615
+languages: &mdash;
+int: 2
+hp: 39
+hitdice: 6d10+6
+dex: 13
+created: 20190831070543453
+cr: 1
+con: 13
+cha: 3
+alignment: unaligned
+ac: 11
+
+"""
+''Amphibious.'' The toad can breathe air and water.
+''Standing Leap.'' The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>> + <<poison 1d10>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 13>>). Until this grapple ends, the target is [[Restrained]], and the toad can't bite another target. |<|
+| !Swallow|The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the toad, and it takes <<acid 3d6>> at the start of each of the toad's turns. The toad can have only one target swallowed at a time.<br/>If the toad dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse using 5 feet of movement, exiting [[Prone]]. |<|
+

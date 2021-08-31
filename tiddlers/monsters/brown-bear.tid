@@ -1,0 +1,36 @@
+xp: 200
+wis: 13
+title: Brown Bear
+tags: Beast Monster
+str: 19
+speed: 40 ft, climb 30 ft
+source: MM
+skills: Perception +3
+size: Large
+senses: passive Perception 13
+mtype: beast
+modified: 20210810051219547
+languages: &mdash;
+int: 2
+hp: 34
+hitdice: 4d10+12
+dex: 10
+created: 20190701083714789
+cr: 1
+con: 16
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+"""
+''Keen Smell.'' The bear has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+''Multiattack.'' The bear makes two attacks, one with its bite and one with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d8+4>> |<<reach 5>> |
+| !<<melee Claw +6>>|<<slashing 2d6+4>> |<<reach 5>> |
+

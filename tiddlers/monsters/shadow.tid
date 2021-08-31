@@ -1,0 +1,44 @@
+xp: 100
+wis: 10
+type: text/vnd.tiddlywiki
+title: Shadow
+tags: Undead Monster
+str: 6
+speed: 40 ft
+source: MM
+skills: Stealth +4 (+6 in dim light or darkness)
+size: Medium
+senses: darkvision 60 ft, passive Perception 10
+mtype: undead
+modified: 20210808070426391
+list: 
+languages: &mdash;
+int: 6
+hp: 16
+hitdice: 3d8+3
+drain_tohit: 8,4 = 12
+drain_dmg: 1,2,2 = 5
+dex: 14
+damage_vulnerability: radiant
+damage_resistance: acid, cold, fire, lightning, thunder; buldgeoning, piercing and slashing from nonmagical weapons
+damage_immunity: necrotic, poison
+created: 20190731133239961
+cr: 1/2
+condition_immunity: exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
+con: 13
+cha: 8
+alignment: chaotic evil
+ac: 12
+
+"""
+''Amorphous.'' The shadow can move through a space as narrow as 1 inch wide without squeezing.
+''Shadow Stealth.'' While in dim light or darkness, the shadow can take the Hide action as a bonus action.
+''Sunlight Weakness.'' While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Strength Drain" +4>>|<<necrotic 2d6+2>> |<<reach 5>> |
+|~|The target's Strength score is reduced by <<roll 1d4>>. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.<br/>&nbsp;<br/>If a non-evil humanoid dies from this attack, a new <<mob Shadow>> rises from the corpse <<time 1d4h>> later. |<|
+

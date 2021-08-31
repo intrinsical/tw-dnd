@@ -1,0 +1,38 @@
+xp: 100
+wis: 11
+title: Ice Mephit
+tags: Monster Elemental
+str: 7
+speed: 30 ft., fly 30 ft.
+source: MM
+skills: Perception +2, Stealth +3
+size: Small
+senses: darkvision 60 ft., passive Perception 12
+mtype: elemental
+modified: 20210806045108001
+languages: Aquan, Auran
+int: 9
+hp: 21
+hitdice: 6d6
+dex: 13
+damage_vulnerability: bludgeoning, fire
+damage_immunity: cold, poison
+created: 20210806044549041
+cr: 1/2
+condition_immunity: poisoned
+con: 10
+cha: 12
+alignment: neutral evil
+ac: 11
+
+"""
+''Death Burst.'' When the mephit dies, it explodes in a burst of jagged ice. Each creature within <<sphere 5>> of it must make a <<save Dex 10>>, taking <fail> <<slashing 1d8>></fail>, or <pass> <<halved>></pass>.
+''False Appearance.'' While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
+''Innate Spellcasting (1/Day).'' The mephit can innately cast [[Fog Cloud]], requiring no material components. Its innate spellcasting ability is Charisma.
+"""
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +3>>|<<slashing 1d4+1>> + <<cold 1d4>> |<<reach 5>> |
+| !Frost Breath|''Recharge 6.''<br/>The mephit exhales a <<cone 15>> of cold air. Each creature in that area must succeed on a <<save Dex 10>>, taking <fail><<cold 2d4>></fail>, or <pass><<halved>></pass>. |<|
+

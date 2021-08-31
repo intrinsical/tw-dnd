@@ -1,0 +1,14 @@
+type: text/vnd.tiddlywiki
+title: ItemEditTemplate
+tags: $:/tags/EditTemplate
+modified: 20210825061310206
+list-before: $:/core/ui/EditTemplate/body
+created: 20210813051936084
+
+<$list filter="[all[current]tag[Magic Item]!tag[Category]]">
+
+|''Name'' |<$edit-text field=caption size=80/>|
+|''Type'' |<$edit-text field=item_type size=60 />|
+|''Rarity'' |<$edit-text field=rarity size=60 />|
+|''Attunement'' |<$edit-text field=attunement size=60/>|
+</$list>

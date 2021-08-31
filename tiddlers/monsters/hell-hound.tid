@@ -1,0 +1,38 @@
+xp: 700
+wis: 13
+title: Hell Hound
+tags: Fiend Monster
+str: 17
+speed: 50 ft.
+source: MM
+skills: Perception +5
+size: Medium
+senses: darkvision 60 ft, passive Perception 15
+mtype: fiend
+modified: 20210211010357088
+languages: understands Infernal but can't speak it
+int: 6
+hp: 45
+hitdice: 7d8+14
+dex: 12
+damage_immunity: fire
+created: 20200128142458836
+cr: 3
+con: 14
+cha: 6
+armor: natural armor
+alignment: lawful evil
+ac: 15
+
+"""
+''Keen Hearing and Smell.'' The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+''Pack Tactics.'' The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.
+"""
+<<divider>>
+''Multiattack.'' The devil makes two attacks: one with its beard and one with its glaive.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d8+3>> <<fire 2d6>> |<<reach 5>> |
+| !Fire Breath|''Recharge on 5-6''<br/>The hound exhales fire in a <<cone 15>>. Each creature in that area must make a <<save Dex 12>>, taking <<fire 6d6>> on a failed save, or <<halved>> on a successful one. |<|
+

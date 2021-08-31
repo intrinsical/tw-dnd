@@ -1,0 +1,11 @@
+title: Gold Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Gold
+modified: 20210827085159484
+created: 20210827085025624
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row:
+
+* The dragon glimpses the future, so it has advantage on attack rolls, ability checks, and saving throws until initiative count 20 on the next round.
+* One creature the dragon can see within 120 feet of it must succeed on a <<save Cha 15>> or be banished to a dream plane, a different plane of existence the dragon has imagined into being. To escape, the creature must use its action to make a Charisma check contested by the dragon’s. If the creature wins, it escapes the dream plane. Otherwise, the effect ends on initiative count 20 on the next round. When the effect ends, the creature reappears in the space it left or in the nearest unoccupied space if that one is occupied.
+

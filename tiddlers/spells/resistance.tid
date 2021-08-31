@@ -1,0 +1,26 @@
+type: 
+title: Resistance
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809222903519
+material: (a miniature cloak)
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<roll +1d4>> to one saving throw
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: ''[<<concentration>><<touch>><<time 1m>><<per 1>>]'' //+1d4 to a saving throw//
+duration: 1 minute
+created: 20190612151350331
+concentration: Yes
+components: V, S, M
+classes: [[Cleric]] [[Druid]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.

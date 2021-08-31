@@ -1,0 +1,16 @@
+title: Poison Needle
+tags: Trap
+modified: 20210811151556652
+created: 20210811151151647
+
+"""
+''Mechanical Trap''
+"""
+A poisoned needle is hidden within a treasure chest’s lock, or in something else that a creature might open. 
+
+|max top|k
+|!Detection |<<investigation 20>> to deduce trap's presence from alterations made to accommodate the needle. |
+|!Trigger |Opening the chest without the proper key. |
+|!Effect |Needle extends 3 inches straight out from the lock, causing <<piercing 1>>+ <<poison 2d10>> and must succeed on a <<save Con 15>> or be [[Poisoned]] for <<time 1h>> |
+|!Countermeasure |<<thievestools 15>> <fail>Triggers the trap.</fail> <pass>Disarms the trap.</pass> |
+

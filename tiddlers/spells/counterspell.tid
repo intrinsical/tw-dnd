@@ -1,0 +1,27 @@
+type: 
+title: Counterspell
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809165303809
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: Interrupt spellcasting. If spell level is higher, <<skillcheck Spellcasting "10+spell's level">>
+glyph_duration: <<instant>>
+glyph_casting_time: <<reaction>>
+effect: ''[R<<upcast>>60']'' //DC 10+level vs <<save "Spellcast Stat">>//
+duration: Instantaneous
+created: 20190721093017710
+concentration: No
+components: S
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: Special
+at_higher_level: When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.
+
+1 reaction, which you take when you see a creature within 60 feet of you casting a spell
+
+You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability.  The DC equals 10+ the spell’s level. On a success, the creature’s spell fails and has no effect.&nbsp;

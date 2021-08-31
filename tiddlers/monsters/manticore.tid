@@ -1,0 +1,36 @@
+xp: 700
+wis: 12
+title: Manticore
+tags: Monster Monstrosity
+str: 17
+speed: 30 ft., fly 50 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 11
+mtype: monstrosity
+modified: 20210806030156891
+languages: Common
+int: 7
+hp: 68
+hitdice: 8d10+24
+dex: 16
+created: 20210806025851405
+cr: 3
+con: 17
+cha: 8
+armor: natural armor
+alignment: lawful evil
+ac: 14
+
+"""
+''Tail Spike Regrowth.'' The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest.
+"""
+<<divider>>
+''Multiattack.'' The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d8+3>> |<<reach 5>> |
+| !<<melee Claw +5>>|<<slashing 1d6+3>> |<<reach 5>> |
+| !<<ranged "Tail Spike" +5>>|<<piercing 1d8+3>> |<<range 100/200>> |
+

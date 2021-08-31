@@ -1,0 +1,26 @@
+type: 
+title: Sacred Flame
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809223002217
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Dex $(dc)$>> <fail> <<radiant 1d8>></fail>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[60'<<save Dex {{!!dc}}>>]'' <<radiant 1d8>>
+duration: Instantaneous
+dc: DC
+created: 20190721063351378
+concentration: No
+components: V, S
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.

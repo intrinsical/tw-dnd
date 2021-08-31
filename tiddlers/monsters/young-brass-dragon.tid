@@ -1,0 +1,36 @@
+xp: 2300
+wis: 11
+title: Young Brass Dragon
+tags: Monster Dragon MM Brass
+str: 19
+speed: 40 ft., burrow 20 ft., fly 80 ft.
+source: MM
+skills: Perception +6, Persuasion +5, Stealth +3
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 16
+saving_throw: Dex +3, Con +6, Wis +3, Cha +5
+mtype: dragon
+modified: 20210827060401312
+languages: Common, Draconic
+int: 12
+hp: 110
+hitdice: 13d10+39
+dex: 10
+damage_immunity: fire
+created: 20210827060018408
+cr: 6
+condition_immunity: 
+con: 17
+cha: 15
+armor: natural armor
+alignment: chaotic good
+ac: 17
+
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +7>>|<<piercing 2d10+4>> |<<reach 10>> |
+| !<<melee Claw +7>>|<<slashing 2d6+4>> |<<reach 5>> |
+| !Breath Weapons|''Recharge 5–6.''<br/>The dragon uses one of the following breath weapons.<br/>&nbsp;<br/>''Fire Breath.'' The dragon exhales fire in a <<line "40' long, 5' wide">>. Each creature in that line must make a <<save Dex 14>> <fail><<fire 12d6>></fail> <pass><<halved>></pass>.<br/>&nbsp;<br/>''Sleep Breath.'' The dragon exhales sleep gas in a <<cone 30>>. Each creature in that area must succeed on a <<save Con 14>> <fail>fall [[Unconscious]] for <<time 10m>></fail>. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. |<|
+

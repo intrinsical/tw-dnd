@@ -1,0 +1,36 @@
+xp: 700
+wis: 13
+title: Nightmare
+tags: Monster Fiend
+str: 18
+speed: 60 ft., fly 90 ft.
+source: MM
+size: Large
+senses: passive Perception 11
+mtype: fiend
+modified: 20210806144001866
+languages: understands Abyssal, Common, and Infernal but can’t speak
+int: 10
+hp: 68
+hitdice: 8d10+24
+dex: 15
+damage_immunity: fire
+created: 20210806143656514
+cr: 3
+con: 16
+cha: 15
+armor: natural armor
+alignment: neutral evil
+ac: 13
+
+"""
+''Confer Fire Resistance.'' The nightmare can grant resistance to fire damage to anyone riding it.
+''Illumination.'' The nightmare sheds <<bright 10>> and an additional <<dim 10>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +6>>|<<bludgeoning 2d8+4>> + <<fire 2d6>> |<<reach 5>> |
+| !Ethereal Stride|The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa. |<|
+

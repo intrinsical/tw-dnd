@@ -1,0 +1,60 @@
+title: Winter's Splendor - Lockdown in the Villa
+tags: [[Winter's Splendor]] [[Section 2]]
+order: 1
+modified: 20210825135820669
+created: 20210812105520453
+caption: Scene A
+
+!! Lockdown in the Villa
+
+* <<per "Captain Staget">>  permits the characters access to the <<loc "Cassalanter Villa", but <<per Ammalia>> and <<per Victoro>> protest, requesting that the characters remain limited to the main compound &mdash; they claim they wouldn’t want the characters to wander out of sight and get hurt. <<per Staget>> reluctantly acquiesces to this request.
+** <<insight 17>> catches the worry masked behind the Cassalanter’s otherwise warm demeanor
+*** ''DM Info.'' With the presence of a rogue imp in their home, they worry that this will cause suspicion and eventually lead to the discovery of their Asmodeus cult.
+* <<per Ammalia>> draws her children to her. 
+
+!!! The Investigation
+
+* <<investigation 12>> or <<pp 12>> or <<per "Captain Staget">>
+** Finds a <<loot "crumpled piece of paper">> near the <<mob Imp>> body.
+** ''Important. Party must investigate this.'' It is a page torn from a children's book, containing a fable called &quot;The Wooden Girl&quot;. (See {{Winter's Splendor - The Wooden Girl||Link}})
+** <<perception 13>> to notice Elzerina is especially frightened. When she sees someone holding the ripped story, she lets out a squeak before clamping her hands over her mouth. 
+
+* <<per Aria>> offers the characters <<loot "[[Bell of the Silent Carols]]">> to aid in the investigation.
+
+!! A Puzzle with Two Paths
+
+* ''DM's Guide.'' The <<loot "crumpled piece of paper">> is vital. It contain <<per Asmodeus>>'s puzzle. The party must make the connection.
+** {{Winter's Splendor - The Wooden Girl||Link}} is the main source of clues. <<per Asmodeus>> highlighted parts of the story to help <<per Elzerina>>. 
+** Pace the game accordingly. Help the party make the right connections if required.
+** Where necessary, use <<investigation 13>> or <<insight 13>> to reveal more information.
+** ''Optional.'' Party may decide to question the guests. 
+*** Some guests will help expedite the solution, others will slow the proceedings down.
+
+!!! Party's Task
+# Establish the existence of the puzzle
+# Questioning guests to reveal information about the <<org Cassalanters>>, the villa, the sigil and the Wooden Girl.
+# Solve the puzzle in <<loc "Elzerina's Room">>, summoning <<mob Imp>>.
+# Take the toys in Elzerina's toy chest to an unnamed alter in the <<loc "City of the Dead">>
+## Complete the puzzle using toys, summoning <<mob "Spined Devil">>
+
+!! The Sigil Puzzle
+
+* ''Crumpled piece of paper.''
+** Paper look like it is torn from a book.
+** One side has a fable, {{Winter's Splendor - The Wooden Girl||Link}}. 
+** Other side is a drawing of <<per Asmodeus>>'s sigil.
+*** His name is written on the sigil itself so party should figure it out immediately.
+** ''If party is stumped,'' 
+** <<history 13>> ''or'' <<arcana 13>> to learn the sigil represents <<per Asmodeus>>. There are also other sigils that represent other devils and demons.
+** <<history 18>> ''or'' <<arcana 18>> to learn sigils like this, drawn on the ground, have traditionally been used as summoning circles to conjure devils and demons.
+
+
+!!! Elzerina's Part
+
+* <<per Elzerina>> inadvertently activated the puzzle by reading The Wooden Girl aloud. 
+** This summoned an <<mob Imp>> named <<per Chernok>>
+* On <<per Chernok>>’s urging, Elzerina placed seven marbles and two barrettes in a specific pattern on the circular rug in her room
+** This summoned another <<mob Imp>> named <<per Brimtoe>>
+* <<per Brimtoe>> escaped the room while <<per Elzerina>> was in the ballroom.
+** He saw a celestial, <<per "Aria Cavatina">> and  felt compelled to attack her.
+

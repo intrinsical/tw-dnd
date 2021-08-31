@@ -1,0 +1,36 @@
+xp: 700
+wis: 12
+title: Owlbear
+tags: Monstrosity Monster
+str: 20
+speed: 40 ft
+source: MM
+skills: Perception +3
+size: Large
+senses: darkvision 60 ft, passive Perception 13
+mtype: monstrosity
+modified: 20210213094249966
+languages: &mdash;
+int: 3
+hp: 59
+hitdice: 7d10+21
+dex: 12
+created: 20191119070158823
+cr: 3
+con: 17
+cha: 7
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+"""
+''Keen Sight and Smell.'' The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.
+"""
+[img[divider.png]]
+''Multiattack.'' The bear makes two attacks, one with its beak and one with its claws.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Beak +7>>|<<piercing 1d10+5>> |<<reach 5>> |
+| !<<melee Claw +7>>|<<slashing 2d8+5>> |<<reach 5>> |
+

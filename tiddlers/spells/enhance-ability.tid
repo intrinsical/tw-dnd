@@ -1,0 +1,34 @@
+type: 
+title: Enhance Ability
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809170338423
+material: (fur or a feather from a beast)
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<advantage>> to one ability stat
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190612152404415
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Sorcerer]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
+You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects: the target gains the effect until the spell ends.
+
+* ''Bear’s Endurance.'' The target has <<advantage>> on Constitution checks. It also gains <<temp-hp 2d6>>, which are lost when the spell ends.
+* ''Bull’s Strength.'' The target has <<advantage>> on Strength checks, and his or her carrying capacity doubles.
+* ''Cat’s Grace.'' The target has <<advantage>> on Dexterity checks. It also doesn’t take damage from falling 20 feet or less if it isn’t incapacitated.
+* ''Eagle’s Splendor.'' The target has <<advantage>> on Charisma checks.
+* ''Fox’s Cunning.'' The target has <<advantage>> on Intelligence checks.
+* ''Owl’s Wisdom.'' The target has <<advantage>> on Wisdom checks. 
+

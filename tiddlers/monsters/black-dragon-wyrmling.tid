@@ -1,0 +1,37 @@
+xp: 450
+wis: 11
+title: Black Dragon Wyrmling
+tags: Monster Dragon Black MM
+str: 15
+speed: 30 ft., fly 60 ft., swim 30 ft.
+source: MM
+skills: Perception +4, Stealth +4
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +4, Con +3, Wis +2, Cha +3
+mtype: dragon
+modified: 20210827014024915
+languages: Draconic
+int: 10
+hp: 33
+hitdice: 6d8+6
+dex: 14
+damage_immunity: acid
+created: 20210223055810364
+cr: 2
+con: 13
+cha: 13
+armor: natural armor
+alignment: chaotic evil
+ac: 17
+
+"""
+''Amphibious.'' The dragon can breathe air and water.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>>+<<acid 1d4>> |<<reach 5>> |
+| !Acid Breath|''Recharge on 5–6''<br/>The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a <<save Dex 11>>, taking <<acid 5d8>> on a failed save, or <<halved>> on a successful one. |<|
+

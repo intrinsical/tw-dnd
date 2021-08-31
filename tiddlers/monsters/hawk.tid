@@ -1,0 +1,33 @@
+xp: 10
+wis: 14
+title: Hawk
+tags: Beast Monster
+str: 5
+speed: 10 ft, fly 60 ft
+source: MM
+skills: Perception +4
+size: Tiny
+senses: passive Perception 14
+mtype: beast
+modified: 20210810114105846
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 16
+created: 20190606181612225
+cr: 0
+con: 8
+cha: 6
+alignment: unaligned
+ac: 13
+
+"""
+''Keen Sight.'' The hawk has advantage on Wisdom (Perception) checks that rely on sight.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Talons +5>>|<<slashing 1>> |<<reach 5>> |
+

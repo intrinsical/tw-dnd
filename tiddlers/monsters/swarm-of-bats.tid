@@ -1,0 +1,37 @@
+xp: 50
+wis: 12
+title: Swarm of Bats
+tags: Beast Monster
+str: 5
+speed: 0 ft., fly 30 ft.
+source: MM
+size: Medium swarm of Tiny
+senses: blindsight 60 ft., passive Perception 11
+mtype: beasts
+modified: 20210810173702488
+languages: &mdash;
+int: 2
+hp: 22
+hitdice: 5d8
+dex: 15
+damage_resistance: bludgeoning, piercing, slashing
+created: 20210810173421169
+cr: 1/4
+condition_immunity: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+con: 10
+cha: 4
+armor: 
+alignment: unaligned
+ac: 12
+
+"""
+''Echolocation.'' The swarm can’t use its blindsight while deafened.
+''Keen Hearing.'' The swarm has advantage on Wisdom (Perception) checks that rely on hearing.
+''Swarm.'' The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain hit points or gain temporary hit points.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bites +4>>|<<hp>>: <<piercing 2d4>><br/><<halved>>: <<piercing 1d4>> |<<reach 0>> |
+

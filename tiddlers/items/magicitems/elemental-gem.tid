@@ -1,0 +1,13 @@
+title: Elemental Gem
+tags: Uncommon [[Magic Item]] DMG
+modified: 20210813112357419
+created: 20210802052116959
+
+This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the [[Conjure Elemental]] spell, and the gem’s magic is lost. The type of gem determines the elemental summoned by the spell.
+
+| !Gem | !Summoned Elemental |
+|![[Elemental Gem, Blue Sapphire]] |<<mob "Air Elemental">> |
+|![[Elemental Gem, Yellow Diamond]] |<<mob "Earth Elemental">> |
+|![[Elemental Gem, Red Corundum]] |<<mob "Fire Elemental">> |
+|![[Elemental Gem, Emerald]] |<<mob "Water Elemental">> |
+

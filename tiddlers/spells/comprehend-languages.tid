@@ -1,0 +1,29 @@
+type: 
+title: Comprehend Languages
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: Yes
+range: Self
+modified: 20210809164829735
+material: (a pinch of soot and salt)
+level: 1
+glyph_target: <<self>>
+glyph_range: <<na>>
+glyph_effect: Understand spoken or written language. (Cannot speak language)
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: ''[<<ritual>><<time 1h>>]'' Written/Spoken
+duration: 1 hour
+created: 20190103192532438
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+For the duration, you understand the literal meaning of any spoken language that you hear. 
+You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text. 
+
+This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language.

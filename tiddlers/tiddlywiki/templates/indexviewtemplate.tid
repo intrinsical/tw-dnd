@@ -1,0 +1,15 @@
+title: IndexViewTemplate
+tags: Template $:/tags/ViewTemplate
+modified: 20201210083202243
+created: 20201210075323019
+
+<$list filter="[all[current]tag[Index]]">
+
+<hr/>
+<h2>Index</h2>
+<div class="tc-table-of-contents">
+<$macrocall $name="toc-selective-expandable" tag=<<currentTiddler>> sort="sort[title]" />
+</div>
+<hr/>
+</$list>
+

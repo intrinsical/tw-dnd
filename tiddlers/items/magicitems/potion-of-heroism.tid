@@ -1,0 +1,8 @@
+title: Potion of Heroism
+tags: Potion Rare DMG [[Magic Item]]
+modified: 20210814053718118
+item_type: Potion
+created: 20190606020819087
+
+For <<time 1h>> after drinking it, you gain 10 temporary hit points that last for <<time 1h>>. For the same duration, you are under the effect of the [[Bless]] spell (no concentration required). This blue potion bubbles and steams as if boiling.
+

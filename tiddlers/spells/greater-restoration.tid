@@ -1,0 +1,26 @@
+type: 
+title: Greater Restoration
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809171718256
+material: (diamond dust worth at least 100 gp, which the spell consumes)
+level: 5
+effect: 
+duration: Instantaneous
+created: 20190110152019297
+concentration: No
+components: V, S, M
+classes: [[Bard]] [[Cleric]] [[Druid]]
+casting_time: 1 Action
+at_higher_level: 
+
+You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target: 
+
+* One effect that [[Charmed]] or [[Petrified]] the target 
+* One curse, including the target’s attunement to a cursed magic item 
+* Any reduction to one of the target’s ability scores 
+* One effect reducing the target’s hit point maximum

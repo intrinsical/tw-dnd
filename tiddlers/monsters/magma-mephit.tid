@@ -1,0 +1,38 @@
+xp: 100
+wis: 10
+title: Magma Mephit
+tags: Monster Elemental
+str: 8
+speed: 30 ft., fly 30 ft.
+source: MM
+skills: Stealth +3
+size: Small
+senses: darkvision 60 ft., passive Perception 10
+mtype: elemental
+modified: 20210806050420895
+languages: Ignan, Terran
+int: 7
+hp: 22
+hitdice: 5d6+5
+dex: 12
+damage_vulnerability: cold
+damage_immunity: fire, poison
+created: 20210806045213294
+cr: 1/2
+condition_immunity: poisoned
+con: 12
+cha: 10
+alignment: neutral evil
+ac: 11
+
+"""
+''Death Burst.'' When the mephit dies, it explodes in a burst of lava. Each creature within <<sphere 5>> of it must make a <<save Dex 11>>, taking <fail><<fire 2d6>></fail>, or <pass><<halved>></pass> on a successful one.
+''False Appearance.'' While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
+''Innate Spellcasting (1/Day).'' The mephit can innately cast [[Heat Metal]] (<<save DC 10>>), requiring no material components. Its innate spellcasting ability is Charisma.
+"""
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claws +3>>|<<slashing 1d4+1>> + <<fire 1d4>> |<<reach 5>> |
+| !Fire Breath|''Recharge 6.''<br/>The mephit exhales a <<cone 15>> of fire. Each creature in that area must make a <<save Dex 11>>, taking <fail><<fire 2d6>></fail>, or <pass><<halved>></pass>. |<|
+

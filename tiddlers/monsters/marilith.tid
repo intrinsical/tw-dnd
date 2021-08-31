@@ -1,0 +1,45 @@
+xp: 15000
+wis: 16
+title: Marilith
+tags: Monster Fiend Demoin
+str: 18
+speed: 40 ft.
+source: MM
+size: Large
+senses: truesight 120 ft., passive Perception 13
+saving_throw: Str +9, Con +10, Wis +8, Cha +10
+mtype: fiend (demon)
+modified: 20210222184234449
+languages: Abyssal, telepathy 120 ft.
+int: 18
+hp: 189
+hitdice: 18d10+90
+dex: 20
+damage_resistance: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: poison
+created: 20210222173539392
+cr: 16
+condition_immunity: poisoned
+con: 20
+cha: 20
+armor: natural armor
+alignment: chaotic evil
+ac: 18
+
+"""
+''Magic Resistance.'' The marilith has advantage on saving throws against spells and other magical effects.
+''Magic Weapons.'' The marilith’s weapon attacks are magical.
+''Reactive.'' The marilith can take one reaction on every turn in a combat.
+"""
+<<divider>>
+''Multiattack.'' The marilith makes seven attacks: six with its longswords and one with its tail.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +9>>|<<slashing 2d8+4>> |<<reach 5>> |
+| !<<melee Tail +9>>|<<bludgeoning 2d10+4>> |<<reach 10>> |
+|~|If the target is Medium or smaller, it is [[Grappled]], <<skillcheck Escape 19>>. Until this grapple ends, the target is [[Restrained]], the marilith can automatically hit the target with its tail, and the marilith can’t make tail attacks against other targets. |<|
+| !Teleport|The marilith magically teleports, along with any equipment it is wearing or carrying, up to <<range 120>> to an unoccupied space it can see. |<|
+| !<<reaction>> Reactions |<|<|
+| !Parry|The marilith adds <<ac +5>> against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon. |<|
+

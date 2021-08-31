@@ -1,0 +1,43 @@
+xp: 8400
+wis: 14
+title: Erinyes
+tags: Monster Fiend Devil
+str: 18
+speed: 30 ft., fly 60 ft.
+source: MM
+size: Medium
+senses: truesight 120 ft., passive Perception 12
+saving_throw: Dex +7, Con +8, Wis +6, Cha +8
+mtype: fiend (devil)
+modified: 20210222234404609
+languages: Infernal, telepathy 120 ft.
+int: 14
+hp: 153
+hitdice: 18d8+72
+dex: 16
+damage_resistance: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: fire, poison
+created: 20210222195019128
+cr: 12
+condition_immunity: poisoned
+con: 18
+cha: 18
+armor: plate
+alignment: lawful evil
+ac: 18
+
+"""
+''Hellish Weapons.'' The erinyes’s weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).
+''Magic Resistance.'' The erinyes has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The erinyes makes three attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +8>>|<<slashing 1d8+4>>+<<poison 3d8>><br/><<slashing 1d10+4>>+<<poison 3d8>> (''two-handed'') |<<reach 5>> |
+| !<<ranged Longbow +7>>|<<piercing 1d8+3>>+<<poison 3d8>> |<<range 150/600>> |
+|~|Target must succeed on a <<save Con 14>> or be [[Poisoned]]. The poison lasts until it is removed by the [[Lesser Restoration]] spell or similar magic. |<|
+| !<<reaction>> Reactions |<|<|
+| !Parry|The erinyes adds <<ac +4>> against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon. |<|
+

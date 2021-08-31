@@ -1,0 +1,32 @@
+xp: 50
+wis: 10
+title: Giant Lizard
+tags: Beast Monster
+str: 15
+speed: 30 ft., climb 30 ft.
+source: MM
+skills: 
+size: Large
+senses: darkvision 30 ft., passive Perception 10
+mtype: beast
+modified: 20210810084034613
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 12
+created: 20210810083535452
+cr: 1/4
+con: 13
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+<<fold "Giant Lizard, Variant">>
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d8+2>> |<<reach 5>> |
+

@@ -1,0 +1,12 @@
+title: Long Rest
+tags: Resting
+modified: 20210824015349923
+created: 20210824015205893
+
+A long rest is a period of extended downtime, at least <<time 8h>> long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than <<time 2h>>. If the rest is interrupted by a period of strenuous activity&mdash;at least 1 hour of walking, fighting, casting spells, or similar adventuring  activity&mdash;the characters must begin the rest again to gain any benefit from it.
+
+At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character’s total number of them (minimum of one die). For example, if a character has eight Hit Dice, he or she can regain four spent Hit Dice upon finishing a long rest.
+
+A character can’t benefit from more than one long rest in a <<time 24h>> period, and a character must have at least <<hp 1>> at the start of the rest to gain its benefits.
+
+

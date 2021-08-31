@@ -1,0 +1,12 @@
+title: Malice
+tags: Poison Inhaled
+modified: 20210812032828243
+created: 20210812030913547
+
+"""
+''Price per Dose:'' 250 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 15>> or become [[Poisoned]] for <<time 1h>>. 
+** The poisoned creature is [[Blinded]].
+

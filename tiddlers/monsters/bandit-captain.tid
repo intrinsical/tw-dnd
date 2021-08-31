@@ -1,0 +1,35 @@
+xp: 450
+wis: 11
+title: Bandit Captain
+tags: Humanoid Monster
+str: 15
+speed: 30 ft
+source: MM
+skills: Athletics +4, Deception +4
+size: Medium
+senses: passive Perception 10
+saving_throw: Str +4, Dex +5, Wis +2
+mtype: humanoid (any race)
+modified: 20210809021103327
+languages: any two languages
+int: 14
+hp: 65
+hitdice: 10d8+20
+dex: 16
+created: 20190903030201334
+cr: 2
+con: 14
+cha: 14
+armor: studded leather
+alignment: any non-lawful alignment
+ac: 15
+
+''Multiattack.'' The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Scimitar +5>>|<<slashing 1d6+3>> |<<reach 5>> |
+| !<<melee Dagger +5>>|<<piercing 1d4+3>> |<<reach 5>><br/><<range 20/60>> |
+| !<<reaction>> Reactions |<|<|
+| !Parry|The captain adds <<ac +2>> against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon. |<|
+

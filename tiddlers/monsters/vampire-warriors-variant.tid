@@ -1,0 +1,14 @@
+title: Vampire Warriors, Variant
+tags: Vampire Variant
+modified: 20210808142529570
+created: 20210808142419309
+caption: Variant: Vampire Warriors
+
+Some vampires have martial training and battlefield experience. A warrior vampire wearing plate armor (AC 18) and wielding a greatsword has a challenge rating of 15 (13,000 XP) and the following additional action options:
+
+''Multiattack.'' The vampire makes two greatsword attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatsword +9>>|<<slashing 2d6+4>> |<<reach 5>> |
+

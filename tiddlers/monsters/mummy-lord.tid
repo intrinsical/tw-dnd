@@ -1,0 +1,60 @@
+xp: 13000
+wis: 18
+title: Mummy Lord
+tags: Monster Undead
+str: 18
+speed: 20 ft.
+source: MM
+skills: History +5, Religion +5
+size: Medium
+senses: darkvision 60 ft., passive Perception 14
+saving_throw: Con +8, Int +5, Wis +9, Cha +8
+mtype: undead
+modified: 20210806091124002
+languages: the languages it knew in life
+int: 11
+hp: 97
+hitdice: 13d8+39
+dex: 10
+damage_vulnerability: fire
+damage_immunity: necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210806085057755
+cr: 15
+condition_immunity: charmed, exhaustion, frightened, paralyzed, poisoned
+con: 17
+cha: 16
+armor: natural armor
+alignment: lawful evil
+ac: 17
+
+"""
+''Magic Resistance.'' The mummy lord has advantage on saving throws against spells and other magical effects.
+''Rejuvenation.'' A destroyed mummy lord gains a new body in <<time 24h>> if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the mummy lord’s heart.
+''Spellcasting.'' The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (<<save DC 17>>, <<casted +9>>). The mummy lord has the following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Sacred Flame]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Command]], [[Guiding Bolt]], [[Shield of Faith]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Hold Person]], [[Silence]], [[Spiritual Weapon]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Animate Dead]], [[Dispel Magic]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Divination]], [[Guardian of Faith]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (2 slots):'' [[Contagion]], [[Insect Plague]]
+&nbsp;&nbsp;&nbsp;&nbsp;''6th level (1 slot):'' [[Harm]]
+"""
+<<divider>>
+''Multiattack.'' The mummy can use its Dreadful Glare and makes one attack with its rotting fist.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee "Rotting Fist" +9>>|<<bludgeoning 3d6+4>> + <<necrotic 6d6>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Con 16>> or be cursed with mummy rot. The cursed target can’t regain hit points, and its hit point maximum decreases by <<damage 3d6>> for every <<time 24h>> that elapse. If the curse reduces the target’s hit point maximum to <<hp 0>>, the target dies, and its body turns to dust. The curse lasts until removed by the [[Remove Curse]] spell or other magic. |<|
+| !Dreadful Glare|The mummy lord targets one creature it can see within <<range 60>> of it. If the target can see the mummy lord, it must succeed on a <<save Wis 16>> against this magic or become [[Frightened]] until the end of the mummy’s next turn. If the target fails the saving throw by 5 or more, it is also [[Paralyzed]] for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next <<time 24h>>. |<|
+| !<<action>> Legendary Actions (3/round) |<|<|
+| !Attack|The mummy lord makes one attack with its rotting fist or uses its Dreadful Glare. |<|
+| !Blinding Dust|Blinding dust and sand swirls magically around the mummy lord. Each creature within <<range 5>> of the mummy lord must succeed on a <<save Con 16>> or be [[Blinded]] until the end of the creature’s next turn. |<|
+| !Blasphemous Word|''Costs 2 Actions.''<br/>The mummy lord utters a blasphemous word. Each non-undead creature within <<range 10>> of the mummy lord that can hear the magical utterance must succeed on a <<save Con 16>> or be [[Stunned]] until the end of the mummy lord’s next turn. |<|
+| !Channel Negative Energy|''Costs 2 Actions.''<br/>The mummy lord magically unleashes negative energy. Creatures within <<range 60>> of the mummy lord, including ones behind barriers and around corners, can’t regain hit points until the end of the mummy lord’s next turn. |<|
+| !Whirlwind of Sand|''Costs 2 Actions.''<br/>The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can’t be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession. |<|
+| !<<action>> Lair Actions @ Initiative 20 |<|<|
+|Each undead creature in the lair can pinpoint the location of each living creature within 120 feet of it until initiative count 20 on the next round. |<|<|
+|Each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round. |<|<|
+|Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord’s lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a <<save Con 16>>, <fail><<necrotic "1d6/spell level">> + spell has no effect</fail>. |<|<|
+

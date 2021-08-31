@@ -1,0 +1,37 @@
+xp: 450
+wis: 8
+title: Minotaur Skeleton
+tags: Monster Undead
+str: 18
+speed: 40 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., passive Perception 9
+mtype: undead
+modified: 20210808072222595
+languages: understands Abyssal but can’t speak
+int: 6
+hp: 67
+hitdice: 9d10+18
+dex: 11
+damage_vulnerability: bludgeoning
+damage_immunity: poison
+created: 20210808071859064
+cr: 2
+condition_immunity: exhaustion, poisoned
+con: 15
+cha: 5
+armor: natural armor
+alignment: lawful evil
+ac: 12
+
+"""
+''Charge.'' If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra <<piercing 2d8>>. If the target is a creature, it must succeed on a <<save Str 14>> or be pushed up to 10 feet away and knocked [[Prone]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greataxe +6>>|<<slashing 2d12+4>> |<<reach 5>> |
+| !<<melee Gore +6>>|<<piercing 2d8+4>> |<<reach 5>> |
+

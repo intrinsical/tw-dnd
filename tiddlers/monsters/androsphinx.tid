@@ -1,0 +1,57 @@
+xp: 18000
+wis: 18
+title: Androsphinx
+tags: Monster Monstrosity
+str: 22
+speed: 40 ft., fly 60 ft.
+source: MM
+skills: Arcana +9, Perception +10, Religion +15
+size: Large
+senses: truesight 120 ft., passive Perception 20
+saving_throw: Dex +6, Con +11, Int +9, Wis +10
+mtype: monstrosity
+modified: 20210808113011194
+languages: Common, Sphinx
+int: 16
+hp: 199
+hitdice: 19d10+95
+dex: 16
+damage_immunity: psychic; bludgeoning, piercing, and slashing from nonmagical attacks
+created: 20210808110945493
+cr: 17
+condition_immunity: charmed, frightened
+con: 20
+cha: 23
+armor: natural armor
+alignment: lawful neutral
+ac: 17
+
+"""
+''Inscrutable.'' The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx’s intentions or sincerity have disadvantage.
+''Magic Weapons.'' The sphinx’s weapon attacks are magical.
+''Spellcasting.'' The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (<<save "Save DC" 18>>, <<casted "Spell Attack" +10>>). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:
+&nbsp;&nbsp;&nbsp;&nbsp;''Cantrips (at will):'' [[Sacred Flame]], [[Spare the Dying]], [[Thaumaturgy]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1st level (4 slots):'' [[Command]], [[Detect Evil and Good]], [[Detect Magic]]
+&nbsp;&nbsp;&nbsp;&nbsp;''2nd level (3 slots):'' [[Lesser Restoration]], [[Zone of Truth]]
+&nbsp;&nbsp;&nbsp;&nbsp;''3rd level (3 slots):'' [[Dispel Magic]], [[Tongues]]
+&nbsp;&nbsp;&nbsp;&nbsp;''4th level (3 slots):'' [[Banishment]], [[Freedom of Movement]]
+&nbsp;&nbsp;&nbsp;&nbsp;''5th level (2 slots):'' [[Flame Strike]], [[Greater Restoration]]
+&nbsp;&nbsp;&nbsp;&nbsp;''6th level (1 slot):'' [[Heroes' Feast]]
+"""
+<<divider>>
+''Multiattack.'' The sphinx makes two claw attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +12>>|<<slashing 2d10+6>> |<<reach 5>>|
+| !Roar|''3/Day.''<br/>The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.<br/>&nbsp;''First Roar.'' Each creature that fails a <<save Wis 18>> is <fail>[[Frightened]] for <<time 1m>></fail>. A [[Frightened]] creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.<br/>''Second Roar.'' Each creature that fails a <<save Wis 18>> is <fail>[[Deafened]] and [[Frightened]] for <<time 1m>></fail>. A [[Frightened]] creature is [[Paralyzed]] and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.<br/>''Third Roar.'' Each creature makes a <<save Con 18>>. On a failed save, a creature takes <fail><<thunder 8d10>> and is knocked [[Prone]]</fail>. On a successful save, the creature takes <pass><<halved>></pass> and isn’t knocked [[Prone]]. |<|
+| !<<action>> Legendary Actions (3/Round) |<|<|
+| !Claw Attack|The sphinx makes one claw attack. |<|
+| !Teleport|''Costs 2 Actions.''<br/>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see. |<|
+| !Cast a Spell|''Costs 3 Actions.''<br/>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal. |<|
+| !<<action>> Lair Actions @ Initiative 20 |<|<|
+|The flow of time is altered such that every creature in the lair must reroll initiative. The sphinx can choose not to reroll. |<|<|
+|The effects of time are altered such that every creature in the lair must succeed on a <<save Con 15>> or become <<time "1d20 years">> older or younger (the sphinx’s choice), but never any younger than 1 year old. A [[Greater Restoration]] spell can restore a creature’s age to normal. |<|<|
+|The flow of time within the lair is altered such that everything within moves up to 10 years forward or backward (sphinx’s choice). Only the sphinx is immediately aware of the time change. A [[Wish]] spell can return the caster and up to seven other creatures designated by the caster to their normal time. |<|<|
+|The sphinx shifts itself and up to seven other creatures it can see within in its lair to another plane of existence. Once outside its lair, the sphinx can’t use lair actions, but it can return to its lair as a bonus action on its turn, taking up to seven creatures with it. |<|<|
+

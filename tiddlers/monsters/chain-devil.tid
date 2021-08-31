@@ -1,0 +1,43 @@
+xp: 3900
+wis: 12
+title: Chain Devil
+tags: Fiend Monster Devil
+str: 18
+speed: 30 ft.
+source: MM
+size: Medium
+senses: darkvision 120 ft., passive Perception 11
+saving_throw: Con +7, Wis +4, Cha +5
+mtype: fiend (devil)
+modified: 20210222195005222
+languages: Infernal, telepathy 120 ft.
+int: 11
+hp: 85
+hitdice: 10d8+40
+dex: 15
+damage_resistance: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+damage_immunity: fire, poison
+created: 20210222194014283
+cr: 8
+condition_immunity: poisoned
+con: 18
+cha: 14
+armor: natural armor
+alignment: lawful evil
+ac: 16
+
+"""
+''Devil’s Sight.'' Magical darkness doesn’t impede the devil’s darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes two attacks with its chains.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Chain +8>>|<<slashing 2d6+4>> |<<reach 10>> |
+|~|The target is [[Grappled]], <<skillcheck "Escape DC 14>> if the devil isn’t already grappling a creature. Until this grapple ends, the target is [[Restrained]] and takes <<piercing 2d6>> at the start of each of its turns. |<|
+| !Animate Chains|''Recharges after a Short or Long Rest''<br/>Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil’s control, provided that the chains aren’t being worn or carried.<br/>&nbsp;<br/>Each animated chain is an object with <<ac 20>>, <<hp 20>>, resistance to <<piercing>>piercing damage, and immunity to <<psychic>>psychic and <<thunder>>thunder damage. When the devil uses ''Multiattack'' on its turn, it can use each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can’t make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies. |<|
+| !<<reaction>> Reactions |<|<|
+| !Unnerving Mask|When a creature the devil can see starts its turn within <<range 30>> of the devil, the devil can create the illusion that it looks like one of the creature’s departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a <<save Wis 14>> or be [[Frightened]] until the end of its turn. |<|
+

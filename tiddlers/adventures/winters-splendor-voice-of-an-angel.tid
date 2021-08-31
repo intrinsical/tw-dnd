@@ -1,0 +1,52 @@
+title: Winter's Splendor - Voice of an Angel
+tags: [[Winter's Splendor]] Section
+order: 4
+modified: 20210825165646197
+created: 20210813015804848
+caption: Bonus Objective A
+
+!! Voice of an Angel
+
+|max top|k
+|!Task |<<per "Aria Cavatina">> enlists the characters’ help in completing an ancient musical arrangement. |
+|!Duration |<<time "Around 30m">> |
+
+* ''Aria's Story''
+** <<per Aria>> comes from a long line of Aasimar bards whose celestial blood is said to come from Milil. 
+** A scroll of an ancient song called ''Golden Wings'' has been passed down from generation to generation in the Cavatina family. 
+** Cavatina family lore claims that the song has magical properties &mdash; when sung or read, the song summons a celestial creature to the aid of the bard who performs it. 
+** Unfortunately, part of the scroll was burned when Aria’s great-grandmother, Elea, faced off against a dragon many years ago. 
+** ''Aria hopes to compose a new end to the song and restore its power.''
+
+| !Rhyme | !Lyrics | !Syllables |
+| ''A'' |//Like a candle, I burn// | 6 |
+| ''B'' |//In the glow of your radiance// | 8 |
+| ''A'' |//Like a plucked string, I learn// | 6 |
+| ''B'' |//The bright hum of your resonance// | 8 |
+|&nbsp;|<|<|
+| ''C'' |//Like a pilgrim, I bow// | 6 |
+| ''D'' |//Humbled by your divinity// | 8 |
+| ''C'' |//Will you come to me now?// | 6 |
+| ''D'' |//I send you my prayer, my plea// | 8 |
+|&nbsp;|<|<|
+| ''E'' |//Lifted voice, lowered eyes// | 6 |
+| ''D'' |//Prostrated here on hands and knees// | 8 |
+| ''E'' | //missing line// | 6 |
+| ''D'' | //missing line// | 8 |
+| !Golden Wings |<|<|h
+
+* ''Reward creativity at the table.'' 
+** Party can attempt to come up with two new lines of lyrics that fit both the rhyming meter and the theme of the song. 
+** Song is comprised of three four-line stanzas that alternate in meter. 
+** ''If the characters come up with appropriate lyrics,'' 
+*** <<performance 13>> with advantage to confirm the new lyrics are a good fit.
+* ''Prompt ability checks.'' 
+** <<insight 13>> ''and'' <<performance 15>> to ensure song is successfully completed.
+*** ''If party fails either check,'' <<per Aria>> assists and party can reroll failed check with advantage.
+
+!!! When the song is successfully completed
+
+* <<per Aria>> sings it, summons a celestial gold <<mob Pseudodragon>>. 
+** Aria gives the characters a heartfelt thanks
+** Awards party with a copy of the song, {{Winter's Splendor - Gift of Golden Wings||Link}} so that it may never be lost again
+

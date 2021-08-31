@@ -1,0 +1,33 @@
+xp: 10
+wis: 12
+title: Weasel
+tags: Beast Monster
+str: 3
+speed: 30 ft
+source: MM
+skills: Perception +3, Stealth +5
+size: Tiny
+senses: passive Perception 13
+mtype: beast
+modified: 20210810180122219
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 16
+created: 20210810180010440
+cr: 0
+con: 8
+cha: 3
+alignment: unaligned
+ac: 13
+
+"""
+''Keen Hearing and Smell.'' The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1>> |<<reach 5>> |
+

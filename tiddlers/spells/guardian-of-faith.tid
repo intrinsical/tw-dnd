@@ -1,0 +1,22 @@
+type: 
+title: Guardian of Faith
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 30 feet
+modified: 20210809171746054
+level: 4
+effect: 
+duration: 8 hours
+created: 20190721112800079
+concentration: No
+components: V
+classes: [[Cleric]]
+casting_time: 1 Action
+at_higher_level: 
+
+A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.
+
+Any creature hostile to you that moves to a space within 10 feet of the guardian for the firs time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.

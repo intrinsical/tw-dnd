@@ -1,0 +1,38 @@
+xp: 3900
+wis: 10
+title: Frost Giant
+tags: Monster Giant
+str: 23
+speed: 40 ft.
+source: MM
+skills: Athletics +9, Perception +3
+size: Huge
+senses: passive Perception 13
+saving_throw: Con +8, Wis +3, Cha +4
+mtype: giant
+modified: 20210411042823134
+languages: Giant
+int: 9
+hp: 138
+hitdice: 12d12+60
+dex: 9
+damage_immunity: cold
+created: 20210328061331070
+cr: 8
+con: 21
+cha: 12
+armor: patchwork armor
+alignment: neutral evil
+ac: 15
+
+''Multiattack.'' The giant makes two greataxe attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greataxe +9>>|<<slashing 3d12+6>> |<<reach 10>> |
+| !<<ranged Rock +9>>|<<bludgeoning 4d10+6>> |<<range 60/240>> |
+
+Greataxe. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage.
+
+Rock. Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.
+

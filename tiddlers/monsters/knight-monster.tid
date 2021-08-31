@@ -1,0 +1,41 @@
+xp: 700
+wis: 11
+title: Knight, Monster
+tags: Humanoid Monster
+str: 16
+speed: 30 ft
+source: MM
+skills: 
+size: Medium
+senses: passive Perception 10
+saving_throw: Con +4, Wis +2
+mtype: humanoid (any race)
+modified: 20210809030822232
+languages: any one language (usually Common)
+int: 11
+hp: 52
+hitdice: 8d8+16
+dex: 10
+created: 20210809025727131
+cr: 3
+con: 14
+cha: 15
+caption: Knight
+armor: plate
+alignment: any alignment
+ac: 18
+
+"""
+''Brave.'' The knight has advantage on saving throws against being [[Frightened]].
+"""
+<<divider>>
+''Multiattack.'' The knight makes two melee attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatsword +5>>|<<slashing 2d6+3>> |<<reach 5>> |
+| !<<ranged "Heavy Crossbow" +2>>|<<piercing 1d10>> |<<range 100/400>> |
+| !Leadership|''Recharges after a Short or Long Rest.''<br/>For <<time 1m>>, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a <<roll 1d4>> to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is [[Incapacitated]]. |<|
+| !<<reaction>> Reactions |<|<|
+| !Parry|The knight adds <<ac +2>> against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon. |<|
+

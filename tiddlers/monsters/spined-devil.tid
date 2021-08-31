@@ -1,0 +1,42 @@
+xp: 450
+wis: 14
+title: Spined Devil
+tags: Fiend Monster Devil Homebrew
+str: 10
+speed: 20 ft, fly 40 ft
+source: MM
+size: Small
+senses: darkvision 120 ft, passive Perception 12
+mtype: fiend (devil)
+modified: 20210827153511201
+languages: Infernal, telepathy 120 ft
+int: 11
+hp: 22
+hitdice: 5d6+5
+dex: 15
+damage_resistance: cold; bludgeoning, piercing and slashing from nonmagical weapons that aren't silvered
+damage_immunity: fire, poison
+created: 20191110053815018
+cr: 2
+condition_immunity: poisoned
+con: 12
+cha: 8
+armor: natural armor
+alignment: lawful evil
+ac: 13
+
+"""
+''Devil's Sight.'' Magical darkness doesn't impede the devil's darkvision.
+''Flyby.'' The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach.
+''Limited Spines.'' The devil has twelve tail spines. Used spines regrow by the time the devil finishes a long rest.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +2>>|<<slashing 2d4>> |<<reach 5>> |
+| !<<melee Fork +2>>|<<piercing 1d6>> |<<reach 5>> |
+| !<<ranged "Tail Spine" +4>>|<<piercing 1d4+2>> + <<fire 1d6>> |<<range 20/80>> |
+

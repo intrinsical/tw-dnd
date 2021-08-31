@@ -1,0 +1,10 @@
+title: Mace of Disruption
+tags: [[Magic Item]] Rare Attunement DMG Weapon
+modified: 20210814030129086
+item_type: Weapon (mace)
+created: 20210205060132861
+
+When you hit a fiend or an undead with this magic weapon, that creature takes an extra <<radiant 2d6>>. If the target has <<hp "&le;25">> after taking this damage, it must succeed on a <<save Wis 15>> or be destroyed. On a successful save, the creature becomes [[Frightened]] of you until the end of your next turn.
+
+While you hold this weapon, it sheds <<bright 20>> and an additional <<dim 20>>.
+

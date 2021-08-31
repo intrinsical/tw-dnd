@@ -1,0 +1,29 @@
+type: 
+title: Entangle
+tags: PHB Spell SRD
+source: PHB SRD
+school: Conjuration
+save: 
+ritual: No
+range: 90 feet
+modified: 20210809170430389
+level: 1
+glyph_target: <<square 20>>
+glyph_range: <<range 90>>
+glyph_effect: <<difficult>> <<save Str $(dc)$>> <fail> [[Restrained]]</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190530072214607
+concentration: Yes
+components: V, S
+classes: [[Druid]]
+casting_time: 1 Action
+at_higher_level: 
+
+Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain. 
+
+A creature in the area when you cast the spell must succeed on a Strength saving throw or be [[Restrained]] by the entangling plants until the spell ends. A creature [[Restrained]] by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself. 
+
+When the spell ends, the conjured plants wilt away.

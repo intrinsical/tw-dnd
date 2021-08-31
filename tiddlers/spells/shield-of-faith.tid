@@ -1,0 +1,26 @@
+type: 
+title: Shield of Faith
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809223403412
+material: (a small parchment with a bit of holy text written on it)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<range 60>>
+glyph_effect: <<ac +2>>
+glyph_duration: <<time 10m>>
+glyph_casting_time: <<ba>>
+effect: 
+duration: 10 minutes
+created: 20190612151855715
+concentration: Yes
+components: V, S, M
+classes: [[Cleric]] [[Paladin]]
+casting_time: 1 Bonus Action
+at_higher_level: 
+
+A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.

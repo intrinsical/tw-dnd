@@ -1,0 +1,35 @@
+xp: 200
+wis: 13
+title: Death Dog
+tags: Monster Monstrosity
+str: 15
+speed: 40 ft.
+source: MM
+skills: Perception +5, Stealth +4
+size: Large
+senses: darkvision 120 ft., passive Perception 15
+mtype: monstrosity
+modified: 20210810053347737
+languages: &mdash;
+int: 3
+hp: 39
+hitdice: 6d8+12
+dex: 14
+created: 20210810053005009
+cr: 1
+con: 14
+cha: 6
+alignment: neutral evil
+ac: 12
+
+"""
+''Two-Headed.'' The dog has advantage on Wisdom (Perception) checks and on saving throws against being [[Blinded]], [[Charmed]], [[Deafened]], [[Frightened]], [[Stunned]], or knocked [[Unconscious]].
+"""
+<<divider>>
+''Multiattack.'' The dog makes two bite attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d6+2>> |<<reach 5>> |
+|~|If the target is a creature, it must succeed on a <<save Con 12>> against disease or become [[Poisoned]] until the disease is cured. Every <<time 24h>> that elapse, the creature must repeat the saving throw, reducing its hit point maximum by <<damage 1d10>> on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0. |<|
+

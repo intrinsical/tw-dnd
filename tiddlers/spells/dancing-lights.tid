@@ -1,0 +1,29 @@
+type: 
+title: Dancing Lights
+tags: PHB Spell SRD
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809165448564
+material: (a bit of phosphorus or wychwood, or a glowworm)
+level: 0
+glyph_target: 4 <<sphere>>
+glyph_range: <<range 120>>
+glyph_effect: Create 4 lights, each <<dim 10>>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 Minute
+created: 20190612155105206
+concentration: Yes
+components: V, S, M
+classes: [[Bard]] [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. 
+You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius. 
+
+As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell’s range.

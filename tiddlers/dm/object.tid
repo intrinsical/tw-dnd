@@ -1,0 +1,49 @@
+title: Object
+tags: [[Dungeon Master]]
+order: 3
+modified: 20210812024950166
+created: 20210812023426334
+caption: Objects
+
+When characters need to saw through ropes, shatter a window, or smash a vampire’s coffin, the only hard and fast rule is this: given enough time and the right tools, characters can destroy any destructible object.
+
+Use common sense when determining a character’s success at damaging an object. Can a fighter cut through a section of a stone wall with a sword? No, the sword is likely to break before the wall does.
+
+For the purpose of these rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone, not a building or a vehicle that is composed of many other objects.
+
+* ''Statistics for Objects''. When time is a factor, objects can be assigned these statistics. Use your best judgement; a pick can chip away at stone but can't effectively cut down a tree. 
+** Armor Class
+** Hit Points
+** Damage Resistance
+** Damage Immunity. Objects are immune to poison and psychic damage.
+** Damage Vulnerability
+*** Bludgeoning works well for smashing things, but not for cutting rope or leather.
+*** Fire or lightning work well against paper or cloth objects.
+** Damage Threshold
+*** An object with a damage threshold has immunity to all damage unless it takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, in which case it takes damage as normal. Any damage that fails to meet or exceed the object’s damage threshold is considered superficial and doesn’t reduce the object’s hit points.
+* ''Huge and Gargantuan Objects''
+** Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder.
+** Instead of tracking hit points, simply decide how long the object can withstand whatever weapon or force is acting against it.
+** If tracking hit points, divide it into Large or smaller sections, and track each section’s hit points separately. 
+*** Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.
+
+!! Object Armor Class
+
+| !Substance | !AC |
+|!Cloth, paper, rope | 11 |
+|!Crystal, glass, ice | 13 |
+|!Wood, bone | 15 |
+|!Stone | 17 |
+|!Iron, steel | 19 |
+|!Mithral | 21 |
+|!Adamantine | 23 |
+
+!! Object Hit Points
+
+| !Size | !Fragile | !Resilient |
+|!Tiny (bottle, lock) |2 (1d4) |5 (2d4) |
+|!Small (chest, lute) |3 (1d6) |10 (3d6) |
+|!Medium (barrel, chandelier) |4 (1d8) |18 (4d8) |
+|!Large (cart, 10 ft. by 10 ft. window) |5 (1d10) |27 (5d10) |
+
+

@@ -1,0 +1,64 @@
+title: Winter's Splendor - The Midwinter Market
+tags: [[Section 1]] [[Winter's Splendor]]
+order: 1
+modified: 20210813025159125
+created: 20210812083252298
+caption: Scene A
+
+!! The Winter Market
+
+<<<
+Wheels of carriages and drays crunch over the freshly-fallen snow, delivering visitors from across the city to the Sea Ward. Despite the frigid temperature, the atmosphere is warm and jovial. Red velvet-covered tents line Delzorin and Diamond Streets; merchants offer treats and trinkets. The air is filled with the voices of carolers and the scents of spiced pastries and mulled wine.
+<<<
+
+|max top|k
+| !Area Information (<<loc "Waterdeep, Sea Ward">>) |<|
+|!Dimensions & Terrain |<<loc "Delzorin Street">> and <<loc "Diamond Street">> are both closed to traffic.<br/>The streets have been cleared of snow, but the snow is banked on the sidewalks and the roofs of the villas that line the street.<br/>Throughout the day, snow falls in intermittent bursts, adding a fresh coat to the ground. |
+|!Lighting |<<bright>> The sunlight is feeble behind snow clouds, but the rays catch the light of the freshly-fallen snow and it is quite bright outside. <br/><<dim>> The light under the tents is dimmer, lit by candles and magic lanterns. |
+
+* ''Midwinter Gala''
+** An extravagant affair that lasts for a tenday
+* ''NPC Merchants.'' Are selling various goods (//See below//)
+** Will gladly answer questions about 
+*** The Sea Ward
+*** The Midwinter Gala 
+*** The upcoming performance at the <<org Cassalanters>>' <<loc "Cassalanter Villa">>
+**** Everyone is excited
+**** Party is ''strongly urged'' to watch the performance.
+** Are equipped with <<book "Volo’s Waterdeep Enchiridion">> (See ''Waterdeep: Dragon Heist, page 163'').
+** About <<per "Aria Cavatina">>, all speak highly of the visiting bard
+*** //Female, Protector Aasimar, Lawful Good, <<mob "Bard, Monster">>//
+*** Her angelic voice is famous. 
+
+!!! NPC Merchants
+
+* <<per Wizdil>>
+** //Male, Gnome, Chaotic Good, <<mob Commoner>>//
+** Sells cups of mulled wine, ale, or beer for <<loot 5cp>>.
+** Wizdil staves off the cold by imbibing from his own supply and is in quite good spirits.
+* <<per Merry>>
+** //Female, Halfling, Lawful Good, <<mob Commoner>>//
+** Sells pastries, cookies, and cakes for <<loot 10cp>>.
+** Merry is passionate about baking and refers to her offerings as &quot;positively scrummy!&quot;
+
+* <<per Hildegard>>
+** //Female, Human, Neutral, <<mob Commoner>>//
+** Sells beautiful knitwear (hats, scarves, gloves, and small knit animals) for <<loot 1gp>>. 
+** She is actively knitting an ornate cowl when the characters approach.
+
+* <<per Vela>>
+** //Female, Human, Chaotic Good, <<mob "Bard, Monster">>//
+** Sells intricately-crafted wooden instruments; available at her table are 
+*** Violin
+*** Viola
+*** Lute
+*** Hurdy-gurdy (//rare//)
+*** Balalaika (//rare//)
+** Each instrument costs <<loot 100gp>>
+** Vela plucks at the balalaika to the same tune of the songs sung by the carolers.
+
+* <<per Pavel>> 
+** //Male, Half-Elf, Neutral, <<mob Commoner>>//
+** Sells an array of fine stationary — notebooks, holiday cards, blank scrolls, quills, and monogram wax stamps. 
+** Each item costs <<loot 3gp>>.
+

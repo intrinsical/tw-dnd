@@ -1,0 +1,26 @@
+type: 
+title: Cure Wounds
+tags: PHB Spell SRD
+spell_modifier: modifier
+source: PHB SRD
+school: Evocation
+save: 
+ritual: No
+range: Touch
+modified: 20210809165415955
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<heal 1d8+modifier>>
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: ''[<<upcast>><<touch>><<per 1>>]'' //<<heal "1d8+{{!!spell_modifier}}">>//
+duration: Instantaneous
+created: 20190721064810667
+concentration: No
+components: V, S
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Paladin]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
+
+A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.

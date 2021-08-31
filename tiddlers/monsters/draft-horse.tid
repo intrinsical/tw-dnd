@@ -1,0 +1,27 @@
+xp: 50
+wis: 11
+title: Draft Horse
+tags: Monster Beast
+str: 18
+speed: 40 ft.
+source: MM
+size: Large
+senses: passive Perception 10
+mtype: beast
+modified: 20210810070205702
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 10
+created: 20210810070005399
+cr: 1/4
+con: 12
+cha: 7
+alignment: unaligned
+ac: 10
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Hooves +6>>|<<bludgeoning 2d4+4>> |<<reach 5>> |
+

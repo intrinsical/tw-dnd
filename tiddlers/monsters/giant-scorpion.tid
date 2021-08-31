@@ -1,0 +1,34 @@
+xp: 700
+wis: 9
+title: Giant Scorpion
+tags: Beast Monster
+str: 15
+speed: 40 ft
+source: MM
+skills: 
+size: Large
+senses: blindsight 60 ft, passive Perception 9
+mtype: beast
+modified: 20210810091105903
+languages: &mdash;
+int: 1
+hp: 52
+hitdice: 7d10+14
+dex: 13
+created: 20191222005352596
+cr: 3
+con: 15
+cha: 3
+armor: natural armor
+alignment: unaligned
+ac: 15
+
+''Multiattack.'' The scorpion makes three attacks: two with its claws and one with its sting.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +4>>|<<bludgeoning 1d8+2>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 12>>). The scorpion has two claws, each of which can grapple only one target. |<|
+| !<<melee Sting +4>>|<<piercing 1d10+2>> |<<reach 5>> |
+|~|The target must make a <<save Con 12>>, taking <<poison 4d10>> on a failed save, or <<halved>> on a successful one. |<|
+

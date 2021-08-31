@@ -1,0 +1,43 @@
+xp: 7,200
+wis: 16
+title: Horned Devil
+tags: Fiend Monster Devil
+str: 22
+speed: 20 ft., fly 60 ft.
+source: MM
+size: Large
+senses: darkvision 120 ft, passive Perception 13
+saving_throw: Str +10, Dex +7, Wis +7, Cha +7
+mtype: fiend (devil)
+modified: 20210222190817836
+languages: Infernal, telepathy 120 ft
+int: 12
+hp: 178
+hitdice: 17d10+85
+dex: 17
+damage_resistance: cold; bludgeoning, piercing and slashing from nonmagical weapons that aren't silvered
+damage_immunity: fire, poison
+created: 20200128141415119
+cr: 11
+condition_immunity: poisoned
+con: 21
+cha: 17
+armor: natural armor
+alignment: lawful evil
+ac: 18
+
+"""
+''Devil's Sight.'' Magical darkness doesn't impede the devil's darkvision.
+''Magic Resistance.'' The devil has advantage on saving throws against spells and other magical effects.
+"""
+<<divider>>
+''Multiattack.'' The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Fork +10>>|<<piercing 2d8+6>> |<<reach 10>> |
+| !<<melee Tail +10>>|<<piercing 1d8+6>> |<<reach 10>> |
+|!|If the target is a creature other than an undead or a construct, it must succeed on a <<save Con 17>> or lose <<damage 3d6>> at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by <<damage 3d6>>. Any creature can take an action to stanch the wound with a successful <<medicine 12>>. The wound also closes if the target receives magical healing. |<|
+| !<<ranged "Hurl Flame" +7>>|<<fire 4d6>> |<<range 150>> |
+|~|If the target is a flammable object that isn't being worn or carried, it also catches fire |<|
+

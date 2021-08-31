@@ -1,0 +1,451 @@
+type: text/vnd.tiddlywiki
+title: MarkMacro
+tags: $:/tags/Macro Macro
+modified: 20210814173347750
+created: 20210117013451313
+caption: Marks Macro
+
+\define mark(label, data)
+\whitespace trim
+  <div class="mark" title="$label$ $data$">
+    <span class="label">$label$</span>
+    <span class="data">$data$</span>
+  </div>
+\end
+
+\define mark-dice(icon, color, dice)
+\whitespace trim
+<div class="mark" title="$icon$ $dice$">
+  <span class="label clean $color$"><span class="icon-$icon$"/></span>
+  <span class="data clean $color$"><$macrocall $name="dnd.average" expr="$dice$"/></span>
+</div>
+\end
+
+\define mark-icon(icon, label, value)
+\whitespace trim
+<div class="mark" title="$icon$ $value$">
+  <span class="label"><span class="icon-$icon$">$label$</span></span>
+  <span class="data ">$value$</span>
+</div>
+\end
+
+\define entity(icon, label, value)
+\whitespace trim
+<div class="mark" title="$icon$ $value$">
+  <span class="label entity clean"><span class="icon-$icon$">$label$</span></span>
+  <span class="data entity clean">$value$</span>
+</div>
+\end
+
+\define entity-range(icon, label, value)
+\whitespace trim
+<div class="mark" title="$icon$ $value$">
+  <span class="label entity clean"><span class="icon-$icon$">$label$</span></span>
+  <span class="data entity clean"><$macrocall $name="dnd.range" range="$value$"/></span>
+</div>
+\end
+
+\define damage(dice)
+<$macrocall $name=mark-dice icon=hp-empty color=negative dice="$dice$"/>
+\end
+
+\define bludgeoning(dice)
+<$macrocall $name=mark-dice icon=bludgeoning color=negative dice="$dice$"/>
+\end
+
+\define piercing(dice)
+<$macrocall $name=mark-dice icon=piercing color=negative dice="$dice$"/>
+\end
+
+\define slashing(dice)
+<$macrocall $name=mark-dice icon=slashing color=negative dice="$dice$"/>
+\end
+
+\define acid(dice)
+<$macrocall $name=mark-dice icon=acid color=negative dice="$dice$"/>
+\end
+
+\define cold(dice)
+<$macrocall $name=mark-dice icon=cold color=negative dice="$dice$"/>
+\end
+
+\define fire(dice)
+<$macrocall $name=mark-dice icon=fire color=negative dice="$dice$"/>
+\end
+
+\define force(dice)
+<$macrocall $name=mark-dice icon=force color=negative dice="$dice$"/>
+\end
+
+\define lightning(dice)
+<$macrocall $name=mark-dice  icon=lightning color=negative dice="$dice$"/>
+\end
+
+\define necrotic(dice)
+<$macrocall $name=mark-dice icon=necrotic color=negative dice="$dice$"/>
+\end
+
+\define poison(dice)
+<$macrocall $name=mark-dice icon=poison color=negative dice="$dice$"/>
+\end
+
+\define psychic(dice)
+<$macrocall $name=mark-dice icon=psychic color=negative dice="$dice$"/>
+\end
+
+\define radiant(dice)
+<$macrocall $name=mark-dice icon=radiant color=negative dice="$dice$"/>
+\end
+
+\define thunder(dice)
+<$macrocall $name=mark-dice icon=thunder color=negative dice="$dice$"/>
+\end
+
+\define heal(dice)
+<$macrocall $name=mark-dice icon=hp-full color=positive dice="$dice$"/>
+\end
+
+\define circle(value)
+<$macrocall $name=entity-range icon=circle value="$value$"/>
+\end
+
+\define square(value)
+<$macrocall $name=entity-range icon=square value="$value$"/>
+\end
+
+\define sphere(value)
+<$macrocall $name=entity-range icon=sphere value="$value$"/>
+\end
+
+\define cube(value)
+<$macrocall $name=entity-range icon=cube value="$value$"/>
+\end
+
+\define cone(value)
+<$macrocall $name=entity-range icon=cone value="$value$"/>
+\end
+
+\define cylinder(value)
+<$macrocall $name=entity-range icon=cylinder value="$value$"/>
+\end
+
+\define line(value)
+<$macrocall $name=entity-range icon=line value="$value$"/>
+\end
+
+\define wall(value)
+<$macrocall $name=entity-range icon=wall value="$value$"/>
+\end
+
+\define distance(value)
+<$macrocall $name=entity-range icon=distance value="$value$"/>
+\end
+
+\define range(value)
+<$macrocall $name=entity-range icon=distance value="$value$"/>
+\end
+
+\define reach(value)
+<$macrocall $name=entity-range icon=distance value="$value$"/>
+\end
+
+\define per(value)
+<$macrocall $name=entity icon=person value="$value$"/>
+\end
+
+\define loc(value)
+<$macrocall $name=entity icon=location value="$value$"/>
+\end
+
+\define org(value)
+<$macrocall $name=entity icon=organization value="$value$"/>
+\end
+
+\define time(value)
+<$macrocall $name=entity icon=time value="$value$"/>
+\end
+
+\define light(value)
+<$macrocall $name=entity icon=light value="$value$"/>
+\end
+
+\define bright(value)
+\whitespace trim
+<div class="mark" title="bright $value$">
+  <span class="label entity clean"><span class="icon-light"/></span>
+  <span class="data entity clean">Bright&nbsp;<$macrocall $name="dnd.range" range="$value$"/></span>
+</div>
+\end
+
+\define dim(value)
+\whitespace trim
+<div class="mark" title="dim $value$">
+  <span class="label entity clean"><span class="icon-light"/></span>
+  <span class="data entity clean">Dim&nbsp;<$macrocall $name="dnd.range" range="$value$"/></span>
+</div>
+\end
+
+\define darkness(value)
+\whitespace trim
+<div class="mark" title="darkness $value$">
+  <span class="label entity clean"><span class="icon-light"/></span>
+  <span class="data entity clean">Darkness&nbsp;<$macrocall $name="dnd.range" range="$value$"/></span>
+</div>
+\end
+
+\define mob(monster)
+<$macrocall $name=entity icon=monster label="{{$monster$||Link}}"/>
+\end
+
+\define loot(value)
+<$macrocall $name=entity icon=loot value="$value$"/>
+\end
+
+\define book(value)
+<$macrocall $name=entity icon=book value="$value$"/>
+\end
+
+\define spellbook(value)
+<$macrocall $name=entity icon=spellbook value="$value$"/>
+\end
+
+\define potion(value)
+<$macrocall $name=entity icon=potion value="$value$"/>
+\end
+
+\define scroll(value)
+<$macrocall $name=entity icon=scroll value="$value$"/>
+\end
+
+\define roll(value)
+<$macrocall $name=entity icon=roll-dice value="$value$"/>
+\end
+
+\define ac(value)
+<$macrocall $name=entity icon=ac value="$value$"/>
+\end
+
+\define hp(value)
+<$macrocall $name=entity icon=hp-full value="$value$"/>
+\end
+
+\define temp-hp(value)
+<$macrocall $name=entity icon=hp-temp value="$value$"/>
+\end
+
+\define terrain(value)
+<$macrocall $name=entity icon=terrain value="$value$"/>
+\end
+
+\define difficult()
+<$macrocall $name=entity icon=terrain value="Difficult"/>
+\end
+
+\define melee(weapon, tohit)
+<$macrocall $name=mark-icon icon=melee label="&nbsp;$weapon$" value="$tohit$"/>
+\end
+
+\define ranged(weapon, tohit)
+<$macrocall $name=mark-icon icon=ranged label="&nbsp;$weapon$" value="$tohit$"/>
+\end
+
+\define casted(spell, tohit)
+<$macrocall $name=mark-icon icon=spell label="&nbsp;$spell$" value="$tohit$"/>
+\end
+
+\define save(label, value)
+\whitespace trim
+<div class="mark" title="saving-throw $label$ $value$">
+  <span class="label save"><span class="icon-saving-throw"/>$label$</span>
+  <span class="data value">$value$</span>
+</div>
+\end
+
+\define skillcheck(label, value)
+\whitespace trim
+<div class="mark" title="ability-check $label$ $value$">
+  <span class="label skill"><span class="icon-skill-check"/>$label$</span>
+  <span class="data value">$value$</span>
+</div>
+\end
+
+\define acrobatics(dc)
+<<skillcheck "Dexterity (Acrobatics)" $dc$>>
+\end
+
+\define animalhandling(dc)
+<<skillcheck "Wisdom (Animal Handling)" $dc$>>
+\end
+
+\define arcana(dc)
+<<skillcheck "Intelligence (Arcana)" $dc$>>
+\end
+
+\define athletics(dc)
+<<skillcheck "Strength (Athletics)" $dc$>>
+\end
+
+\define deception(dc)
+<<skillcheck "Charisma (Deception)" $dc$>>
+\end
+
+\define history(dc)
+<<skillcheck "Intelligence (History)" $dc$>>
+\end
+
+\define insight(dc)
+<<skillcheck "Wisdom (Insight)" $dc$>>
+\end
+
+\define intimidation(dc)
+<<skillcheck "Charisma (Intimidation)" $dc$>>
+\end
+
+\define investigation(dc)
+<<skillcheck "Intelligence (Investigation)" $dc$>>
+\end
+
+\define medicine(dc)
+<<skillcheck "Wisdom (Medicine)" $dc$>>
+\end
+
+\define nature(dc)
+<<skillcheck "Intelligence (Nature)" $dc$>>
+\end
+
+\define perception(dc)
+<<skillcheck "Wisdom (Perception)" $dc$>>
+\end
+
+\define pp(dc)
+<<skillcheck "Passive Perception" $dc$>>
+\end
+
+\define performance(dc)
+<<skillcheck "Charisma (Performance)" $dc$>>
+\end
+
+\define persuasion(dc)
+<<skillcheck "Charisma (Persuasion)" $dc$>>
+\end
+
+\define religion(dc)
+<<skillcheck "Intelligence (Religion)" $dc$>>
+\end
+
+\define sleightofhand(dc)
+<<skillcheck "Dexterity (Sleight of Hand)" $dc$>>
+\end
+
+\define stealth(dc)
+<<skillcheck "Dexterity (Stealth)" $dc$>>
+\end
+
+\define survival(dc)
+<<skillcheck "Wisdom (Survival)" $dc$>>
+\end
+
+\define thievestools(dc)
+<<skillcheck "Dexterity (Thieves' Tools)" $dc$>>
+\end
+
+\define target()
+<span class="icon-target entity-tag" title="target"/>
+\end
+
+\define self()
+<span class="icon-self entity-tag" title="self"/>
+\end
+
+\define ritual()
+<span class="icon-ritual entity-tag" title="ritual"/>
+\end
+
+\define concentration()
+<span class="icon-concentration entity-tag" title="concentration"/>
+\end
+
+\define upcast()
+<span class="icon-upcast entity-tag" title="upcast"/>
+\end
+
+\define touch()
+<span class="icon-touch entity-tag" title="touch"/>
+\end
+
+\define instant()
+<span class="icon-instantaneous entity-tag" title="instantaneous"/>
+\end
+
+\define na()
+<span class="icon-not-applicable entity-tag" title="not-applicable"/>
+\end
+
+\define halved()
+<span class="icon-hp-half entity-tag"  title="damage-halved"/>
+\end
+
+\define advantage()
+<span class="icon-advantage entity-tag" title="advantage"/>
+\end
+
+\define disadvantage()
+<span class="icon-disadvantage entity-tag" title="disadvantage"/>
+\end
+
+\define action()
+<span class="icon-action" title="action"/>
+\end
+
+\define ba()
+<span class="icon-bonus-action" title="bonus-action"/>
+\end
+
+\define reaction()
+<span class="icon-reaction" title="reaction"/>
+\end
+
+\define round(value)
+<$macrocall $name=entity icon=round value="$value$"/>
+\end
+
+\define turn(value)
+<$macrocall $name=entity icon=round value="$value$"/>
+\end
+
+\define tick()
+<span class="icon-tick" title="pass"/>
+\end
+
+\define cross()
+<span class="icon-cross" title="fail"/>
+\end
+
+\define dnd()
+<span class="icon-dnd" title="d&d"/>
+\end
+
+\define al()
+<span class="icon-al" title="adventurers' league"/>
+\end
+
+\define pass(value)
+\whitespace trim
+<div class="mark" title="pass">
+  <span class="label pass">''&#10003;&nbsp;''</span>
+  <span class="data value">$value$</span>
+</div>
+\end
+
+\define fail(value)
+\whitespace trim
+<div class="mark" title="fail">
+  <span class="label fail">''&#10005;&nbsp;''</span>
+  <span class="data value">$value$</span>
+</div>
+\end
+
+---
+
+{{TestMark}}
+

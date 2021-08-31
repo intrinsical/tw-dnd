@@ -1,0 +1,35 @@
+xp: 450
+wis: 14
+title: Giant Elk
+tags: Beast Monster
+str: 19
+speed: 60 ft
+source: MM
+skills: Perception +4
+size: Huge
+senses: passive Perception 14
+mtype: beast
+modified: 20210810082418690
+languages: Giant Elk, understands Common, Elvish, Sylvan but can't speak them
+int: 7
+hp: 42
+hitdice: 5d12+10
+dex: 16
+created: 20190831065753429
+cr: 2
+con: 14
+cha: 10
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+"""
+''Charge.'' If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra <<damage 2d6>>. If the target is a creature, it must succeed on a <<save Str 14>> or be knocked [[Prone]].
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Ram +6>>|<<bludgeoning 2d6+4>> |<<reach 10>> |
+| !<<melee Hooves +6>>|<<bludgeoning 4d8+4>> |<<reach 5>> |
+

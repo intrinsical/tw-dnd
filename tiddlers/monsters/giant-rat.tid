@@ -1,0 +1,35 @@
+xp: 25
+wis: 10
+title: Giant Rat
+tags: Beast Monster
+str: 7
+speed: 30 ft.
+source: MM
+skills: 
+size: Small
+senses: darkvision 60 ft., passive Perception 10
+mtype: beast
+modified: 20210810090935635
+languages: &mdash;
+int: 2
+hp: 7
+hitdice: 2d6
+dex: 15
+created: 20210810090527970
+cr: 1/8
+con: 11
+cha: 4
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The rat has advantage on Wisdom (Perception) checks that rely on smell.
+''Pack Tactics.'' The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally isn’t incapacitated.
+"""
+<<fold "Diseased Giant Rats, Variant">>
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d4+2>> |<<reach 5>> |
+

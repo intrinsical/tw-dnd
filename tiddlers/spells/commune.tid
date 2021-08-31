@@ -1,0 +1,25 @@
+type: 
+title: Commune
+tags: PHB Spell SRD
+source: PHB SRD
+school: Divination
+save: 
+ritual: Yes
+range: Self
+modified: 20210809164756173
+material: (incense and a vial of holy or unholy water)
+level: 5
+effect: 
+duration: 1 minute
+created: 20190103192145416
+concentration: No
+components: V, S, M
+classes: [[Cleric]]
+casting_time: 1 Minute
+at_higher_level: 
+
+You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question. 
+
+Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead. 
+
+If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.

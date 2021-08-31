@@ -1,0 +1,12 @@
+title: Giant Slayer
+tags: [[Magic Item]] Rare DMG Weapon
+modified: 20210814030156975
+item_type: Weapon (any axe or sword)
+created: 20210205055552201
+
+You gain a +1 bonus to attack and damage rolls made with this magic weapon.
+
+When you hit a giant with it, the giant takes an extra <<damage 2d6>> of the weapon’s type and must succeed on a <<save Str 15>> or fall [[Prone]]. For the purpose of this weapon, “giant” refers to any creature with the giant type, including <<mob Ettin>> and <<mob Troll>>.
+
+''Applicable Weapons:'' Handaxe, Battleaxe, Greataxe, Greatsword, Longsword, Rapier, Scimitar, Shortsword
+

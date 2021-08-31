@@ -1,0 +1,26 @@
+type: 
+title: Enthrall
+tags: PHB Spell SRD
+source: PHB SRD
+school: Enchantment
+save: 
+ritual: No
+range: 60 feet
+modified: 20210809170404283
+level: 2
+glyph_target: <<per all*>>
+glyph_range: <<range 60>>
+glyph_effect: <<save Wis $(dc)$>> (<<advantage>> if fighting) <fail> <<disadvantage>> on Perception checks to percieve other <<per>></fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 minute
+created: 20190530072956009
+concentration: No
+components: V, S
+classes: [[Bard]] [[Warlock]]
+casting_time: 1 Action
+at_higher_level: 
+
+You weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any creature that can't be [[Charmed]] succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are incapacitated or can no longer speak.
+

@@ -1,0 +1,121 @@
+title: TestMark
+tags: MarkMacro Test
+modified: 20210314145327684
+created: 20210127011825358
+
+|''&lt;&lt;mark'' //label// //label-color// //value// //value-color//''&gt;&gt;'' |<<mark label grey value green>> |
+
+<div style="display: flex; flex-wrap: wrap;"><div>
+
+| !Damage Types |<|
+|''&lt;&lt;damage'' //2d6+2//''&gt;&gt;'' |<<damage 2d6+2>> |
+|''&lt;&lt;bludgeoning'' //2d6+2//''&gt;&gt;'' |<<bludgeoning 2d6+2>> |
+|''&lt;&lt;piercing'' //2d6+2//''&gt;&gt;'' |<<piercing 2d6+2>> |
+|''&lt;&lt;slashing'' //2d6+2//''&gt;&gt;'' |<<slashing 2d6+2>> |
+|''&lt;&lt;acid'' //2d6+2//''&gt;&gt;'' |<<acid 2d6+2>> |
+|''&lt;&lt;cold'' //2d6+2//''&gt;&gt;'' |<<cold 2d6+2>> |
+|''&lt;&lt;fire'' //2d6+2//''&gt;&gt;'' |<<fire 2d6+2>> |
+|''&lt;&lt;force'' //2d6+2//''&gt;&gt;'' |<<force 2d6+2>> |
+|''&lt;&lt;lightning'' //2d6+2//''&gt;&gt;'' |<<lightning 2d6+2>> |
+|''&lt;&lt;necrotic'' //2d6+2//''&gt;&gt;'' |<<necrotic 2d6+2>> |
+|''&lt;&lt;poison'' //2d6+2//''&gt;&gt;'' |<<poison 2d6+2>> |
+|''&lt;&lt;psychic'' //2d6+2//''&gt;&gt;'' |<<psychic 2d6+2>> |
+|''&lt;&lt;radiant'' //2d6+2//''&gt;&gt;'' |<<radiant 2d6+2>> |
+|''&lt;&lt;thunder'' //2d6+2//''&gt;&gt;'' |<<thunder 2d6+2>> |
+|''&lt;&lt;heal'' //2d6+2//''&gt;&gt;'' |<<heal 2d6+2>> |
+</div><div>
+
+| !Encounters |<|
+|''&lt;&lt;melee'' //Warhammer// //+7//''&gt;&gt;'' |<<melee Warhammer +7>> |
+|''&lt;&lt;ranged'' //Longbow// //+7//''&gt;&gt;'' |<<ranged Longbow +7>> |
+|''&lt;&lt;casted'' //Spell// //+7//''&gt;&gt;'' |<<casted Spell +7>> |
+|''&lt;&lt;save'' //label// //value//''&gt;&gt;'' |<<save label value>> |
+|''&lt;&lt;skillcheck'' //label// //value//''&gt;&gt;'' |<<skillcheck label value>> |
+|''&lt;pass&gt;''//value//''&lt;/pass&gt;'' |<pass> value</pass> |
+|''&lt;fail&gt;''//value//''&lt;/fail&gt;'' |<fail> value</fail> |
+|''&lt;&lt;mob'' //monster//''&gt;&gt;'' |<<mob monster>> |
+|''&lt;&lt;ac'' //10//''&gt;&gt;'' |<<ac 10>> |
+|''&lt;&lt;hp'' //10//''&gt;&gt;'' |<<hp 10>> |
+|''&lt;&lt;temp-hp'' //10//''&gt;&gt;'' |<<temp-hp 10>> |
+|''&lt;&lt;roll'' //1d6//''&gt;&gt;'' |<<roll 1d6>> |
+</div><div>
+
+
+| !Icons |<|
+|''&lt;&lt;advantage&gt;&gt;'' |<<advantage>> |
+|''&lt;&lt;disadvantage&gt;&gt;'' |<<disadvantage>> |
+|''&lt;&lt;ritual&gt;&gt;'' |<<ritual>> |
+|''&lt;&lt;concentration&gt;&gt;'' |<<concentration>> |
+|''&lt;&lt;upcast&gt;&gt;'' |<<upcast>> |
+|''&lt;&lt;touch&gt;&gt;'' |<<touch>> |
+|''&lt;&lt;instant&gt;&gt;'' |<<instant>> |
+|''&lt;&lt;na&gt;&gt;'' |<<na>> |
+|''&lt;&lt;halved&gt;&gt;'' |<<halved>> |
+|''&lt;&lt;action&gt;&gt;'' |<<action>> |
+|''&lt;&lt;ba&gt;&gt;'' |<<ba>> |
+|''&lt;&lt;reaction&gt;&gt;'' |<<reaction>> |
+|''&lt;&lt;round'' //1//''&gt;&gt;'' |<<round 1>> |
+|''&lt;&lt;turn'' //1//''&gt;&gt;'' |<<turn 1>> |
+|''&lt;&lt;tick&gt;&gt;'' |<<tick>> |
+|''&lt;&lt;cross&gt;&gt;'' |<<cross>> |
+|''&lt;&lt;dnd&gt;&gt;'' |<<dnd>> |
+|''&lt;&lt;al&gt;&gt;'' |<<al>> |
+</div><div>
+
+| !Area Effects |<|
+|''&lt;&lt;target&gt;&gt;'' |<<target>> |
+|''&lt;&lt;self&gt;&gt;'' |<<self>> |
+|''&lt;&lt;circle'' //20//''&gt;&gt;'' |<<circle 20>> |
+|''&lt;&lt;square'' //20//''&gt;&gt;'' |<<square 20>> |
+|''&lt;&lt;sphere'' //20//''&gt;&gt;'' |<<sphere 20>> |
+|''&lt;&lt;cube'' //20//''&gt;&gt;'' |<<cube 20>> |
+|''&lt;&lt;cone'' //20//''&gt;&gt;'' |<<cone 20>> |
+|''&lt;&lt;cylinder'' //20//''&gt;&gt;'' |<<cylinder 20>> |
+|''&lt;&lt;line'' //20//''&gt;&gt;'' |<<line 20>> |
+|''&lt;&lt;wall'' //20//''&gt;&gt;'' |<<wall 20>> |
+|''&lt;&lt;distance '' //20//''&gt;&gt;'' |<<distance 20>> |
+|''&lt;&lt;range'' //30/60//''&gt;&gt;'' |<<range 30/60>> |
+|''&lt;&lt;reach'' //5//''&gt;&gt;'' |<<reach 5>> |
+</div><div>
+
+| !Entities |<|
+|''&lt;&lt;per'' //name//''&gt;&gt;'' |<<per name>> |
+|''&lt;&lt;loc'' //name//''&gt;&gt;'' |<<loc name>> |
+|''&lt;&lt;org'' //name//''&gt;&gt;'' |<<org name>> |
+|''&lt;&lt;time'' //value//''&gt;&gt;'' |<<time value>> |
+|''&lt;&lt;light'' //level//''&gt;&gt;'' |<<light level>> |
+|''&lt;&lt;bright'' //20//''&gt;&gt;'' |<<bright 20>> |
+|''&lt;&lt;dim'' //20//''&gt;&gt;'' |<<dim 20>> |
+|''&lt;&lt;darkness'' //20//''&gt;&gt;'' |<<darkness 20>> |
+|''&lt;&lt;difficult&gt;&gt;'' |<<difficult>> |
+|''&lt;&lt;loot'' //value//''&gt;&gt;'' |<<loot value>> |
+|''&lt;&lt;book'' //value//''&gt;&gt;'' |<<book value>> |
+|''&lt;&lt;spellbook'' //value//''&gt;&gt;'' |<<spellbook value>> |
+|''&lt;&lt;potion'' //value//''&gt;&gt;'' |<<potion value>> |
+|''&lt;&lt;scroll'' //value//''&gt;&gt;'' |<<scroll value>> |
+</div><div>
+
+| !Abilities |<|
+|''&lt;&lt;acrobatics'' //dc//''&gt;&gt;'' |<<acrobatics dc>> |
+|''&lt;&lt;animalhandling'' //dc//''&gt;&gt;'' |<<animalhandling dc>> |
+|''&lt;&lt;arcana'' //dc//''&gt;&gt;'' |<<arcana dc>> |
+|''&lt;&lt;athletics'' //dc//''&gt;&gt;'' |<<athletics dc>> |
+|''&lt;&lt;deception'' //dc//''&gt;&gt;'' |<<deception dc>> |
+|''&lt;&lt;history'' //dc//''&gt;&gt;'' |<<history dc>> |
+|''&lt;&lt;insight '' //dc//''&gt;&gt;'' |<<insight dc>> |
+|''&lt;&lt;intimidation'' //dc//''&gt;&gt;'' |<<intimidation dc>> |
+|''&lt;&lt;investigation'' //dc//''&gt;&gt;'' |<<investigation dc>> |
+|''&lt;&lt;medicine'' //dc//''&gt;&gt;'' |<<medicine dc>> |
+|''&lt;&lt;nature'' //dc//''&gt;&gt;'' |<<nature dc>> |
+|''&lt;&lt;perception '' //dc//''&gt;&gt;'' |<<perception dc>> |
+|''&lt;&lt;pp'' //dc//''&gt;&gt;'' |<<pp dc>> |
+|''&lt;&lt;performance'' //dc//''&gt;&gt;'' |<<performance dc>> |
+|''&lt;&lt;persuasion'' //dc//''&gt;&gt;'' |<<persuasion dc>> |
+|''&lt;&lt;religion'' //dc//''&gt;&gt;'' |<<religion dc>> |
+|''&lt;&lt;sleightofhand'' //dc//''&gt;&gt;'' |<<sleightofhand dc>> |
+|''&lt;&lt;stealth'' //dc//''&gt;&gt;'' |<<stealth dc>> |
+|''&lt;&lt;survival'' //dc//''&gt;&gt;'' |<<survival dc>> |
+|''&lt;&lt;thievestools '' //dc//''&gt;&gt;'' |<<thievestools dc>> |
+
+</div></div>
+

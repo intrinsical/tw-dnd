@@ -1,0 +1,36 @@
+xp: 5000
+wis: 13
+title: Young Blue Dragon
+tags: Monster Dragon MM Blue
+str: 21
+speed: 40 ft., burrow 20 ft., fly 80 ft.
+source: MM
+skills: Perception +9, Stealth +4
+size: Large
+senses: blindsight 30 ft., darkvision 120 ft., passive Perception 19
+saving_throw: Dex +4, Con +8, Wis +5, Cha +7
+mtype: dragon
+modified: 20210827013519805
+languages: Common, Draconic
+int: 14
+hp: 152
+hitdice: 16d10+64
+dex: 10
+damage_immunity: lightning
+created: 20210827013203470
+cr: 9
+con: 19
+cha: 17
+armor: natural armor
+alignment: lawful evil
+ac: 18
+
+''Multiattack.'' The dragon makes three attacks: one with its bite and two with its claws.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +9>>|<<piercing 2d10+5>>+<<lightning 1d10>> |<<reach 10>> |
+| !<<melee Claw +9>>|<<slashing 2d6+5>> |<<reach 5>> |
+| !Lightning Breath|''Recharge 5–6.''<br/>The dragon exhales lightning in an <<line 60>> that is 5 feet wide. Each creature in that line must make a <<save Dex 16>> <fail><<lightning 10d10>></fail> <pass><<halved>></pass>. |<|
+
+

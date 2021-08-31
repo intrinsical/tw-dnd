@@ -1,0 +1,27 @@
+type: 
+title: Pass Without Trace
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Self
+modified: 20210809222003662
+material: (ashes from a burned leaf of mistletoe and a sprig of spruce)
+level: 2
+glyph_target: <<per "in 30'">>
+glyph_range: <<self>>
+glyph_effect: <<stealth +10>>
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 Hour
+created: 20190721083402915
+concentration: Yes
+components: V, S, M
+classes: [[Druid]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+A veil of shadows and silence radiates from you, masking you and your companions from detection.
+For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.

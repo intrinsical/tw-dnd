@@ -1,0 +1,11 @@
+title: Difficult Terrain
+tags: Rule Movement
+order: 1
+modified: 20210812063502411
+created: 20190710114525750
+
+The travel speeds given in the [[Travel Pace Table]] assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground-all considered
+difficult terrain.
+
+You move at half speed in difficult terrain-moving 1 foot in difficult terrain costs 2 feet of speed-so you can cover only half the normal distance in a minute. an hour, or a day.
+

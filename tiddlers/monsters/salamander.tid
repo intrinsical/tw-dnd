@@ -1,0 +1,40 @@
+xp: 1800
+wis: 10
+title: Salamander
+tags: Monster Elemental
+str: 18
+speed: 30 ft
+source: MM
+size: Large
+senses: darkvision 60 ft, passive Perception 10
+mtype: elemental
+modified: 20210808061920390
+languages: Ignan
+int: 11
+hp: 90
+hitdice: 12d10+24
+dex: 14
+damage_vulnerability: cold
+damage_resistance: bludgeoning, piercing, slashing from nonmagical weapons
+damage_immunity: fire
+created: 20210808061502779
+cr: 5
+con: 15
+cha: 12
+armor: natural armor
+alignment: neutral evil
+ac: 15
+
+"""
+''Heated Body.'' A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes <<fire 2d6>>.
+''Heated Weapons.'' Any metal melee weapon the salamander wields deals an extra <<fire 1d6>> on a hit (included in the attack).
+"""
+<<divider>>
+''Multiattack.'' The salamander makes two attacks: one with its spear and one with its tail.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<ranged Spear +7>>|<<piercing 2d6+4>> + <<fire 1d6>><br/><<piercing 2d8+4>> + <<fire 1d6>> |<<reach 5>><br/><<range 20/60>> |
+| !<<melee Tail +7>>|<<bludgeoning 2d6+4>> + <<fire 2d6>> |<<reach 10>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 14>>). Until this grapple ends, the target is [[Restrained]], the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets. |<|
+

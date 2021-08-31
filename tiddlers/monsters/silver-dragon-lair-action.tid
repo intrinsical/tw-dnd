@@ -1,0 +1,11 @@
+title: Silver Dragon Lair Action
+tags: Dragon [[Lair Action]] MM Silver
+modified: 20210827092742254
+created: 20210827092647950
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:
+
+* The dragon creates fog as if it had cast the [[Fog Cloud]] spell. The fog lasts until initiative count 20 on the next round.
+* A blisteringly cold wind blows through the lair near the dragon. Each creature within 120 feet of the dragon must succeed on a <<save Con 15>> <fail><<cold 1d10>></fail>. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished.
+

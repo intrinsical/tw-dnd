@@ -1,0 +1,40 @@
+xp: 200
+wis: 11
+title: Giant Spider
+tags: Beast Monster
+str: 14
+speed: 30 ft, climb 30 ft
+source: MM
+skills: Stealth +7
+size: Large
+senses: blindsight 10 ft, darkvision 60 ft, passive Perception 10
+mtype: beast
+modified: 20210810091636796
+languages: &mdash;
+int: 2
+hp: 26
+hitdice: 4d10+4
+dex: 16
+creature: Beast
+created: 20190630160106246
+cr: 1
+con: 12
+cha: 4
+armor: natural armor
+alignment: unaligned
+ac: 14
+
+"""
+''Spider Climb.'' The spider can climb difficult surfaces, including upside down on ceilings, without needing lo make an ability check.
+''Web Sense.'' While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+''Web Walker.'' The spider ignores movement restrictions caused by webbing.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+|^ !<<melee Bite +5>>|<<piercing 1d8+3>> |<<reach 5>> |
+|~|The target must make a <<save Con 11>>, taking <<poison 2d8>> on a failed save, or <<halved>> on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [[Poisoned]] for <<time 1h>>, even after regaining hit points, and is [[Paralyzed]] while poisoned in this way. |<|
+|^ !<<ranged Web +5>>|&mdash; |<<range 30/60>> |
+|~|On hit, the target is [[Restrained]] by webbing. As an <<action>>, the restrained target can make a <<save Str 12>>, bursting the webbing on a success. The webbing can also be attacked and destroyed (<<ac 10>>, <<hp 5>>; ''vulnerability'' to <<fire>>; ''immunity'' to <<bludgeoning bludgeoning>>, <<poison poison>>, and <<psychic psychic>>). |<|
+

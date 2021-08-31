@@ -1,0 +1,15 @@
+title: Crawler Mucus
+tags: Poison Contact
+modified: 20210812032725292
+created: 20210812030335861
+
+"""
+''Price per Dose:'' 200 gp
+"""
+
+This poison must be harvested from a dead or incapacitated crawler. 
+
+* A creature subjected to this poison must succeed on a <<save Con 13>> or be [[Poisoned]] for <<time 1m>>. 
+** The [[Poisoned]] creature is [[Paralyzed]]. 
+** The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+

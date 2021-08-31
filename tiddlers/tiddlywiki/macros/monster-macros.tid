@@ -1,0 +1,35 @@
+type: text/vnd.tiddlywiki
+title: Monster Macros
+tags: Macro $:/tags/Macro
+modified: 20210217104537233
+list: 
+created: 20190727054150576
+
+\define monster-stat(tiddler)
+{{$tiddler$||MonsterViewTemplate}}
+\end
+
+\define monster(tiddler)
+<div style="width: 500px;">
+<$macrocall $name="monster-stat" tiddler="$tiddler$" />
+<$transclude tiddler="$tiddler$" field=text mode=block />
+</div>
+\end
+
+\define mobs(tiddlers)
+<<tabs "$tiddlers$" template:MonsterTabTemplate>>
+<hr/>
+//Quick Links:// <<links "$tiddlers$">>
+\end
+
+\define divider()
+[img[divider.png]]
+\end
+
+"""
+&lt;&lt;''monster'' //tiddler//&gt;&gt; - Display a complete monster stat block
+&lt;&lt;''monster-stat'' //tiddler//&gt;&gt; - Display a monster stat block without abilities and attack
+&lt;&lt;''mobs'' //tiddlers//&gt;&gt; - Display monsters in a tab panel
+&lt;&lt;''divider''&gt;&gt; - Insert a statblock divider
+"""
+

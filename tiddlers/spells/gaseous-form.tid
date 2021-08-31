@@ -1,0 +1,30 @@
+type: 
+title: Gaseous Form
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Touch
+modified: 20210809171402786
+material: (a bit of gauze and a wisp of smoke)
+level: 3
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: Transform to misty cloud. Fly 10ft. Resistance to nonmagical damage. <<save "Str,Dex,Con" Advantage>> Can't talk, interact with objects, attack, cast spells
+glyph_duration: <<time 1h>>
+glyph_casting_time: <<action>>
+effect: 
+duration: 1 hour
+created: 20190530070751402
+concentration: Yes
+components: V, S, M
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You transform a willing creature you touch, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn’t affected.
+
+While in this form, the target’s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can’t fall and remains hovering in the air even when [[Stunned]] or otherwise [[Incapacitated]].
+
+While in the form of a misty cloud, the target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. The target can’t attack or cast spells.

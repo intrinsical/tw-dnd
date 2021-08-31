@@ -1,0 +1,32 @@
+xp: 700
+wis: 11
+title: Blue Dragon Wyrmling
+tags: Monster Dragon MM Blue
+str: 17
+speed: 30 ft., burrow 15 ft., fly 60 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +4, Wis +2, Cha +4
+mtype: dragon
+modified: 20210827013944179
+languages: Draconic
+int: 12
+hp: 52
+hitdice: 8d8+16
+dex: 10
+damage_immunity: lightning
+created: 20210827013603586
+cr: 3
+con: 15
+cha: 15
+armor: natural armor
+alignment: lawful evil
+ac: 17
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d10+3>>+<<lightning 1d6>> |<<reach 5>> |
+| !Lightning Breath|''Recharge 5–6.''<br/>The dragon exhales lightning in a <<line 30>> that is 5 feet wide. Each creature in that line must make a <<save Dex 12>> <fail><<lightning 4d10>></fail> <pass><<halved>></pass>. |<|
+

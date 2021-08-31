@@ -1,0 +1,30 @@
+xp: 50
+wis: 7
+title: Giant Centipede
+tags: Beast Monster
+str: 5
+speed: 30 ft., climb 30 ft.
+source: MM
+skills: 
+size: Small
+senses: Senses blindsight 30 ft., passive Perception 8
+mtype: beast
+modified: 20210810074824716
+languages: &mdash;
+int: 1
+hp: 4
+hitdice: 1d6+1
+dex: 14
+created: 20210810074611657
+cr: 1/4
+con: 12
+cha: 3
+armor: natural armor
+alignment: unaligned
+ac: 13
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d4+2>> |<<reach 5>> |
+|~|The target must succeed on a <<save Con 11>> or take <<poison 3d6>>. If the poison damage reduces the target to <<hp 0>>, the target is stable but [[Poisoned]] for <<time 1h>>, even after regaining hit points, and is [[Paralyzed]] while [[Poisoned]] in this way. |<|
+

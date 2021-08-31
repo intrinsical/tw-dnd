@@ -1,0 +1,46 @@
+xp: 22000
+wis: 16
+title: Balor
+tags: Monster Fiend Demon
+str: 26
+speed: 40 ft., fly 80 ft.
+source: MM
+size: Huge
+senses: truesight 120 ft., passive Perception 13
+saving_throw: Str +14, Con +12, Wis +9, Cha +12
+mtype: fiend (demon)
+modified: 20210222183942602
+languages: Abyssal, telepathy 120 ft.
+int: 20
+hp: 262
+hitdice: 21d12+126
+dex: 15
+damage_resistance: cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunity: fire, poison
+created: 20210222145253846
+cr: 19
+condition_immunity: poisoned
+con: 22
+cha: 22
+armor: natural armor
+alignment: chaotic evil
+ac: 19
+
+"""
+''Death Throes.'' When the balor dies, it explodes, and each creature within <<range 30>> of it must make a <<save Dex 20>>, taking <<fire 20d6>> on a failed save, or <<halved>> on a successful one. The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons.
+''Fire Aura.'' At the start of each of the balor’s turns, each creature within <<range 5>> of it takes <<fire 3d6>>, and flammable objects in the aura that aren’t being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within <<range 5>> of it takes <<fire 3d6>>.
+''Magic Resistance.'' The balor has advantage on saving throws against spells and other magical effects.
+''Magic Weapons.'' The balor’s weapon attacks are magical.
+"""
+<<divider>>
+''Multiattack.'' The balor makes two attacks: one with its longsword and one with its whip.
+
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +14>>|<<slashing 3d8+8>> + <<lightning 3d8>> |<<reach 10>> |
+|~|If the balor scores a critical hit, it rolls damage dice three times, instead of twice. |<|
+| !<<melee Whip +14>>|<<slashing 2d6+8>> + <<fire 3d6>> |<<reach 30>> |
+|~|Target must succeed on a <<save Str 20>> or be pulled up to <<range 25>> toward the balor. |<|
+| !Teleport|The balor magically teleports, along with any equipment it is wearing or carrying, up to <<range 120>> to an unoccupied space it can see. |<|
+

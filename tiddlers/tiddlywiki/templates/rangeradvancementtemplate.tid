@@ -1,0 +1,32 @@
+title: RangerAdvancementTemplate
+tags: Ranger Table Template
+subclass: Hunter
+modified: 20210823142409244
+label: Hunter
+created: 20191124095154174
+class: Ranger
+
+|top|k
+| !Level | !PB | !Features | !Spells Known | !Spell Slots per Spell Level |<|<|<|<|
+|~|~|~|~| !1st | !2nd | !3rd | !4th | !5th |
+| !1st | +2 |<<list-abilities 1>> | — | — | — | — | — | — |
+| !2nd | +2 |<<list-abilities 2>> | 2 | 2 | — | — | — | — |
+| !3rd | +2 |<<list-abilities 3>> | 3 | 3 | — | — | — | — |
+| !4th | +2 |<<list-abilities 4>> | 3 | 3 | — | — | — | — |
+| !5th | +3 |<<list-abilities 5>> | 4 | 4 | 2 | — | — | — |
+| !6th | +3 |<<list-abilities 6>> | 4 | 4 | 2 | — | — | — |
+| !7th | +3 |<<list-abilities 7>> | 5 | 4 | 3 | — | — | — |
+| !8th | +3 |<<list-abilities 8>> | 5 | 4 | 3 | — | — | — |
+| !9th | +4 |<<list-abilities 9>> | 6 | 4 | 3 | 2 | — | — |
+| !10th | +4 |<<list-abilities 10>> | 6 | 4 | 3 | 2 | — | — |
+| !11th | +4 |<<list-abilities 11>> | 7 | 4 | 3 | 3 | — | — |
+| !12th | +4 |<<list-abilities 12>> | 7 | 4 | 3 | 3 | — | — |
+| !13th | +5 |<<list-abilities 13>> | 8 | 4 | 3 | 3 | 1 | — |
+| !14th | +5 |<<list-abilities 14>> | 8 | 4 | 3 | 3 | 1 | — |
+| !15th | +5 |<<list-abilities 15>> | 9 | 4 | 3 | 3 | 2 | — |
+| !16th | +5 |<<list-abilities 16>> | 9 | 4 | 3 | 3 | 2 | — |
+| !17th | +6 |<<list-abilities 17>> | 10 | 4 | 3 | 3 | 3 | 1 |
+| !18th | +6 |<<list-abilities 18>> | 10 | 4 | 3 | 3 | 3 | 1 |
+| !19th | +6 |<<list-abilities 19>> | 11 | 4 | 3 | 3 | 3 | 2 |
+| !20th | +6 |<<list-abilities 20>> | 11 | 4 | 3 | 3 | 3 | 2 |
+

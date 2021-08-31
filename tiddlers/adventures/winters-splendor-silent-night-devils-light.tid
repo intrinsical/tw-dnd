@@ -1,0 +1,86 @@
+title: Winter's Splendor - Silent Night, Devil's Light
+tags: [[Winter's Splendor]] Section
+order: 3
+modified: 20210825165839800
+created: 20210813015648797
+caption: Episode 3
+
+!! Silent Night, Devil's Light
+
+|top|k
+|!Duration |<<time "About 30m">> |
+|!Prerequisite |<<per Chernok>> the <<mob Imp>> must have told the party they need to complete the puzzle in the <<loc "City of the Dead">>, or they sleuthed it out themselves. |
+|!Location |<<loc "Waterdeep, City of the Dead">> |
+|!Time |Evening |
+|!Light |<<dim>>. The cemetery is lit by streetlamps placed sporadically around the area. Some of the larger mausoleums have scones for torches. |
+|!Sounds |''None.'' It is winter time, the cemetery is empty and largely quiet. |
+
+!! Optional: Random Encounters
+
+If there is still plenty of time left, roll on the random encounter table below:
+
+| !d4 | !Creature |
+| !1 |2 <<mob "Ice Mephit">> |
+| !2 |<<mob "Dire Wolf">> |
+| !3 |<<mob "Giant Owl">> |
+| !4 |3 Reindeer (use <<mob Deer>> statblock) |
+
+<<mobs "[[Ice Mephit]] [[Dire Wolf]] [[Giant Owl]] [[Deer]]">>
+
+!! The Unmarked Altar
+
+* ''Finding the altar.''
+** <<pp 14>> or <<perception 14>> to spot the girl's statue
+** Saying the name //"Asmodeus"// out loud causes the statue to glow, reducing the perception check difficulty <<skillcheck DC 10>>
+* ''The Statue.''
+** //A little girl with wings. She holds a candelabra with nine candles.//
+** <<perception 14>> to notice the statue's wings are not angelic but rather spindly and webbed like a bat's wing.
+** ''Anyone coming within 10 feet of the statue.''
+*** Candles on the statue begin to glow a vivid, angry orange.
+
+<<<
+Embedded in the ground in front of the statue is a
+circular stone slab, about two feet in diameter. There are
+no markings on the slab.
+<<<
+
+!!! Activating the Sigil
+* Party has to place at least 4 toys at their correct position.
+* ''On Activation.'' 
+** The whole sigil appears in bright orange. 
+** A devil, <<per Koluchki>>, and possibly minions are summoned.
+* <<per Koluchki>>
+** Addresses the party, looks around for <<per Elzerina>>.
+** Quickly becomes impatient and attacks the party.
+
+| !Party Strength | !Monsters |
+|!Very Weak |<<mob "Spined Devil">> @ <<hp 19>> and without damage resistance to magical weapons |
+|!Weak |<<mob "Spined Devil">> without damage resistance to magical weapons |
+|!Average |<<mob "Spined Devil">> |
+|!Strong |<<mob "Bearded Devil">> |
+|!Very Strong |<<mob "Bearded Devil">> and 2 <<mob Vargouille>> |
+
+<<mobs "[[Spined Devil]] [[Bearded Devil]] [[Vargouille]]">>
+
+!!! Deactivating the Sigil
+
+* Sigil continues glowing, summoning a <<mob "Spined Devil">> every <<time 1h>>
+* <<arcana 13>> or <<religion 13>> to realize the sigil can be deactivated by dousing it with ''holy water''.
+* ''On Deactivation.''
+** Sigil stops glowing orange.
+** Stone slab can never be used again in conjunction with a summoning sigil. 
+*** ''Personal Note.'' The stone slab breaks in half and can never be used again as a summoning sigil.
+** The ripped page containing {{Winter's Splendor - The Wooden Girl||Link}} disintegrates. 
+
+!! Aftermath
+
+* <<per "Captain Staget">> thank the party for their assistance.
+** Rewards party with a pair of <<loot "[[Boots of the Winterlands]]">>
+* ''Story Awards.''
+** ''If the party has conducted themselves respectfully,'' each character earns the story award, {{Winter's Splendor - Respect of the City Watch||Link}}
+** ''If a character attempted to intimidate one or both Cassalanter children,'' the character gets the story award, {{Winter's Splendor - Scorn of the City Watch||Link}}
+
+<<<
+<<per "Aria Cavatina">> has been healed. She takes her place once again on the dias. Her beautiful voice fills the chamber, engulfing the audience in a pleasant light that warms without burning.
+<<<
+

@@ -1,0 +1,35 @@
+xp: 100
+wis: 10
+title: Reef Shark
+tags: Beast Monster
+str: 14
+speed: 0 ft, swim 40 ft
+source: MM
+skills: Perception +2
+size: Medium
+senses: blindsight 30 ft, passive Perception 12
+mtype: beast
+modified: 20210810171932565
+languages: &mdash;
+int: 1
+hp: 22
+hitdice: 4d8+4
+dex: 13
+created: 20190828125419823
+cr: 1/2
+con: 13
+cha: 4
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Pack Tactics.'' The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature an d the ally isn't incapacitated.
+''Water Breathing.'' The shark can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<bludgeoning 1d8+2>> |<<reach 5>> |
+

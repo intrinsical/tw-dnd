@@ -1,0 +1,9 @@
+title: Winged Boots
+tags: Attunement Uncommon DMG [[Magic Item]]
+modified: 20210814185813556
+created: 20190517023645615
+
+While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to <<time 4h>>, all at once or in several shorter flights, each one using a minimum of <<time 1m>> from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.
+
+The boots regain <<time 2h>> of flying capability for every <<time 12h>> they aren’t in use.
+

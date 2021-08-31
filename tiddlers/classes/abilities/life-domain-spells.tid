@@ -1,0 +1,16 @@
+type: 
+title: Life Domain Spells
+tags: Table [[Life Domain]] Ability
+modified: 20210819172454340
+level: 1
+created: 20190527160603903
+caption: Domain Spells
+
+| !Cleric Level | !Spells |
+| !1st |[[Bless]], [[Cure Wounds]] |
+| !3rd |[[Lesser Restoration]], [[Spiritual Weapon]] |
+| !5th |[[Beacon of Hope]], [[Revivify]] |
+| !7th |[[Death Ward]], [[Guardian of Faith]] |
+| !9th |[[Mass Cure Wounds]], [[Raise Dead]] |
+
+

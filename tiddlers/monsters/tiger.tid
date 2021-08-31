@@ -1,0 +1,35 @@
+xp: 200
+wis: 12
+title: Tiger
+tags: Beast Monster
+str: 17
+speed: 40 ft
+source: MM
+skills: Perception +3, Stealth +6
+size: Large
+senses: darkvision 60 ft, passive Perception 13
+mtype: beast
+modified: 20210810175259812
+languages: &mdash;
+int: 3
+hp: 37
+hitdice: 5d10+10
+dex: 15
+created: 20190606184703604
+cr: 1
+con: 14
+cha: 8
+alignment: unaligned
+ac: 12
+
+"""
+''Keen Smell.'' The tiger has advantage on Wisdom (Perception) checks that rely on smell.
+''Pounce.'' If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <<save Str 13>> or be knocked [[Prone]]. If the target is prone, the tiger can make one bite attack against it as a bonus action.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<piercing 1d10+3>> |<<reach 5>> |
+| !<<melee Claw +5>>|<<slashing 1d8+3>> |<<reach 5>> |
+

@@ -1,0 +1,12 @@
+title: Aboleth Lair Action
+tags: Aboleth [[Lair Action]]
+modified: 20210819140502003
+created: 20210403080521033
+caption: Lair Actions
+
+On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects:
+
+* ''Phantasmal Force.'' The aboleth casts [[Phantasmal Force]] (no components required) on any number of creatures it can see within <<sphere 60>> of it. While maintaining concentration on this effect, the aboleth can’t take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth’s [[Phantasmal Force]] lair action for the next 24 hours, although such a creature can choose to be affected.
+* ''Grasping TIde.'' Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within <<circle 20>> of such a pool must succeed on a <<save Str 14>> or be pulled up to <<range 20>> into the water and knocked [[Prone]]. The aboleth can’t use this lair action again until it has used a different one.
+* ''Aboleth Rage.'' Water in the aboleth’s lair magically becomes a conduit for the creature’s rage. The aboleth can target any number of creatures it can see in such water within <<sphere 90>> of it. A target must succeed on a <<save Wis 14>> or take <<psychic 2d6>>. The aboleth can’t use this lair action again until it has used a different one.
+

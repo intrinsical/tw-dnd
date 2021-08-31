@@ -1,0 +1,21 @@
+title: Falling Net
+tags: Trap
+modified: 20210811143717553
+created: 20210811141843877
+
+"""
+''Mechanical Trap''
+"""
+This trap uses a trip wire to release a net suspended from the ceiling. The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is
+hidden by cobwebs or foliage. 
+
+* ''Net.'' <<ac 10>>, <<hp 20>>.
+** Dealing <<slashing 5>> destroys a <<square 5>>of the net, freeing any creature trapped in that section.
+** A creature can use its action to make a <<skillcheck Str 10>> to free itself or another creature within reach.
+
+|max top|k
+|!Detection |<<perception 10>> to spot the trip wire and net. |
+|!Trigger |Breaking the trip wire. |
+|!Effect |Net falls on a <<square 10>> area. Creatures in the area are trapped under the net and [[Restrained]]. Those who fail a <<save Str 10>> are knocked [[Prone]]. |
+|!Countermeasure |<<thievestools 15>> to disable trip wire. <br/><fail>Trap is triggered</fail>. |
+

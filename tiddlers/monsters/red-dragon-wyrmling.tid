@@ -1,0 +1,33 @@
+xp: 1100
+wis: 11
+title: Red Dragon Wyrmling
+tags: Monster Dragon MM Red
+str: 19
+speed: 30 ft., climb 30 ft., fly 60 ft.
+source: MM
+skills: Perception +4, Stealth +2
+size: Medium
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+saving_throw: Dex +2, Con +5, Wis +2, Cha +4
+mtype: dragon
+modified: 20210827051906210
+languages: Draconic
+int: 12
+hp: 75
+hitdice: 10d8+30
+dex: 10
+damage_immunity: fire
+created: 20210827034229317
+cr: 4
+condition_immunity: 
+con: 17
+cha: 15
+armor: natural armor
+alignment: chaotic evil
+ac: 17
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 1d10+4>>+<<fire 1d6>> |<<reach 5>> |
+| !Fire Breath|''Recharge 5–6.''<br/>The dragon exhales fire in a <<cone 15>>. Each creature in that area must make a <<save Dex 13>> <fail><<fire 7d6>></fail> <pass><<halved>></pass>. |<|
+

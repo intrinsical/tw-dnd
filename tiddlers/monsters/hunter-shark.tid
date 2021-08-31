@@ -1,0 +1,35 @@
+xp: 450
+wis: 10
+title: Hunter Shark
+tags: Beast Monster
+str: 18
+speed: 0 ft, swim 40 ft
+source: MM
+skills: Perception +2
+size: Large
+senses: blindsight 30 ft, passive Perception 12
+mtype: beast
+modified: 20210810114203873
+languages: &mdash;
+int: 1
+hp: 45
+hitdice: 6d10+12
+dex: 13
+created: 20191015100139078
+cr: 2
+con: 15
+cha: 4
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Blood Frenzy. '' The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+''Water Breathing.'' The shark can breathe only underwater.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +6>>|<<piercing 2d8+4>> |<<reach 5>> |
+

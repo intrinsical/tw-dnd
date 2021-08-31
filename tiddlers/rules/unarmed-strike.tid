@@ -1,0 +1,10 @@
+title: Unarmed Strike
+tags: Attack
+modified: 20210812052849760
+created: 20210812052737853
+
+Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). 
+
+* On a hit, an unarmed strike deals <<bludgeoning 1+Strength_Modifier>>.
+* You are proficient with your unarmed strikes.
+

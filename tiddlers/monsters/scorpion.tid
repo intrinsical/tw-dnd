@@ -1,0 +1,29 @@
+xp: 10
+wis: 8
+title: Scorpion
+tags: Beast Monster
+str: 2
+speed: 10 ft.
+source: MM
+skills: Perception +3, Stealth +6
+size: Tiny
+senses: blindsight 10 ft., passive Perception 9
+mtype: beast
+modified: 20210810172706497
+languages: &mdash;
+int: 1
+hp: 1
+hitdice: 1d4-1
+dex: 11
+created: 20210810172506454
+cr: 0
+con: 8
+cha: 2
+armor: natural armor
+alignment: unaligned
+ac: 11
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Sting +2>>|<<piercing 1>> |<<reach 5>> |
+|~|The target must make a <<save Con 9>>, taking <fail><<poison 1d8>></fail>, or <pass><<halved>></pass>. |<|

@@ -1,0 +1,35 @@
+xp: 100
+wis: 10
+title: Crocodile
+tags: Beast Monster
+str: 15
+speed: 20 ft., swim 30 ft.
+source: MM
+skills: Stealtj +2
+size: Large
+senses: passive Perception 10
+mtype: beast
+modified: 20210810052343250
+languages: &mdash;
+int: 2
+hp: 19
+hitdice: 3d10+3
+dex: 10
+created: 20210810052051799
+cr: 1/2
+con: 13
+cha: 5
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Hold Breath.'' The crocodile can hold its breath for <<time 15m>>.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +4>>|<<piercing 1d10+2>> |<<reach 5>> |
+|~|The target is [[Grappled]] (<<skillcheck Escape 12>>). Until this grapple ends, the target is [[Restrained]], and the crocodile can’t bite another target. |<|
+

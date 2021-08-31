@@ -1,0 +1,13 @@
+title: Assassin's Blood
+tags: Poison Ingested
+modified: 20210812032630968
+created: 20210812025824953
+
+"""
+''Price per Dose:'' 150 gp
+"""
+
+* A creature subjected to this poison must make a <<save Con 10>>. 
+** <fail><<poison 1d12>> + [[Poisoned]] for <<time 24h>></fail>
+** <pass><<halved>></pass>
+

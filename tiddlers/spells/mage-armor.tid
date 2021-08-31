@@ -1,0 +1,26 @@
+type: 
+title: Mage Armor
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809173543525
+material: (a piece of cured leather)
+level: 1
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: <<ac>> 13+dex-modifier
+glyph_duration: <<time 8h>>
+glyph_casting_time: <<action>>
+effect: ''[<<touch>><<time 8h>>]'' <<ac 13+Dex>>
+duration: 8 hours
+created: 20190612174125183
+concentration: No
+components: V, S, M
+classes: [[Sorcerer]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.

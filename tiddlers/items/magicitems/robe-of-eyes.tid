@@ -1,0 +1,15 @@
+title: Robe of Eyes
+tags: [[Magic Item]] Rare Attunement DMG
+modified: 20210814070800863
+created: 20210205061304479
+
+This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:
+
+* The robe lets you see in all directions, and you have advantage on Wisdom (Perception) checks that rely on sight.
+* You have darkvision out to a range of 120 feet.
+* You can see [[Invisible]] creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet.
+
+The eyes on the robe can’t be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.
+
+A [[Light]] spell cast on the robe or a [[Daylight]] spell cast within 5 feet of the robe causes you to be [[Blinded]] for <<time 1m>>. At the end of each of your turns, you can make a <<save Con 11>> for [[Light]] or <<save Con 15>> for [[Daylight]], ending the blindness on a success.
+

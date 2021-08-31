@@ -1,0 +1,35 @@
+xp: 1100
+wis: 11
+title: Elephant
+tags: Monster Beast
+str: 22
+speed: 40 ft.
+source: MM
+skills: 
+size: Huge
+senses: passive Perception 10
+mtype: beast
+modified: 20210810071103718
+languages: &mdash;
+int: 3
+hp: 76
+hitdice: 8d12+24
+dex: 9
+created: 20210810070500219
+cr: 4
+con: 17
+cha: 6
+armor: natural armor
+alignment: unaligned
+ac: 12
+
+"""
+''Trampling Charge.'' If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a <<save Str 12>> or be knocked [[Prone]]. If the target is prone, the elephant can make one stomp attack against it as a bonus action.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Gore +8>>|<<piercing 3d8+6>> |<<reach 5>> |
+| !<<melee Stomp +8>>|<<bludgeoning 3d10+6>> |<<reach 5>><br/>[[Prone]] creature |
+

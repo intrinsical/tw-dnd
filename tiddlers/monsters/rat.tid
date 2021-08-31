@@ -1,0 +1,33 @@
+xp: 10
+wis: 10
+title: Rat
+tags: Beast Monster
+str: 2
+speed: 20 ft
+source: MM
+skills: 
+size: Tiny
+senses: darkvision 30 ft, passive Perception 10
+mtype: beast
+modified: 20210810171653222
+languages: &mdash;
+int: 2
+hp: 1
+hitdice: 1d4-1
+dex: 11
+created: 20190831073122147
+cr: 0
+con: 9
+cha: 4
+alignment: unaligned
+ac: 10
+
+"""
+''Keen Smell.'' The rat has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite 0>>|<<piercing 1>> |<<reach 5>> |
+

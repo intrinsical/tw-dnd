@@ -1,0 +1,42 @@
+xp: 2900
+wis: 12
+title: Oni
+tags: Monster Giant
+str: 19
+speed: 30 ft., fly 30 ft.
+source: MM
+skills: Arcana +5, Deception +8, Perception +4
+size: Large
+senses: darkvision 60 ft., passive Perception 14
+saving_throw: Dex +3, Con +6, Wis +4, Cha +5
+mtype: Giant
+modified: 20210807103131765
+languages: Common, Giant
+int: 14
+hp: 110
+hitdice: 13d10+39
+dex: 11
+created: 20210807102607146
+cr: 7
+con: 16
+cha: 15
+armor: chain mail
+alignment: lawful evil
+ac: 16
+
+"""
+''Innate Spellcasting.'' The oni’s innate spellcasting ability is Charisma (<<save "Spell DC" 13>>). The oni can innately cast the following spells, requiring no material components:
+&nbsp;&nbsp;&nbsp;&nbsp;''At will:'' [[Darkness]], [[Invisibility]]
+&nbsp;&nbsp;&nbsp;&nbsp;''1/day each:'' [[Charm Person]], [[Cone of Cold]], [[Gaseous Form]], [[Sleep]]
+''Magic Weapons.'' The oni’s weapon attacks are magical.
+''Regeneration.'' The oni regains <<heal +10>> at the start of its turn if it has at least <<hp 1>>.
+"""
+<<divider>>
+''Multiattack.'' The oni makes two attacks, either with its claws or its glaive.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Claw +7>><br/>''Oni Form Only''|<<slashing 1d8+4>> |<<reach 5>> |
+| !<<melee Glaive +7>>|<<slashing 2d10+4>><br/><<slashing 1d10+4>> (''Small/Medium Form'') |<<reach 10>> |
+| !Change Shape|The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size. |<|
+

@@ -1,0 +1,32 @@
+title: Underwater
+tags: Environment Movement Rule
+order: 8
+modified: 20210812062658918
+created: 20190929132646530
+
+!!! ''Underwater Movement''
+
+* Characters with a swimming speed move at their swimming speed.
+** Can swim all day without penalty.
+* Characters without a swimming speed treats swimming underwater as difficult terrain (halved movement speed), 
+** After each hour of swimming, a character must succeed on a DC 10 Constitution saving throw or gain one level of exhaustion.
+* Swimming through deep water is similar to traveling at high altitudes, because of the water's pressure and cold temperature. 
+** For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining exhaustion. 
+** Swimming for an hour at a depth greater than 200 feet counts as 4 hours.
+
+!!! ''Underwater Combat''
+
+* When making a ''melee weapon attack'', a creature that doesn’t have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident.
+* A ''ranged weapon attack'' automatically misses a target beyond the weapon’s normal range. Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is thrown like a javelin (including a spear, trident, or dart).
+* Creatures and objects that are fully immersed in water have resistance to fire damage.
+
+!!! ''Holding Breath''
+
+A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds). When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum 1 round). At the start of its next turn, it drops to 0 hit points and is dying, and it can’t regain hit points or be stabilized until it can breathe again. For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2 rounds to reach air before it drops to 0 hit points.
+
+!!! ''Underwater Visibility''
+
+Visibility underwater depends on water clarity and the available light. Unless the characters have light sources, they become aware of an encounter at a distance of 60 feet in clear water with bright light, 30 feet in clear water with dim light, and 10 feet in murky water or with no light.
+
+
+

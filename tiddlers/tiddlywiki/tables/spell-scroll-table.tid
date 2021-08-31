@@ -1,0 +1,17 @@
+title: Spell Scroll Table
+tags: Table [[Spell Scroll]]
+modified: 20191125034048115
+created: 20191125033838257
+
+| !Spell Level | !Rarity | !Save DC | !Attack Bonus |
+| !Cantrip | !Common | 13 | +5 |
+| !1st | !Common | 13 | +5 |
+| !2nd | !Uncommon | 13 | +5 |
+| !3rd | !Uncommon | 15 | +7 |
+| !4th | !Rare | 15 | +7 |
+| !5th | !Rare | 17 | +9 |
+| !6th | !Very Rare | 17 | +9 |
+| !7th | !Very Rare | 18 | +10 |
+| !8th | !Very Rare | 18 | +10 |
+| !9th | !Legendary | 19 | +11 |
+

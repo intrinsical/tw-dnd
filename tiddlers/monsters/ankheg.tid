@@ -1,0 +1,30 @@
+xp: 450
+wis: 13
+title: Ankheg
+tags: Monstrosity Monster
+str: 17
+speed: 30 ft., burrow 10 ft.
+source: MM
+size: Large
+senses: darkvision 60 ft., tremorsense 60 ft., passive Perception 11
+mtype: monstrosity
+modified: 20210222121206013
+languages: &mdash;
+int: 1
+hp: 39
+hitdice: 6d10+6
+dex: 11
+created: 20210213172837267
+cr: 2
+con: 13
+cha: 6
+armor: natural armor, 11 while [[Prone]]
+alignment: unaligned
+ac: 14
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +5>>|<<slashing 2d6+3>> + <<acid 1d6>> |<<reach 5>> |
+|~|If the target is a Large or smaller creature, it is [[Grappled]] <<save Escape 13>>. Until this grapple ends, the ankheg can bite only the [[Grappled]] creature and has advantage on attack rolls to do so. |<|
+| !Acid Spray|''Recharge on 6''<br/>The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature [[Grappled]]. Each creature in that line must make a <<save Dex 13>>, taking <<acid 3d6>> on a failed save, or <<halved>> on a successful one. |<|
+

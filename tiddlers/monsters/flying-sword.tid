@@ -1,0 +1,37 @@
+xp: 50
+wis: 5
+title: Flying Sword
+tags: Monster Construct
+str: 12
+speed: 0 ft. fly 50 ft. (hover)
+source: MM
+size: Small
+senses: blindsight 60 ft. (blind beyond this radius), passive Perception 7
+saving_throw: Dex +4
+mtype: construct
+modified: 20210213172329560
+languages: &mdash;
+int: 1
+hp: 17
+hitdice: 5d6
+dex: 15
+damage_immunity: poison, psychic
+created: 20210213172056231
+cr: 1/4
+condition_immunity: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
+con: 11
+cha: 1
+armor: natural armor
+alignment: unaligned
+ac: 17
+
+"""
+''Antimagic Susceptibility.'' The sword is [[Incapacitated]] while in the area of an antimagic field. If targeted by [[Dispel Magic]], the sword must succeed on a <<save Con>> against the caster’s spell save DC or fall unconscious for <<time 1m>>.
+''False Appearance.'' While the sword remains motionless and isn’t flying, it is indistinguishable from a normal sword.
+"""
+[img[divider.png]]
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee Longsword +3>>|<<slashing 1d8+1>> |<<reach 5>> |
+

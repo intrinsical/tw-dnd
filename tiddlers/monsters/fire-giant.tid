@@ -1,0 +1,34 @@
+xp: 5000
+wis: 14
+title: Fire Giant
+tags: Monster Giant
+str: 25
+speed: 30 ft.
+source: MM
+skills: Athletics +11, Perception +6
+size: Huge
+senses: passive Perception 16
+saving_throw: Dex +3, Con +10, Cha +5
+mtype: giant
+modified: 20210328050019067
+languages: Giant
+int: 10
+hp: 162
+hitdice: 13d12+78
+dex: 9
+damage_immunity: fire
+created: 20210328045818109
+cr: 9
+con: 23
+cha: 13
+armor: plate
+alignment: lawful evil
+ac: 18
+
+''Multiattack.'' The giant makes two greatsword attacks.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greatsword +11>>|<<slashing 6d6+7>> |<<reach 10>> |
+| !<<ranged Rock +11>>|<<bludgeoning 4d10+7>> |<<range 60/240>> |
+

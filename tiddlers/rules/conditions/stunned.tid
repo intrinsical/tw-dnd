@@ -1,0 +1,8 @@
+title: Stunned
+tags: Condition
+modified: 20210209125049282
+created: 20190529211245621
+
+* A stunned creature is [[Incapacitated]], can't move, and can speak only falteringly.
+* The creature automatically fails Strength and Dexterity saving throws.
+* Attack rolls against the creature have advantage.

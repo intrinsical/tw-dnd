@@ -1,0 +1,37 @@
+xp: 700
+wis: 16
+title: Minotaur
+tags: Monster Monstrosity
+str: 18
+speed: 40 ft.
+source: MM
+skills: Perception +7
+size: Large
+senses: darkvision 60 ft., passive Perception 17
+mtype: monstrosity
+modified: 20210806070510774
+languages: Abyssal
+int: 6
+hp: 76
+hitdice: 9d10+27
+dex: 11
+created: 20210806070059600
+cr: 3
+con: 16
+cha: 9
+armor: natural armor
+alignment: chaotic evil
+ac: 14
+
+"""
+''Charge.'' If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra <<piercing 2d8>>. If the target is a creature, it must succeed on a <<save Str 14>> or be pushed up to 10 feet away and knocked [[Prone]].
+''Labyrinthine Recall.'' The minotaur can perfectly recall any path it has traveled.
+''Reckless.'' At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Greataxe +6>>|<<slashing 2d12+4>> |<<reach 5>> |
+| !<<melee Gore +6>>|<<piercing 2d8+4>> |<<reach 5>> |
+

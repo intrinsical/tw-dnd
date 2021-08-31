@@ -1,0 +1,34 @@
+xp: 50
+wis: 3
+title: Violet Fungus
+tags: Plant Monster
+str: 3
+speed: 5 ft.
+source: MM
+size: Medium
+senses: blindsight 30 ft (blind beyond this radius), passive Perception 6
+mtype: plant
+modified: 20210224132004041
+languages: &mdash;
+int: 1
+hp: 18
+hitdice: 4d8
+dex: 1
+created: 20190801073451967
+cr: 1/4
+condition_immunity: blinded, deafened, frightened
+con: 10
+cha: 1
+alignment: unaligned
+ac: 5
+
+"""
+''False Appearance.'' While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus.
+"""
+<<divider>>
+''Multiattack.'' The fungus makes <<roll 1d4>> ''Rotting Touch'' attacks.
+
+|max|k
+| !<<action>> Actions |<|<|
+| !<<melee "Rotting Touch" +2>>|<<necrotic 1d8>> |<<reach 10>> |
+

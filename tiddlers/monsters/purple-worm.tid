@@ -1,0 +1,38 @@
+xp: 13000
+wis: 8
+title: Purple Worm
+tags: Monster Monstrosity
+str: 28
+speed: 50 ft., burrow 30 ft.
+source: MM
+size: Gargantuan
+senses: blindsight 30 ft., tremorsense 60 ft., passive Perception 9
+saving_throw: Con +11, Wis +4
+mtype: monstrosity
+modified: 20210807120818339
+languages: &mdash;
+int: 1
+hp: 247
+hitdice: 15d20+90
+dex: 7
+created: 20210807115849213
+cr: 15
+con: 22
+cha: 4
+armor: natural armor
+alignment: unaligned
+ac: 18
+
+"""
+''Tunneler.'' The worm can burrow through solid rock at half its burrow speed and leaves a <<circle 10>> diameter tunnel in its wake.
+"""
+<<divider>>
+''Multiattack.'' The worm makes two attacks: one with its bite and one with its stinger.
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +14>>|<<piercing 3d8+9>> |<<reach 10>> |
+|~|If the target is a Large or smaller creature, it must succeed on a <<save Dex 19>> or be swallowed by the worm. A swallowed creature is [[Blinded]] and [[Restrained]], it has [[Total Cover]] against attacks and other effects outside the worm, and it takes <<acid 6d6>> at the start of each of the worm’s turns.<br/>&nbsp<br/>If the worm takes <<damage 30>> or more on a single turn from a creature inside it, the worm must succeed on a <<save Con 21>> at the end of that turn or regurgitate all swallowed creatures, which fall [[Prone]] in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer [[Restrained]] by it and can escape from the corpse by using 20 feet of movement, exiting prone. |<|
+| !<<melee "Tail Stinger" +14>>|<<piercing 3d6+9>> |<<reach 10>> |
+|~|The target must make a <<save Con 19>>, taking <fail><<poison 12d6>></fail>, or <pass><<halved>></pass>. |<|
+

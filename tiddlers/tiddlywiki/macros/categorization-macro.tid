@@ -1,0 +1,138 @@
+title: Categorization Macro
+tags: Macro $:/tags/Macro
+modified: 20210614011752658
+created: 20210111021445756
+caption: Categorization Macros
+
+\define subclasses(class)
+<h2>Subclasses</h2>
+
+<ul>
+<li>''Player Handbook''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[PHB]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Xanathar's Guide to Everything''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[XGE]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Tasha's Cauldron of Everything''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[TCE]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Sword Coast Adventurers Guide''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[SCAG]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Eberron: Rising from The Last War''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[Eberron]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Explorer's Guide to Wildemount''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[WGE]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Guildmaster's Guide to Ravnica''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[GGR]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Mythic Odysseys of Theros''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[MOT]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Non-AL Legal''</li>
+  <ul>
+    <$list filter="[tag[$class$]tag[Subclass]tag[Non-AL]sort[title]]" emptyMessage="<li>No subclasses</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+</ul>
+\end
+
+\define subraces(race)
+<h2>Subraces</h2>
+
+<ul>
+<li>''Player Handbook''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[PHB]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Xanathar's Guide to Everything''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[XGE]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Tasha's Cauldron of Everything''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[TCE]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Elemental Evil Players Guide''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[EEPC]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Sword Coast Adventurer's Guide''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[SCAG]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Eberron: Rising from the Last War''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[Eberron]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Explorer's Guide to Wildemount''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[WGE]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Volo's Guide to Monsters''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[Volo]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Mordenkainen's Tome of Foes''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[MToF]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+<li>''Non-AL Legal''</li>
+  <ul>
+    <$list filter="[tag[$race$]tag[Subrace]tag[Non-AL]sort[title]]" emptyMessage="<li>No subraces</li>">
+      <li><$link to=<<currentTiddler>> ><<currentTiddler>></$link></li>
+    </$list>
+  </ul>
+</ul>
+\end
+
+"""
+''&lt;&lt;subclasses'' //class//''&gt;&gt;'' - List subclasses, grouped by source manual
+''&lt;&lt;subraces'' //race//''&gt;&gt;'' - List subraces, grouped by source manual
+"""

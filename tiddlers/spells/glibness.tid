@@ -1,0 +1,20 @@
+type: 
+title: Glibness
+tags: PHB Spell SRD
+source: PHB SRD
+school: Transmutation
+save: 
+ritual: No
+range: Self
+modified: 20210809171551126
+level: 8
+effect: 
+duration: 1 hour
+created: 20190721140019564
+concentration: No
+components: V
+classes: [[Bard]] [[Warlock]]
+casting_time: 1 Action
+at_higher_level: 
+
+Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.

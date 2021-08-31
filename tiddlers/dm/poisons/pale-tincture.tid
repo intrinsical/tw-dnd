@@ -1,0 +1,14 @@
+title: Pale Tincture
+tags: Poison Ingested
+modified: 20210812032925765
+created: 20210812031434786
+
+"""
+''Price per Dose:'' 250 gp
+"""
+
+* A creature subjected to this poison must succeed on a <<save Con 16>> or take <<poison 1d6>> and become [[Poisoned]]. 
+** The [[Poisoned]] creature must repeat the saving throw every <<time 24h>>, taking <<poison 1d6>> on a failed save. 
+** Until this poison ends, the damage the poison deals can’t be healed by any means. 
+** After seven successful saving throws, the effect ends and the creature can heal normally.
+

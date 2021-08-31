@@ -1,0 +1,29 @@
+type: 
+title: Hypnotic Pattern
+tags: PHB Spell SRD
+source: PHB SRD
+school: Illusion
+save: 
+ritual: No
+range: 120 feet
+modified: 20210809172544432
+material: (a glowing stick of incense or a crystal vial filled with phosphorescent material)
+level: 3
+glyph_target: <<cube 30>>
+glyph_range: <<range 120>>
+glyph_effect: <<save Wis $(dc)$>> <fail> [[Charmed]], [[Incapacitated]], 0 speed for spell's duration</fail>
+glyph_duration: <<time 1m>>
+glyph_casting_time: <<action>>
+effect: ''[120']'' //<<cube 30>><<hover Charmed>>+<<hover Incapacitated>>+Speed 0, <<save Wis DC>> No effect. ''[A]'' Unhypnotize//
+duration: 1 Minute
+created: 20190530070906820
+concentration: Yes
+components: S, M
+classes: [[Bard]] [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: 
+
+You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range.
+The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes [[Charmed]] for the duration. While [[Charmed]] by this spell, the creature is [[Incapacitated]] and has a speed of 0.
+
+The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.

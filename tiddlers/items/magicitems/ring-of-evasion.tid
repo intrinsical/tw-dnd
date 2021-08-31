@@ -1,0 +1,8 @@
+title: Ring of Evasion
+tags: Attunement Rare DMG [[Magic Item]] Ring
+modified: 20210814053947031
+item_type: Ring
+created: 20190603034351075
+
+This ring has 3 charges, and it regains <<roll 1d3>> expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.
+

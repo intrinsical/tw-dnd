@@ -1,0 +1,25 @@
+type: 
+title: Lesser Restoration
+tags: PHB Spell SRD
+source: PHB SRD
+school: Abjuration
+save: 
+ritual: No
+range: Touch
+modified: 20210809173324803
+level: 2
+glyph_target: <<per 1>>
+glyph_range: <<touch>>
+glyph_effect: End 1 disease or [[Blinded]] or [[Deafened]] or [[Paralyzed]] or [[Poisoned]]
+glyph_duration: <<instant>>
+glyph_casting_time: <<action>>
+effect: 
+duration: Instantaneous
+created: 20190530085508500
+concentration: No
+components: V, S
+classes: [[Bard]] [[Cleric]] [[Druid]] [[Paladin]] [[Ranger]]
+casting_time: 1 Action
+at_higher_level: 
+
+You touch a creature and can end either one disease or one condition afflicting it. The condition can be [[Blinded]], [[Deafened]], [[Paralyzed]], or [[Poisoned]].

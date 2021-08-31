@@ -1,0 +1,56 @@
+title: Weapon
+tags: Table Item Category
+order: 2
+modified: 20210825061711033
+created: 20200128050246814
+caption: Weapons
+
+Your class grants proficiency in certain weapons, reflecting both the class’s focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring.
+
+The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A ''melee weapon'' is used to attack a target within 5 feet of you, whereas a ''ranged weapon'' is used to attack a target at a distance.
+
+|max|k
+| !Name | !Cost | !Damage | !Weight | !Properties |
+| !Simple Melee Weapons |<|<|<|<|
+|!Club | 1 sp | <<bludgeoning 1d4>>  | 2 lb. |[[Light|Light Property]] |
+|!Dagger | 2 gp | <<piercing 1d4>>  | 1 Ib. |[[Finesse]], [[Light|Light Property]], [[Thrown]] (range 20/60) |
+|!Greatclub | 2 sp | <<bludgeoning 1d8>>  | 10 lb. |[[Two-Handed]] |
+|!Handaxe | 5 gp | <<slashing 1d6>>  | 2 lb. |[[Light|Light Property]], [[Thrown]] (range 20/60) |
+|!Javelin | 5 sp | <<piercing 1d6>> | 2 lb. |[[Thrown]] (range 30/120) |
+|!Light Hammer | 2 gp | <<bludgeoning 1d4>> | 2 lb. |[[Light|Light Property]], [[Thrown]] (range 20/60) |
+|!Mace | 5 gp | <<bludgeoning 1d6>> | 4 lb. |&mdash; |
+|!Quarterstaff | 2 sp | <<bludgeoning 1d6>> | 4 lb. |[[Versatile]] (1d8) |
+|!Sickle | 1 gp | <<slashing 1d4>> | 2 lb. |[[Light|Light Property]] |
+|!Spear | 1 gp | <<piercing 1d6>> | 3 Ib. |[[Thrown]] (range 20/60), [[Versatile]] (ld8) |
+|!Unarmed Strike | &mdash; | <<bludgeoning 1>> | &mdash; |&mdash; |
+| !Simple Ranged Weapons |<|<|<|<|
+|!Crossbow, Light | 25 gp | <<piercing 1d8>> | 5 lb. |[[Ammunition]] (range 80/320), [[Loading]], [[Two-Handed]] |
+|!Dart | 5 cp | <<piercing 1d4>> | 1/4 Ib. |[[Finesse]], [[Thrown]] (range 20/60) |
+|!Shortbow | 25 gp | <<piercing 1d6>> | 2 lb. |[[Ammunition]] (range 80/320), [[Two-Handed]] |
+|!Sling | 1 sp | <<bludgeoning 1d4>> | &mdash; |[[Ammunition]] (range 30/120) |
+| !Martia! Melee Weapons |<|<|<|<|
+|!Battleaxe | 10 gp | <<slashing 1d8>> | 4 lb. |[[Versatile]] (1d10) |
+|!Flail | 10 gp | <<bludgeoning 1d8>> | 2 lb. |&mdash; |
+|!Glaive | 20 gp | <<slashing 1d10>> | 6 lb. |[[Heavy]], [[Reach]], [[Two-Handed]] |
+|!Greataxe | 30 gp | <<slashing 1d12>> | 7 lb. |[[Heavy]], [[Two-Handed]] |
+|!Greatsword | 50 gp | <<slashing 2d6>> | 6 lb. |[[Heavy]], [[Two-Handed]] |
+|!Halberd | 20 gp | <<slashing 1d10>> | 6 lb. |[[Heavy]], [[Reach]], [[Two-Handed]] |
+|!Lance | 10 gp | <<piercing 1d12>> | 6 lb. |[[Reach]], [[Special]] |
+|!Longsword | 15 gp | <<slashing 1d8>> | 3 lb. |[[Versatile]] (1d10) |
+|!Maul | 10 gp | <<bludgeoning 2d6>> | 10 lb. |[[Heavy]], [[Two-Handed]] |
+|!Morningstar | 15 gp | <<piercing 1d8>> | 4 lb. |&mdash; |
+|!Pike | 5 gp | <<piercing 1d10>> | 18 lb. |[[Heavy]], [[Reach]], [[Two-Handed]] |
+|!Rapier | 25 gp | <<piercing 1d8>> | 2 lb. |[[Finesse]] |
+|!Scimitar | 25 gp | <<slashing 1d6>> | 3 lb. |[[Finesse]], [[Light]] |
+|!Shortsword | 10 gp | <<piercing 1d6>> | 2 lb. |[[Finesse]], [[Light]] |
+|!Trident | 5 gp | <<slashing 1d6>> | 4 lb. |[[Thrown]] (range 20/60), [[Versatile]] (1d8) |
+|!War Pick | 5 gp | <<piercing 1d8>> | 2 lb. |&mdash; |
+|!Warhammer | 15 gp | <<bludgeoning 1d8>> | 2 lb. |[[Versatile]] (1d10) |
+|!Whip | 2 gp | <<slashing 1d4>> | 3 lb. |[[Finesse]], reach |
+| !Martial Ranged Weapons |<|<|<|<|
+|!Blowgun | 10 gp | <<piercing 1>> | 1 lb. |[[Ammunition]] (range 25/100), loading |
+|!Crossbow, hand | 75 gp | <<piercing 1d6>> | 3 lb. |[[Ammunition]] (range 30/120), [[Light||Light Property]], loading |
+|!Crossbow, heavy | 50 gp | <<piercing 1d10>> | 18 lb. |[[Ammunition]] (range 100/400), [[Heavy]], [[Loading]], [[Two-Handed]] |
+|!Longbow | 50 gp | <<piercing 1d8>> | 2 lb. |[[Ammunition]] (range 150/600) |
+|!Net | 1 gp | &mdash; | 3 lb. |[[Special]], [[Thrown]] (range 5/15) |
+

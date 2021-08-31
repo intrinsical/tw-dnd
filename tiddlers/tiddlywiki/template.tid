@@ -1,0 +1,19 @@
+title: Template
+tags: TiddlyWiki
+modified: 20210819152411962
+created: 20210110122405300
+caption: Templates
+
+!! Typed Templates
+
+|!| !View | !Edit |
+|^!Magic Item |ItemViewTemplate |ItemEditTemplate |
+|^!Monster |MonsterViewTemplate<br/>MonsterTabTemplate |^MonsterEditTemplate |
+|^!Spell |SpellUpperViewTemplate<br/>SpellLowerViewTemplate |^SpellEditTemplate |
+
+!! Other Templates
+
+<div class="tc-table-of-contents">
+<<toc Template sort[title]>>
+</div>
+

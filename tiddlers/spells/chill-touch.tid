@@ -1,0 +1,24 @@
+type: 
+title: Chill Touch
+tags: PHB Spell SRD
+source: PHB SRD
+school: Necromancy
+ritual: No
+range: 120 feet
+modified: 20210809164543003
+level: 0
+glyph_target: <<per 1>>
+glyph_range: <<range 120>>
+glyph_effect: <<ranged spell-attack $(to-hit)$>>, <<necrotic 1d8>>, cannot regain <<hp>> till start of next turn
+glyph_duration: <<round 1>>
+glyph_casting_time: <<action>>
+duration: 1 round
+created: 20190530070220714
+concentration: No
+components: V, S
+classes: [[Sorcerer]] [[Warlock]] [[Wizard]]
+casting_time: 1 Action
+at_higher_level: This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+You create a ghostly, skeletal hand in the space of a creature within range. 
+Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes <<necrotic 1d8>>, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target. If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.&nbsp;

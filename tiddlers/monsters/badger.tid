@@ -1,0 +1,32 @@
+xp: 10
+wis: 12
+title: Badger
+tags: Beast Monster
+str: 4
+speed: 20 ft, burrow 5 ft
+source: MM
+size: Tiny
+senses: darkvision 30 ft, passive Perception 11
+mtype: beast
+modified: 20210810045742657
+languages: &mdash;
+int: 2
+hp: 3
+hitdice: 1d4+1
+dex: 11
+created: 20210201141134302
+cr: 0
+con: 12
+cha: 5
+alignment: unaligned
+ac: 10
+
+"""
+''Keen Smell.'' The badger has advantage on Wisdom (Perception) checks that rely on smell.
+"""
+<<divider>>
+
+|max top|k
+| !<<action>> Actions |<|<|
+| !<<melee Bite +2>>|<<piercing 1>> |<<reach 5>> |
+
