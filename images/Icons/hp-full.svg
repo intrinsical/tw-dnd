@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   enable-background="new 0 0 1000 1000"
+   xml:space="preserve"
+   id="svg10"
+   sodipodi:docname="hp-full.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><defs
+   id="defs14" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="715"
+   id="namedview12"
+   showgrid="false"
+   inkscape:zoom="0.472"
+   inkscape:cx="500"
+   inkscape:cy="600.64497"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg10" />
+<metadata
+   id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon <rdf:RDF><cc:Work
+     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
+<g
+   id="g8"><g
+     transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"
+     id="g6"><path
+       d="m 2634.1,4429.9 c -38.4,-6.1 -159.5,-28.3 -270.6,-50.5 C 1214.6,4141.1 400.9,3272.9 146.4,2017 106.1,1815 100,1728.2 100,1322.4 102,916.6 106.1,831.7 146.4,648 320.1,-149.6 695.7,-815.9 1349.9,-1488.3 c 563.3,-581.5 1167.1,-1039.9 2404.8,-1823.3 551.2,-347.3 696.6,-450.3 993.4,-700.7 l 246.3,-206 238.3,201.9 c 268.5,228.2 486.6,379.6 1187.3,825.8 1058,674.4 1599.2,1084.3 2132.2,1615.3 579.5,577.5 959.1,1159 1163,1776.9 149.5,452.4 198,787.6 181.8,1252 -58.6,1591.1 -1019.7,2748.1 -2461.4,2960.1 -292.8,42.4 -787.5,28.3 -1062.1,-30.3 -486.6,-103 -920.7,-319 -1253.9,-619.9 L 4996.4,3652.4 4851,3777.6 c -347.3,298.8 -769.3,506.8 -1237.7,607.8 -177.6,38.4 -795.5,66.7 -979.2,44.5 z"
+       id="path4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccc" /></g></g>
+</svg>
