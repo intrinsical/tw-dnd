@@ -1,12 +1,12 @@
 title: ToolMenu
 tags: $:/tags/MenuBar
-modified: 20210120091121566
+modified: 20210906034142054
 is-dropdown: yes
 created: 20210120091059584
 caption: Tools
 
 <div class="tc-table-of-contents">
 
-<<toc-selective-expandable "Tool"  "sort[title]">>
+<<toc-selective-expandable "Lookup"  "sort[title]">>
 
 </div>

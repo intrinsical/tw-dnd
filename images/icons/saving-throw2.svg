@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="100mm"
-   width="100mm"
+   width="120mm"
    fill="#000000"
    version="1.1"
    x="0px"
    y="0px"
-   viewBox="0 0 100 100"
+   viewBox="0 0 120 100"
    xml:space="preserve"
    id="svg8"
    sodipodi:docname="saving-throw2.svg"
@@ -42,9 +42,10 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg8" /><g
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0" /><g
      id="g842"
-     transform="matrix(1.0893246,0,0,1.0893262,-4.466231,-4.4663121)"><path
+     transform="matrix(1.0893246,0,0,1.0893262,5.5337691,-4.4663121)"><path
        d="m 50,12.7 c 3.3,0 6.5,2.4 9.4,7 l 28.8,52.9 0.1,0.2 0.2,0.2 c 1.7,2.5 2.4,4.3 2.4,6.3 0,4.5 -3.8,7.9 -8.9,7.9 H 18 c -5.1,0 -8.9,-3.4 -8.9,-7.9 0,-2 0.7,-3.8 2.4,-6.3 l 0.2,-0.2 0.1,-0.2 28.8,-52.9 c 2.9,-4.6 6.1,-7 9.4,-7 m 0,-5 c -5.2,0 -9.9,3.2 -13.7,9.5 l -28.9,53 c -2.2,3.2 -3.3,6 -3.3,9.2 0,7.4 6.3,12.9 13.9,12.9 h 64 c 7.7,0 13.9,-5.4 13.9,-12.9 0,-3.2 -1.2,-6 -3.3,-9.2 L 63.7,17.2 C 59.9,10.9 55.2,7.7 50,7.7 Z"
        id="path2" /><path
        d="m 45.4,32.8 c -0.1,-1.3 0.4,-2.5 1.3,-3.5 1.8,-1.8 4.8,-1.8 6.6,0 1,1 1.5,2.4 1.3,3.8 0,0.1 0,0.2 0,0.3 l -3,28.1 C 51.5,62.4 50.8,63 50,63 49.3,63 48.6,62.2 48.5,61.5 L 45.3,33.4 c 0,-0.2 0,-0.4 0.1,-0.6 z"

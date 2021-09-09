@@ -1,8 +1,8 @@
-created: 20190625041252803
 title: Twinned Spell
 tags: Metamagic
 modified: 20210831071922974
 list: 
+created: 20190625041252803
 
 When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
 

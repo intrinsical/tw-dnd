@@ -1,7 +1,7 @@
+created: 20210127011825358
 title: TestMark
 tags: MarkMacro Test
-modified: 20210314145327684
-created: 20210127011825358
+modified: 20210909115527850
 
 |''&lt;&lt;mark'' //label// //label-color// //value// //value-color//''&gt;&gt;'' |<<mark label grey value green>> |
 
@@ -38,6 +38,9 @@ created: 20210127011825358
 |''&lt;&lt;hp'' //10//''&gt;&gt;'' |<<hp 10>> |
 |''&lt;&lt;temp-hp'' //10//''&gt;&gt;'' |<<temp-hp 10>> |
 |''&lt;&lt;roll'' //1d6//''&gt;&gt;'' |<<roll 1d6>> |
+|''&lt;&lt;named_action'' //name//''&gt;&gt;'' |<<named_action name>> |
+|''&lt;&lt;named_ba'' //name//''&gt;&gt;'' |<<named_ba name>> |
+|''&lt;&lt;named_reaction'' //name//''&gt;&gt;'' |<<named_reaction name>> |
 </div><div>
 
 

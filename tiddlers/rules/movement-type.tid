@@ -1,7 +1,9 @@
-title: Movement Type
-tags: Exploration Rule RuleMenu
-modified: 20210819143633886
 created: 20190730030919703
+title: Movement Type
+tags: Rule Movement
+modified: 20210907042933432
+order: 0
+caption: Types of Movement
 
 <<p "Walking">>
 <<p "Burrowing">>

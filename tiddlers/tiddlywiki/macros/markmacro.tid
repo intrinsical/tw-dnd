@@ -1,8 +1,8 @@
+created: 20210117013451313
 type: text/vnd.tiddlywiki
 title: MarkMacro
 tags: $:/tags/Macro Macro
-modified: 20210814173347750
-created: 20210117013451313
+modified: 20210909095445629
 caption: Marks Macro
 
 \define mark(label, data)
@@ -49,55 +49,55 @@ caption: Marks Macro
 <$macrocall $name=mark-dice icon=hp-empty color=negative dice="$dice$"/>
 \end
 
-\define bludgeoning(dice)
+\define bludgeoning(dice:"bludgeoning")
 <$macrocall $name=mark-dice icon=bludgeoning color=negative dice="$dice$"/>
 \end
 
-\define piercing(dice)
+\define piercing(dice:"piercing")
 <$macrocall $name=mark-dice icon=piercing color=negative dice="$dice$"/>
 \end
 
-\define slashing(dice)
+\define slashing(dice:"slashing")
 <$macrocall $name=mark-dice icon=slashing color=negative dice="$dice$"/>
 \end
 
-\define acid(dice)
+\define acid(dice:"acid")
 <$macrocall $name=mark-dice icon=acid color=negative dice="$dice$"/>
 \end
 
-\define cold(dice)
+\define cold(dice:"cold")
 <$macrocall $name=mark-dice icon=cold color=negative dice="$dice$"/>
 \end
 
-\define fire(dice)
+\define fire(dice:"fire")
 <$macrocall $name=mark-dice icon=fire color=negative dice="$dice$"/>
 \end
 
-\define force(dice)
+\define force(dice:"force")
 <$macrocall $name=mark-dice icon=force color=negative dice="$dice$"/>
 \end
 
-\define lightning(dice)
+\define lightning(dice:"lightning")
 <$macrocall $name=mark-dice  icon=lightning color=negative dice="$dice$"/>
 \end
 
-\define necrotic(dice)
+\define necrotic(dice:"necrotic")
 <$macrocall $name=mark-dice icon=necrotic color=negative dice="$dice$"/>
 \end
 
-\define poison(dice)
+\define poison(dice:"poison")
 <$macrocall $name=mark-dice icon=poison color=negative dice="$dice$"/>
 \end
 
-\define psychic(dice)
+\define psychic(dice:"psychic")
 <$macrocall $name=mark-dice icon=psychic color=negative dice="$dice$"/>
 \end
 
-\define radiant(dice)
+\define radiant(dice:"radiant")
 <$macrocall $name=mark-dice icon=radiant color=negative dice="$dice$"/>
 \end
 
-\define thunder(dice)
+\define thunder(dice:"thunder")
 <$macrocall $name=mark-dice icon=thunder color=negative dice="$dice$"/>
 \end
 
@@ -393,7 +393,7 @@ caption: Marks Macro
 <span class="icon-disadvantage entity-tag" title="disadvantage"/>
 \end
 
-\define action()
+\define action(text)
 <span class="icon-action" title="action"/>
 \end
 
@@ -403,6 +403,30 @@ caption: Marks Macro
 
 \define reaction()
 <span class="icon-reaction" title="reaction"/>
+\end
+
+\define named_action(text:"action")
+\whitespace trim
+<div class="mark" title="action: $text$">
+  <span class="label skill icon-action"/>
+  <span class="data value">$text$</span>
+</div>
+\end
+
+\define named_ba(text:"bonus action")
+\whitespace trim
+<div class="mark" title="bonus-action: $text$">
+  <span class="label skill icon-bonus-action"/>
+  <span class="data value">$text$</span>
+</div>
+\end
+
+\define named_reaction(text:"reaction")
+\whitespace trim
+<div class="mark" title="reaction: $text$">
+  <span class="label skill icon-reaction"/>
+  <span class="data value">$text$</span>
+</div>
 \end
 
 \define round(value)

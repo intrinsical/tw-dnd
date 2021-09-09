@@ -1,16 +1,16 @@
+created: 20210226084046705
 title: SpellSummaryRowTemplate
 tags: Template
-modified: 20210317014114619
+modified: 20210909055125781
 list: 
-created: 20210226084046705
 
 <tr>
 <th valign="top" align="center" style="width: 80px;">{{!!glyph_casting_time}}<$reveal type="match" state="!!concentration" text="Yes"><<concentration>></$reveal><$reveal type="match" state="!!ritual" text="Yes"><<ritual>></$reveal><$reveal type="nomatch" state="!!at_higher_level" text=""><<upcast>></$reveal></th>
-<th valign="top" align="left" colspan="3" style="width: 200px;"><$link to={{!!title}}><$view field="title"/></$link><span style="float: right; font-weight: normal; font-style: italic;"><$reveal type="match" state="!!level" text="0">cantrip</$reveal><$reveal type="match" state="!!level" text="1">1st</$reveal><$reveal type="match" state="!!level" text="2">2nd</$reveal><$reveal type="match" state="!!level" text="3">3rd</$reveal><$reveal type="match" state="!!level" text="4">4th</$reveal><$reveal type="match" state="!!level" text="5">5th</$reveal><$reveal type="match" state="!!level" text="6">6th</$reveal><$reveal type="match" state="!!level" text="7">7th</$reveal><$reveal type="match" state="!!level" text="8">8th</$reveal><$reveal type="match" state="!!level" text="9">9th</$reveal></span></th>
+<th valign="top" align="left" colspan="3" style="width: 240px;"><$link to={{!!title}}><$view field="title"/></$link><span style="float: right; font-weight: normal; font-style: italic;"><$reveal type="match" state="!!level" text="0">cantrip</$reveal><$reveal type="match" state="!!level" text="1">1st</$reveal><$reveal type="match" state="!!level" text="2">2nd</$reveal><$reveal type="match" state="!!level" text="3">3rd</$reveal><$reveal type="match" state="!!level" text="4">4th</$reveal><$reveal type="match" state="!!level" text="5">5th</$reveal><$reveal type="match" state="!!level" text="6">6th</$reveal><$reveal type="match" state="!!level" text="7">7th</$reveal><$reveal type="match" state="!!level" text="8">8th</$reveal><$reveal type="match" state="!!level" text="9">9th</$reveal></span></th>
 <td valign="top" align="left" rowspan="2" style="width: 75%;">{{!!glyph_effect}} </td>
 </tr>
 <tr>
-<td valign="top" align="center"><span style="font-size: smaller; font-style: italic;" title={{!!material}}>{{!!components}}</span></td>
-<td valign="top" align="left" colspan="3"><span style="display: inline-block; width: 60px; text-align: right;">{{!!glyph_range}}</span> <span style="color: lightgray;">|</span> <span style="display: inline-block; min-width: 40px; text-align: center;">{{!!glyph_target}}</span> <span style="color: lightgray;">|</span> <span style="display: inline-block;">{{!!glyph_duration}}</span></td>
+<td valign="top" style="font-size:smaller; font-style: italic; text-align: center;"><span title={{!!material}}>{{!!components}}</span></td>
+<td valign="top" style="width:80px; padding:0 2px 0 2px; text-align:right;">{{!!glyph_range}}</td><td valign="top" style="width:80px; min-width:40px; padding:0 2px 0 2px; text-align:center;">{{!!glyph_target}}</td><td valign="top" style="width:80px; padding:0 2px 0 2px; text-align:left;">{{!!glyph_duration}}</td>
 </tr>
 

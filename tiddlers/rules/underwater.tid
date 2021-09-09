@@ -1,17 +1,17 @@
+created: 20190929132646530
 title: Underwater
 tags: Environment Movement Rule
 order: 8
-modified: 20210812062658918
-created: 20190929132646530
+modified: 20210907043543462
 
 !!! ''Underwater Movement''
 
 * Characters with a swimming speed move at their swimming speed.
 ** Can swim all day without penalty.
-* Characters without a swimming speed treats swimming underwater as difficult terrain (halved movement speed), 
-** After each hour of swimming, a character must succeed on a DC 10 Constitution saving throw or gain one level of exhaustion.
+* Characters without a swimming speed treats swimming underwater as <<difficult>> (halved movement speed), 
+** After each hour of swimming, a character must succeed on a <<save Con 10>> or gain one level of [[Exhaustion]].
 * Swimming through deep water is similar to traveling at high altitudes, because of the water's pressure and cold temperature. 
-** For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining exhaustion. 
+** For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining [[Exhaustion]]. 
 ** Swimming for an hour at a depth greater than 200 feet counts as 4 hours.
 
 !!! ''Underwater Combat''
