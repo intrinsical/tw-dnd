@@ -1,11 +1,75 @@
+created: 20190723101217951
 title: Ritual Spells
 tags: [[Spell Encyclopedia]]
-modified: 20190723101301912
-created: 20190723101217951
+modified: 20210914050930232
 
 <table>
-<tr><th>Spell</th><th>Casting Time</th></tr>
-<$list filter="[tag[Spell]field:ritual[Yes]sort[title]]" emptyMessage="<tr><td>No spells found.</td></tr>">
+<tr><th align="center">1st Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[1]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">2nd Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[2]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">3rd Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[3]sort[]]" emptyMessage="<tr><td>No spells found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">4th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[4]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">5th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[5]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">6th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[6]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">7th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[7]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">8th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[8]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
+  <tr>
+    <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
+    <td align="left">{{!!casting_time}}</td>
+  </tr>
+</$list>
+
+<tr><th align="center">9th Level Rituals</th><th>Normal Casting Time</th></tr>
+<$list filter="[tag[Spell]field:ritual[Yes]level[9]sort[]]" emptyMessage="<tr><td>No rituals found.</td></tr>">
   <tr>
     <th align="left"><$link to=<<currentTiddler>> ><<currentTiddler>></$link></th>
     <td align="left">{{!!casting_time}}</td>

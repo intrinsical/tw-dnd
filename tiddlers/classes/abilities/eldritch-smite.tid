@@ -1,10 +1,10 @@
+created: 20190514090655611
 title: Eldritch Smite
 tags: Ability [[Eldritch Invocation]] [[Pact of the Blade]] 5th
-modified: 20210823054143390
-created: 20190514090655611
+modified: 20210914163129314
 
-''Prerequisite:'' 5th level, Pact of the Blade feature
+''Prerequisite:'' 5th level, [[Pact of the Blade]] feature
 
-Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.
+Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra <<force 1d8>> to the target, plus another 1d8 per level of the spell slot, and you can knock the target [[Prone]] if it is Huge or smaller.
 
 
