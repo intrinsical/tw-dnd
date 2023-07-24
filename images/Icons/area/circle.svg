@@ -19,7 +19,7 @@
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"><metadata
    id="metadata12"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs10" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -51,8 +51,8 @@
      spacingy="3.7795275" /></sodipodi:namedview>
 
 <circle
-   style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:5.60002"
+   style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:5.60002"
    id="path839"
-   cx="60.000092"
+   cx="60"
    cy="50"
-   r="48.000092" /></svg>
+   r="46" /></svg>
