@@ -141,7 +141,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Monstrosity](monster/monstrosity.svg)
 ![Ooze](monster/ooze.svg)
 ![Plant](monster/plant.svg)
-![undead](monster/Undead.svg)
+![Undead](monster/undead.svg)
 
 ## Skill Proficiency Icons
 
@@ -171,8 +171,21 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Stealth](skill/stealth.svg)
 ![Survival](skill/survival.svg)
 
-
 ## Spell Icons
+
+![Abjuration](spell/abjuration.svg)
+![Concentration](spell/concentration.svg)
+![Conjuration](spell/conjuration.svg)
+![Divination](spell/divination.svg)
+![Enchantment](spell/enchantment.svg)
+![Evocation](spell/evocation.svg)
+![Illusion](spell/illusion.svg)
+![Instantaneous](spell/instantaneous.svg)
+![Necromancy](spell/necromancy.svg)
+![Octagon](spell/octagon.svg)
+![Ritual](spell/ritual.svg)
+![Transmutation](spell/transmutation.svg)
+![Upcast](spell/upcast.svg)
 
 ## Target Type Icons
 
