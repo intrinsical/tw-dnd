@@ -5,6 +5,13 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Attribute Icons
 
 ![AC](attribute/ac.svg?raw=true)
+![Attunement](attribute/attunement.svg?raw=true)
+![Light](attribute/light.svg?raw=true)
+![Range](attribute/range.svg?raw=true)
+![Saving Throw](attribute/saving-throw.svg?raw=true)
+![Skill Check](attribute/skillcheck.svg?raw=true)
+![Terrain](attribute/terrain.svg?raw=true)
+![Vision](attribute/vision.svg?raw=true)
 
 ## Campaign Icons
 
