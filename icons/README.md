@@ -189,4 +189,24 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Target Type Icons
 
+![Circle](target/circle.svg)
+![Cone](target/cone.svg)
+![Cube](target/cube.svg)
+![Cylinder](target/cylinder.svg)
+![Line](target/line.svg)
+![Self](target/self.svg)
+![Sphere](target/sphere.svg)
+![Square](target/square.svg)
+![Touch](target/touch.svg)
+![Wall](target/wall.svg)
+
 ## Utility Icons
+
+![Bubble](util/bubble.svg)
+![Cog](util/cog.svg)
+![Cross](util/cross.svg)
+![Not Applicable](util/not-applicable.svg)
+![Search](util/search.svg)
+![Star](util/star.svg)
+![Tick](util/tick.svg)
+![Trade](util/trade.svg)
