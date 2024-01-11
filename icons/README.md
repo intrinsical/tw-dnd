@@ -5,22 +5,28 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Attribute Icons
 
 ![AC](attribute/ac.svg)
-![Attunement](attribute/attunement.svg?raw=true)
-![Light](attribute/light.svg?raw=true)
-![Range](attribute/range.svg?raw=true)
-![Saving Throw](attribute/saving-throw.svg?raw=true)
-![Skill Check](attribute/skillcheck.svg?raw=true)
-![Terrain](attribute/terrain.svg?raw=true)
-![Vision](attribute/vision.svg?raw=true)
+![Attunement](attribute/attunement.svg)
+![Light](attribute/light.svg)
+![Range](attribute/range.svg)
+![Saving Throw](attribute/saving-throw.svg)
+![Skill Check](attribute/skillcheck.svg)
+![Terrain](attribute/terrain.svg)
+![Vision](attribute/vision.svg)
 
 ## Campaign Icons
 
-![Candlekeep](campaign/candlekeep.svg?raw=true)
-![COS](campaign/curse-of-strahd.svg?raw=true)
-![DIA](campaign/descent-into-avernus.svg?raw=true)
-![EE](campaign/elemental-evil.svg?raw=true)
-![HOTDQ](campaign/hoard-of-the-dragon-queen.svg?raw=true)
-![LOX](campaign/light-of-xaryxis.svg?raw=true)
+![Candlekeep](campaign/candlekeep.svg)
+![COS](campaign/curse-of-strahd.svg)
+![DIA](campaign/descent-into-avernus.svg)
+![EE](campaign/elemental-evil.svg)
+![HOTDQ](campaign/hoard-of-the-dragon-queen.svg)
+![LOX](campaign/light-of-xaryxis.svg)
+![OOTA](campaign/oit-of-the-abyss.svg)
+![ROTF](campaign/rime-of-the-frostmaiden.svg)
+![SKT](campaign/storm-kings-thunder.svg)
+![TOA](campaign/tomb-of-annihilation.svg)
+![Waterdeep](campaign/waterdeep.svg)
+![TYP](campaign/yawning-portal.svg)
 
 ## Class Icons
 
