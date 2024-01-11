@@ -4,7 +4,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Attribute Icons
 
-![AC](attribute/ac.svg?raw=true)
+![AC](attribute/ac.svg)
 ![Attunement](attribute/attunement.svg?raw=true)
 ![Light](attribute/light.svg?raw=true)
 ![Range](attribute/range.svg?raw=true)
@@ -14,6 +14,13 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Vision](attribute/vision.svg?raw=true)
 
 ## Campaign Icons
+
+![Candlekeep](campaign/candlekeep.svg?raw=true)
+![COS](campaign/curse-of-strahd.svg?raw=true)
+![DIA](campaign/descent-into-avernus.svg?raw=true)
+![EE](campaign/elemental-evil.svg?raw=true)
+![HOTDQ](campaign/hoard-of-the-dragon-queen.svg?raw=true)
+![LOX](campaign/light-of-xaryxis.svg?raw=true)
 
 ## Class Icons
 
