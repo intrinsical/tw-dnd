@@ -40,7 +40,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Paladin](class/paladin.svg)
 ![Ranger](class/ranger.svg)
 ![Rogue](class/rogue.svg)
-![Sorcerer](class/Sorcerer.svg)
+![Sorcerer](class/sorcerer.svg)
 ![Warlock](class/warlock.svg)
 ![Wizard](class/wizard.svg)
 
@@ -77,7 +77,36 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Dice Icons
 
+![Advantage](dice/advantage.svg)
+![D4](dice/d4.svg)
+![D6](dice/d6.svg)
+![D8](dice/d8.svg)
+![D10](dice/d10.svg)
+![D12](dice/d12.svg)
+![D20](dice/d20.svg)
+![Disadvantage](dice/disadvantage.svg)
+![Roll](dice/roll.svg)
+
 ## Entity Type Icons
+
+![Book](entity/book.svg)
+![Campaign](entity/campaign.svg)
+![DM](entity/dm.svg)
+![Location](entity/location.svg)
+![Loot](entity/loot.svg)
+![Magic Item](entity/magic-item.svg)
+![Map](entity/map.svg)
+![Monster](entity/monster.svg)
+![Mount](entity/mount.svg)
+![Organization](entity/organization.svg)
+![Person](entity/person.svg)
+![Potion](entity/potion.svg)
+![Scroll](entity/scroll.svg)
+![Ship](entity/ship.svg)
+![Spell](entity/spell.svg)
+![Spellbook](entity/spellbook.svg)
+![Time](entity/time.svg)
+![Vehicle](entity/vehicle.svg)
 
 ## Hitpoint Icons
 
