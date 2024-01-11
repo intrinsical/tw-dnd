@@ -128,9 +128,49 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Monster Type Icons
 
+![Aberration](monster/aberration.svg)
+![Beast](monster/beast.svg)
+![Celestial](monster/celestial.svg)
+![Construct](monster/construct.svg)
+![Dragon](monster/dragon.svg)
+![Elemental](monster/elemental.svg)
+![Fae](monster/fae.svg)
+![Fiend](monster/fiend.svg)
+![Giant](monster/giant.svg)
+![Humanoid](monster/humanoid.svg)
+![Monstrosity](monster/monstrosity.svg)
+![Ooze](monster/ooze.svg)
+![Plant](monster/plant.svg)
+![undead](monster/Undead.svg)
+
 ## Skill Proficiency Icons
 
+![Expertise](proficiency/expertise.svg)
+![Half](proficiency/half.svg)
+![Proficient](proficiency/proficient.svg)
+![Unskilled](proficiency/unskilled.svg)
+
 ## Skill Icons
+
+![Acrobatics](skill/acrobatics.svg)
+![Animal Handling](skill/animal-handling.svg)
+![Arcana](skill/arcana.svg)
+![Athletics](skill/athletics.svg)
+![Deception](skill/deception.svg)
+![History](skill/history.svg)
+![Insight](skill/insight.svg)
+![Intimidation](skill/intimidation.svg)
+![Investigation](skill/investigation.svg)
+![Medicine](skill/medicine.svg)
+![Nature](skill/nature.svg)
+![Perception](skill/perception.svg)
+![Performance](skill/performance.svg)
+![Persuasion](skill/persuasion.svg)
+![Religion](skill/religion.svg)
+![Sleight of Hand](skill/sleight-of-hand.svg)
+![Stealth](skill/stealth.svg)
+![Survival](skill/survival.svg)
+
 
 ## Spell Icons
 
