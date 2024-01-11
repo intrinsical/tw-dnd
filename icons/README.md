@@ -110,7 +110,21 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Hitpoint Icons
 
+![Empty](hp/empty.svg)
+![Full](hp/full.svg)
+![Half](hp/half.svg)
+![Temp](hp/temp.svg)
+
 ## Logos
+
+![AL](logo/adventurers-league.svg)
+![CR](logo/critical-role.svg)
+![DND](logo/dnd.svg)
+![DDB](logo/dnd-beyond.svg)
+![FG](logo/fantasy-grounds.svg)
+![Foundry](logo/foundry.svg)
+![OR](logo/owlbear-rodeo.svg)
+![Roll20](logo/roll20.svg)
 
 ## Monster Type Icons
 
