@@ -4,7 +4,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Attribute Icons
 
-$${\color{blue}![AC](attribute/ac.svg)}$$
+![AC](attribute/ac.svg)
 ![Attunement](attribute/attunement.svg)
 ![Light](attribute/light.svg)
 ![Range](attribute/range.svg)
