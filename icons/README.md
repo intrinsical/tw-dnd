@@ -134,7 +134,9 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Location Type icons
 
 ![Castle](location/castle.svg)
+![Dungeon](location/dungeon.svg)
 ![Hut](location/hut.svg)
+![Tower](location/tower.svg)
 ![Village](location/village.svg)
 
 ## Logos
@@ -240,6 +242,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Battleaxe](weapon/battleaxe.svg)
 ![Bow](weapon/bow.svg)
 ![Crossbow](weapon/crossbow.svg)
+![Glaive](weapon/glaive.svg)
 ![Halberd](weapon/halberd.svg)
 ![Hammer](weapon/hammer.svg)
 ![Handaxe](weapon/handaxe.svg)
