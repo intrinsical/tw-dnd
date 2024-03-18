@@ -89,24 +89,40 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Entity Type Icons
 
+![Armor](entity/armor.svg)
 ![Book](entity/book.svg)
-![Campaign](entity/campaign.svg)
-![DM](entity/dm.svg)
 ![Location](entity/location.svg)
 ![Loot](entity/loot.svg)
 ![Magic Item](entity/magic-item.svg)
 ![Map](entity/map.svg)
-![Monster](entity/monster.svg)
 ![Mount](entity/mount.svg)
 ![Organization](entity/organization.svg)
+![Pack](entity/pack.svg)
 ![Person](entity/person.svg)
+![Pet](entity/pet.svg)
+![Pick](entity/pick.svg)
 ![Potion](entity/potion.svg)
-![Scroll](entity/scroll.svg)
+![Ring](entity/ring.svg)
+![Spell Scroll](entity/scroll.svg)
 ![Ship](entity/ship.svg)
-![Spell](entity/spell.svg)
 ![Spellbook](entity/spellbook.svg)
 ![Time](entity/time.svg)
 ![Vehicle](entity/vehicle.svg)
+![Wand](entity/wand.svg)
+![Weapon](entity/weapon.svg)
+
+## D&D Game Icons
+
+![Adventure Book](game/adventure-book.svg)
+![Campaign](game/campaign.svg)
+![Character](game/character.svg)
+![Dungeon Master](game/dm.svg)
+![Lock](game/lock.svg)
+![Monster](game/monster.svg)
+![Puzzle](game/puzzle.svg)
+![Source Book](game/source-book.svg)
+![Spell](game/spell.svg)
+![Trap](game/trap.svg)
 
 ## Hitpoint Icons
 
@@ -115,16 +131,23 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Half](hp/half.svg)
 ![Temp](hp/temp.svg)
 
+## Location Type icons
+
+![Castle](location/castle.svg)
+![Hut](location/hut.svg)
+![Village](location/village.svg)
+
 ## Logos
 
-![AL](logo/adventurers-league.svg)
-![CR](logo/critical-role.svg)
-![DND](logo/dnd.svg)
-![DDB](logo/dnd-beyond.svg)
-![FG](logo/fantasy-grounds.svg)
-![Foundry](logo/foundry.svg)
-![OR](logo/owlbear-rodeo.svg)
+![Adventurers' League](logo/adventurers-league.svg)
+![Critical Role](logo/critical-role.svg)
+![Dungeons & Dragons](logo/dnd.svg)
+![D&D Beyond](logo/dnd-beyond.svg)
+![Fantasy Grounds](logo/fantasy-grounds.svg)
+![Foundry VTT](logo/foundry.svg)
+![Owlbear Rodeo](logo/owlbear-rodeo.svg)
 ![Roll20](logo/roll20.svg)
+![Tiddlywiki](logo/tiddlywiki.svg)
 
 ## Monster Type Icons
 
@@ -210,3 +233,19 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Star](util/star.svg)
 ![Tick](util/tick.svg)
 ![Trade](util/trade.svg)
+
+## Weapon Type icons
+
+![Arrow](weapon/arrow.svg)
+![Battleaxe](weapon/battleaxe.svg)
+![Bow](weapon/bow.svg)
+![Crossbow](weapon/crossbow.svg)
+![Halberd](weapon/halberd.svg)
+![Hammer](weapon/hammer.svg)
+![Handaxe](weapon/handaxe.svg)
+![Mace](weapon/mace.svg)
+![Sling](weapon/sling.svg)
+![Spear](weapon/spear.svg)
+![Sword](weapon/sword.svg)
+![Trident](weapon/trident.svg)
+![Whip](weapon/whip.svg)
