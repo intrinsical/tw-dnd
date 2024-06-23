@@ -1,11 +1,13 @@
-# Design Goals
+# A Simple Mass Combat System
+
+## Design Goals
 
 * __Easy to Learn.__ Anyone familiar with D&D 5e should be able to learn the rules after playing one mass combat encounter. 
 * __Gameplay Time.__ A mass combat encounter should take roughly the same amount of play time to resolve as a D&D 5e combat encounter. 
 * __Squad Level Combat.__ The rules are designed to support squad versus squad combat. The intended gameplay is for each player character to take command of a squad of creatures, leading them into battle against opposing squads of creatures. 
 * __VTT Support.__ Mass combat encounters can run on VTTs that support D&D 5e combat encounter rules. 
 
-# The Rules
+## The Rules
 
 * __Units.__ A unit is composed of 1 or more creatures of the same type. For example, 200 goblins form a unit. 10 dragons is another unit. The number of creatures in a unit is capped at 200. 
 * __Unit Statblock.__ The unit uses its creature's statblock as its unit statblock. During mass combat, the unit can use all traits, abilities and attacks as listed in the creature's statblock. When combat begins, the unit will roll initiative using its creature's initiative. The creature's statblock determines how far it moves, what actions, bonus actions and reactions the unit can take. If the creature has the multiattack feature, the unit can make multiattack. 
@@ -31,7 +33,7 @@
 | 101-150 | 3 |
 | 151-200 | 4 |
 
-## Support for Battlemaps
+### Support for Battlemaps
 
 When battlemaps are used, the following rules apply:
 
@@ -57,7 +59,7 @@ The list of usable maneuvers can be found in the [[Tactical Maneuvers Table|Mass
 
 <$transclude $tiddler="Mass Combat Rules - Tactical Maneuvers" $mode="block" />
 
-* In Practice
+## In Practice
 
 The key difference between standard combat and mass combat is really in how damage is calculated. Also, keep track of the number of surviving combatants and the unit's damage factor using the following procedure:
 
