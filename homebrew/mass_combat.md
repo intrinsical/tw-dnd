@@ -40,13 +40,13 @@ __Table 1:__ Damage Factor Table
 When battlemaps are used, the following rules apply:
 
 * __Grid Size.__ The size of a single square on the battlemap has been increased from the default  of 5x5 feet squares to 30x30 feet squares. __Optional:__ Squares can be replaced with hexagons representing a circular area of 30 feet in diameter. 
-* __Unit Token(s).__ The physical area on the battlemap taken up by a unit varies with the size of the creature and the number of combatants in the unit. A unit is represented on the battlemap by one or more tokens. The number of grid spaces occupied by a unit can be determined through the {{Mass Combat Rules - Combatants Per Square||Link}} below.
+* __Unit Token(s).__ The physical area on the battlemap taken up by a unit varies with the size of the creature and the number of combatants in the unit. A unit is represented on the battlemap by one or more tokens. The number of grid spaces occupied by a unit can be determined through the __Combatants Per Square Table__ below.
 * __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 * __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
   * __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
 * __Splitting an Attack.__ When a unit with more than one token is making an attack, it can divide its attack into multiple strikes. 
   * The number of unit tokens determine the maximum number strikes a unit can make. 
-  * Each strike The minimum number of combatants in each strike is determined by the {{Mass Combat Rules - Combatants Per Square||Link}}.
+  * Each strike The minimum number of combatants in each strike is determined by the __Combatants Per Square Table__.
   * Each enemy unit may only be attacked.
 
 | Size | Combatants per Square/Hex |
