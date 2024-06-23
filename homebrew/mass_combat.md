@@ -17,7 +17,7 @@
 * __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
   * __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #10.1.
   * __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
-* __Ranged Attacks.__ 
+* __Ranged Attacks.__ `TODO`
 * __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
 * __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
   * __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
@@ -44,10 +44,11 @@ When battlemaps are used, the following rules apply:
 * __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 * __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
   * __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
-* __Splitting an Attack.__ When a unit with more than one token is making an attack, it can divide its attack into multiple strikes. 
-  * The number of unit tokens determine the maximum number strikes a unit can make. 
-  * Each strike The minimum number of combatants in each strike is determined by the __Combatants Per Square Table__.
-  * Each enemy unit may only be attacked.
+* __Splitting an Attack.__ When making an attack, the unit can divide its combatants to make strikes at different targets. 
+  * `TODO` Each strike in the attack must be made against different target units. 
+  * `TODO` The number of unit tokens determine the maximum number strikes a unit can make. 
+  * `TODO` Each strike The minimum number of combatants in each strike is determined by the __Combatants Per Square Table__.
+  * `TODO` Each enemy unit may only be attacked.
 
 | Size | Combatants per Square/Hex |
 |---|:---:|
@@ -85,8 +86,9 @@ The list of usable maneuvers can be found in the __Tactical Maneuvers Table__ be
 
 __Table 3:__ Tactical Maneuvers Table
 
-## In Practice
+## Mass Combat In Practice
 
+`TODO: Entire section needs to be re-written` 
 The key difference between standard combat and mass combat is really in how damage is calculated. Also, keep track of the number of surviving combatants and the unit's damage factor using the following procedure:
 
 __When a unit's hitpoints has been changed,__ 
@@ -94,4 +96,38 @@ __When a unit's hitpoints has been changed,__
 * Update the number of creatures remaining in the unit. `num_combatants = round(hp / max_hp * max_combatants)`
 * Look up the unit's new damage factor. 
 
-## 
+## Designing Mass Combat Encounters
+
+`TODO`
+In reality, this mass combat ruleset is just D&D 5e monster vs monster combat with some added mass combat dressing. The guidelines for creating combat encounters in Chapter 3 of the Dungeon Master's Guide, under "Creating a Combat Encounter" is also helpful for creating a mass combat encounter. 
+
+* __Determine Friendly Units.__ Create the friendly units that are under the player's control. 
+* __Calculate Total XP of Friendly Units.__ Add up the unit XP for all friendly units in the encounter.
+** __Unit XP__. A unit's XP takes both the unit's creature type and size into consideration. To get the unit's XP value, multiply the XP value found in the creature statblock by the unit's `damage_factor`.
+* __Modify Total XP for Multiple Units.__ As the number of units increases, they become more dangerous. To take this into consideration, multiply __Total XP__ by the XP Multiplier found in the __Unit Multiplier Table__.
+* __Modify Total XP for  Encounter Difficulty.__ Determine the encounter's difficulty level. To adjust for encounter difficulty, multiply __Total XP__ with the XP Multiplier found in the __Encounter Difficulty Table__. 
+
+With the calculated __Total XP__ value in hand, design the opposing units to match this calculated value. 
+
+
+| Difficulty | XP Multiplier |
+|---|:---:|
+| __Easy__ | x 0.6 |
+| __Medium__ | x 1.2 |
+| __Hard__ | x 1.8 |
+| __Deadly__ | x 2.8 |
+
+__Table 4:__ Encounter Difficulty Table
+
+
+| Number of Units | XP Multiplier |
+|:---:|:---:|
+| 1 | × 1.0 |
+| 2 | × 1.5 |
+| 3–6 | × 2 |
+| 7–10 | × 2.5 |
+| 11–14 | × 3 |
+| 15 or more | × 4 |
+
+__Table 5:__ Unit Multiplier Table
+
