@@ -32,6 +32,7 @@
 | __51-100__ | 2 |
 | __101-150__ | 3 |
 | __151-200__ | 4 |
+
 __Table 1:__ Damage Factor Table
 
 ### Support for Battlemaps
@@ -56,6 +57,7 @@ When battlemaps are used, the following rules apply:
 | __Large__ | 10 |
 | __Huge__ | 5 |
 | __Gargantuan__ | 1-2 (DM's Discretion) |
+
 __Table 2:__ Combatants Per Square Table
 
 ## Unit Commanders
@@ -80,6 +82,7 @@ The list of usable maneuvers can be found in the __Tactical Maneuvers Table__ be
 | Paladin | __Intercept Attacks.__ Until the start of the unit's next turn, the unit reduces the damage taken from melee attacks by 1d10 + the commander's proficiency bonus (to a minimum of 0 damage). |
 | Ranger | __Whirlwind Attack.__ On this turn, the unit can use it's action to make an melee attack against any units adjacent to it, with a separate attack roll for each target unit. |
 | Rogue | __Sneak Attack.__ On this turn, the unit's attacks deal extra damage equal to the rogue commander's sneak attack damage. |
+
 __Table 3:__ Tactical Maneuvers Table
 
 ## In Practice
