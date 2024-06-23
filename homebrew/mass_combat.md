@@ -11,18 +11,25 @@
 * __Unit Statblock.__ The unit uses its creature's statblock as its unit statblock. During mass combat, the unit can use all traits, abilities and attacks as listed in the creature's statblock. When combat begins, the unit will roll initiative using its creature's initiative. The creature's statblock determines how far it moves, what actions, bonus actions and reactions the unit can take. If the creature has the multiattack feature, the unit can make multiattack. 
 * __Unit Size.__ A combatant is a creature that is still in fighting condition. A unit starts combat with a number of combatants, which will be referred to as the unit's `max_combatants`. As combat progresses and the unit gets attacked, the number of remaining combatants will be referred to as `current_combatants`. 
 * __Unit Hitpoints.__ The creature's hitpoints and maximum hitpoints as found in its creature statblock will be used as a yardstick for unit's health in combat. They are also used to determine the number of remaining combatant using a formula found in Rule #10.2.
-* __Unit Damage Factor.__ The size of a unit plays a role in amplifying its attack as well as minimizing damage taken by the unit. This is represented by the unit's `damage_factor`, determined using the __Unit Damage Factor Table__. <$transclude $tiddler="Mass Combat Rules - Damage Factor Table" $mode="block"/>
+* __Unit Damage Factor.__ The size of a unit plays a role in amplifying its attack as well as minimizing damage taken by the unit. This is represented by the unit's `damage_factor`, determined using the __Unit Damage Factor Table__. 
 * __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
   * __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #10.1.
   * __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
 * __Ranged Attacks.__ 
-* __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is [[Incapacitated]] and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
+* __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
 * __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
   * __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
   * __Broken Units.__ A broken unit has had half of its combatants killed in action. A commander can spend one hour rallying the remaining combatants and reforming the unit. Half of the remaining creatures can still serve as combatants while the other half are seriously injured and are unable to fight.
 * __Formulas.__
   * __Adjusting Damage Taken by a Unit.__ `target_damage = round(damage x Unit's damage_factor / Target's damage_factor)`
   * __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
+
+| No. of Combatants | Damage Factor |
+|---|---|
+| 1-50 | 1 |
+| 51-100 | 2 |
+| 101-150 | 3 |
+| 151-200 | 4 |
 
 ## Support for Battlemaps
 
