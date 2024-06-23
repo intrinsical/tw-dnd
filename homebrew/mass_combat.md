@@ -27,11 +27,11 @@
   * __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
 
 | No. of Combatants | Damage Factor |
-|---|---|
-| 1-50 | 1 |
-| 51-100 | 2 |
-| 101-150 | 3 |
-| 151-200 | 4 |
+|:---:|:---:|
+| __1-50__ | 1 |
+| __51-100__ | 2 |
+| __101-150__ | 3 |
+| __151-200__ | 4 |
 
 ### Support for Battlemaps
 
@@ -47,7 +47,14 @@ When battlemaps are used, the following rules apply:
   * Each strike The minimum number of combatants in each strike is determined by the {{Mass Combat Rules - Combatants Per Square||Link}}.
   * Each enemy unit may only be attacked.
 
-<$transclude $tiddler="Mass Combat Rules - Combatants Per Square" $mode="block" />
+| Size | Combatants per Square/Hex |
+|---|:---:|
+| __Tiny__ | 200 |
+| __Small__ | 80 |
+| __Medium__ | 40 |
+| __Large__ | 10 |
+| __Huge__ | 5 |
+| __Gargantuan__ | 1-2 (DM's Discretion) |
 
 ## Unit Commanders
 
@@ -57,7 +64,21 @@ A player character can serve as a unit's commander. During a mass combat encount
 
 The list of usable maneuvers can be found in the [[Tactical Maneuvers Table|Mass Combat Rules - Tactical Maneuvers]] below.
 
-<$transclude $tiddler="Mass Combat Rules - Tactical Maneuvers" $mode="block" />
+| Prerequisite Class | Tactical Maneuver |
+|---|---|
+| Any Class | __Brace.__ The unit braces itself for incoming attacks, adding a +2 bonus to its armor class until the start of its next turn. While the unit is braced for attacks, it can use its reaction make a melee attack against the attacking unit. |
+|&mdash; | __Charge.__ The unit moves at least 30 feet and makes a melee attack. On a hit, the target unit takes an additional 1d6 damage and must succeed on a DC 13 Strength saving throw or be knocked prone. |
+|&mdash; | __Fall Back.__ The unit makes a melee attack before disengaging. The unit's movement does not provoke opportunity attacks for the rest of the unit's turn. |
+|&mdash; | __Flanking Attack.__ The unit makes a melee attack with advantage when an ally unit is adjacent to the target unit. |
+|&mdash; | __Skirmishing Attack.__ The unit makes a melee attack. On a hit, the target has disadvantage for its next attack roll. |
+|&mdash; | __Spellcasting.__ The unit dodges while the unit commander casts a spell. |
+| Barbarian | __Reckless Attacks.__ For this turn, the unit has advantage on its attacks and advantage on rolls using Strength. Attacks against the unit are made with advantage. |
+| Fighter | __Action Surge.__ The unit can take one additional action on this turn. |
+| Monk | __Stunning Strike.__ When the unit hits with a melee attack on this turn, the target unit must succeed on a Constitution saving throw or be stunned until the end of the unit's next turn. The DC for this strike is 8 + the commander's proficiency bonus + the commander's wisdom modifier. |
+| Paladin | __Intercept Attacks.__ Until the start of the unit's next turn, the unit reduces the damage taken from melee attacks by 1d10 + the commander's proficiency bonus (to a minimum of 0 damage). |
+| Ranger | __Whirlwind Attack.__ On this turn, the unit can use it's action to make an melee attack against any units adjacent to it, with a separate attack roll for each target unit. |
+| Rogue | __Sneak Attack.__ On this turn, the unit's attacks deal extra damage equal to the rogue commander's sneak attack damage. |
+
 
 ## In Practice
 
