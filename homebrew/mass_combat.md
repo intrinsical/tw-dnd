@@ -40,17 +40,16 @@ __Table 1:__ Damage Factor Table
 When battlemaps are used, the following rules apply:
 
 * __Grid Size.__ The size of a single square on the battlemap has been increased from the default  of 5x5 feet squares to 30x30 feet squares. __Optional:__ Squares can be replaced with hexagons representing a circular area of 30 feet in diameter. 
-* __Unit Token(s).__ The physical area on the battlemap taken up by a unit varies with the size of the creature and the number of combatants in the unit. A unit is represented on the battlemap by one or more tokens. The number of grid spaces occupied by a unit can be determined through the __Combatants Per Square Table__ below.
+* __Unit Token(s).__ The number of combatants that can fit in a 30x30 feet square grid is listed in the __Combatants Per Square Table__. Units with a large number of combatants may occupy more than one grid square. The number of grid squares occupied by a unit can be determined by dividing its `current_combatants` by the maximum number of combatants per square, rounded up. For example 100 medium sized combatants would occupy 3 squares. This can be represented on the battlemap using 3 unit tokens. 
 * __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 * __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
   * __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
-* __Splitting an Attack.__ When making an attack, the unit can divide its combatants to make simultaneous strikes at different targets. 
-  * Each strike in the attack must be made against different target units. 
-  * `TODO` The number of unit tokens determine the maximum number strikes a unit can make. 
-  * `TODO` Each strike The minimum number of combatants in each strike is determined by the __Combatants Per Square Table__.
-  * `TODO` Each enemy unit may only be attacked.
+* __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
+  * In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
+  * Each group must attack a different target unit. 
+  * Every group must make the same type of attack. 
 
-| Size | Combatants per Square/Hex |
+| Size | Max Combatants per Square/Hex |
 |---|:---:|
 | __Tiny__ | 200 |
 | __Small__ | 80 |
