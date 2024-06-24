@@ -9,21 +9,21 @@
 
 ## The Rules
 
-* __Units.__ A unit is composed of 1 or more creatures of the same type. For example, 200 goblins form a unit. 10 dragons is another unit. The number of creatures in a unit is capped at 200. 
-* __Unit Statblock.__ The unit uses its creature's statblock as its unit statblock. During mass combat, the unit can use all traits, abilities and attacks as listed in the creature's statblock. When combat begins, the unit will roll initiative using its creature's initiative. The creature's statblock determines how far it moves, what actions, bonus actions and reactions the unit can take. If the creature has the multiattack feature, the unit can make multiattack. 
-* __Unit Size.__ A combatant is a creature that is still in fighting condition. A unit starts combat with a number of combatants, which will be referred to as the unit's `max_combatants`. As combat progresses and the unit gets attacked, the number of remaining combatants will be referred to as `current_combatants`. 
-* __Unit Hitpoints.__ The creature's hitpoints and maximum hitpoints as found in its creature statblock will be used as a yardstick for unit's health in combat. They are also used to determine the number of remaining combatant using a formula found in Rule #10.2.
-* __Unit Damage Factor.__ The size of a unit plays a role in amplifying its attack as well as minimizing damage taken by the unit. This is represented by the unit's `damage_factor`, determined using the __Unit Damage Factor Table__. 
-* __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
-  * __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #10.1.
-  * __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
-* __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
-* __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
-  * __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
-  * __Broken Units.__ A broken unit has had half of its combatants killed in action. A commander can spend one hour rallying the remaining combatants and reforming the unit. Half of the remaining creatures can still serve as combatants while the other half are seriously injured and are unable to fight.
-* __Formulas.__
-  * __Adjusting Damage Taken by a Unit.__ `target_damage = round(damage x Unit's damage_factor / Target's damage_factor)`
-  * __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
+1. __Units.__ A unit is composed of 1 or more creatures of the same type. For example, 200 goblins form a unit. 10 dragons is another unit. The number of creatures in a unit is capped at 200. 
+2. __Unit Statblock.__ The unit uses its creature's statblock as its unit statblock. During mass combat, the unit can use all traits, abilities and attacks as listed in the creature's statblock. When combat begins, the unit will roll initiative using its creature's initiative. The creature's statblock determines how far it moves, what actions, bonus actions and reactions the unit can take. If the creature has the multiattack feature, the unit can make multiattack. 
+3. __Unit Size.__ A combatant is a creature that is still in fighting condition. A unit starts combat with a number of combatants, which will be referred to as the unit's `max_combatants`. As combat progresses and the unit gets attacked, the number of remaining combatants will be referred to as `current_combatants`. 
+4. __Unit Hitpoints.__ The creature's hitpoints and maximum hitpoints as found in its creature statblock will be used as a yardstick for unit's health in combat. They are also used to determine the number of remaining combatant using a formula found in Rule #9.2.
+5. __Unit Damage Factor.__ The size of a unit plays a role in amplifying its attack as well as minimizing damage taken by the unit. This is represented by the unit's `damage_factor`, determined using the __Unit Damage Factor Table__. 
+6. __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
+  1. __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #9.1.
+  2. __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
+7. __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
+8. __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
+  1. __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
+  2. __Broken Units.__ A broken unit has had half of its combatants killed in action. A commander can spend one hour rallying the remaining combatants and reforming the unit. Half of the remaining creatures can still serve as combatants while the other half are seriously injured and are unable to fight.
+9. __Formulas.__
+  1. __Adjusting Damage Taken by a Unit.__ `target_damage = round(damage x Unit's damage_factor / Target's damage_factor)`
+  2. __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
 
 | No. of Combatants | Damage Factor |
 |:---:|:---:|
@@ -38,15 +38,15 @@ __Table 1:__ Damage Factor Table
 
 When battlemaps are used, the following rules apply:
 
-* __Grid Size.__ The size of a single square on the battlemap has been increased from the default  of 5x5 feet squares to 30x30 feet squares. __Optional:__ Squares can be replaced with hexagons representing a circular area of 30 feet in diameter. 
-* __Unit Token(s).__ The number of combatants that can fit in a 30x30 feet square grid is listed in the __Combatants Per Square Table__. Units with a large number of combatants may occupy more than one grid square. The number of grid squares occupied by a unit can be determined by dividing its `current_combatants` by the maximum number of combatants per square, rounded up. For example 100 medium sized combatants would occupy 3 squares. This can be represented on the battlemap using 3 unit tokens. 
-* __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
-* __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
-  * __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
-* __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
-  * In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
-  * Each group must attack a different target unit. 
-  * Every group must make the same type of attack. 
+10. __Grid Size.__ The size of a single square on the battlemap has been increased from the default  of 5x5 feet squares to 30x30 feet squares. __Optional:__ Squares can be replaced with hexagons representing a circular area of 30 feet in diameter. 
+11. __Unit Token(s).__ The number of combatants that can fit in a 30x30 feet square grid is listed in the __Combatants Per Square Table__. Units with a large number of combatants may occupy more than one grid square. The number of grid squares occupied by a unit can be determined by dividing its `current_combatants` by the maximum number of combatants per square, rounded up. For example 100 medium sized combatants would occupy 3 squares and is represented on the battlemap with 3 unit tokens. 
+12. __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
+13. __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
+  1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
+14. __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
+  1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
+  2. Each group must attack a different target unit. 
+  3. Every group must make the same type of attack. 
 
 | Size | Max Combatants per Square/Hex |
 |---|:---:|
@@ -63,7 +63,7 @@ __Table 2:__ Combatants Per Square Table
 
 A player character can serve as a unit's commander. During a mass combat encounter, the unit commander stays with the unit but does not fight. Instead, the commander spend its time issuing orders and instructions, enhancing the unit's ability to work cohesively as a team. 
 
-* __Tactical Maneuvers.__ On the unit's turn, the unit commander can order the unit to perform a tactical maneuver using its action. The commander can do this a number of times equal to their proficiency bonus. The commander regain all uses of its tactical maneuvers at the start of the next mass combat encounter. <br/>Commanders with martial training can impart some of their expertise to the unit's combatants, granting their unit access to additional tactical maneuvers. 
+15. __Tactical Maneuvers.__ On the unit's turn, the unit commander can order the unit to perform a tactical maneuver using its action. The commander can do this a number of times equal to their proficiency bonus. The commander regain all uses of its tactical maneuvers at the start of the next mass combat encounter. Commanders with martial training can impart some of their expertise to the unit's combatants. Commanders with at least one level in a playable class grants their unit access to additional tactical maneuvers. 
 
 The list of usable maneuvers can be found in the __Tactical Maneuvers Table__ below.
 
@@ -87,7 +87,7 @@ __Table 3:__ Tactical Maneuvers Table
 ## Mass Combat In Practice
 
 `TODO: Entire section needs to be re-written` 
-The only major difference between standard combat and mass combat is really in how damage is calculated. Note that as the mass combat encounter progresses and the number of combatants decreases, the unit's damage factor will decrease accordingly. 
+The only major difference between standard combat and mass combat is really in how damage is calculated and applied to a unit. Note that as a unit's hitpoint changes, its `current_combatant`, `_damage_factor` and number of token will also change accordingly. 
 
 ## Designing Mass Combat Encounters
 
