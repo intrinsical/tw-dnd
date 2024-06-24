@@ -91,13 +91,13 @@ The only major difference between standard combat and mass combat is really in h
 
 ## Designing Mass Combat Encounters
 
-In reality, this mass combat ruleset is just D&D 5e monster vs monster combat with some added dressing to make it feel like a mass combat encounter. Thus, the guidelines for creating combat encounters in Chapter 3 of the Dungeon Master's Guide, under "Creating a Combat Encounter" is also helpful for designing mass combat encounters. 
+In reality, this mass combat ruleset is just D&D 5e monster vs monster combat with some added dressing to make it feel like a mass combat encounter. Thus, the guidelines for creating combat encounters in Chapter 3 of the Dungeon Master's Guide, under "Creating a Combat Encounter" is also helpful for designing mass combat encounters. Use the following steps to design a balanced mass combat encounter:
 
-* __Determine Friendly Units.__ Create the friendly units that are under the player's control. 
-* __Calculate Total XP of Friendly Units.__ Add up the unit XP for all friendly units in the encounter.
-  * __Unit XP__. A unit's XP takes both the unit's creature type and size into consideration. To get the unit's XP value, multiply the XP value found in the creature statblock by the unit's `damage_factor`.
-* __Modify Total XP for Multiple Units.__ As the number of units increases, they become more dangerous. To take this into consideration, multiply __Total XP__ by the XP Multiplier found in the __Unit Multiplier Table__.
-* __Modify Total XP for Encounter Difficulty.__ Determine the encounter's difficulty level. To adjust for encounter difficulty, multiply __Total XP__ with the XP Multiplier found in the __Encounter Difficulty Table__. 
+1. __Determine Friendly Units.__ Create the friendly units that are under the player's control. 
+2. __Calculate Total XP of Friendly Units.__ Add up the unit XP for all friendly units in the encounter.
+   1. __Unit XP__. A unit's XP takes both the unit's creature type and size into consideration. To get the unit's XP value, multiply the XP value found in the creature statblock by the unit's `damage_factor`.
+3. __Modify Total XP for Multiple Units.__ As the number of units increases, they become more dangerous. To take this into consideration, multiply __Total XP__ by the XP Multiplier found in the __Unit Multiplier Table__.
+4. __Modify Total XP for Encounter Difficulty.__ Determine the encounter's difficulty level. To adjust for encounter difficulty, multiply __Total XP__ with the XP Multiplier found in the __Encounter Difficulty Table__. 
 
 With the calculated __Total XP__ value in hand, the above steps can be repeated to design opposing units that match this calculated XP value, skipping the final step of __Modifying Total XP for Encounter Difficulty__. 
 
