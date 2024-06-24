@@ -59,7 +59,7 @@ When battlemaps are used, the following rules apply:
 
 __Table 2:__ Combatants Per Square Table
 
-## Unit Commanders
+### Unit Commanders
 
 A player character can serve as a unit's commander. During a mass combat encounter, the unit commander stays with the unit but does not fight. Instead, the commander spend its time issuing orders and instructions, enhancing the unit's ability to work cohesively as a team. 
 
