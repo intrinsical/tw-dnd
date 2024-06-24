@@ -15,15 +15,15 @@
 4. __Unit Hitpoints.__ The creature's hitpoints and maximum hitpoints as found in its creature statblock will be used as a yardstick for unit's health in combat. They are also used to determine the number of remaining combatant using a formula found in Rule #9.2.
 5. __Unit Damage Factor.__ The size of a unit plays a role in amplifying its attack as well as minimizing damage taken by the unit. This is represented by the unit's `damage_factor`, determined using the __Unit Damage Factor Table__. 
 6. __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
-  1. __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #9.1.
-  2. __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
+   1. __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #9.1.
+   2. __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
 7. __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
 8. __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
-  1. __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
-  2. __Broken Units.__ A broken unit has had half of its combatants killed in action. A commander can spend one hour rallying the remaining combatants and reforming the unit. Half of the remaining creatures can still serve as combatants while the other half are seriously injured and are unable to fight.
+   1. __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
+   2. __Broken Units.__ A broken unit has had half of its combatants killed in action. A commander can spend one hour rallying the remaining combatants and reforming the unit. Half of the remaining creatures can still serve as combatants while the other half are seriously injured and are unable to fight.
 9. __Formulas.__
-  1. __Adjusting Damage Taken by a Unit.__ `target_damage = round(damage x Unit's damage_factor / Target's damage_factor)`
-  2. __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
+   1. __Adjusting Damage Taken by a Unit.__ `target_damage = round(damage x Unit's damage_factor / Target's damage_factor)`
+   2. __Number of Combatants.__ `current_combatants = round(hp / max_hp * max_combatants)`
 
 | No. of Combatants | Damage Factor |
 |:---:|:---:|
@@ -42,11 +42,11 @@ When battlemaps are used, the following rules apply:
 11. __Unit Token(s).__ The number of combatants that can fit in a 30x30 feet square grid is listed in the __Combatants Per Square Table__. Units with a large number of combatants may occupy more than one grid square. The number of grid squares occupied by a unit can be determined by dividing its `current_combatants` by the maximum number of combatants per square, rounded up. For example 100 medium sized combatants would occupy 3 squares and is represented on the battlemap with 3 unit tokens. 
 12. __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 13. __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
-  1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
+   1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
 14. __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
-  1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
-  2. Each group must attack a different target unit. 
-  3. Every group must make the same type of attack. 
+   1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
+   2. Each group must attack a different target unit. 
+   3. Every group must make the same type of attack. 
 
 | Size | Max Combatants per Square/Hex |
 |---|:---:|
