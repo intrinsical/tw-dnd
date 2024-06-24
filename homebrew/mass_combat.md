@@ -42,11 +42,11 @@ When battlemaps are used, the following rules apply:
 11. __Unit Token(s).__ The number of combatants that can fit in a 30x30 feet square grid is listed in the __Combatants Per Square Table__. Units with a large number of combatants may occupy more than one grid square. The number of grid squares occupied by a unit can be determined by dividing its `current_combatants` by the maximum number of combatants per square, rounded up. For example 100 medium sized combatants would occupy 3 squares and is represented on the battlemap with 3 unit tokens. 
 12. __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 13. __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
-   1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
+    1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
 14. __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
-   1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
-   2. Each group must attack a different target unit. 
-   3. Every group must make the same type of attack. 
+    1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
+    2. Each group must attack a different target unit. 
+    3. Every group must make the same type of attack. 
 
 | Size | Max Combatants per Square/Hex |
 |---|:---:|
