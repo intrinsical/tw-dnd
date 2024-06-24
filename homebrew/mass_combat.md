@@ -17,7 +17,6 @@
 * __Attacks.__ When the unit attacks, make an attack roll to determine if the unit hits with its attack. 
   * __On a hit,__ roll for damage, adjust the damage using the attacking unit's `damage_factor` and the target unit's `damage_factor`. The formula for adjusting damage taken by a unit is found in Rule #10.1.
   * __On a miss,__ instead of taking no damage, the target unit takes half the damage. 
-* __Ranged Attacks.__ `TODO`
 * __Broken Condition.__ When a unit's hitpoints has been reduced to 0, the unit is incapacitated and __Broken__. A broken unit has its combatants dispersed, running away in random directions, and cannot be reconstituted until the current mass combat encounter has ended.
 * __Ending a Mass Combat Encounter.__ When a mass combat encounter has ended, each unit can determine the number of creatures who are not injured, lightly injured, seriously injured or killed. Uninjured creatures can immediately serve as combatants. Lightly injured creatures can once again serve as a combatant after the unit has taken a short rest. Seriously injured creatures will require a long rest before they can serve as a combatant. 
   * __Unbroken Units.__ For units that complete the mass combat encounter with at least 1 hitpoint, a third of its creatures who are no longer combatants are lightly injured, a third are seriously injured and the remaining third have been killed in combat. 
@@ -80,7 +79,7 @@ The list of usable maneuvers can be found in the __Tactical Maneuvers Table__ be
 | Fighter | __Action Surge.__ The unit can take one additional action on this turn. |
 | Monk | __Stunning Strike.__ When the unit hits with a melee attack on this turn, the target unit must succeed on a Constitution saving throw or be stunned until the end of the unit's next turn. The DC for this strike is 8 + the commander's proficiency bonus + the commander's wisdom modifier. |
 | Paladin | __Intercept Attacks.__ Until the start of the unit's next turn, the unit reduces the damage taken from melee attacks by 1d10 + the commander's proficiency bonus (to a minimum of 0 damage). |
-| Ranger | __Whirlwind Attack.__ On this turn, the unit can use it's action to make an melee attack against any units adjacent to it, with a separate attack roll for each target unit. |
+| Ranger | __Whirlwind Attack.__ On this turn, the unit can use its action to make an melee attack against any units adjacent to it, with a separate attack roll for each target unit. |
 | Rogue | __Sneak Attack.__ On this turn, the unit's attacks deal extra damage equal to the rogue commander's sneak attack damage. |
 
 __Table 3:__ Tactical Maneuvers Table
