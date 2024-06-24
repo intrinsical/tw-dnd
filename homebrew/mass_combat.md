@@ -44,8 +44,8 @@ When battlemaps are used, the following rules apply:
 * __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 * __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
   * __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
-* __Splitting an Attack.__ When making an attack, the unit can divide its combatants to make strikes at different targets. 
-  * `TODO` Each strike in the attack must be made against different target units. 
+* __Splitting an Attack.__ When making an attack, the unit can divide its combatants to make simultaneous strikes at different targets. 
+  * Each strike in the attack must be made against different target units. 
   * `TODO` The number of unit tokens determine the maximum number strikes a unit can make. 
   * `TODO` Each strike The minimum number of combatants in each strike is determined by the __Combatants Per Square Table__.
   * `TODO` Each enemy unit may only be attacked.
