@@ -105,10 +105,10 @@ With the calculated __Total XP__ value in hand, steps 1-3 can be repeated to des
 
 | Difficulty | XP Multiplier |
 |---|:---:|
-| __Easy__ | x 0.6 |
-| __Medium__ | x 1.2 |
-| __Hard__ | x 1.8 |
-| __Deadly__ | x 2.8 |
+| __Easy__ | x 0.3 |
+| __Medium__ | x 0.6 |
+| __Hard__ | x 0.9 |
+| __Deadly__ | x 1.4 |
 
 __Table 4:__ Encounter Difficulty Table
 
