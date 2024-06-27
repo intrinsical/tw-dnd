@@ -27,10 +27,11 @@
 
 | No. of Combatants | Damage Factor |
 |:---:|:---:|
-| __1-50__ | 1 |
-| __51-100__ | 2 |
-| __101-150__ | 3 |
-| __151-200__ | 4 |
+| __1-25__ | 1 |
+| __26-75__ | 2 |
+| __76-125__ | 3 |
+| __126-175__ | 4 |
+| __176-200__ | 5 |
 
 __Table 1:__ Damage Factor Table
 
@@ -86,8 +87,9 @@ __Table 3:__ Tactical Maneuvers Table
 
 ## Mass Combat In Practice
 
-`TODO: Entire section needs to be re-written` 
-The only major difference between standard combat and mass combat is really in how damage is calculated and applied to a unit. Note that as a unit's hitpoint changes, its `current_combatant`, `_damage_factor` and number of token will also change accordingly. 
+A mass combat encounter plays out in very similar ways to a normal combat encounter. The major difference in how damage is calculated and applied to a unit. 
+
+As a unit's hitpoint changes, its number of `current_combatant`, `_damage_factor` and physical area occupied by a unit also changes. In general, a unit's damage factor and physical area occupied would only change a few times in an active mass combat encounter. For instance, damage factor only change when the number of combatants in the unit drops below 175, 125, 75 and 25. Likewise, the physical area occupied by a unit of medium sized combatants would only change when the number of combatants drop below 160, 120, 80 and 40. These transitions points can be pre-calculated with `round-down(N / max_combatants * max_hitpoints)`. 
 
 ## Designing Mass Combat Encounters
 
@@ -99,7 +101,7 @@ In reality, this mass combat ruleset is just D&D 5e monster vs monster combat wi
 3. __Modify Total XP for Multiple Units.__ As the number of units increases, they become more dangerous. To take this into consideration, multiply __Total XP__ by the XP Multiplier found in the __Unit Multiplier Table__.
 4. __Modify Total XP for Encounter Difficulty.__ Determine the encounter's difficulty level. To adjust for encounter difficulty, multiply __Total XP__ with the XP Multiplier found in the __Encounter Difficulty Table__. 
 
-With the calculated __Total XP__ value in hand, the above steps can be repeated to design opposing units that match this calculated XP value, skipping the final step of __Modifying Total XP for Encounter Difficulty__. 
+With the calculated __Total XP__ value in hand, steps 1-3 can be repeated to design opposing units that match this calculated XP value. 
 
 | Difficulty | XP Multiplier |
 |---|:---:|
