@@ -42,7 +42,8 @@ When battlemaps are used, the following rules apply:
 12. __Unit Layout.__ Before combat begins, a unit's tokens can be laid out on the battlemap in any formation, so long as every unit token is adjacent to at least one other unit token. This token adjacency requirement should also be observed as combat progresses. 
 13. __Unit Movement.__ In general a unit should be able to move one square/hex per turn, or two squares/hexes when dashing. This is because most creatures have a movement speed of 30 feet per round. 
     1. __Special Case.__ A special exception is made for units that, for whatever reason (for example, due to being stuck in difficult terrain, having movement penalties), can only move less than 15 feet per round. Such units are allowed to move 1 hex during odd rounds. 
-14. __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
+14. __Flanking.__ When a unit and at least one of its allied units are adjacent to a target unit and are orthogonal to the target unit’s space, they have flanked that target. Each allied unit that has flanked the target unit as advantage on melee attack rolls against that target unit.
+15. __Splitting an Attack.__ When making an attack, the unit can split its combatants up into smaller groups to strike at multiple targets. Each group must meet the following limits:
     1. In order for each group to function as a cohesive fighting force, the minimum number of combatants in a group is the maximum number of combatants that can fit in one grid square. The maximum number of combatants is determined by the __Combatants Per Square Table__. 
     2. Each group must attack a different target unit. 
     3. Every group must make the same type of attack. 
@@ -62,7 +63,7 @@ __Table 2:__ Combatants Per Square Table
 
 A player character can serve as a unit's commander. During a mass combat encounter, the unit commander stays with the unit but does not fight. Instead, the commander spend its time issuing orders and instructions, enhancing the unit's ability to work cohesively as a team. 
 
-15. __Tactical Maneuvers.__ On the unit's turn, the unit commander can order the unit to perform a tactical maneuver using its action. The commander can do this a number of times equal to their proficiency bonus. The commander regain all uses of its tactical maneuvers at the start of the next mass combat encounter. Commanders with martial training can impart some of their expertise to the unit's combatants. Commanders with at least one level in a playable class grants their unit access to additional tactical maneuvers. 
+16. __Tactical Maneuvers.__ On the unit's turn, the unit commander can order the unit to perform a tactical maneuver using its action. The commander can do this a number of times equal to their proficiency bonus. The commander regain all uses of its tactical maneuvers at the start of the next mass combat encounter. Commanders with martial training can impart some of their expertise to the unit's combatants. Commanders with at least one level in a playable class grants their unit access to additional tactical maneuvers. 
 
 The list of usable maneuvers can be found in the __Tactical Maneuvers Table__ below.
 
