@@ -56,6 +56,25 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Round](combat/round.svg)
 ![Target](combat/target.svg)
 
+## Condition Icons
+
+![Blinded](condition/blinded.svg)
+![Charmed](condition/charmed.svg)
+![Deafened](condition/deafened.svg)
+![Frightened](condition/frightened.svg)
+![Grappled](condition/grappled.svg)
+![Incapacitated](condition/incapacitated.svg)
+![Invisible](condition/invisible.svg)
+![Paralyzed](condition/paralyzed.svg)
+![Petrified](condition/petrified.svg)
+![Poisoned](condition/poisoned.svg)
+![Prone](condition/prone.svg)
+![Restrained](condition/restrained.svg)
+![Silenced](condition/silenced.svg)
+![Sleep](condition/sleep.svg)
+![Stunned](condition/stunned.svg)
+![Unconscious](condition/unconscious.svg)
+
 ## Damage Type Icons
 
 ![Acid](damage/acid.svg)
