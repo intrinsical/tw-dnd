@@ -11,6 +11,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Saving Throw](attribute/saving-throw.svg)
 ![Skill Check](attribute/skillcheck.svg)
 ![Terrain](attribute/terrain.svg)
+![Test](attribute/test.svg)
 ![Vision](attribute/vision.svg)
 
 ## Campaign Icons
@@ -136,8 +137,10 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Campaign](game/campaign.svg)
 ![Character](game/character.svg)
 ![Dungeon Master](game/dm.svg)
+![Hazard](game/hazard.svg)
 ![Lock](game/lock.svg)
 ![Monster](game/monster.svg)
+![Party](game/party.svg)
 ![Puzzle](game/puzzle.svg)
 ![Source Book](game/source-book.svg)
 ![Spell](game/spell.svg)
@@ -237,6 +240,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Cone](target/cone.svg)
 ![Cube](target/cube.svg)
 ![Cylinder](target/cylinder.svg)
+![Emanation](target/emanation.svg)
 ![Line](target/line.svg)
 ![Self](target/self.svg)
 ![Sphere](target/sphere.svg)
