@@ -8,7 +8,9 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ![AC](attribute/ac.svg)
 ![Attunement](attribute/attunement.svg)
+![Bonus](attribute/bonus.svg)
 ![Light](attribute/light.svg)
+![Penalty](attribute/penalty.svg)
 ![Range](attribute/range.svg)
 ![Saving Throw](attribute/saving-throw.svg)
 ![Skill Check](attribute/skillcheck.svg)
@@ -144,6 +146,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Monster](game/monster.svg)
 ![Party](game/party.svg)
 ![Puzzle](game/puzzle.svg)
+![Rest](game/rest.svg)
 ![Source Book](game/source-book.svg)
 ![Spell](game/spell.svg)
 ![Trap](game/trap.svg)
@@ -276,6 +279,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Spear](weapon/spear.svg)
 ![Sword](weapon/sword.svg)
 ![Trident](weapon/trident.svg)
+![Unarmed Strike](weapon/strike.svg)
 ![Whip](weapon/whip.svg)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/intrinsical/tw-dnd/tree/main/icons">Intrinsical's D&D 5e Icon Set</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/intrinsical">David Kor Kian Wei</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
