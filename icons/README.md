@@ -142,6 +142,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Character](game/character.svg)
 ![Dungeon Master](game/dm.svg)
 ![Hazard](game/hazard.svg)
+![Heroic Inspiration](game/inspiration.svg)
 ![Lock](game/lock.svg)
 ![Monster](game/monster.svg)
 ![Party](game/party.svg)
@@ -194,6 +195,13 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Ooze](monster/ooze.svg)
 ![Plant](monster/plant.svg)
 ![Undead](monster/undead.svg)
+
+## Movement Icons
+
+![Burrowing](movement/burrowing.svg)
+![Flying](movement/flying.svg)
+![Swimming](movement/swimming.svg)
+![Walking](movement/walking.svg)
 
 ## Skill Proficiency Icons
 
