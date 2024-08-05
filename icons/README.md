@@ -199,6 +199,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Movement Icons
 
 ![Burrowing](movement/burrowing.svg)
+![Climbing](movement/climbing.svg)
 ![Flying](movement/flying.svg)
 ![Swimming](movement/swimming.svg)
 ![Walking](movement/walking.svg)
