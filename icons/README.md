@@ -66,6 +66,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Blinded](condition/blinded.svg)
 ![Charmed](condition/charmed.svg)
 ![Deafened](condition/deafened.svg)
+![Exhaustion](condition/exhaustion.svg)
 ![Frightened](condition/frightened.svg)
 ![Grappled](condition/grappled.svg)
 ![Incapacitated](condition/incapacitated.svg)
