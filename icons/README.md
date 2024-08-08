@@ -114,6 +114,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Entity Type Icons
 
+![Archive](entity/archive.svg)
 ![Armor](entity/armor.svg)
 ![Book](entity/book.svg)
 ![Location](entity/location.svg)
