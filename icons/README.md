@@ -268,7 +268,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Utility Icons
 
 ![Bubble](util/bubble.svg)
-![Build](game/build.svg)
+![Build](util/build.svg)
 ![Cog](util/cog.svg)
 ![Cross](util/cross.svg)
 ![Home](util/home.svg)
