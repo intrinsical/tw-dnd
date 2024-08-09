@@ -270,6 +270,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Bubble](util/bubble.svg)
 ![Cog](util/cog.svg)
 ![Cross](util/cross.svg)
+![Home](util/home.svg)
 ![Not Applicable](util/not-applicable.svg)
 ![Search](util/search.svg)
 ![Star](util/star.svg)
