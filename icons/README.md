@@ -132,6 +132,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Ship](entity/ship.svg)
 ![Spellbook](entity/spellbook.svg)
 ![Time](entity/time.svg)
+![Trinket](entity/trinket.svg)
 ![Tool](entity/tool.svg)
 ![Vehicle](entity/vehicle.svg)
 ![Wand](entity/wand.svg)
