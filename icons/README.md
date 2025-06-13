@@ -81,6 +81,11 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Stunned](condition/stunned.svg)
 ![Unconscious](condition/unconscious.svg)
 
+## D20 Test icons
+
+!![Attacking](d20test/attacking.svg)
+!![Saving Throw](d20test/saving-throw.svg)
+
 ## Damage Type Icons
 
 ![Acid](damage/acid.svg)
