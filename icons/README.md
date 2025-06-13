@@ -209,7 +209,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Roll20 Token Markers
 
-![Advantage](roll20/advantage.png)
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/advantage.png?raw=true" width="256" height="256">
 ![Attack Advantage](roll20/attack-roll-advantage.png)
 ![Attack Disadvantage](roll20/attack-roll-advantage.png)
 ![Blinded](roll20/blinded.png)
