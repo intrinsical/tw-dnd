@@ -83,9 +83,9 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## D20 Test icons
 
-!![Attacked](d20test/attacked.svg)
-!![Attacking](d20test/attacking.svg)
-!![Saving Throw](d20test/saving-throw.svg)
+![Attacked](d20test/attacked.svg)
+![Attacking](d20test/attacking.svg)
+![Saving Throw](d20test/saving-throw.svg)
 
 ## Damage Type Icons
 
