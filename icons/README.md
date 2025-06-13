@@ -207,6 +207,35 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Swimming](movement/swimming.svg)
 ![Walking](movement/walking.svg)
 
+## Roll20 Token Markers
+
+![Advantage](roll20/advantage.png)
+![Attack Advantage](roll20/attack-roll-advantage.png)
+![Attack Disadvantage](roll20/attack-roll-advantage.png)
+![Blinded](roll20/blinded.png)
+![Burrowing](roll20/burrowing.png)
+![Charmed](roll20/charmed.png)
+![Climbing](roll20/climbing.png)
+![Concentration](roll20/concentration.png)
+![Deafened](roll20/deafened.png)
+![Disadvantaged](roll20/disadvantaged.png)
+![Flying](roll20/flying.png)
+![Frightened](roll20/frightened.png)
+![Grappled](roll20/grappled.png)
+![Incapacitated](roll20/incapacitated.png)
+![Invisible](roll20/invisible.png)
+![Paralyzed](roll20/paralyzed.png)
+![Petrified](roll20/petrified.png)
+![Poisoned](roll20/poisoned.png)
+![Prone](roll20/prone.png)
+![Restrained](roll20/restrained.png)
+![Silenced](roll20/silenced.png)
+![Sleep](roll20/sleep.png)
+![Stunned](roll20/stunned.png)
+![Swimming](roll20/swimming.png)
+![Unconscious](roll20/unconscious.png)
+![Walking](roll20/walking.png)
+
 ## Skill Proficiency Icons
 
 ![Expertise](proficiency/expertise.svg)
