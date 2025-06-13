@@ -209,32 +209,32 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Roll20 Token Markers
 
-<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/advantage.png?raw=true" width="256" height="256">
-![Attack Advantage](roll20/attack-roll-advantage.png)
-![Attack Disadvantage](roll20/attack-roll-advantage.png)
-![Blinded](roll20/blinded.png)
-![Burrowing](roll20/burrowing.png)
-![Charmed](roll20/charmed.png)
-![Climbing](roll20/climbing.png)
-![Concentration](roll20/concentration.png)
-![Deafened](roll20/deafened.png)
-![Disadvantaged](roll20/disadvantaged.png)
-![Flying](roll20/flying.png)
-![Frightened](roll20/frightened.png)
-![Grappled](roll20/grappled.png)
-![Incapacitated](roll20/incapacitated.png)
-![Invisible](roll20/invisible.png)
-![Paralyzed](roll20/paralyzed.png)
-![Petrified](roll20/petrified.png)
-![Poisoned](roll20/poisoned.png)
-![Prone](roll20/prone.png)
-![Restrained](roll20/restrained.png)
-![Silenced](roll20/silenced.png)
-![Sleep](roll20/sleep.png)
-![Stunned](roll20/stunned.png)
-![Swimming](roll20/swimming.png)
-![Unconscious](roll20/unconscious.png)
-![Walking](roll20/walking.png)
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/advantage.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/attack-roll-advantage.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/attack-roll-disadvantage.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/blinded.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/burrowing.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/charmed.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/climbing.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/concentration.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/deafened.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/disadvantaged.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/flying.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/frightened.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/grappled.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/incapacitated.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/invisible.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/paralyzed.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/petrified.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/poisoned.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/prone.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/restrained.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/silenced.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/sleep.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/stunned.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/swimming.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/unconscious.png?raw=true" width="100" height="100">
+<img src="https://github.com/intrinsical/tw-dnd/blob/main/icons/roll20/walking.png?raw=true" width="100" height="100">
 
 ## Skill Proficiency Icons
 
