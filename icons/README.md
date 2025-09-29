@@ -171,6 +171,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Location Type icons
 
 ![Bastion](location/bastion.svg)
+![Camp](location/camp.svg)
 ![Castle](location/castle.svg)
 ![Dungeon](location/dungeon.svg)
 ![Forest](location/forest.svg)
