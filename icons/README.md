@@ -180,6 +180,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Forest](location/forest.svg)
 ![Hut](location/hut.svg)
 ![Mountain](location/mountain.svg)
+![Portal](location/portal.svg)
 ![Tavern](location/tavern.svg)
 ![Tower](location/tower.svg)
 ![Village](location/village.svg)
