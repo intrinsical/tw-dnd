@@ -52,34 +52,19 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Damage Type Icons
 
-![Acid](damage/acid.svg)
-![Bludgeoning](damage/bludgeoning.svg)
-![Cold](damage/cold.svg)
-![Fire](damage/fire.svg)
-![Force](damage/force.svg)
-![Immunity](damage/immunity.svg)
-![Lightning](damage/lightning.svg)
-![Necrotic](damage/necrotic.svg)
-![Piercing](damage/piercing.svg)
-![Poison](damage/poison.svg)
-![Psychic](damage/psychic.svg)
-![Radiant](damage/radiant.svg)
-![Resistance](damage/resistance.svg)
-![Slashing](damage/slashing.svg)
-![Thunder](damage/thunder.svg)
-![Vulnerability](damage/vulnerability.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Acid](damage/acid.svg)<br/>Acid | ![Bludgeoning](damage/bludgeoning.svg)<br/>Bludgeoning | ![Cold](damage/cold.svg)<br/>Cold | ![Fire](damage/fire.svg)<br/>Fire | ![Force](damage/force.svg)<br/>Force |
+| ![Immunity](damage/immunity.svg)<br/>Damage Immunity | ![Lightning](damage/lightning.svg)<br/>Lightning | ![Necrotic](damage/necrotic.svg)<br/>Necrotic | ![Piercing](damage/piercing.svg)<br/>Piercing | ![Poison](damage/poison.svg)<br/>Poison |
+| ![Psychic](damage/psychic.svg)<br/>Psychic | ![Radiant](damage/radiant.svg)<br/>Radiant | ![Resistance](damage/resistance.svg)<br/>Damage Resistance | ![Slashing](damage/slashing.svg)<br/>Slashing | ![Thunder](damage/thunder.svg)<br/>Thunder |
+| ![Vulnerability](damage/vulnerability.svg)<br/>Damage Vulnerability |
 
 ## Dice Icons
 
-![Advantage](dice/advantage.svg)
-![D4](dice/d4.svg)
-![D6](dice/d6.svg)
-![D8](dice/d8.svg)
-![D10](dice/d10.svg)
-![D12](dice/d12.svg)
-![D20](dice/d20.svg)
-![Disadvantage](dice/disadvantage.svg)
-![Roll](dice/roll.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Advantage](dice/advantage.svg)<br/>Advantage | ![D4](dice/d4.svg)<br/>d4 | ![D6](dice/d6.svg)<br/>d6 | ![D8](dice/d8.svg)<br/>d8 | ![D10](dice/d10.svg)<br/>d10 |
+| ![D12](dice/d12.svg)<br/>d12 | ![D20](dice/d20.svg)<br/>d20 | ![Disadvantage](dice/disadvantage.svg)<br/>Disadvantage | ![Roll](dice/roll.svg)<br/>Dice Roll |
 
 ## Entity Type Icons
 
