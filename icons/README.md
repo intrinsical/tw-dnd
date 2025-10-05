@@ -30,15 +30,18 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Combat Icons
 
-![Action](combat/action.svg)
-![Bonus Action](combat/bonus-action.svg)
-![Initiative](combat/initiative.svg)
-![Melee](combat/melee.svg)
-![Ranged](combat/ranged.svg)
-![Reach](combat/reach.svg)
-![Reaction](combat/reaction.svg)
-![Round](combat/round.svg)
-![Target](combat/target.svg)
+<table><tr>
+<td> ![Action](combat/action.svg)<br/>Action </td>
+<td> ![Bonus Action](combat/bonus-action.svg)<br/>Bonus Action </td>
+<td> ![Initiative](combat/initiative.svg)<br/>Initiative </td>
+<td> ![Melee](combat/melee.svg)<br/>Melee Attack </td>
+<td> ![Ranged](combat/ranged.svg)<br/>Ranged Attack </td>
+</tr><tr>
+<td> ![Reach](combat/reach.svg)<br/>Reach </td>
+<td> ![Reaction](combat/reaction.svg)<br/>Reaction </td>
+<td> ![Round](combat/round.svg)<br/>Round </td>
+<td> ![Target](combat/target.svg)<br/>Target </td>
+</tr></table>
 
 ## Condition Icons
 
