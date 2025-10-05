@@ -74,7 +74,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 | ![Magic Item](entity/magic-item.svg)<br/>Magic Item | ![Map](entity/map.svg)<br/>Map | ![Mount](entity/mount.svg)<br/>Mount | ![Organization](entity/organization.svg)<br/>Organization | ![Pack](entity/pack.svg)<br/>Backpack |
 | ![Person](entity/person.svg)<br/>Person | ![Pet](entity/pet.svg)<br/>Pet | ![Potion](entity/potion.svg)<br/>Potion | ![Ring](entity/ring.svg)<br/>Ring | ![Spell Scroll](entity/scroll.svg)<br/>Scroll |
 | ![Ship](entity/ship.svg)<br/>Ship | ![Spellbook](entity/spellbook.svg)<br/>Spellbook | ![Time](entity/time.svg)<br/>Time/Event | ![Trinket](entity/trinket.svg)<br/>Trinket | ![Tool](entity/tool.svg)<br/>Tool |
-| ![Vehicle](entity/vehicle.svg)<br/> | ![Wand](entity/wand.svg)<br/> | ![Weapon](entity/weapon.svg)<br/> |
+| ![Vehicle](entity/vehicle.svg)<br/>Vehicle | ![Wand](entity/wand.svg)<br/>Wand | ![Weapon](entity/weapon.svg)<br/>Weapon |
 
 ## D&D Game Icons
 
@@ -93,49 +93,31 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Location Type Icons
 
-![Bastion](location/bastion.svg)
-![Camp](location/camp.svg)
-![Castle](location/castle.svg)
-![Dungeon](location/dungeon.svg)
-![Forest](location/forest.svg)
-![Hut](location/hut.svg)
-![Mountain](location/mountain.svg)
-![Portal](location/portal.svg)
-![Tavern](location/tavern.svg)
-![Tower](location/tower.svg)
-![Village](location/village.svg)
+|||||
+| :---: | :---: | :---: | :---: |
+| ![Bastion](location/bastion.svg)<br/>Bastion | ![Camp](location/camp.svg)<br/>Camp | ![Castle](location/castle.svg)<br/>Castle | ![Dungeon](location/dungeon.svg)<br/>Dungeon | ![Forest](location/forest.svg)<br/>Forest |
+| ![Hut](location/hut.svg)<br/>Hut | ![Mountain](location/mountain.svg)<br/>Mountain | ![Portal](location/portal.svg)<br/>Portal | ![Tavern](location/tavern.svg)<br/>Tavern | ![Tower](location/tower.svg)<br/>Tower |
+| ![Village](location/village.svg)<br/>Village |
 
 ## Logos
 
-![Adventurers' League](logo/adventurers-league.svg)
-![Critical Role](logo/critical-role.svg)
-![Dungeons & Dragons](logo/dnd.svg)
-![D&D Beyond](logo/dnd-beyond.svg)
-![Fantasy Grounds](logo/fantasy-grounds.svg)
-![Foundry VTT](logo/foundry.svg)
-![Owlbear Rodeo](logo/owlbear-rodeo.svg)
-![Roll20](logo/roll20.svg)
-![Tiddlywiki](logo/tiddlywiki.svg)
+|||||
+| :---: | :---: | :---: | :---: |
+| ![Adventurers' League](logo/adventurers-league.svg)<br/>Adventurers League | ![Critical Role](logo/critical-role.svg)<br/>Critical Role | ![Dungeons & Dragons](logo/dnd.svg)<br/>D&D | ![D&D Beyond](logo/dnd-beyond.svg)<br/>D&D Beyond | ![Fantasy Grounds](logo/fantasy-grounds.svg)<br/>Fantasy Grounds |
+| ![Foundry VTT](logo/foundry.svg)<br/>Foundry VTT | ![Owlbear Rodeo](logo/owlbear-rodeo.svg)<br/>Owlbear Rodeo | ![Roll20](logo/roll20.svg)<br/>Roll20 VTT | ![Tiddlywiki](logo/tiddlywiki.svg)<br/>Tiddlywiki |
 
 ## Monster Type Icons
 
-![Aberration](monster/aberration.svg)
-![Beast](monster/beast.svg)
-![Celestial](monster/celestial.svg)
-![Construct](monster/construct.svg)
-![Dragon](monster/dragon.svg)
-![Elemental](monster/elemental.svg)
-![Fae](monster/fae.svg)
-![Fiend](monster/fiend.svg)
-![Giant](monster/giant.svg)
-![Humanoid](monster/humanoid.svg)
-![Monstrosity](monster/monstrosity.svg)
-![Ooze](monster/ooze.svg)
-![Plant](monster/plant.svg)
-![Undead](monster/undead.svg)
+|||||
+| :---: | :---: | :---: | :---: |
+| ![Aberration](monster/aberration.svg)<br/>Aberration | ![Beast](monster/beast.svg)<br/>Beast | ![Celestial](monster/celestial.svg)<br/>Celestial | ![Construct](monster/construct.svg)<br/>Construct | ![Dragon](monster/dragon.svg)<br/>Dragon |
+| ![Elemental](monster/elemental.svg)<br/>Elemental | ![Fae](monster/fae.svg)<br/>Fae | ![Fiend](monster/fiend.svg)<br/>Fiend | ![Giant](monster/giant.svg)<br/>Giant | ![Humanoid](monster/humanoid.svg)<br/>Humanoid |
+| ![Monstrosity](monster/monstrosity.svg)<br/>Monstrosity | ![Ooze](monster/ooze.svg)<br/>Ooze | ![Plant](monster/plant.svg)<br/>Plant | ![Undead](monster/undead.svg)<br/>Undead |
 
 ## Movement Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Burrowing](movement/burrowing.svg)
 ![Climbing](movement/climbing.svg)
 ![Flying](movement/flying.svg)
@@ -148,6 +130,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Skill Proficiency Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Expertise](proficiency/expertise.svg)
 ![Half](proficiency/half.svg)
 ![Proficient](proficiency/proficient.svg)
@@ -155,6 +139,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Skill Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Acrobatics](skill/acrobatics.svg)
 ![Animal Handling](skill/animal-handling.svg)
 ![Arcana](skill/arcana.svg)
@@ -176,6 +162,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Spell Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Abjuration](spell/abjuration.svg)
 ![Concentration](spell/concentration.svg)
 ![Conjuration](spell/conjuration.svg)
@@ -192,6 +180,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Target Type Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Circle](target/circle.svg)
 ![Cone](target/cone.svg)
 ![Cube](target/cube.svg)
@@ -206,6 +196,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Utility Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Bubble](util/bubble.svg)
 ![Build](util/build.svg)
 ![Cog](util/cog.svg)
@@ -219,6 +211,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Weapon Type Icons
 
+|||||
+| :---: | :---: | :---: | :---: |
 ![Arrow](weapon/arrow.svg)
 ![Battleaxe](weapon/battleaxe.svg)
 ![Bow](weapon/bow.svg)
