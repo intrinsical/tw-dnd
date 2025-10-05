@@ -6,18 +6,11 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Attribute Icons
 
-| Attribute Icons | Test |
-| :---: | :---: |
-| ![AC](attribute/ac.svg)<br/>AC | [Attunement](attribute/attunement.svg)<br/>Attunement |
-| ![Bonus](attribute/bonus.svg)<br/>Bonus | ![Light](attribute/light.svg)<br/>Light |
-
-![Penalty](attribute/penalty.svg) Penalty
-![Range](attribute/range.svg) Range
-![Saving Throw](attribute/saving-throw.svg) Saving Throw
-![Skill Check](attribute/skillcheck.svg) Skill Check
-![Terrain](attribute/terrain.svg) Terrain
-![Test](attribute/test.svg) Test
-![Vision](attribute/vision.svg) Vision
+| | | | | |
+| :---: | :---: | :---: | :---: | :---: |
+| ![AC](attribute/ac.svg)<br/>AC | ![Attunement](attribute/attunement.svg)<br/>Attunement | ![Bonus](attribute/bonus.svg)<br/>Bonus | ![Light](attribute/light.svg)<br/>Light | ![Penalty](attribute/penalty.svg)<br/>Penalty |
+| ![Range](attribute/range.svg)<br/>Range | ![Saving Throw](attribute/saving-throw.svg)<br/>Saving Throw | ![Skill Check](attribute/skillcheck.svg)<br/>Skill Check | ![Terrain](attribute/terrain.svg)<br/>Terrain |
+| ![Test](attribute/test.svg)<br/>Test | ![Vision](attribute/vision.svg)<br/>Vision |
 
 ## Campaign Icons
 
