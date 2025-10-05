@@ -68,56 +68,28 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Entity Type Icons
 
-![Archive](entity/archive.svg)
-![Armor](entity/armor.svg)
-![Book](entity/book.svg)
-![Location](entity/location.svg)
-![Loot](entity/loot.svg)
-![Magic Item](entity/magic-item.svg)
-![Map](entity/map.svg)
-![Mount](entity/mount.svg)
-![Organization](entity/organization.svg)
-![Pack](entity/pack.svg)
-![Person](entity/person.svg)
-![Pet](entity/pet.svg)
-![Potion](entity/potion.svg)
-![Ring](entity/ring.svg)
-![Spell Scroll](entity/scroll.svg)
-![Ship](entity/ship.svg)
-![Spellbook](entity/spellbook.svg)
-![Time](entity/time.svg)
-![Trinket](entity/trinket.svg)
-![Tool](entity/tool.svg)
-![Vehicle](entity/vehicle.svg)
-![Wand](entity/wand.svg)
-![Weapon](entity/weapon.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Archive](entity/archive.svg)<br/>Archive | ![Armor](entity/armor.svg)<br/>Armor | ![Book](entity/book.svg)<br/>Book | ![Location](entity/location.svg)<br/>Location | ![Loot](entity/loot.svg)<br/>Loot |
+| ![Magic Item](entity/magic-item.svg)<br/>Magic Item | ![Map](entity/map.svg)<br/>Map | ![Mount](entity/mount.svg)<br/>Mount | ![Organization](entity/organization.svg)<br/>Organization | ![Pack](entity/pack.svg)<br/>Backpack |
+| ![Person](entity/person.svg)<br/>Person | ![Pet](entity/pet.svg)<br/>Pet | ![Potion](entity/potion.svg)<br/>Potion | ![Ring](entity/ring.svg)<br/>Ring | ![Spell Scroll](entity/scroll.svg)<br/>Scroll |
+| ![Ship](entity/ship.svg)<br/>Ship | ![Spellbook](entity/spellbook.svg)<br/>Spellbook | ![Time](entity/time.svg)<br/>Time/Event | ![Trinket](entity/trinket.svg)<br/>Trinket | ![Tool](entity/tool.svg)<br/>Tool |
+| ![Vehicle](entity/vehicle.svg)<br/> | ![Wand](entity/wand.svg)<br/> | ![Weapon](entity/weapon.svg)<br/> |
 
 ## D&D Game Icons
 
-![Adventure Book](game/adventure-book.svg)
-![Campaign](game/campaign.svg)
-![Character](game/character.svg)
-![Combat](game/combat.svg)
-![Dungeon Master](game/dm.svg)
-![Explore](game/explore.svg)
-![Hazard](game/hazard.svg)
-![Heroic Inspiration](game/inspiration.svg)
-![Lock](game/lock.svg)
-![Monster](game/monster.svg)
-![Party](game/party.svg)
-![Puzzle](game/puzzle.svg)
-![Rest](game/rest.svg)
-![Social](game/social.svg)
-![Source Book](game/source-book.svg)
-![Spell](game/spell.svg)
-![Trap](game/trap.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Adventure Book](game/adventure-book.svg)<br/>Adventure Book | ![Campaign](game/campaign.svg)<br/>Campaign | ![Character](game/character.svg)<br/>Character | ![Combat](game/combat.svg)<br/>Combat Encounter | ![Dungeon Master](game/dm.svg)<br/>Dungeon Master |
+| ![Explore](game/explore.svg)<br/>Exploration Encounter | ![Hazard](game/hazard.svg)<br/>Hazard | ![Heroic Inspiration](game/inspiration.svg)<br/>Heroic Inspiration | ![Lock](game/lock.svg)<br/>Lock | ![Monster](game/monster.svg)<br/>Monster |
+| ![Party](game/party.svg)<br/>Party | ![Puzzle](game/puzzle.svg)<br/>Puzzle | ![Rest](game/rest.svg)<br/>Rest | ![Social](game/social.svg)<br/>Social Encounter | ![Source Book](game/source-book.svg)<br/>Source Book |
+| ![Spell](game/spell.svg)<br/>Spell | ![Trap](game/trap.svg)<br/>Trap |
 
 ## Hitpoint Icons
 
-![Empty](hp/empty.svg)
-![Full](hp/full.svg)
-![Half](hp/half.svg)
-![Temp](hp/temp.svg)
+|||||
+| :---: | :---: | :---: | :---: |
+| ![Empty](hp/empty.svg)<br/>0 HP | ![Full](hp/full.svg)<br/>Full HP | ![Half](hp/half.svg)<br/>HP Halved | ![Temp](hp/temp.svg)<br/>Temporary HP |
 
 ## Location Type Icons
 
