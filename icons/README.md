@@ -37,23 +37,12 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Condition Icons
 
-![Blinded](condition/blinded.svg)
-![Charmed](condition/charmed.svg)
-![Deafened](condition/deafened.svg)
-![Exhaustion](condition/exhaustion.svg)
-![Frightened](condition/frightened.svg)
-![Grappled](condition/grappled.svg)
-![Incapacitated](condition/incapacitated.svg)
-![Invisible](condition/invisible.svg)
-![Paralyzed](condition/paralyzed.svg)
-![Petrified](condition/petrified.svg)
-![Poisoned](condition/poisoned.svg)
-![Prone](condition/prone.svg)
-![Restrained](condition/restrained.svg)
-![Silenced](condition/silenced.svg)
-![Sleep](condition/sleep.svg)
-![Stunned](condition/stunned.svg)
-![Unconscious](condition/unconscious.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Blinded](condition/blinded.svg)Blinded | ![Charmed](condition/charmed.svg)Charmed | ![Deafened](condition/deafened.svg)Deafened | ![Exhaustion](condition/exhaustion.svg)Exhaustion | ![Frightened](condition/frightened.svg)Frightened |
+| ![Grappled](condition/grappled.svg)<br/>Grappled | ![Incapacitated](condition/incapacitated.svg)<br/>Incapacitated | ![Invisible](condition/invisible.svg)<br/>Invisible | ![Paralyzed](condition/paralyzed.svg)<br/>Paralyzed | ![Petrified](condition/petrified.svg)<br/>Petrified |
+| ![Poisoned](condition/poisoned.svg)<br/>Poisoned | ![Prone](condition/prone.svg)<br/>Prone | ![Restrained](condition/restrained.svg)<br/>Neutral Land | ![Silenced](condition/silenced.svg)<br/>Restrained | ![Sleep](condition/sleep.svg)<br/>Sleep |
+| ![Stunned](condition/stunned.svg)<br/>Stunned | ![Unconscious](condition/unconscious.svg)<br/>Unconscious |
 
 ## D20 Test Icons
 
