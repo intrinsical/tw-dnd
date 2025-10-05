@@ -6,9 +6,8 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Attribute Icons
 
-![AC](attribute/ac.svg) AC
-![Attunement](attribute/attunement.svg) Attunement
-![Bonus](attribute/bonus.svg) Bonus
+| [AC](attribute/ac.svg)<br/>AC | [Attunement](attribute/attunement.svg)<br/>Attunement | [Bonus](attribute/bonus.svg)<br/>Bonus |
+
 ![Light](attribute/light.svg) Light
 ![Penalty](attribute/penalty.svg) Penalty
 ![Range](attribute/range.svg) Range
