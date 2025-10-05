@@ -31,16 +31,17 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ## Combat Icons
 
 <table><tr>
-<td> ![Action](combat/action.svg)<br/>Action </td>
-<td> ![Bonus Action](combat/bonus-action.svg)<br/>Bonus Action </td>
-<td> ![Initiative](combat/initiative.svg)<br/>Initiative </td>
-<td> ![Melee](combat/melee.svg)<br/>Melee Attack </td>
-<td> ![Ranged](combat/ranged.svg)<br/>Ranged Attack </td>
+<td>![Action](combat/action.svg)<br/>Action </td>
+<td>![Bonus Action](combat/bonus-action.svg)<br/>Bonus Action </td>
+<td>![Initiative](combat/initiative.svg)<br/>Initiative </td>
+<td>![Melee](combat/melee.svg)<br/>Melee Attack </td>
+<td>![Ranged](combat/ranged.svg)<br/>Ranged Attack </td>
 </tr><tr>
-<td> ![Reach](combat/reach.svg)<br/>Reach </td>
-<td> ![Reaction](combat/reaction.svg)<br/>Reaction </td>
-<td> ![Round](combat/round.svg)<br/>Round </td>
-<td> ![Target](combat/target.svg)<br/>Target </td>
+<td>![Reach](combat/reach.svg)<br/>Reach </td>
+<td>![Reaction](combat/reaction.svg)<br/>Reaction </td>
+<td>![Round](combat/round.svg)<br/>Round </td>
+<td>
+![Target](combat/target.svg)<br/>Target </td>
 </tr></table>
 
 ## Condition Icons
