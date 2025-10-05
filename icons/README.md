@@ -9,39 +9,24 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ||||||
 | :---: | :---: | :---: | :---: | :---: |
 | ![AC](attribute/ac.svg)<br/>AC | ![Attunement](attribute/attunement.svg)<br/>Attunement | ![Bonus](attribute/bonus.svg)<br/>Bonus | ![Light](attribute/light.svg)<br/>Light | ![Penalty](attribute/penalty.svg)<br/>Penalty |
-| ![Range](attribute/range.svg)<br/>Range | ![Saving Throw](attribute/saving-throw.svg)<br/>Saving Throw | ![Skill Check](attribute/skillcheck.svg)<br/>Skill Check | ![Terrain](attribute/terrain.svg)<br/>Terrain |
-| ![Test](attribute/test.svg)<br/>Test |
+| ![Range](attribute/range.svg)<br/>Range | ![Saving Throw](attribute/saving-throw.svg)<br/>Saving Throw | ![Skill Check](attribute/skillcheck.svg)<br/>Skill Check | ![Terrain](attribute/terrain.svg)<br/>Terrain | ![Test](attribute/test.svg)<br/>Test |
+| ![Vision](attribute/vision.svg)<br/>Vision |
 
 ## Campaign Icons
 
-![Candlekeep](campaign/candlekeep.svg)
-![COS](campaign/curse-of-strahd.svg)
-![DIA](campaign/descent-into-avernus.svg)
-![EE](campaign/elemental-evil.svg)
-![HOTDQ](campaign/hoard-of-the-dragon-queen.svg)
-![LOX](campaign/light-of-xaryxis.svg)
-![OOTA](campaign/out-of-the-abyss.svg)
-![ROTF](campaign/rime-of-the-frostmaiden.svg)
-![SKT](campaign/storm-kings-thunder.svg)
-![TOA](campaign/tomb-of-annihilation.svg)
-![Waterdeep](campaign/waterdeep.svg)
-![TYP](campaign/yawning-portal.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Candlekeep](campaign/candlekeep.svg)<br/>Candlekeep | ![COS](campaign/curse-of-strahd.svg)<br/>Curse of Strahd | ![DIA](campaign/descent-into-avernus.svg)<br/>Descent into Avernus | ![EE](campaign/elemental-evil.svg)<br/>Elemental Evil | ![HOTDQ](campaign/hoard-of-the-dragon-queen.svg)<br/>Hoard of the Dragon Queen |
+| ![LOX](campaign/light-of-xaryxis.svg)<br/>Light of Xaryxis | ![OOTA](campaign/out-of-the-abyss.svg)<br/>Out of the Abyss | ![ROTF](campaign/rime-of-the-frostmaiden.svg)<br/>Rime of the Frostmaiden | ![SKT](campaign/storm-kings-thunder.svg)<br/>Storm Kings Thunder | ![TOA](campaign/tomb-of-annihilation.svg)<br/>Tomb of Annihilation |
+| ![Waterdeep](campaign/waterdeep.svg)<br/>Waterdeep | ![TYP](campaign/yawning-portal.svg)<br/>Yawning Portal |
 
 ## Class Icons
 
-![Artificer](class/artificer.svg)
-![Barbarian](class/barbarian.svg)
-![Bard](class/bard.svg)
-![Cleric](class/cleric.svg)
-![Druid](class/druid.svg)
-![Fighter](class/fighter.svg)
-![Monk](class/monk.svg)
-![Paladin](class/paladin.svg)
-![Ranger](class/ranger.svg)
-![Rogue](class/rogue.svg)
-![Sorcerer](class/sorcerer.svg)
-![Warlock](class/warlock.svg)
-![Wizard](class/wizard.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Artificer](class/artificer.svg)<br/>Artificer | ![Barbarian](class/barbarian.svg)<br/>Barbarian | ![Bard](class/bard.svg)<br/>Bard | ![Cleric](class/cleric.svg)<br/>Cleric | ![Druid](class/druid.svg)<br/>Druid |
+| ![Fighter](class/fighter.svg)<br/>Fighter | ![Monk](class/monk.svg)<br/>Monk | ![Paladin](class/paladin.svg)<br/>Paladin | ![Ranger](class/ranger.svg)<br/>Ranger | ![Rogue](class/rogue.svg)<br/>Rogue |
+| ![Sorcerer](class/sorcerer.svg)<br/>Sorcerer | ![Warlock](class/warlock.svg)<br/>Warlock | ![Wizard](class/wizard.svg)<br/>Wizard |
 
 ## Combat Icons
 
