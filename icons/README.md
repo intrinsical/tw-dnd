@@ -118,11 +118,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ||||||
 | :---: | :---: | :---: | :---: | :---: |
-![Burrowing](movement/burrowing.svg)
-![Climbing](movement/climbing.svg)
-![Flying](movement/flying.svg)
-![Swimming](movement/swimming.svg)
-![Walking](movement/walking.svg)
+| ![Burrowing](movement/burrowing.svg)<br/>Burrow | ![Climbing](movement/climbing.svg)<br/>Climb | ![Flying](movement/flying.svg)<br/>Fly | ![Swimming](movement/swimming.svg)<br/>Swim | ![Walking](movement/walking.svg)<br/>Walk |
 
 ## Roll20 Token Markers
 
@@ -132,33 +128,19 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 |||||
 | :---: | :---: | :---: | :---: |
-![Expertise](proficiency/expertise.svg)
-![Half](proficiency/half.svg)
-![Proficient](proficiency/proficient.svg)
-![Unskilled](proficiency/unskilled.svg)
+| ![Expertise](proficiency/expertise.svg)
+| ![Half](proficiency/half.svg)
+| ![Proficient](proficiency/proficient.svg)
+| ![Unskilled](proficiency/unskilled.svg)
 
 ## Skill Icons
 
 |||||
 | :---: | :---: | :---: | :---: |
-![Acrobatics](skill/acrobatics.svg)
-![Animal Handling](skill/animal-handling.svg)
-![Arcana](skill/arcana.svg)
-![Athletics](skill/athletics.svg)
-![Deception](skill/deception.svg)
-![History](skill/history.svg)
-![Insight](skill/insight.svg)
-![Intimidation](skill/intimidation.svg)
-![Investigation](skill/investigation.svg)
-![Medicine](skill/medicine.svg)
-![Nature](skill/nature.svg)
-![Perception](skill/perception.svg)
-![Performance](skill/performance.svg)
-![Persuasion](skill/persuasion.svg)
-![Religion](skill/religion.svg)
-![Sleight of Hand](skill/sleight-of-hand.svg)
-![Stealth](skill/stealth.svg)
-![Survival](skill/survival.svg)
+| ![Acrobatics](skill/acrobatics.svg)<br/>Acrobatics | ![Animal Handling](skill/animal-handling.svg)<br/>Animal Handling | ![Arcana](skill/arcana.svg)<br/>Arcana | ![Athletics](skill/athletics.svg)<br/>Athletics | ![Deception](skill/deception.svg)<br/>Deception |
+| ![History](skill/history.svg)<br/>History | ![Insight](skill/insight.svg)<br/>Insight | ![Intimidation](skill/intimidation.svg)<br/>Intimidation | ![Investigation](skill/investigation.svg)<br/>Investigation | ![Medicine](skill/medicine.svg)<br/>Medicine |
+| ![Nature](skill/nature.svg)<br/>Nature | ![Perception](skill/perception.svg)<br/>Perception | ![Performance](skill/performance.svg)<br/>Performance | ![Persuasion](skill/persuasion.svg)<br/>Persuasion | ![Religion](skill/religion.svg)<br/>Religion |
+| ![Sleight of Hand](skill/sleight-of-hand.svg)<br/>Sleight of Hand | ![Stealth](skill/stealth.svg)<br/>Stealth | ![Survival](skill/survival.svg)<br/>Survival |
 
 ## Spell Icons
 
