@@ -39,16 +39,16 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ||||||
 | :---: | :---: | :---: | :---: | :---: |
-| ![Blinded](condition/blinded.svg)Blinded | ![Charmed](condition/charmed.svg)Charmed | ![Deafened](condition/deafened.svg)Deafened | ![Exhaustion](condition/exhaustion.svg)Exhaustion | ![Frightened](condition/frightened.svg)Frightened |
+| ![Blinded](condition/blinded.svg)<br/>Blinded | ![Charmed](condition/charmed.svg)<br/>Charmed | ![Deafened](condition/deafened.svg)<br/>Deafened | ![Exhaustion](condition/exhaustion.svg)<br/>Exhaustion | ![Frightened](condition/frightened.svg)<br/>Frightened |
 | ![Grappled](condition/grappled.svg)<br/>Grappled | ![Incapacitated](condition/incapacitated.svg)<br/>Incapacitated | ![Invisible](condition/invisible.svg)<br/>Invisible | ![Paralyzed](condition/paralyzed.svg)<br/>Paralyzed | ![Petrified](condition/petrified.svg)<br/>Petrified |
 | ![Poisoned](condition/poisoned.svg)<br/>Poisoned | ![Prone](condition/prone.svg)<br/>Prone | ![Restrained](condition/restrained.svg)<br/>Neutral Land | ![Silenced](condition/silenced.svg)<br/>Restrained | ![Sleep](condition/sleep.svg)<br/>Sleep |
 | ![Stunned](condition/stunned.svg)<br/>Stunned | ![Unconscious](condition/unconscious.svg)<br/>Unconscious |
 
 ## D20 Test Icons
 
-![Attacked](d20test/attacked.svg)
-![Attacking](d20test/attacking.svg)
-![Saving Throw](d20test/saving-throw.svg)
+||||
+| :---: | :---: | :---: |
+| ![Attacked](d20test/attacked.svg)<br/>Defender | ![Attacking](d20test/attacking.svg)<br/>Attacker | ![Saving Throw](d20test/saving-throw.svg)<br/>Saving Throw |
 
 ## Damage Type Icons
 
