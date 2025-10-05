@@ -128,15 +128,12 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 |||||
 | :---: | :---: | :---: | :---: |
-| ![Expertise](proficiency/expertise.svg)
-| ![Half](proficiency/half.svg)
-| ![Proficient](proficiency/proficient.svg)
-| ![Unskilled](proficiency/unskilled.svg)
+| ![Expertise](proficiency/expertise.svg)<br/>Expertise | ![Half](proficiency/half.svg)<br/>Jack of All Trades | ![Proficient](proficiency/proficient.svg)<br/>Proficient | ![Unskilled](proficiency/unskilled.svg)<br/>Unskilled |
 
 ## Skill Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 | ![Acrobatics](skill/acrobatics.svg)<br/>Acrobatics | ![Animal Handling](skill/animal-handling.svg)<br/>Animal Handling | ![Arcana](skill/arcana.svg)<br/>Arcana | ![Athletics](skill/athletics.svg)<br/>Athletics | ![Deception](skill/deception.svg)<br/>Deception |
 | ![History](skill/history.svg)<br/>History | ![Insight](skill/insight.svg)<br/>Insight | ![Intimidation](skill/intimidation.svg)<br/>Intimidation | ![Investigation](skill/investigation.svg)<br/>Investigation | ![Medicine](skill/medicine.svg)<br/>Medicine |
 | ![Nature](skill/nature.svg)<br/>Nature | ![Perception](skill/perception.svg)<br/>Perception | ![Performance](skill/performance.svg)<br/>Performance | ![Persuasion](skill/persuasion.svg)<br/>Persuasion | ![Religion](skill/religion.svg)<br/>Religion |
@@ -144,57 +141,31 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Spell Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
-![Abjuration](spell/abjuration.svg)
-![Concentration](spell/concentration.svg)
-![Conjuration](spell/conjuration.svg)
-![Divination](spell/divination.svg)
-![Enchantment](spell/enchantment.svg)
-![Evocation](spell/evocation.svg)
-![Illusion](spell/illusion.svg)
-![Instantaneous](spell/instantaneous.svg)
-![Necromancy](spell/necromancy.svg)
-![Octagon](spell/octagon.svg)
-![Ritual](spell/ritual.svg)
-![Transmutation](spell/transmutation.svg)
-![Upcast](spell/upcast.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Abjuration](spell/abjuration.svg)<br/>Abjuration | ![Concentration](spell/concentration.svg)<br/>Concentration | ![Conjuration](spell/conjuration.svg)<br/>Conjuration | ![Divination](spell/divination.svg)<br/>Divination | ![Enchantment](spell/enchantment.svg)<br/>Enchantment |
+| ![Evocation](spell/evocation.svg)<br/>Evocation | ![Illusion](spell/illusion.svg)<br/>Illusion | ![Instantaneous](spell/instantaneous.svg)<br/>Instantaneous | ![Necromancy](spell/necromancy.svg)<br/>Necromancy | ![Octagon](spell/octagon.svg)<br/>Unused |
+| ![Ritual](spell/ritual.svg)<br/>Ritual | ![Transmutation](spell/transmutation.svg)<br/>Transmutation | ![Upcast](spell/upcast.svg)<br/>Upcast |
 
 ## Target Type Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
-![Circle](target/circle.svg)
-![Cone](target/cone.svg)
-![Cube](target/cube.svg)
-![Cylinder](target/cylinder.svg)
-![Emanation](target/emanation.svg)
-![Line](target/line.svg)
-![Self](target/self.svg)
-![Sphere](target/sphere.svg)
-![Square](target/square.svg)
-![Touch](target/touch.svg)
-![Wall](target/wall.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Circle](target/circle.svg)<br/>Circle | ![Cone](target/cone.svg)<br/>Cone | ![Cube](target/cube.svg)<br/>Cube | ![Cylinder](target/cylinder.svg)<br/>Cylinder | ![Emanation](target/emanation.svg)<br/>Emanation |
+| ![Line](target/line.svg)<br/>Line | ![Self](target/self.svg)<br/>Self | ![Sphere](target/sphere.svg)<br/>Sphere | ![Square](target/square.svg)<br/>Square | ![Touch](target/touch.svg)<br/>Touch |
+| ![Wall](target/wall.svg)<br/>Wall |
 
 ## Utility Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
-![Bubble](util/bubble.svg)
-![Build](util/build.svg)
-![Cog](util/cog.svg)
-![Cross](util/cross.svg)
-![Home](util/home.svg)
-![Not Applicable](util/not-applicable.svg)
-![Search](util/search.svg)
-![Star](util/star.svg)
-![Tick](util/tick.svg)
-![Trade](util/trade.svg)
+||||||
+| :---: | :---: | :---: | :---: | :---: |
+| ![Bubble](util/bubble.svg)<br/>Chat | ![Build](util/build.svg)<br/>Build | ![Cog](util/cog.svg)<br/>Cog | ![Cross](util/cross.svg)<br/>Cross | ![Home](util/home.svg)<br/>Home |
+| ![Not Applicable](util/not-applicable.svg)<br/>N/A | ![Search](util/search.svg)<br/>Search | ![Star](util/star.svg)<br/>Star | ![Tick](util/tick.svg)<br/>Tick | ![Trade](util/trade.svg)<br/>Trade |
 
 ## Weapon Type Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 ![Arrow](weapon/arrow.svg)
 ![Battleaxe](weapon/battleaxe.svg)
 ![Bow](weapon/bow.svg)
