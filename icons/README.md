@@ -87,37 +87,37 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Hitpoint Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 | ![Empty](hp/empty.svg)<br/>0 HP | ![Full](hp/full.svg)<br/>Full HP | ![Half](hp/half.svg)<br/>HP Halved | ![Temp](hp/temp.svg)<br/>Temporary HP |
 
 ## Location Type Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 | ![Bastion](location/bastion.svg)<br/>Bastion | ![Camp](location/camp.svg)<br/>Camp | ![Castle](location/castle.svg)<br/>Castle | ![Dungeon](location/dungeon.svg)<br/>Dungeon | ![Forest](location/forest.svg)<br/>Forest |
 | ![Hut](location/hut.svg)<br/>Hut | ![Mountain](location/mountain.svg)<br/>Mountain | ![Portal](location/portal.svg)<br/>Portal | ![Tavern](location/tavern.svg)<br/>Tavern | ![Tower](location/tower.svg)<br/>Tower |
 | ![Village](location/village.svg)<br/>Village |
 
 ## Logos
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 | ![Adventurers' League](logo/adventurers-league.svg)<br/>Adventurers League | ![Critical Role](logo/critical-role.svg)<br/>Critical Role | ![Dungeons & Dragons](logo/dnd.svg)<br/>D&D | ![D&D Beyond](logo/dnd-beyond.svg)<br/>D&D Beyond | ![Fantasy Grounds](logo/fantasy-grounds.svg)<br/>Fantasy Grounds |
 | ![Foundry VTT](logo/foundry.svg)<br/>Foundry VTT | ![Owlbear Rodeo](logo/owlbear-rodeo.svg)<br/>Owlbear Rodeo | ![Roll20](logo/roll20.svg)<br/>Roll20 VTT | ![Tiddlywiki](logo/tiddlywiki.svg)<br/>Tiddlywiki |
 
 ## Monster Type Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 | ![Aberration](monster/aberration.svg)<br/>Aberration | ![Beast](monster/beast.svg)<br/>Beast | ![Celestial](monster/celestial.svg)<br/>Celestial | ![Construct](monster/construct.svg)<br/>Construct | ![Dragon](monster/dragon.svg)<br/>Dragon |
 | ![Elemental](monster/elemental.svg)<br/>Elemental | ![Fae](monster/fae.svg)<br/>Fae | ![Fiend](monster/fiend.svg)<br/>Fiend | ![Giant](monster/giant.svg)<br/>Giant | ![Humanoid](monster/humanoid.svg)<br/>Humanoid |
 | ![Monstrosity](monster/monstrosity.svg)<br/>Monstrosity | ![Ooze](monster/ooze.svg)<br/>Ooze | ![Plant](monster/plant.svg)<br/>Plant | ![Undead](monster/undead.svg)<br/>Undead |
 
 ## Movement Icons
 
-|||||
-| :---: | :---: | :---: | :---: |
+||||||
+| :---: | :---: | :---: | :---: | :---: |
 ![Burrowing](movement/burrowing.svg)
 ![Climbing](movement/climbing.svg)
 ![Flying](movement/flying.svg)
