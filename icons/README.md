@@ -6,17 +6,17 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ## Attribute Icons
 
-![AC](attribute/ac.svg)
-![Attunement](attribute/attunement.svg)
-![Bonus](attribute/bonus.svg)
-![Light](attribute/light.svg)
-![Penalty](attribute/penalty.svg)
-![Range](attribute/range.svg)
-![Saving Throw](attribute/saving-throw.svg)
-![Skill Check](attribute/skillcheck.svg)
-![Terrain](attribute/terrain.svg)
-![Test](attribute/test.svg)
-![Vision](attribute/vision.svg)
+![AC](attribute/ac.svg) AC
+![Attunement](attribute/attunement.svg) Attunement
+![Bonus](attribute/bonus.svg) Bonus
+![Light](attribute/light.svg) Light
+![Penalty](attribute/penalty.svg) Penalty
+![Range](attribute/range.svg) Range
+![Saving Throw](attribute/saving-throw.svg) Saving Throw
+![Skill Check](attribute/skillcheck.svg) Skill Check
+![Terrain](attribute/terrain.svg) Terrain
+![Test](attribute/test.svg) Test
+![Vision](attribute/vision.svg) Vision
 
 ## Campaign Icons
 
@@ -81,7 +81,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Stunned](condition/stunned.svg)
 ![Unconscious](condition/unconscious.svg)
 
-## D20 Test icons
+## D20 Test Icons
 
 ![Attacked](d20test/attacked.svg)
 ![Attacking](d20test/attacking.svg)
@@ -171,7 +171,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Half](hp/half.svg)
 ![Temp](hp/temp.svg)
 
-## Location Type icons
+## Location Type Icons
 
 ![Bastion](location/bastion.svg)
 ![Camp](location/camp.svg)
@@ -297,7 +297,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 ![Tick](util/tick.svg)
 ![Trade](util/trade.svg)
 
-## Weapon Type icons
+## Weapon Type Icons
 
 ![Arrow](weapon/arrow.svg)
 ![Battleaxe](weapon/battleaxe.svg)
