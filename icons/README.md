@@ -89,8 +89,7 @@ This is a curated set of icons intended for use with Dungeons and Dragons. The i
 
 ||||||
 | :---: | :---: | :---: | :---: | :---: |
-| ![Blood](hp/blood.svg)<br/>Blood | ![Bloodied](hp/bloodied.svg)<br/>Bloodied | ![Empty](hp/empty.svg)<br/>0 HP | ![Full](hp/full.svg)<br/>Full HP | ![Half](hp/half.svg)<br/>HP Halved |
-| ![Temp](hp/temp.svg)<br/>Temporary HP |
+| ![Blood](hp/blood.svg)<br/>Blood | ![Empty](hp/empty.svg)<br/>0 HP | ![Full](hp/full.svg)<br/>Full HP | ![Half](hp/half.svg)<br/>HP Halved | ![Temp](hp/temp.svg)<br/>Temporary HP |
 
 ## Location Type Icons
 
